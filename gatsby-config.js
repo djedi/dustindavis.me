@@ -183,7 +183,7 @@ module.exports = {
             filePathRegex: `//content/blog//`,
             blogUrl: 'https://kentcdodds.com/blog',
             output: '/blog/rss.xml',
-            title: 'Kent C. Dodds Blog RSS Feed',
+            title: 'Dustin Davis Blog RSS Feed',
           }),
           getBlogFeed({
             filePathRegex: `//content/writing-blog//`,

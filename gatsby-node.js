@@ -295,7 +295,7 @@ function onCreateMdxNode({node, getNode, actions}) {
   createNodeField({
     name: 'author',
     node,
-    value: node.frontmatter.author || 'Kent C. Dodds',
+    value: node.frontmatter.author || 'Dustin Davis',
   })
 
   createNodeField({

@@ -4,7 +4,7 @@ import {css} from '@emotion/core'
 import styled from '@emotion/styled'
 import theme from '../../config/theme'
 import {fonts} from '../lib/typography'
-import kent from '../images/kent.png'
+import dustin from '../images/dustin.png'
 import MobileNav from './mobile-nav'
 import Container from './container'
 import {bpMaxSM} from '../lib/breakpoints'
@@ -102,7 +102,9 @@ function Header({
                 position: 'absolute',
                 borderRadius: '100%',
                 background:
-                  headerColor === '#fff' ? 'rgba(40, 28, 77, 0.7)' : '#f1f1f1',
+                  headerColor === '#fff'
+                    ? 'rgba(255, 255, 255, 0.3)'
+                    : '#f1f1f1',
               },
               ':hover, :focus': {
                 background: 'transparent',
@@ -112,7 +114,7 @@ function Header({
               },
             }}
           >
-            {headerImage && <img src={kent} alt="Kent C. Dodds" />}{' '}
+            {headerImage && <img src={dustin} alt="Dustin Davis" />}{' '}
             <span>{siteTitle}</span>
           </HeaderLink>
           <div
@@ -138,34 +140,6 @@ function Header({
               aria-label="View blog page"
             >
               Blog
-            </NavLink>
-            <NavLink
-              headerColor={headerColor}
-              to="/workshops/"
-              aria-label="View workshops page"
-            >
-              Workshops
-            </NavLink>
-            <NavLink
-              headerColor={headerColor}
-              to="/chats-with-kent-podcast"
-              aria-label="View podcast page"
-            >
-              Podcast
-            </NavLink>
-            <NavLink
-              headerColor={headerColor}
-              to="/courses"
-              aria-label="View courses page"
-            >
-              Courses
-            </NavLink>
-            <NavLink
-              headerColor={headerColor}
-              to="/discord"
-              aria-label="Join the KCD Discord"
-            >
-              Discord
             </NavLink>
             <NavLink
               headerColor={headerColor}

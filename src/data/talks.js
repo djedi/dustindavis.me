@@ -226,7 +226,7 @@ export default [
     `,
   },
   {
-    title: 'LIVE! Learn React Hooks with Kent C. Dodds',
+    title: 'LIVE! Learn React Hooks with Dustin Davis',
     resources: [
       '[Partially Finished Codesandbox](https://codesandbox.io/s/r1m6pz58mq)',
       '[Fully Finished Codesandbox](https://codesandbox.io/s/l3r6zxx0vl)',
@@ -332,7 +332,7 @@ export default [
         Can Vue use Render Props? Does React have a concept like Directives?
         Can Angular go Renderless the way the young 'uns do? All my developer
         friends in that other framework keep using words I don't understand.
-        Help! Join Kent C. Dodds, Isaac Mann and Divya Sasidharan as they
+        Help! Join Dustin Davis, Isaac Mann and Divya Sasidharan as they
         demonstrate UI component patterns that are common across React, Angular
         and Vue. Consider this your language primer before a trip to a foreign
         framework land. You'll see that we're all talking about the same concepts,
@@ -1012,7 +1012,7 @@ export default [
       },
     ],
     description: `
-        Kent C. Dodds is going to be introducing ECMAScript 6, which is the next version of JavaScript. If you want to
+        Dustin Davis is going to be introducing ECMAScript 6, which is the next version of JavaScript. If you want to
         look ahead, check this out: [github.com/lukehoban/es6features](https://github.com/lukehoban/es6features)
       `,
   },
@@ -1078,7 +1078,7 @@ export default [
     description: `
         Angular 2 is built for huge web applications that stand the test of time. To accomplish this, Angular 2 utilizes
         the latest and greatest web technologies like ES6 modules/classes and Web Components. Come get a preview of what
-        this looks like with egghead.io instructor Kent C. Dodds as he live codes an application using the pre-release
+        this looks like with egghead.io instructor Dustin Davis as he live codes an application using the pre-release
         alpha version of Angular 2.
       `,
   },

@@ -40,10 +40,10 @@ function PodcastSeason({data, isNew, ...restProps}) {
                 transform: 'scale(1.15)',
                 transition: '150ms ease-in-out',
                 background: 'transparent',
-                border: '2px solid #5e31dc',
-                fill: '#5e31dc',
+                border: '2px solid #13772d',
+                fill: '#13772d',
                 polygon: {
-                  fill: '#5e31dc',
+                  fill: '#13772d',
                 },
               },
             },
@@ -66,7 +66,7 @@ function PodcastSeason({data, isNew, ...restProps}) {
                 height: 60,
                 borderRadius: '50%',
                 backgroundImage:
-                  'linear-gradient(-213deg, #5e31dc 0%, #3155dc 100%)',
+                  'linear-gradient(-213deg, #13772d 0%, #23904f 100%)',
                 display: 'flex',
                 alignItems: 'center',
                 justifyContent: 'center',

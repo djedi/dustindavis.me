@@ -154,8 +154,8 @@ const DefaultHero = styled.section`
   ${({headerColor}) =>
     headerColor
       ? css`
-          background: #3155dc;
-          background-image: linear-gradient(-213deg, #5e31dc 0%, #3155dc 100%);
+          background: #23904f;
+          background-image: linear-gradient(-213deg, #13772d 0%, #23904f 100%);
           background-position: center right, center left;
           background-repeat: no-repeat;
           background-size: contain;
@@ -175,7 +175,7 @@ const DefaultHero = styled.section`
 
 function Layout({
   headerLink,
-  siteTitle = 'Kent C. Dodds',
+  siteTitle = 'Dustin Davis',
   frontmatter = {},
   hero = <DefaultHero />,
   subscribeForm,

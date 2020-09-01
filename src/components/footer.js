@@ -4,7 +4,7 @@ import {css} from '@emotion/core'
 import theme from '../../config/theme'
 import {bpMaxSM} from '../lib/breakpoints'
 import SubscribeForm from './forms/subscribe'
-import {Twitter, GitHub, YouTube, RSS} from './social'
+import {Twitter, GitHub, YouTube, LinkedIn, Facebook, RSS} from './social'
 import Container from './container'
 
 import Signature from '../images/signature.png'
@@ -59,15 +59,17 @@ const Footer = ({subscribeForm = <SubscribeForm />, maxWidth}) => (
           <Twitter />
           <GitHub />
           <YouTube />
+          <LinkedIn />
+          <Facebook />
           <RSS />
         </div>
 
         <Link to="/" aria-label="Return to homepage">
           <img
             src={Signature}
-            alt="Kent C. Dodds"
+            alt="Dustin Davis"
             css={css`
-              max-width: 100px;
+              max-width: 150px;
             `}
           />
         </Link>

@@ -41,7 +41,7 @@ const SubscribeFormWrapper = styled.div({
   padding: '40px',
   background: theme.colors.purple_dark,
   backgroundImage:
-    'linear-gradient(-213deg, #5e31dc 0%, #3155dc 100%), linear-gradient(32deg, rgba(255, 255, 255, 0.25) 33%, rgba(0, 0, 0, 0.25) 100%)',
+    'linear-gradient(-213deg, #13772d 0%, #23904f 100%), linear-gradient(32deg, rgba(255, 255, 255, 0.25) 33%, rgba(0, 0, 0, 0.25) 100%)',
   borderRadius: '5px',
 })
 
