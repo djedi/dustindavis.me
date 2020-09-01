@@ -8,15 +8,15 @@ import Container from 'components/container'
 
 import heroImageRight from '../images/hero/path-right.svg'
 import heroImageLeft from '../images/hero/path-left.svg'
-import photoOfKent from '../images/hero/kent.png'
+import photoOfDustin from '../images/hero/dustin.png'
 
 function Hero({
   children,
-  title = `Hi, I'm Kent C. Dodds. I help people make the world better through quality software.`,
+  title = `Hi, I'm Dustin Davis. I help people make the world better through quality software.`,
   text,
   background = `url(${heroImageRight}), url(${heroImageLeft}),
-  linear-gradient(-213deg, #5e31dc 0%, #3155dc 100%)`,
-  image = `${photoOfKent}`,
+  linear-gradient(-213deg, #13772d 0%, #23904f 100%)`,
+  image = `${photoOfDustin}`,
   headerColor, // pluk this out of the props so it's not applied to the section
   ...props
 }) {
@@ -27,7 +27,7 @@ function Hero({
           color: ${theme.colors.white};
         }
         width: 100%;
-        background: #3155dc;
+        background: #23904f;
         background-image: ${background};
         background-position: center right, center left;
         background-repeat: no-repeat;
@@ -69,17 +69,15 @@ function Hero({
               visibility: visible;
               width: 250px;
               height: 250px;
-              ${
-                image === photoOfKent
-                  ? `
+              ${image === photoOfDustin
+                ? `
                       width: 160px;
                       height: 160px;
                       overflow: 'hidden';
                       border-radius: 50%;
                       background: #4b4ddf;
                     `
-                  : null
-              }
+                : null}
               background-image: url(${image});
               background-size: cover;
               background-repeat: no-repeat;
@@ -103,7 +101,7 @@ function Hero({
               font-size: 30px;
               height: 100%;
               display: flex;
-              padding-bottom: ${image === photoOfKent ? '40px' : '0'};
+              padding-bottom: ${image === photoOfDustin ? '40px' : '0'};
             `}
           >
             {title}
@@ -147,7 +145,7 @@ function Hero({
           {image && (
             <img
               src={image}
-              alt="Kent C. Dodds"
+              alt="Dustin Davis"
               css={{maxWidth: '100%', marginBottom: 0}}
             />
           )}

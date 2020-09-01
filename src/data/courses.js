@@ -74,7 +74,7 @@ export default [
     reviews: [
       {
         content:
-          "Just wow. That was a lot of info to unpack in one hour. I did a straight walkthrough with no code. Now I'm going to go back and rewatch every video while creating my own components. I would love to write about this. I'm currently working on a fairly complex React project and this is so helpful! Another great course from Kent C. Dodds!!",
+          "Just wow. That was a lot of info to unpack in one hour. I did a straight walkthrough with no code. Now I'm going to go back and rewatch every video while creating my own components. I would love to write about this. I'm currently working on a fairly complex React project and this is so helpful! Another great course from Dustin Davis!!",
         author: 'Babs Craig',
       },
     ],

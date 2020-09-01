@@ -16,7 +16,7 @@ function SeasonIndex({data: {s1, s2, s3}}) {
       hero={
         <Hero
           title="Chats with Kent"
-          text="Kent C. Dodds chats with developers about life, career, and code."
+          text="Dustin Davis chats with developers about life, career, and code."
           image={HeaderImage}
           background="linear-gradient(213deg, #854BF1 0%, #4335DF 100%), linear-gradient(32deg, rgba(255,255,255,0.25) 33%, rgba(153,153,153,0.25) 100%)"
         >

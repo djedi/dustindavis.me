@@ -1,36 +1,36 @@
 module.exports = {
-  siteTitle: 'Kent C. Dodds', // Navigation and Site Title
-  siteTitleAlt: 'The personal website of Kent C. Dodds', // Alternative Site title for SEO
+  siteTitle: 'Dustin Davis', // Navigation and Site Title
+  siteTitleAlt: 'The personal website of Dustin Davis', // Alternative Site title for SEO
   siteTitleShort: 'kentcdodds', // short_name for manifest
-  siteUrl: process.env.ROOT_URL || 'https://kentcdodds.com', // Domain of your site. No trailing slash!
+  siteUrl: process.env.ROOT_URL || 'https://dustindavis.me', // Domain of your site. No trailing slash!
   lang: 'en', // Language Tag on <html> element
   pathPrefix: '/',
   siteLogo: 'images/logo.png', // Used for SEO and manifest, path to your image you placed in the 'static' folder
   siteDescription:
-    'Come check out how Kent C. Dodds can help you level up your career as a software engineer.',
+    'Come check out how Dustin Davis can help you level-up your life and home.',
   minibio: `
-    <strong>Kent C. Dodds</strong> is a JavaScript software engineer and
-    teacher. He's taught hundreds of thousands of people how to make the world
-    a better place with quality software development tools and practices. He
-    lives with his wife and four kids in Utah.
+    <strong>Dustin Davis</strong> is a software engineer, people manager, hacker, and
+    entreprenuer. He loves to develop systems and automation. 
+    He lives with his wife and five kids in Utah.
   `,
-  author: 'Kent C. Dodds', // Author for schemaORGJSONLD
-  organization: 'Kent C. Dodds Tech LLC',
+  author: 'Dustin Davis', // Author for schemaORGJSONLD
+  organization: 'Red Seam, Inc.',
 
   // siteFBAppID: '123456789', // Facebook App ID - Optional
-  userTwitter: '@kentcdodds', // Twitter Username
-  ogSiteName: 'Kent C. Dodds', // Facebook Site Name
+  userTwitter: '@DustinDavis', // Twitter Username
+  ogSiteName: 'Dustin Davis', // Facebook Site Name
   ogLanguage: 'en_US',
 
   // Manifest and Progress color
   themeColor: '#4147DC',
-  backgroundColor: '#231C42',
+  backgroundColor: '#1c4230',
 
   // Social component
-  twitter: 'https://twitter.com/kentcdodds/',
-  twitterHandle: '@kentcdodds',
-  github: 'https://github.com/kentcdodds/',
-  linkedin: 'https://www.linkedin.com/in/kentcdodds/',
-  youtube: 'https://www.youtube.com/channel/UCz-BYvuntVRt_VpfR6FKXJw',
-  rss: 'https://kentcdodds.com/blog/rss.xml',
+  twitter: 'https://twitter.com/dustindavis/',
+  twitterHandle: '@DustinDavis',
+  github: 'https://github.com/djedi/',
+  linkedin: 'https://www.linkedin.com/in/dustindavis/',
+  youtube: 'https://www.youtube.com/channel/UC_Y8OgLvLukLsPtsrTg7ugA',
+  facebook: 'https://www.facebook.com/dustin.davis',
+  rss: 'https://dustindavis.me/blog/rss.xml',
 }

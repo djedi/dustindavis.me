@@ -1,4 +1,4 @@
-# Kent C. Dodds personal website
+# Dustin Davis personal website
 
 [![All Contributors](https://img.shields.io/badge/all_contributors-103-orange.svg?style=flat-square)](#contributors)
 
@@ -12,7 +12,7 @@ Thanks goes to these wonderful people
 <!-- markdownlint-disable -->
 <table>
   <tr>
-    <td align="center"><a href="https://kentcdodds.com"><img src="https://avatars0.githubusercontent.com/u/1500684?v=4" width="100px;" alt=""/><br /><sub><b>Kent C. Dodds</b></sub></a><br /><a href="https://github.com/kentcdodds/kentcdodds.com/commits?author=kentcdodds" title="Code">💻</a> <a href="#infra-kentcdodds" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a></td>
+    <td align="center"><a href="https://kentcdodds.com"><img src="https://avatars0.githubusercontent.com/u/1500684?v=4" width="100px;" alt=""/><br /><sub><b>Dustin Davis</b></sub></a><br /><a href="https://github.com/kentcdodds/kentcdodds.com/commits?author=kentcdodds" title="Code">💻</a> <a href="#infra-kentcdodds" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a></td>
     <td align="center"><a href="https://github.com/jgierer12"><img src="https://avatars0.githubusercontent.com/u/4331946?v=4" width="100px;" alt=""/><br /><sub><b>Jonas Gierer</b></sub></a><br /><a href="https://github.com/kentcdodds/kentcdodds.com/commits?author=jgierer12" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/vojtaholik"><img src="https://avatars2.githubusercontent.com/u/25487857?v=4" width="100px;" alt=""/><br /><sub><b>Vojta Holik</b></sub></a><br /><a href="https://github.com/kentcdodds/kentcdodds.com/commits?author=vojtaholik" title="Code">💻</a> <a href="#design-vojtaholik" title="Design">🎨</a></td>
     <td align="center"><a href="http://joelhooks.com"><img src="https://avatars0.githubusercontent.com/u/86834?v=4" width="100px;" alt=""/><br /><sub><b>Joel Hooks</b></sub></a><br /><a href="https://github.com/kentcdodds/kentcdodds.com/commits?author=joelhooks" title="Code">💻</a></td>
@@ -225,6 +225,7 @@ Thanks goes to these wonderful people
 
 <!-- markdownlint-enable -->
 <!-- prettier-ignore-end -->
+
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
 This project follows the

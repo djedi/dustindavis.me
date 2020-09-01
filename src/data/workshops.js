@@ -317,7 +317,7 @@ export default [
       of the problems that you can solve with a basic understanding of Abstract Syntax Trees and the tools
       you can use to inspect and manipulate them.
 
-      Join Kent C. Dodds and learn invaluable skills you can take back to improve the developer experience
+      Join Dustin Davis and learn invaluable skills you can take back to improve the developer experience
       in your JavaScript applications.
     `,
   },
@@ -347,7 +347,7 @@ export default [
       configure tools and write tests that enhance your development experience is vital to your success.
 
       In this class, we'll explore the merits and tradeoffs of different forms of testing and get into configuring
-      and using specific tools to increase confidence in deploying our applications. Join Kent C. Dodds and
+      and using specific tools to increase confidence in deploying our applications. Join Dustin Davis and
       learn invaluable skills you can take back to improve your JavaScript applications.
     `,
   },

@@ -126,7 +126,7 @@ async function handler(event) {
 
   const message = {
     from: sender,
-    to: `"Kent C. Dodds" <me@kentcdodds.com>`,
+    to: `"Dustin Davis" <me@kentcdodds.com>`,
     subject,
     text,
     html: await markdownToHtml(text),
