@@ -9,7 +9,6 @@ function migrate() {
     echo $dirname
     mkdir -p $dirname/images
     mv $filename $dirname/index.md
-    prettier -w $dirname/index.md
 }
 
 migrate $1

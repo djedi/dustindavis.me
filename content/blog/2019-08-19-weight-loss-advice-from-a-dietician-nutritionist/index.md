@@ -5,12 +5,13 @@ date: 2019-08-19 23:22:32+00:00
 link: https://dustindavis.me/weight-loss-advice-from-a-dietician-nutritionist/
 slug: weight-loss-advice-from-a-dietician-nutritionist
 title: Weight Loss Advice from a Dietician/Nutritionist
-banner: ../banner.jpg
+description: Some notes and learnings from visiting with a nutritionist
+banner: ./images/banner.jpg
 bannerCredit:
-  'Photo by [Patrick Fore](https://www.patrickfore.com/) on
+  'Photo by [Jamie Street](https://unsplash.com/@jamie452) on
   [Unsplash](https://unsplash.com)'
 categories:
-  - Programming & Internet
+  - health
 ---
 
 I recently went to a dietician/nutritionist. I wasn't excited about going. I
@@ -40,7 +41,7 @@ So I spent maybe 30 minutes going over my history. I explained my history of
 playing sports and not being able to gain weight in high school. I explained how
 it all changed when I got a job and began sitting at a computer all day. I
 explained my cancer and its treatment. I explained my herniated discs in my
-back. I explained recent high blood pressure that landed me in the ER.
+back. I explained the recent high blood pressure that landed me in the ER.
 
 When I was younger I could make some basic changes and lose weight fast. That no
 longer works for me now. In the past, I'd hit my maximum allowable weight (242 =
