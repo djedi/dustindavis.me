@@ -16,26 +16,27 @@ categories:
 
 While reading this morning, I came across the following verses:
 
-<blockquote>[2 Nephi 25:23-26](http://scriptures.lds.org/2_ne/25/23-26#23)
-
-23 For we labor diligently to write, to persuade our children, and also our
-brethren, to believe in Christ, and to be reconciled to God; for we know that it
-is by grace that we are saved, after all we can do. 24 And, notwithstanding we
-believe in Christ, we keep the law of Moses, and look forward with steadfastness
-unto Christ, until the law shall be fulfilled. 25 For, for this end was the law
-given; wherefore the law hath become dead unto us, and we are made alive in
-Christ because of our faith; yet we keep the law because of the commandments. 26
-And we talk of Christ, we rejoice in Christ, we preach of Christ, we prophesy of
-Christ, and we write according to our prophecies, that our children may know to
-what source they may look for a remission of their sins.</blockquote>
+> [2 Nephi 25:23-26](http://scriptures.lds.org/2_ne/25/23-26#23)
+>
+> 23 For we labor diligently to write, to persuade our children, and also our
+> brethren, to believe in Christ, and to be reconciled to God; for we know that
+> it is by grace that we are saved, after all we can do. 24 And, notwithstanding
+> we believe in Christ, we keep the law of Moses, and look forward with
+> steadfastness unto Christ, until the law shall be fulfilled. 25 For, for this
+> end was the law given; wherefore the law hath become dead unto us, and we are
+> made alive in Christ because of our faith; yet we keep the law because of the
+> commandments. 26 And we talk of Christ, we rejoice in Christ, we preach of
+> Christ, we prophesy of Christ, and we write according to our prophecies, that
+> our children may know to what source they may look for a remission of their
+> sins.
 
 This reminded me of a book I read recently by the title of
 _[Believing Christ](http://deseretbook.com/store/product?sku=4499076)_. This
 book explains clearly the role of Christ and our absolute need for his
 atonement. It makes things so clear and more than anything gives a person hope.
-While discussing this book a with a woman I know, she said this was the book
-that brought her back in to the church. Before reading it, she didn't feel she
-had the strength to come back.
+While discussing this book with a woman I know, she said this was the book that
+brought her back into the church. Before reading it, she didn't feel she had the
+strength to come back.
 
 If you've ever felt that you've done something so terribly wrong that you cannot
 be forgiven, you don't believe Christ when He says He can heal you. You may
