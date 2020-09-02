@@ -36,6 +36,7 @@ function PostSubmissionMessage() {
 }
 
 const SubscribeFormWrapper = styled.div({
+  display: 'none', // hide this form for now
   color: 'white',
   maxWidth: '350px',
   padding: '40px',
