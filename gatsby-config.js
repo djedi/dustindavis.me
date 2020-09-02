@@ -36,11 +36,7 @@ module.exports = {
     title: config.siteTitle,
     twitterHandle: config.twitterHandle,
     description: config.siteDescription,
-    keywords: [
-      'Software Engineer',
-      'React Training',
-      'Testing JavaScript Training',
-    ],
+    keywords: ['Software Engineer'],
     canonicalUrl: siteUrl,
     image: config.siteLogo,
     author: {
@@ -181,15 +177,15 @@ module.exports = {
         feeds: [
           getBlogFeed({
             filePathRegex: `//content/blog//`,
-            blogUrl: 'https://kentcdodds.com/blog',
+            blogUrl: 'https://dustindavis.me/blog',
             output: '/blog/rss.xml',
             title: 'Dustin Davis Blog RSS Feed',
           }),
           getBlogFeed({
             filePathRegex: `//content/writing-blog//`,
-            blogUrl: 'https://kentcdodds.com/writing/blog',
+            blogUrl: 'https://dustindavis.me/writing/blog',
             output: '/writing/blog/rss.xml',
-            title: `Kent's Writing Blog RSS Feed`,
+            title: `Dustin's Writing Blog RSS Feed`,
           }),
         ],
       },
