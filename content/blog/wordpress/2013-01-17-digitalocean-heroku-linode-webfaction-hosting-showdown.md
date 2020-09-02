@@ -144,8 +144,8 @@ So here is my tl;dr version in alphabetical order:
 [DigitalOcean](https://www.digitalocean.com/?refcode=f1688368903d): I love their
 pricing. For as little as \$5 per month I can spin up a linux server. This would
 be great for a
-[ZNC IRC bouncer](http://www.nerdydork.com/setting-up-a-znc-irc-bouncer.html)
-for example. They seem fairly new still so time will tell how they compete with
+[ZNC IRC bouncer](https://dustindavis.me/setting-up-a-znc-irc-bouncer.html) for
+example. They seem fairly new still so time will tell how they compete with
 Linode. Their internet connection seemed a bit slow, but for root access to a
 server, it can be overlooked.
 

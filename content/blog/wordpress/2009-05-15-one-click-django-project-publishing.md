@@ -32,9 +32,9 @@ Here are the manual steps I go through to publish my Django App:
 
 1. Commit my code changes to [Subversion](http://subversion.tigris.org/) (I use
    [TortoiseSVN](http://tortoisesvn.tigris.org/) â€“ Yes, I'm running
-   [Windows](http://www.nerdydork.com/my-applications.html))
+   [Windows](https://dustindavis.me/my-applications.html))
 
-2. Log in to my [Webfaction](http://www.nerdydork.com/webfaction-review.html)
+2. Log in to my [Webfaction](https://dustindavis.me/webfaction-review.html)
    account via SSH using
    [PuTTy](http://www.chiark.greenend.org.uk/~sgtatham/putty/).
 

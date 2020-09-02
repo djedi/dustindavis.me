@@ -18,4 +18,4 @@ automatic updates. I took the quick tour. I wasn't surprised to find that it
 looked amazingly like Firefox. I only got to play around for about 5 minutes or
 so before it crashed. Yeah, I sent an error report...
 
-[![IE 7 Crash](http://www.nerdydork.com/wp-content/images/_crash.png)](http://www.nerdydork.com/wp-content/images/crash.png)
+[![IE 7 Crash](https://dustindavis.me/wp-content/images/_crash.png)](https://dustindavis.me/wp-content/images/crash.png)

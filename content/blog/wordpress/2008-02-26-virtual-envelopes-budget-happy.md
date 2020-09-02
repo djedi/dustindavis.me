@@ -14,7 +14,7 @@ categories:
   - Finance
 ---
 
-[![Disneyland Christmas 2007](http://www.nerdydork.com/wp-content/uploads/2008/02/disneyland.thumbnail.JPG)](http://www.nerdydork.com/wp-content/uploads/2008/02/disneyland.JPG)About
+[![Disneyland Christmas 2007](https://dustindavis.me/wp-content/uploads/2008/02/disneyland.thumbnail.JPG)](https://dustindavis.me/wp-content/uploads/2008/02/disneyland.JPG)About
 2 years ago a friend told me about Dave Ramsey. At the time I was struggling to
 figure out a way to do better with finances. I had visited financial advisers
 and been given bad advice. I was really quite frustrated. After listening to

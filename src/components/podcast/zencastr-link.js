@@ -5,7 +5,7 @@ function ZencastrLink() {
     (state, zencastrParam) => {
       if (zencastrParam) {
         return {
-          link: `https://zencastr.com/kentcdodds/${zencastrParam
+          link: `https://zencastr.com/dustindavis/${zencastrParam
             .replace(/'/g, '')
             .toLowerCase()}`,
           retrievedLink: true,

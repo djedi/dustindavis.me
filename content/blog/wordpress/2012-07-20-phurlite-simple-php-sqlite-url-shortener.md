@@ -51,7 +51,7 @@ specify a URL for an API end point and your script has four options for
 returning the shortened URL. I went with the first option which was the
 simplest.
 
-[![](http://www.nerdydork.com/wp-content/uploads/2012/07/2012-07-20-16.11.24-200x300.png)](http://www.nerdydork.com/wp-content/uploads/2012/07/2012-07-20-16.11.24.png)
+[![](https://dustindavis.me/wp-content/uploads/2012/07/2012-07-20-16.11.24-200x300.png)](https://dustindavis.me/wp-content/uploads/2012/07/2012-07-20-16.11.24.png)
 
 Obviously, it's not perfect. I didn't really account for security so I will
 likely add security features before I use it in production.

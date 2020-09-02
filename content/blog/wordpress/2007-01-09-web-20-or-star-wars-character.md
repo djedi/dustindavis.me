@@ -14,7 +14,7 @@ categories:
   - Web Sites
 ---
 
-![Jar Jar](http://www.nerdydork.com/wp-content/uploads/2007/01/jar-jar.thumbnail.jpg)I
+![Jar Jar](https://dustindavis.me/wp-content/uploads/2007/01/jar-jar.thumbnail.jpg)I
 guess I just don't keep up enough. I only scored a 28 here:
 http://www.cerado.com/web20quiz.htm
 

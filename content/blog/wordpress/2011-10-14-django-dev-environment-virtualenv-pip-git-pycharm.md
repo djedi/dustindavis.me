@@ -73,7 +73,7 @@ That's it!
 If you use PyCharm you'll want to set up your virtualenv there for your project.
 
 Edit your project settings. Select Python Interpreter -> Add -> Specify Other...
-[![](http://www.nerdydork.com/wp-content/uploads/2011/10/Add-Python-Interpreter-300x207.png)](http://www.nerdydork.com/wp-content/uploads/2011/10/Add-Python-Interpreter.png)
+[![](https://dustindavis.me/wp-content/uploads/2011/10/Add-Python-Interpreter-300x207.png)](https://dustindavis.me/wp-content/uploads/2011/10/Add-Python-Interpreter.png)
 
 Add python from your virtual_env (env_inzolo/bin/python)
 

@@ -26,7 +26,7 @@ That is what I needed to do. I'm still learning Python so I wasn't sure why the
 methods he described in his article didn't work for me. (OK, I have an idea, but
 for the fear of looking stupid I'm not going to try to explain it.)
 
-I'm using [Webfaction](http://www.nerdydork.com/webfaction-review.html) to host
+I'm using [Webfaction](https://dustindavis.me/webfaction-review.html) to host
 [my site](http://inzolo.com/), so I turned to their forum for assistance and
 found [this topic](http://forum.webfaction.com/viewtopic.php?pid=10911). Still
 the examples didn't quite work for me either. Finally I found a clue in my WSGI

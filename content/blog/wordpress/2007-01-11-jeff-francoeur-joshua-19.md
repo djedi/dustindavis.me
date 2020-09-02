@@ -13,7 +13,7 @@ categories:
   - Sports & Stuff
 ---
 
-![Jeff Francoeur](http://www.nerdydork.com/wp-content/uploads/2007/01/francoeur.thumbnail.jpg)I
+![Jeff Francoeur](https://dustindavis.me/wp-content/uploads/2007/01/francoeur.thumbnail.jpg)I
 really like
 [Jeff Francoeur](http://atlanta.braves.mlb.com/NASApp/mlb/team/player.jsp?player_id=425796).
 I suppose he'll take over as my favorite player after

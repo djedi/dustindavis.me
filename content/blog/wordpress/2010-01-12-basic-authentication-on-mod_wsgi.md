@@ -32,7 +32,7 @@ authentication for now. (I'm still learning about API best practices).
 
 I got some basic API calls working in my local machine running "manage.py
 runserver". Once I pushed it live, the basic authentication would not work. I'm
-hosting with [Webfaction](http://www.nerdydork.com/webfaction-review.html) so I
+hosting with [Webfaction](https://dustindavis.me/webfaction-review.html) so I
 [posted to the forum](http://forum.webfaction.com/viewtopic.php?id=3752) for
 help and continued to look.
 

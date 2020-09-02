@@ -19,7 +19,7 @@ tags:
 ---
 
 [caption id="attachment_1028" align="alignright"
-width="212"]![After my final football game my senior year (1995) with my dad the offensive coordinator.](http://www.nerdydork.com/wp-content/uploads/2013/01/dad1-212x300.jpg)](http://www.nerdydork.com/wp-content/uploads/2013/01/dad1.jpg)
+width="212"]![After my final football game my senior year (1995) with my dad the offensive coordinator.](https://dustindavis.me/wp-content/uploads/2013/01/dad1-212x300.jpg)](https://dustindavis.me/wp-content/uploads/2013/01/dad1.jpg)
 After my final football game my senior year (1995) with my dad the offensive
 coordinator.[/caption]
 
@@ -30,7 +30,7 @@ I read it because it looked interesting, not because I had any desire to start
 exercising or lose weight. Something in the article moved me though. It moved me
 into activity. Alex's story resonated with me. I too used to play a lot of
 sports. I too
-[had back problems](http://www.nerdydork.com/herniated-l5-s1-disc.html).
+[had back problems](https://dustindavis.me/herniated-l5-s1-disc.html).
 Thankfully, despite doctors saying it would most likely require surgery, I
 didn't need surgery.
 
@@ -45,7 +45,7 @@ I was 6'3" and 170 lbs. I tried to gain weight but it seemed I never could. I
 was generally exercising at least 2 hours per day through sports.
 
 [caption id="attachment_1029" align="alignleft"
-width="218"]![Last day of my mission at the Johannesburg temple - a stop on the way home.](http://www.nerdydork.com/wp-content/uploads/2013/01/joberg-218x300.jpg)](http://www.nerdydork.com/wp-content/uploads/2013/01/joberg.jpg)
+width="218"]![Last day of my mission at the Johannesburg temple - a stop on the way home.](https://dustindavis.me/wp-content/uploads/2013/01/joberg-218x300.jpg)](https://dustindavis.me/wp-content/uploads/2013/01/joberg.jpg)
 Last day of my mission at the Johannesburg temple - a stop on the way
 home.[/caption]
 
@@ -65,7 +65,7 @@ exercise a little and get down to the 230 range. I don't think I have been down
 to 220 since being married though.
 
 [caption id="attachment_1030" align="alignright"
-width="225"]![The most recent photo I could find - with the family](http://www.nerdydork.com/wp-content/uploads/2013/01/DSCN4434-225x300.jpg)](http://www.nerdydork.com/wp-content/uploads/2013/01/DSCN4434.jpg)
+width="225"]![The most recent photo I could find - with the family](https://dustindavis.me/wp-content/uploads/2013/01/DSCN4434-225x300.jpg)](https://dustindavis.me/wp-content/uploads/2013/01/DSCN4434.jpg)
 The most recent photo I could find - with the family[/caption]
 
 After reading Alex's article I decided to jump in and make a public commitment.

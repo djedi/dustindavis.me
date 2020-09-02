@@ -1,7 +1,7 @@
 module.exports = {
   siteTitle: 'Dustin Davis', // Navigation and Site Title
   siteTitleAlt: 'The personal website of Dustin Davis', // Alternative Site title for SEO
-  siteTitleShort: 'kentcdodds', // short_name for manifest
+  siteTitleShort: 'dustindavis', // short_name for manifest
   siteUrl: process.env.ROOT_URL || 'https://dustindavis.me', // Domain of your site. No trailing slash!
   lang: 'en', // Language Tag on <html> element
   pathPrefix: '/',

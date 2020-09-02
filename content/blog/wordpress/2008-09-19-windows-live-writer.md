@@ -20,7 +20,7 @@ Someone said it was the "bomb diggity" so I had to check it out!
 Not bad indeed!
 
 It certainly looks cool:  
-[![image](http://www.nerdydork.com/wp-content/uploads/2008/09/image-thumb.png)](http://www.nerdydork.com/wp-content/uploads/2008/09/image.png)
+[![image](https://dustindavis.me/wp-content/uploads/2008/09/image-thumb.png)](https://dustindavis.me/wp-content/uploads/2008/09/image.png)
 
 And it's like editing directly in my blog as it uses my existing CSS!
 

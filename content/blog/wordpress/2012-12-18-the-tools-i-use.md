@@ -14,9 +14,9 @@ categories:
 ---
 
 I written
-[a post like this before](http://www.nerdydork.com/my-applications.html), but
-that was 2009 and I was using Windows 7. I have since switched to Linux and then
-OSX, so I figured it would be a good time to visit the topic again.
+[a post like this before](https://dustindavis.me/my-applications.html), but that
+was 2009 and I was using Windows 7. I have since switched to Linux and then OSX,
+so I figured it would be a good time to visit the topic again.
 
 Here are the applications and tools I use:
 
@@ -42,8 +42,7 @@ Here are the applications and tools I use:
   [Base](http://menial.co.uk/base/), [Sequel Pro](http://www.sequelpro.com/):
   GUI tools for working with databases.
 - [LimeChat](http://limechat.net/mac/): For all my
-  [IRC](http://www.nerdydork.com/setting-up-a-znc-irc-bouncer.html)
-  communication.
+  [IRC](https://dustindavis.me/setting-up-a-znc-irc-bouncer.html) communication.
 - [Adium](http://adium.im/): For instant messaging (Google Talk mainly)
 - [Tweetbot](http://tapbots.com/software/tweetbot/): Yes, I bought a twitter
   client. It is that good.

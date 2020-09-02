@@ -32,12 +32,12 @@ Here it is, step-by-step:
 <!-- more -->
 
 Use the magic want to select the outside portion you want to trim.
-![magic wand](http://www.nerdydork.com/wp-content/uploads/2007/01/magic-wand.gif)
-![wand selected](http://www.nerdydork.com/wp-content/uploads/2007/01/wand-select.thumbnail.gif)
+![magic wand](https://dustindavis.me/wp-content/uploads/2007/01/magic-wand.gif)
+![wand selected](https://dustindavis.me/wp-content/uploads/2007/01/wand-select.thumbnail.gif)
 Invert your selection:
-![invert](http://www.nerdydork.com/wp-content/uploads/2007/01/invert.thumbnail.gif)
-![inverted](http://www.nerdydork.com/wp-content/uploads/2007/01/inverted.thumbnail.gif)
+![invert](https://dustindavis.me/wp-content/uploads/2007/01/invert.thumbnail.gif)
+![inverted](https://dustindavis.me/wp-content/uploads/2007/01/inverted.thumbnail.gif)
 
 And finally, crop to selection:
-![crop](http://www.nerdydork.com/wp-content/uploads/2007/01/crop.thumbnail.gif)
-![cropped](http://www.nerdydork.com/wp-content/uploads/2007/01/cropped.thumbnail.gif)
+![crop](https://dustindavis.me/wp-content/uploads/2007/01/crop.thumbnail.gif)
+![cropped](https://dustindavis.me/wp-content/uploads/2007/01/cropped.thumbnail.gif)

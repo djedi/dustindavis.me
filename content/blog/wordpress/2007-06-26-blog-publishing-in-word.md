@@ -36,4 +36,4 @@ So let's see how well it performs:
 
 And an image:
 
-![](http://www.nerdydork.com/wp-content/uploads/2007/06/062607-1422-blogpublish1.png)
+![](https://dustindavis.me/wp-content/uploads/2007/06/062607-1422-blogpublish1.png)

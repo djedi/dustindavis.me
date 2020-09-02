@@ -19,8 +19,8 @@ a visit.
 You can see from a screenshot of this
 [whois record](http://whois.domaintools.com/nerdydork.com) the date that I set
 up my nameservers. Speaking of which, DomainTools is pretty on the ball as well.
-![Whois Info](http://www.nerdydork.com/wp-content/images/whois-changed.gif)
+![Whois Info](https://dustindavis.me/wp-content/images/whois-changed.gif)
 
 Looking at [Google](http://www.google.com/search?q=site%3Anerdydork.com), it
 seemed that on the same day they index a few sites. Well, it's a start!
-[![Google Results](http://www.nerdydork.com/wp-content/images/_google-results.gif)](http://www.nerdydork.com/wp-content/images/google-results.gif)
+[![Google Results](https://dustindavis.me/wp-content/images/_google-results.gif)](https://dustindavis.me/wp-content/images/google-results.gif)

@@ -62,8 +62,8 @@ async function handler(event) {
 
   const origin = new URL(event.headers.origin)
   const acceptable =
-    (origin.hostname === 'localhost' && username === 'kentcdodds') ||
-    origin.hostname === 'kentcdodds.com'
+    (origin.hostname === 'localhost' && username === 'djedi') ||
+    origin.hostname === 'dustindavis.me'
 
   if (!acceptable) {
     return {
@@ -126,7 +126,7 @@ async function handler(event) {
 
   const message = {
     from: sender,
-    to: `"Dustin Davis" <me@kentcdodds.com>`,
+    to: `"Dustin Davis" <dustin@davis.im>`,
     subject,
     text,
     html: await markdownToHtml(text),

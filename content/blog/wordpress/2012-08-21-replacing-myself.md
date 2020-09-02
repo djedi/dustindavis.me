@@ -17,7 +17,7 @@ tags:
   - programming
 ---
 
-[![](http://www.nerdydork.com/wp-content/uploads/2012/08/canstockphoto4054314-300x300.jpg)](http://www.nerdydork.com/wp-content/uploads/2012/08/canstockphoto4054314.jpg)Back
+[![](https://dustindavis.me/wp-content/uploads/2012/08/canstockphoto4054314-300x300.jpg)](https://dustindavis.me/wp-content/uploads/2012/08/canstockphoto4054314.jpg)Back
 when I was working as a Quality Analyst my real desire was to code. I wanted to
 be a programmer. Instead of finding a new job, I found small jobs through a site
 called GetAFreelancer, now known as

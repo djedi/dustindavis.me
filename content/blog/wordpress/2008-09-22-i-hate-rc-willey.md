@@ -13,7 +13,7 @@ categories:
   - Yada
 ---
 
-[![image](http://www.nerdydork.com/wp-content/uploads/2008/09/image-thumb1.png)](http://www.nerdydork.com/wp-content/uploads/2008/09/image1.png)
+[![image](https://dustindavis.me/wp-content/uploads/2008/09/image-thumb1.png)](https://dustindavis.me/wp-content/uploads/2008/09/image1.png)
 So it was labor day. For some reason - likely do to excessive advertising, I
 think of [RC Willey](http://www.rcwilley.com) on Labor day. My wife has been
 wanting a bedroom set. We were planning on ordering from

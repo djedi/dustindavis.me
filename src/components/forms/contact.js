@@ -444,7 +444,7 @@ function ContactForm() {
             ) : (
               <div>
                 {`Something went wrong, but I'm not quite sure what. Feel free to `}
-                <a href="https://twitter.com/kentcdodds">ping me on twitter</a>
+                <a href="https://twitter.com/DustinDavis">ping me on twitter</a>
               </div>
             )}
           </div>

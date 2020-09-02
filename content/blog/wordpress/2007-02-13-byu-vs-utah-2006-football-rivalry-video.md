@@ -13,10 +13,10 @@ categories:
   - Sports & Stuff
 ---
 
-[![Google Video](http://www.nerdydork.com/wp-content/images/_google_recommends.png)](http://www.nerdydork.com/wp-content/images/google_recommends.png)Today,
+[![Google Video](https://dustindavis.me/wp-content/images/_google_recommends.png)](https://dustindavis.me/wp-content/images/google_recommends.png)Today,
 Google Video recommended that I watch this video. See the
-[screenshot](http://www.nerdydork.com/wp-content/images/google_recommends.png)
-for proof. Now, I recommend you watch it too! :D
+[screenshot](https://dustindavis.me/wp-content/images/google_recommends.png) for
+proof. Now, I recommend you watch it too! :D
 
 I actually didn't get to watch the game this year because of the whole Mountain
 West - Comcrap Monopoly. So I'd like to thank the guy that put this video

@@ -6,9 +6,7 @@ function get_images() {
     local images=$(perl -ne 'while(/\!\[.*\]\(([^\)]+)\)/g){print "$1\n";}' $directory/index.md)
 
     local re='-[0-9]'
-    declare -i counter=0
     for url in $images ; do
-        counter=$counter+1
         echo $counter
         local full=$(echo $url | sed 's/-[0-9]*x[0-9]*//')
         echo $full
@@ -18,7 +16,7 @@ function get_images() {
             full="https://dustindavis.me$full"
         fi
         echo $full
-        wget -P --convert-file-only $counter $directory/images $full
+        wget -P $directory/images $full
     done
 }
 

@@ -18,11 +18,11 @@ tags:
   - znc
 ---
 
-[![sentry](http://www.nerdydork.com/wp-content/uploads/2013/02/sentry.png)](http://www.nerdydork.com/wp-content/uploads/2013/02/sentry.png)If
+[![sentry](https://dustindavis.me/wp-content/uploads/2013/02/sentry.png)](https://dustindavis.me/wp-content/uploads/2013/02/sentry.png)If
 you are hosting a Django site, Sentry will make your life easier.
 
 After my
-[review of various hosting companies](http://www.nerdydork.com/digitalocean-heroku-linode-webfaction-hosting-showdown.html)
+[review of various hosting companies](https://dustindavis.me/digitalocean-heroku-linode-webfaction-hosting-showdown.html)
 I decided to put [EnvelopeBudget.com](https://envelopebudget.com) on
 [Webfaction](http://www.webfaction.com/?affiliate=redseam). But, I was still
 impressed with

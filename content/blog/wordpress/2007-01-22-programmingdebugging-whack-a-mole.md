@@ -13,7 +13,7 @@ categories:
   - Programming & Internet
 ---
 
-[![Whack-a-mole](http://www.nerdydork.com/wp-content/uploads/2007/01/whack-a-mole.thumbnail.jpg)](http://www.nerdydork.com/wp-content/uploads/2007/01/whack-a-mole.jpg)It's
+[![Whack-a-mole](https://dustindavis.me/wp-content/uploads/2007/01/whack-a-mole.thumbnail.jpg)](https://dustindavis.me/wp-content/uploads/2007/01/whack-a-mole.jpg)It's
 been crunch time lately here at work. We've been approaching a deadline for a
 meeting where we are going to showcase some new software. I've heard programming
 compared to whack-a-mole. You knock out one bug just to have one or two more pop

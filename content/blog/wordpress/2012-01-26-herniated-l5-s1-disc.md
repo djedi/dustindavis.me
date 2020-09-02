@@ -17,11 +17,11 @@ tags:
   - herniated disc
 ---
 
-[![](http://www.nerdydork.com/wp-content/uploads/2012/01/clip_image003-150x150.jpg)](http://218027m9pbuhbe3ikik1jkew07.hop.clickbank.net/?tid=NERDYDORK)I
+[![](https://dustindavis.me/wp-content/uploads/2012/01/clip_image003-150x150.jpg)](http://218027m9pbuhbe3ikik1jkew07.hop.clickbank.net/?tid=NERDYDORK)I
 thought I'd share the story of how I herniated a disc in my back to hopefully
 education some programmers out there on why it is important to get up, stretch,
 work out, drink water, and all that healthy jazz you hear people talk about.
-[Getting in the zone](http://www.nerdydork.com/how-sports-improves-programmer-focus.html)
+[Getting in the zone](https://dustindavis.me/how-sports-improves-programmer-focus.html)
 is great, but as you get older, it's not a good idea to get in the zone for more
 than an hour at a time.
 
@@ -124,7 +124,7 @@ numbness in my foot.
 
 I snapped some photos with my iPhone of the MRI results showing the herniation:
 
-[![](http://www.nerdydork.com/wp-content/uploads/2012/01/IMG_0402-150x150.jpg)](http://www.nerdydork.com/wp-content/uploads/2012/01/IMG_0402.jpg)Â [![](http://www.nerdydork.com/wp-content/uploads/2012/01/IMG_0403-150x150.jpg)](http://www.nerdydork.com/wp-content/uploads/2012/01/IMG_0403.jpg)Â [![](http://www.nerdydork.com/wp-content/uploads/2012/01/IMG_0404-150x150.jpg)](http://www.nerdydork.com/wp-content/uploads/2012/01/IMG_0404.jpg)
+[![](https://dustindavis.me/wp-content/uploads/2012/01/IMG_0402-150x150.jpg)](https://dustindavis.me/wp-content/uploads/2012/01/IMG_0402.jpg)Â [![](https://dustindavis.me/wp-content/uploads/2012/01/IMG_0403-150x150.jpg)](https://dustindavis.me/wp-content/uploads/2012/01/IMG_0403.jpg)Â [![](https://dustindavis.me/wp-content/uploads/2012/01/IMG_0404-150x150.jpg)](https://dustindavis.me/wp-content/uploads/2012/01/IMG_0404.jpg)
 
 So I've been doing physical therapy three times per week and walking about 1.5
 miles per day. I think things are improving and I'm hopeful that they will

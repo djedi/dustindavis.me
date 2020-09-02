@@ -69,7 +69,7 @@ I watched two videos on YouTube (inserted below) and decided I was jumping in
 with both feet. I bought the book Aaron mentioned in his blog,
 [The Mindbody Prescription](http://www.amazon.com/gp/product/0446675156/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=0446675156&linkCode=as2&tag=nerdydork-20) -
 well, I actually bought the audio book with my
-[Audible](http://www.nerdydork.com/audio-books.html) account.
+[Audible](https://dustindavis.me/audio-books.html) account.
 
 <iframe width="720" height="405" src="https://www.youtube.com/embed/vsR4wydiIBI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -80,7 +80,7 @@ books -
 [Healing Back Pain](http://www.amazon.com/gp/product/0446557684/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=0446557684&linkCode=as2&tag=nerdydork-20),
 which I just started listening to this morning. Those who follow my blog know
 about
-[my herniated disc experience](http://www.nerdydork.com/herniated-l5-s1-disc.html)
+[my herniated disc experience](https://dustindavis.me/herniated-l5-s1-disc.html)
 that I blogged about. To digress slightly I want to say that my back has been
 feeling great. I did physical therapy and after about 3 months the numbness in
 my leg and foot went away and I haven't really had any pain since then. When it
