@@ -12,7 +12,7 @@ bannerCredit:
 categories:
   - Programming & Internet
 tags:
-  - django
+  - Django
 ---
 
 So something what should be so relatively easy can turn out to be quite hard

@@ -5,15 +5,19 @@ date: 2008-10-03 17:05:18+00:00
 link: https://dustindavis.me/dynamic-filtered-drop-down-choice-fields-with-django/
 slug: dynamic-filtered-drop-down-choice-fields-with-django
 title: Dynamic Filtered Drop-Down Choice Fields With Django
-banner: ../banner.jpg
+description:
+  How to filter the options of a <select> component based on the selection of
+  another <select> component.
+banner: ./images/banner.jpg
 bannerCredit:
-  'Photo by [Patrick Fore](https://www.patrickfore.com/) on
+  'Photo by [Rene Böhmer](https://unsplash.com/@qrenep) on
   [Unsplash](https://unsplash.com)'
 categories:
-  - Programming & Internet
+  - Django
+  - ajax
 tags:
   - ajax
-  - django
+  - Django
   - prototype
 ---
 
@@ -26,7 +30,7 @@ Here is the situation: I have a database with car makes and models. When a user
 selects a make, I want to update the models drop-down with only the models
 associated with that make. Sounds pretty common, right? The database has a lot
 of entries, so I don't want to do it with pure javascript because that could
-make for big script, and maybe I don't want to give away all my data so easily
+make for a big script, and maybe I don't want to give away all my data so easily
 so some hacker can just parse a simple javascript file to get all the make/model
 data out of my database (not that I care, but some people might). Therefore I
 want to use Ajax to populate the data.
@@ -81,11 +85,11 @@ might work:
 ```
 
 That basically helped me organize the code I needed to change the drop-down, now
-I just need to plug in the Ajax and server side code to make it happen.
+I just need to plug in the Ajax and server-side code to make it happen.
 
-Notice, in the proof of concept, I used a tab delimited format for my models. I
-really didn't want to mess with parsing xml or json or whatever. So I wrote a
-model feed based on my automobile make id.
+Notice, in the proof of concept, I used a tab-delimited format for my models. I
+really didn't want to mess with parsing XML or JSON or whatever. So I wrote a
+model feed based on my automobile make ID.
 
 URL:
 
@@ -110,8 +114,8 @@ Template:
 
 That gave me the data feed that I needed to request via Ajax. Now for my form.
 Because the model field loads dynamically, I had to override the clean function
-in the ChoiceField class and use it instead so I didn't get invalid choice
-errors:
+in the ChoiceField class and use it instead so I didn't receive any invalid
+choice errors:
 
 ```python
 class DynamicChoiceField(forms.ChoiceField):

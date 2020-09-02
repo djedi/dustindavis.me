@@ -12,7 +12,7 @@ bannerCredit:
 categories:
   - Programming & Internet
 tags:
-  - django
+  - Django
 ---
 
 (This post is mostly for my own reference)
