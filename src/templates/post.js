@@ -121,7 +121,11 @@ function Post({data: {site, mdx}}) {
             </div>
           )}
           <br />
-          {description ? <Markdown>{description}</Markdown> : null}
+          {description ? (
+            <em>
+              <Markdown>{description}</Markdown>
+            </em>
+          ) : null}
           <MDXRenderer>{mdx.body}</MDXRenderer>
         </Container>
         {/* <SubscribeForm /> */}
