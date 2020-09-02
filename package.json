@@ -122,7 +122,7 @@
     "dev:functions": "dotenv -e ./netlify/.env netlify-lambda serve netlify/functions",
     "start": "gatsby serve --port 5020",
     "setup": "npm install && npm run validate",
-    "netlify": "GATSBY_EXPERIMENTAL_PAGE_BUILD_ON_DATA_CHANGES=true gatsby-parallel-runner",
+    "netlify": "GATSBY_EXPERIMENTAL_PAGE_BUILD_ON_DATA_CHANGES=true",
     "validate": "npm run build",
     "lint": "eslint .",
     "format": "prettier --write \"**/*.+(js|jsx|json|yml|yaml|css|less|scss|ts|tsx|graphql|md|mdx)\"",
