@@ -40,7 +40,7 @@ a fast process.
 There are so many plugins and I feel like I spend more time upgrading plugins
 than I do writing posts.
 
-It feels like 80% of websites are powered by Wordpress these days, so like the
+It feels like 80% of websites are powered by WordPress these days, so like the
 Windows operating system, they are going to be the most targeted platform for
 crackers.
 
@@ -54,8 +54,8 @@ Honestly, the feature I like most is the progressive image rending. I first
 noticed it on [Kent C. Dodds](https://kentcdodds.com)'s website and I was
 jealous. So, I started to learn Gatsby.
 
-It is not difficult to get up and running, but there were a number of things
-about Kent's blog that I loved and I was struggling to reproduce from scratch.😩
+It is not difficult to get up and running, but there were a few things about
+Kent's blog that I loved and I was struggling to reproduce from scratch.😩
 
 Then it occurred to me, his blog is
 [open-source](https://github.com/kentcdodds/kentcdodds.com) so why not just use
@@ -64,8 +64,8 @@ his blog as a starting point?
 I hope you don't mind Kent!🙏 They say imitation is the highest form of
 flattery, right? 😬
 
-I basically just changed some colors and took a bunch of components out and use
-this as a starting point.
+I just changed some colors and took a bunch of components out and use this as a
+starting point.
 
 I love writing posts in Gatsby. I can use my favorite LightPaper or
 [VSCode](https://code.visualstudio.com/). I have found a nice
@@ -76,7 +76,7 @@ as well, which will really help me out!
 
 I took some tips from
 [Tania Rascia](https://www.gatsbyjs.com/blog/2019-03-21-migrating-from-wordpress-to-gatsby/)
-on migrating WordPress posts to Gatsby. Basically I used the same export method
+on migrating WordPress posts to Gatsby. Basically, I used the same export method
 and [ExitWP](https://github.com/thomasf/exitwp) script to convert all my
 WordPress Posts to MarkDown.
 
