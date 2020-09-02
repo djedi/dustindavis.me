@@ -34,8 +34,7 @@ keywords:
     - keyword
 banner: ./images/banner.jpg
 bannerCredit:
-    'Photo by []() on
-    [Unsplash](https://unsplash.com)'
+    Photo by []() on [Unsplash](https://unsplash.com)
 ---
 
 Content`

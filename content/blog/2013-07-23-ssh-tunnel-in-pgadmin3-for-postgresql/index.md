@@ -10,8 +10,8 @@ description:
   experience on a remote server
 banner: ./images/banner.jpg
 bannerCredit:
-  'Photo by [bantersnaps](https://unsplash.com/@bantersnaps) on
-  [Unsplash](https://unsplash.com)'
+  Photo by [bantersnaps](https://unsplash.com/@bantersnaps) on
+  [Unsplash](https://unsplash.com)
 categories:
   - PostgreSQL
 ---
