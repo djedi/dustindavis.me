@@ -19,7 +19,7 @@ tags:
 ---
 
 [James Bennett addresses](http://www.b-list.org/weblog/2007/sep/22/standalone-django-scripts/)
-one of the most frequently asked questions in Django â€“ "How do I write a
+one of the most frequently asked questions in Django "How do I write a
 standalone script which makes use of Django components?"
 
 That is what I needed to do. I'm still learning Python so I wasn't sure why the
@@ -33,6 +33,10 @@ the examples didn't quite work for me either. Finally I found a clue in my WSGI
 script. Adding the following lines to my python file is what I needed to get me
 going:
 
-import sys, os sys.path = ['/home/mylogin/webapps/mysite,
+```python
+import sys, os
+
+sys.path = ['/home/mylogin/webapps/mysite,
 '/home/mylogin/webapps/mysite/lib/python2.5'] + sys.path
 os.environ['DJANGO_SETTINGS_MODULE'] = 'mysite.settings'
+```

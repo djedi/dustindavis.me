@@ -37,18 +37,24 @@ explain it.
 
 #### app.html:
 
-[code lang="html"] <template> <require from="./comp1"></require>
-<require from="./comp2"></require>
+```html
+<template>
+  <require from="./comp1"></require>
+  <require from="./comp2"></require>
 
-<comp1></comp1> <comp2></comp2> </template> [/code]
+  <comp1></comp1> <comp2></comp2>
+</template>
+```
 
 I'm basically including to components, `comp1` and `comp2` and displaying them
 on the page. Nothing fancy here.
 
 #### shared-service.js
 
-[code lang=js] export class Shared { constructor() { this.val = 'Initial
-value.'; } } [/code]
+```js
+export class Shared { constructor() { this.val = 'Initial
+value.'; } }
+```
 
 This is basically my shared class (or service) that I want to inject into each
 of my components. You could put all kinds of variables and objects in here to
@@ -56,14 +62,22 @@ share, but basically we are just going to use `val` in each of our components.
 
 #### comp1.js
 
-[code lang=js] import {inject} from 'aurelia-framework';
+```js
+import {inject} from 'aurelia-framework'
 
-import {Shared} from 'shared-service';
+import {Shared} from 'shared-service'
 
-@inject(Shared) export class Comp1 { constructor(shared) { this.shared = shared;
+@inject(Shared)
+export class Comp1 {
+  constructor(shared) {
+    this.shared = shared
+  }
+
+  setVal() {
+    this.shared.val = 'Component 1 set value'
+  }
 }
-
-setVal() { this.shared.val = 'Component 1 set value'; } } [/code]
+```
 
 Here is our first component view-model. Notice we are importing `inject` from
 `aurelia-framework` and our `Shared` class from `shared-service.js`.
@@ -78,14 +92,19 @@ If you prefer not to use the decorator for whatever reason, check out this
 
 #### comp1.html
 
-[code lang=html] <template> <require from="./comp1child"></require>
+```html
+<template>
+  <require from="./comp1child"></require>
 
   <div>
-    Comp1: ${shared.val}<br>
+    Comp1: ${shared.val}<br />
     <button click.delegate="setVal()">Set Value</button>
-  </div><br>
+  </div>
+  <br />
 
-<comp1child></comp1child> </template> [/code]
+  <comp1child></comp1child>
+</template>
+```
 
 Here you can basically see how I'm including a child component and outputting
 the `shared.val` value.
@@ -100,14 +119,14 @@ associated js file.
 
 #### comp2child.html
 
-[code lang=html] <template bindable="val">
-
+```html
+<template bindable="val">
   <div>
-    Comp2 Child component with no view-model.<br>
-    Edit here too: <input type="text" value.bind="val">
+    Comp2 Child component with no view-model.<br />
+    Edit here too: <input type="text" value.bind="val" />
   </div>
 </template>
-[/code]
+```
 
 We are doing this with the `bindable` attribute in the `<template>` tag.
 
@@ -120,6 +139,10 @@ back up to the service.
 If I were to have a view-model for `comp2child` what would it look like if I
 wanted to have a bindable instead of using DI? Something like this:
 
-[code lang=js] import {bindable} from 'aurelia-framework';
+```js
+import {bindable} from 'aurelia-framework'
 
-export class Comp2child { @bindable val } [/code]
+export class Comp2child {
+  @bindable val
+}
+```

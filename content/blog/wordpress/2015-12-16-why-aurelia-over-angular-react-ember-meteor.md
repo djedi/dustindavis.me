@@ -47,14 +47,15 @@ kool-aid.
 But the Angular 2 tutorial really left a bad taste in my mouth. I hated the new
 syntax. It's difficult to type and hard to grok. For example:
 
-[html]
-
-<li *ngFor="#hero of heroes"
-    [class.selected]="hero === selectedHero"
-    (click)="onSelect(hero)">
-    <span class="badge">{{hero.id}}</span> {{hero.name}}
+```html
+<li
+  *ngFor="#hero of heroes"
+  [class.selected]="hero === selectedHero"
+  (click)="onSelect(hero)"
+>
+  <span class="badge">{{hero.id}}</span> {{hero.name}}
 </li>
-[/html]
+```
 
 Look at all those new symbols: \*, #, [], ()
 
