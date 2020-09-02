@@ -12,7 +12,7 @@ bannerCredit:
 categories:
   - Programming & Internet
 tags:
-  - django
+  - Django
 ---
 
 _\*Disclaimer: I'm a Django and Python newbie. Your mileage may vary following

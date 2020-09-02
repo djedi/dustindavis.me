@@ -8,7 +8,7 @@ title: Restoring MySQL InnoDB Files on Windows
 description: How I escaped disaster by restoring a MySQL database
 banner: ./images/banner.jpg
 bannerCredit:
-  'Photo by [Patrick Fore](https://www.patrickfore.com/) on
+  'Photo by [Darin Ashby](https://unsplash.com/@dcordash) on
   [Unsplash](https://unsplash.com)'
 categories:
   - MySQL
@@ -94,7 +94,7 @@ mysql\bin\mysqld --defaults-file=mysql\bin\my.cnf --standalone --console --innod
 ```
 
 This did the trick! My databases were recovered on my machine. I used
-[SQLyog](http://www.webyog.com/en/downloads.php) to do a sql dump of the
+[SQLyog](http://www.webyog.com/en/downloads.php) to do a SQL dump of the
 database to restore it on our production server.
 
 If this helped at all, please leave a comment and let me know.

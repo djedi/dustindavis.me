@@ -11,10 +11,10 @@ bannerCredit:
   'Photo by [Forian Berger](https://unsplash.com/@bergerteam) on
   [Unsplash](https://unsplash.com)'
 categories:
-  - django
+  - Django
   - python
 tags:
-  - django
+  - Django
   - python
 ---
 

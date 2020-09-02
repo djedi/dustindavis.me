@@ -13,7 +13,7 @@ categories:
   - Programming & Internet
 tags:
   - cpanel
-  - django
+  - Django
   - python
   - whm
 ---

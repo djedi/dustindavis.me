@@ -12,7 +12,7 @@ bannerCredit:
 categories:
   - Programming & Internet
 tags:
-  - django
+  - Django
   - plink
   - putty
   - ssh
