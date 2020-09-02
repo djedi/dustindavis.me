@@ -109,7 +109,7 @@ function Subscribe({style}) {
   const errorMessage = isError ? (
     <div css={{marginTop: 10}}>
       <div>
-        Something went wrong! Try again, or hit me up on Twitter @kentcdodds
+        Something went wrong! Try again, or hit me up on Twitter @DustinDavis
       </div>
       <div css={{fontFamily: 'monospace', fontWeight: 'bold', marginTop: 5}}>
         {error.message}

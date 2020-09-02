@@ -115,7 +115,7 @@ methods of controlling that as well.
 
 I also disable screen recordings. I don't think they need them. One child
 learned our screen time password by turning on-screen recording then asking for
-a password to play a game. That is how these type of privileges get lost.
+a password to play a game. That is how these types of privileges get lost.
 
 #### Share My Location
 
@@ -169,7 +169,7 @@ the contract and have consequences for when you find they have disabled it.
 A recent addition to our home is [smart plugs](https://amzn.to/3if1sLj). I use
 them for my lamp because it is nice to tell Alexa to turn off my lamp. I have
 recently found them handy to just turn off all power to the TV and video games
-downstairs when kids are not listening. I just put a smart plug in from of the
+downstairs when kids are not listening. I just put a smart plug-in from of the
 power strip that everything else plugs in to. Then I can use my phone to turn it
 off.
 
