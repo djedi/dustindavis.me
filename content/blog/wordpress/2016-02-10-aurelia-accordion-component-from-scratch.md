@@ -29,31 +29,32 @@ If you are not familiar with accordions check out the
 Here are the basic requirements for what I want to build:
 
 - Click on a section title to expand it's associated content area
-
 - If you click on another title, close the section that is currently open
-
 - Open the first section by default. You should never have all sections closed
 
 Let's start with the desired html markup. I would like to create my accordion
 like so (app.html):
 
-[html] <accordion> <accordion-section title="Section 1"> Content area 1
-</accordion-section> <accordion-section title="Section 2"> Content area 2
-</accordion-section> <accordion-section title="Section 3"> Content area 3
-</accordion-section> <accordion-section title="Section 4"> Content area 4
-</accordion-section> </accordion> [/html]
+```html
+<accordion>
+  <accordion-section title="Section 1"> Content area 1 </accordion-section>
+  <accordion-section title="Section 2"> Content area 2 </accordion-section>
+  <accordion-section title="Section 3"> Content area 3 </accordion-section>
+  <accordion-section title="Section 4"> Content area 4 </accordion-section>
+</accordion>
+```
 
 So I will need at least two components, `accordion` and `accordion-section`.
 
 My accordion template is simple (accordion.html):
 
-[html] <template>
-
+```html
+<template>
   <div class="accordion">
     <content></content>
-  </div>  
+  </div>
 </template>
-[/html]
+```
 
 Basically I'm just wrapping this component in a div with the class of
 "accordion" so I can use this class for CSS. The `<content></content>` tags
@@ -63,8 +64,8 @@ tag. In this case, it is each of my `<accordion-section>` tags.
 My accordion-section template is also pretty straight forward
 (accordion-section.html):
 
-[html] <template>
-
+```html
+<template>
   <h3 click.trigger="showContent()">${title}</h3>
   <div show.bind="isVisible">
     <p>
@@ -72,15 +73,13 @@ My accordion-section template is also pretty straight forward
     </p>
   </div>
 </template>
-[/html]
+```
 
 Notice my bindings here.
 
 - `click.trigger="showContent()"`: this will make a call to show this associated
   content
-
 - `${title}`: display the title of this accordion-section
-
 - `show.bind="isVisible"`: I'll have a variable to set whether this content
   section is displayed
 
@@ -95,25 +94,44 @@ use dependency injection to inject my parent class into each child class.
 
 So my parent class (Accordion) is pretty simple (accordion.js):
 
-[js] export class Accordion { constructor() { this.sections = []; } } [/js]
+```js
+export class Accordion {
+  constructor() {
+    this.sections = []
+  }
+}
+```
 
 I'm basically creating an empty array named `sections` when I instantiate this
 class. I can then use this array in my `AccordionSection` view-model class,
 which looks like this (accordion-section.js):
 
-[js] import {bindable, inject} from 'aurelia-framework';
+```js
+import {bindable, inject} from 'aurelia-framework'
 
-import {Accordion} from './accordion';
+import {Accordion} from './accordion'
 
-@inject(Accordion) export class AccordionSection { @bindable title;
+@inject(Accordion)
+export class AccordionSection {
+  @bindable title
 
-constructor(accordion) { this.accordion = accordion; }
+  constructor(accordion) {
+    this.accordion = accordion
+  }
 
-attached() { this.accordion.sections.push(this);
-this.accordion.sections[0].isVisible = true; }
+  attached() {
+    this.accordion.sections.push(this)
+    this.accordion.sections[0].isVisible = true
+  }
 
-showContent() { for (let section of this.accordion.sections) { section.isVisible
-= false; } this.isVisible = true; } } [/js]
+  showContent() {
+    for (let section of this.accordion.sections) {
+      section.isVisible = false
+    }
+    this.isVisible = true
+  }
+}
+```
 
 What's going on here?
 

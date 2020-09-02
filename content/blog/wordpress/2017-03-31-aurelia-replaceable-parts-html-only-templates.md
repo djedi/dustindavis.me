@@ -37,15 +37,24 @@ I learned this tip from
 In your template tag, you can simply add the `bindable` attribute and pass in a
 comma separated list of bindable attrubutes.
 
-[code lang=html] <template bindable="heading, bodyText">
-<h1>${heading}</h1>
-    <p>${bodyText}</p> </template> [/code]
+```html
+<template bindable="heading, bodyText">
+  <h1>${heading}</h1>
+  <p>${bodyText}</p>
+</template>
+```
 
 To use this template, you simply `require` it and pass in your attributes.
 
-[code lang=html] <template> <require from="./my-element.html"></require>
-<my-element heading="This is the heading" body-text="This is the bodyText"></my-element>
-</template> [/code]
+```html
+<template>
+  <require from="./my-element.html"></require>
+  <my-element
+    heading="This is the heading"
+    body-text="This is the bodyText"
+  ></my-element>
+</template>
+```
 
 You can see a working example
 [here](https://gist.run/?id=044dad26eda6e86aec61b4bd86064b34).
@@ -66,22 +75,32 @@ If you want to have a section of your component that is replaceable you can add
 a template tag with a `replaceable` attribute and a `part` attribute. For
 example (comp.html):
 
-[code lang=html] <template>
-
+````html
+<template>
   <h2>This is a component with replaceable parts.</h2>
   <template replaceable part="repl">This part is replaceable.</template>
 </template>
-[/code]
-
-To replace the `replaceable` template part, you would include a template tag
-within your custom element component and specify the `replace-part` attribute.
-Example:
-
-[code lang=html] <template> <require from="./comp.html"></require> <comp></comp>
-<comp> <template replace-part="repl"> This part is being replaced. </template>
-</comp> <comp> <template replace-part="repl">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allowfullscreen></iframe>
-</template> </comp> </template> [/code]
+[/code] To replace the `replaceable` template part, you would include a template
+tag within your custom element component and specify the `replace-part`
+attribute. Example: ```html
+<template>
+  <require from="./comp.html"></require> <comp></comp>
+  <comp>
+    <template replace-part="repl"> This part is being replaced. </template>
+  </comp>
+  <comp>
+    <template replace-part="repl">
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+        frameborder="0"
+        allowfullscreen
+      ></iframe>
+    </template>
+  </comp>
+</template>
+````
 
 Checking out a working example
 [here](https://gist.run/?id=99cbbab4a0af26dbf10cfb7d4650fe98).

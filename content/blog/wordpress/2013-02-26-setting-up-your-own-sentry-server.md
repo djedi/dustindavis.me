@@ -45,7 +45,7 @@ I documented the process I went through setting up the server.
 
 Create Ubuntu 12.10 X32 Server droplet & ssh into it as root
 
-[bash]
+```bash
 
 # add non-root user
 
@@ -153,11 +153,12 @@ sudo apt-get install vim vim .sentry/sentry.conf.py</pre>
         'HOST': 'localhost',
     }
 }
-[/bash]
+```
 
-You will also want to configure your SMTP mail account. I just used my gmail account.
+You will also want to configure your SMTP mail account. I just used my gmail
+account.
 
-[bash]
+```bash
 # going to need psycopg2
 workon sentry_env
 pip install psycopg2
@@ -181,11 +182,11 @@ sudo ln -s ../sites-available/sentry
 
 # edit the nginx configuration file
 sudo vim /etc/nginx/sites-available/sentry
-[/bash]
+```
 
 Here are the contents of my nginx file:
 
-[text]
+```text
 server {
     # listen on port 80
     listen 80;
@@ -214,47 +215,50 @@ server {
         proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
     }
 }
-[/text]
+```
 
 That's about it.
 
-[bash]
+```bash
 # restart nginx
 sudo service nginx restart
-[/bash]
+```
 
-I set up supervisor as recommend in the comments and [the docs](http://sentry.readthedocs.org/en/latest/quickstart/index.html#running-sentry-as-a-service) to keep sentry runny (though it has never crashed, it does make restarting easier)
+I set up supervisor as recommend in the comments and
+[the docs](http://sentry.readthedocs.org/en/latest/quickstart/index.html#running-sentry-as-a-service)
+to keep sentry runny (though it has never crashed, it does make restarting
+easier)
 
-[bash]
+```bash
 sudo apt-get install supervisor
 sudo vim /etc/supervisor/conf.d/sentry.conf
-[/bash]
+```
 
 Add the following to the sentry.conf file:
 
-[text]
+```text
 [program:sentry-web]
 directory=/home/sentry/
 command=/home/sentry/.virtualenvs/sentry_env/bin/sentry start http
 autostart=true
 autorestart=true
 redirect_stderr=true
-[/text]
+```
 
 Restart supervidord
 
-[bash]
+```bash
 sudo killall supervisord
 sudo supervisord
-[/bash]
+```
 
 **Upgrading Sentry:**
 
 I've upgraded twice. It was a painless process...
 
-[bash]
+```bash
 workon sentry_env
 pip install sentry --upgrade
 sentry upgrade
 sudo supervisorctl restart sentry-web
-[/bash]
+```

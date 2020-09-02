@@ -45,7 +45,8 @@ class based views.
 First I built a base class that will return the JSON data in a consistent
 format:
 
-[python] class StatWithDelta(BaseDetailView): start = None end = None
+```python
+class StatWithDelta(BaseDetailView): start = None end = None
 delta_start = None delta_end = None title = None subtitle = None
 
     def __init__(self):
@@ -84,12 +85,13 @@ delta_start = None delta_end = None title = None subtitle = None
     def convert_context_to_json(self, context):
         return json.dumps(context)
 
-[/python]
+```
 
 Next I built classes for each required time range. Here is my class for today
 compared to yesterday:
 
-[python] class TodayYesterday(StatWithDelta): subtitle = 'Today vs. Yesterday'
+```python
+class TodayYesterday(StatWithDelta): subtitle = 'Today vs. Yesterday'
 
     def __init__(self):
         super(TodayYesterday, self).__init__()
@@ -97,12 +99,13 @@ compared to yesterday:
         self.delta_start = self.start - datetime.timedelta(days=1)
         self.delta_end = self.end - datetime.timedelta(days=1)
 
-[/python]
+```
 
 Now for each stat I create a class that gets the main value and its delta value.
 Here is one example:
 
-[python] class GrossMarginPercent(StatWithDelta): title = 'Gross Margin Percent'
+```python
+class GrossMarginPercent(StatWithDelta): title = 'Gross Margin Percent'
 
     def value(self):
         return functions.gross_margin_percent_within(self.start, self.end)
@@ -111,14 +114,15 @@ Here is one example:
         return functions.gross_margin_percent_within(
             self.delta_start, self.delta_end)
 
-[/python]
+```
 
 I thought this was clever, but then I found myself writing a lot of similar
 code. I would create a class based view for each stat class and time period,
 then an associated url mapping. So for the stat class above I would have these
 five classes:
 
-[python] class GrossMarginPercentDay(GrossMarginPercent, TodayYesterday): pass
+```python
+class GrossMarginPercentDay(GrossMarginPercent, TodayYesterday): pass
 
 class GrossMarginPercentWeek(GrossMarginPercent, ThisWeekLastWeek): pass
 
@@ -128,18 +132,19 @@ class GrossMarginPercentQuarter(GrossMarginPercent, ThisQuarterLastQuarter):
 pass
 
 class GrossMarginPercentYear(GrossMarginPercent, ThisYearLastYear): pass
-[/python]
+```
 
 ... and these urls:
 
-[python]
+```python
 url(r'^edu/gmp-dtd/$', GrossMarginPercentDay.as_view()),
     url(r'^edu/gmp-wtd/$',
 GrossMarginPercentWeek.as_view()),
 url(r'^edu/gmp-mtd/$', GrossMarginPercentMonth.as_view()),
     url(r'^edu/gmp-qtd/$',
 GrossMarginPercentQuarter.as_view()), url(r'^edu/gmp-ytd/\$',
-GrossMarginPercentYear.as_view()), [/python]
+GrossMarginPercentYear.as_view()),
+```
 
 You can see the lines of code adding up. I was going to add 230+ lines of code
 to my urls.py file and 4600 lines of code to my views.py file (20 \* 230)
@@ -148,12 +153,15 @@ following PEP8 guidelines.
 So I decided to use one url pattern to send to one view function to dynamically
 create each of the stat-period classes. Here is my new url pattern:
 
-[python] url(r'^(?P<category>[\w\-]+)/(?P<period>day|week|month|quarter|year)/'
-r'(?P<base_class_name>\w+)/\$', 'magic_view'), [/python]
+```python
+url(r'^(?P<category>[\w\-]+)/(?P<period>day|week|month|quarter|year)/'
+r'(?P<base_class_name>\w+)/\$', 'magic_view'),
+```
 
-And here is my "magic_view" function that where the _magic_ happens:
+And here is my "magic*view" function that where the \_magic* happens:
 
-[python] def magic_view(request, category, period, base_class_name): """ Builds
+```python
+def magic_view(request, category, period, base_class_name): """ Builds
 a dynamic class subclassing the base class name passed in and a time period
 class. It will return its as_view() method.
 
@@ -176,7 +184,7 @@ class. It will return its as_view() method.
     cls = type(class_name, (base_cls, period_cls), dict())
     return cls.as_view()(request)
 
-[/python]
+```
 
 So if you include all the comments lines to explain why I did, I'm only using 25
 lines of code to save 4830 lines. That's a lot of typing. Python, my fingers

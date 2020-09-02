@@ -52,17 +52,14 @@ Just follow the wizard to create your database.
 
 Next, I installed psycopg to bind python to PostgreSQL.
 
-`# cd /usr/local/src
-
-# wget [http://initd.org/pub/software/psycopg/psycopg2-2.0.8.tar.gz](http://initd.org/pub/software/psycopg/psycopg2-2.0.8.tar.gz)
-
-# tar xzvf psycopg2-2.0.8.tar.gz
-
-# cd psycopg2-2.0.8
-
-# python setup.py build
-
-# python setup.py install`
+```bash
+cd /usr/local/src
+wget http://initd.org/pub/software/psycopg/psycopg2-2.0.8.tar.gz
+tar xzvf psycopg2-2.0.8.tar.gz
+cd psycopg2-2.0.8
+python setup.py build
+python setup.py install
+```
 
 # Build and Install WSGI
 
@@ -112,11 +109,11 @@ Graham Dumpleton and was able to install the correct version by specifying the
 apxs file located in /usr/local/apache/bin/. So back in
 /usr/local/src/mod_wsgi-2.3, I ran the following commands to rebuild modwsgi:
 
-`# make distclean
-
-# ./configure --with-apxs=/usr/local/apache/bin/apxs
-
-# make && make install`
+```bash
+make distclean
+./configure --with-apxs=/usr/local/apache/bin/apxs
+make && make install
+```
 
 The output was more concise this time. Then I when back into WHM -> Server
 Configuration -> Apache Setup -> Include Editor and loaded the module and
@@ -133,7 +130,13 @@ to modwsgi setup in a moment, but first we need to install Django.
 [Download and installation](http://www.djangoproject.com/download/) of Django
 1.0 was quite simple really - the easiest part of the gig.
 
-`cd /usr/local/src wget [http://www.djangoproject.com/download/1.0/tarball/](http://www.djangoproject.com/download/1.0/tarball/) tar xzvf Django-1.0.tar.gz cd Django-1.0 python setup.py install`
+```bash
+cd /usr/local/src
+wget http://www.djangoproject.com/download/1.0/tarball/
+tar xzvf Django-1.0.tar.gz
+cd Django-1.0
+python setup.py install
+```
 
 # Run Baby, Run
 
@@ -149,23 +152,27 @@ replace it with your specifics.
 Create a file in /home/fcabi/public_html with the following python code (I named
 it django.wsgi):
 
-`import os, sys sys.path.append('/home/fcabi/public_html')
+```python
+import os, sys
+sys.path.append('/home/fcabi/public_html')
 sys.path.append('/home/fcabi/public_html/fcabinet')
 os.environ['DJANGO_SETTINGS_MODULE'] = 'fcabinet.settings'
 
 import django.core.handlers.wsgi
 
-application = django.core.handlers.wsgi.WSGIHandler()`
+application = django.core.handlers.wsgi.WSGIHandler()
+```
 
 Next I create a file to add my virtual host directives in.
 
-`# mkdir -p /usr/local/apache/conf/userdata/std/2/fcabi/fcabi.net/
-
-# vi /usr/local/apache/conf/userdata/std/2/fcabi/fcabi.net/wsgi.conf`
+```bash
+mkdir -p /usr/local/apache/conf/userdata/std/2/fcabi/fcabi.net/
+vi /usr/local/apache/conf/userdata/std/2/fcabi/fcabi.net/wsgi.conf
+```
 
 I enter the following:
 
-`
+```text
 
     <IfModule mod_alias.c>
     Alias /robots.txt /home/fcabi/public_html/fcabinet/media/robots.txt
@@ -181,7 +188,7 @@ I enter the following:
     WSGIApplicationGroup %{GLOBAL}
     </IfModule>
 
-`
+```
 
 Next I run the cPanel script to add the include file to the main httpd.conf file
 and make sure the changes stick, then I restart apache.
@@ -190,19 +197,24 @@ and make sure the changes stick, then I restart apache.
 
 After running this command, I should see the Include to the file I just created:
 
-`<VirtualHost 67.227.189.54:80> ServerName fcabi.net ServerAlias www.fcabi.net
-DocumentRoot /home/fcabi/public_html ServerAdmin webmaster@fcabi.net
-UseCanonicalName Off CustomLog /usr/local/apache/domlogs/fcabi.net combined
-CustomLog /usr/local/apache/domlogs/fcabi.net-bytes_log "%{%s}t %I .\n%{%s}t %O
-."
-
+```text
+<VirtualHost 67.227.189.54:80>
+ServerName fcabi.net
+ServerAlias www.fcabi.net
+DocumentRoot /home/fcabi/public_html
+ServerAdmin webmaster@fcabi.net
+UseCanonicalName Off
+CustomLog /usr/local/apache/domlogs/fcabi.net combined
+CustomLog /usr/local/apache/domlogs/fcabi.net-bytes_log "%{%s}t %I .\n%{%s}t %O ."
 ## User fcabi # Needed for Cpanel::ApacheConf
+<IfModule !mod_disable_suexec.c>
+SuexecUserGroup fcabi fcabi
+</IfModule>
 
-<IfModule !mod_disable_suexec.c> SuexecUserGroup fcabi fcabi </IfModule>`
-
-Include "/usr/local/apache/conf/userdata/std/2/fcabi/fcabi.net/\*.conf"
+Include “/usr/local/apache/conf/userdata/std/2/fcabi/fcabi.net/*.conf”
 
 </VirtualHost>
+```
 
 It's there, so I restart apache.
 
@@ -227,25 +239,27 @@ with "/public_html", this is normal).
 Now, set up virtual host directives for this subdomain like you did with your
 original domain.
 
-`# mkdir -p /usr/local/apache/conf/userdata/std/2/fcabi/wildcard_safe.fcabi.net/
-
-# vi /usr/local/apache/conf/userdata/std/2/fcabi/wildcard_safe.fcabi.net/wsgi.conf`
+```bash
+mkdir -p /usr/local/apache/conf/userdata/std/2/fcabi/wildcard_safe.fcabi.net/
+vi /usr/local/apache/conf/userdata/std/2/fcabi/wildcard_safe.fcabi.net/wsgi.conf
+```
 
 Enter the following:
 
-`<IfModule mod_alias.c> Alias /robots.txt /home/fcabi/public_html/fcabinet/media/robots.txt Alias /favicon.ico /home/fcabi/public_html/fcabinet/media/favicon.ico Alias /media /home/fcabi/public_html/fcabinet/media </IfModule>`
+```text
+<IfModule mod_alias.c> Alias /robots.txt /home/fcabi/public_html/fcabinet/media/robots.txt Alias /favicon.ico /home/fcabi/public_html/fcabinet/media/favicon.ico Alias /media /home/fcabi/public_html/fcabinet/media </IfModule>`
 
-` `
-
-`<IfModule mod_wsgi.c> WSGIScriptAlias / /home/fcabi/public_html/django.wsgi WSGIDaemonProcess django-sub threads=15 display-name=%{GROUP} WSGIProcessGroup django-sub WSGIApplicationGroup %{GLOBAL} </IfModule>`
+<IfModule mod_wsgi.c> WSGIScriptAlias / /home/fcabi/public_html/django.wsgi WSGIDaemonProcess django-sub threads=15 display-name=%{GROUP} WSGIProcessGroup django-sub WSGIApplicationGroup %{GLOBAL} </IfModule>
+```
 
 - Notice the the WSGIDaemonProcess name is must be different.
 
 Rebuild the config file and restart apache.
 
-`# /usr/local/cpanel/bin/build_apache_conf
-
-# /usr/sbin/apachectl restart`
+```bash
+/usr/local/cpanel/bin/build_apache_conf
+/usr/sbin/apachectl restart
+```
 
 PS. If you're using sub-domains, you might find my
 [sub-domain middleware](http://www.djangosnippets.org/snippets/1119/) useful.
