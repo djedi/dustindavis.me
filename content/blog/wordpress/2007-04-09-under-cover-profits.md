@@ -35,30 +35,28 @@ product just chirping to try to justify their purchase to themselves.
 
 I found this comment especially humorous and ironic:
 
-<blockquote>
+> > ### Worst Review Ever... Revealing Ignorance
 
-> ### Worst Review Ever... Revealing Ignorance
+> > Submitted by **Anonymous** on Tue, 2006-12-05 17:02.
 
-> Submitted by **Anonymous** on Tue, 2006-12-05 17:02.
+> > Well, you sure know how to make enemies and to lose credibility. Any one
+> > that trashes an excellent product because they have their own agenda to sell
+> > their own product should be ignored or worse.
+> >
+> > You've lost all credibility with me and I hope with many of your subscribers
+> > and readers who are using it and know it's **not** crap.
 
-> Well, you sure know how to make enemies and to lose credibility. Any one that
-> trashes an excellent product because they have their own agenda to sell their
-> own product should be ignored or worse.
->
-> You've lost all credibility with me and I hope with many of your subscribers
-> and readers who are using it and know it's **not** crap.
+> Chris and Goran are some of the best software developers I know and honestly..
+> this product is powerful in so many ways.
 
-Chris and Goran are some of the best software developers I know and honestly..
-this product is powerful in so many ways.
+> If you can't make it work for you or don't see the value of it, it only means
+> one of two things to me: A) You're not very bright. B) You're trashing it so
+> people will buy your product instead.
 
-If you can't make it work for you or don't see the value of it, it only means
-one of two things to me: A) You're not very bright. B) You're trashing it so
-people will buy your product instead.
+> More likely it's both.
 
-More likely it's both.
-
-You don't even use your last name on your PR Zero pages here. A lot of
-credibility you...</blockquote>
+> You don't even use your last name on your PR Zero pages here. A lot of
+> credibility you...
 
 (BTW, that post is a PR2 and the site as a whole is a PR4)
 
