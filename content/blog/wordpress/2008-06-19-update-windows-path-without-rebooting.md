@@ -23,7 +23,7 @@ tags:
 \*\*\*\*I switched to linux & later to mac so I really don't spend any time in
 Windows anymore, but it seems I get a lot of traffic and the most useful
 information is in
-[this comment below...](http://www.nerdydork.com/update-windows-path-without-rebooting.html#comment-336634369)
+[this comment below...](https://dustindavis.me/update-windows-path-without-rebooting.html#comment-336634369)
 
 --
 
@@ -38,18 +38,18 @@ way)
 <!-- more -->
 
 1. Open your system properties window. Screenshots below are for Vista:
-   [![](http://www.nerdydork.com/wp-content/uploads/2008/06/computer-properties-150x150.png) ![](http://www.nerdydork.com/wp-content/uploads/2008/06/computer-properties2-150x150.png)](http://www.nerdydork.com/wp-content/uploads/2008/06/computer-properties2.png)
+   [![](https://dustindavis.me/wp-content/uploads/2008/06/computer-properties-150x150.png) ![](https://dustindavis.me/wp-content/uploads/2008/06/computer-properties2-150x150.png)](https://dustindavis.me/wp-content/uploads/2008/06/computer-properties2.png)
 
 2. Open you Environment Variables Window.
-   [![](http://www.nerdydork.com/wp-content/uploads/2008/06/system-properties-150x150.png)](http://www.nerdydork.com/wp-content/uploads/2008/06/system-properties.png)
+   [![](https://dustindavis.me/wp-content/uploads/2008/06/system-properties-150x150.png)](https://dustindavis.me/wp-content/uploads/2008/06/system-properties.png)
 
 3. Double Click on you Path (if you want to just change you path for your login,
    use the top one, if you want to change it for all logins, use the bottom one)
-   [![](http://www.nerdydork.com/wp-content/uploads/2008/06/path-variables-150x150.png)](http://www.nerdydork.com/wp-content/uploads/2008/06/path-variables.png)
+   [![](https://dustindavis.me/wp-content/uploads/2008/06/path-variables-150x150.png)](https://dustindavis.me/wp-content/uploads/2008/06/path-variables.png)
 
 4. Append the path you would like to add, separated with a semi-colon. Below, I
    am adding C:\CmdShortcuts
-   [![](http://www.nerdydork.com/wp-content/uploads/2008/06/variable-value-150x150.png) ](http://www.nerdydork.com/wp-content/uploads/2008/06/variable-value.png)
+   [![](https://dustindavis.me/wp-content/uploads/2008/06/variable-value-150x150.png) ](https://dustindavis.me/wp-content/uploads/2008/06/variable-value.png)
 
 ...
 

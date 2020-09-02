@@ -7,13 +7,14 @@ excerpt:
   <compose> template tag.
 link: https://dustindavis.me/real-world-examples-of-aurelias-compose/
 slug: real-world-examples-of-aurelias-compose
-title: Real World Examples of Aurelia's Compose Tag
-banner: ../banner.jpg
+title: Real-World Examples of Aurelia's Compose Tag
+description: Let me show you a few examples of how we use the <compose> tag
+banner: ./images/banner.jpg
 bannerCredit:
-  'Photo by [Patrick Fore](https://www.patrickfore.com/) on
+  'Photo by [James Baldwin](https://unsplash.com/@chillysheep) on
   [Unsplash](https://unsplash.com)'
 categories:
-  - Programming & Internet
+  - Aurelia
 ---
 
 When I first learned about the
@@ -41,12 +42,27 @@ for each pattern with a similar structure.
 So here is an excerpt of `app.js`:
 
 ```js
- export class App { configureRouter(config, router) {
-config.addPipelineStep('authorize', AuthorizeStep); this.router = router;
-config.title = 'Pattern Library'; config.map([ { route: '', name: 'intro',
-moduleId: './patterns/intro/index', nav: true, title: 'Intro', }, { route:
-'accordions', name: 'accordions', moduleId: './patterns/accordions/index', nav:
-true, title: 'Accordions', }, ...
+export class App {
+    configureRouter(config, router) {
+        config.addPipelineStep('authorize', AuthorizeStep);
+        this.router = router;
+        config.title = 'Pattern Library';
+        config.map([
+            {
+                route: '',
+                name: 'intro',
+                moduleId: './patterns/intro/index',
+                nav: true,
+                title: 'Intro',
+            },
+            {
+                route: 'accordions',
+                name: 'accordions',
+                moduleId: './patterns/accordions/index',
+                nav: true,
+                title: 'Accordions',
+            },
+            ...
 ```
 
 So you can see our Accordions section is located in `patterns/accordions`
@@ -150,7 +166,7 @@ So basically we replacing the `<compose>` tags with the
 
 Here is an example of the accordion page:
 
-![Accordion Page](/wp-content/uploads/2017/04/accordion-screenshot.png)
+![Accordion Page](images/accordion-screenshot.png)
 
 ## Data Table
 
@@ -165,7 +181,7 @@ to do with your data. For example, we have one table that has a menu of actions
 for each row of data. This column is only applicable to this particular data
 array.
 
-![screenshot example](/wp-content/uploads/2017/04/column-actions.png)
+![screenshot example](images/column-actions.png)
 
 So how do we add this in to our table? Here is what our `data-cell.html` portion
 of our component looks like:

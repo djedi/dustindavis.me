@@ -23,6 +23,5 @@ liked _How to Lose a Guy in 10 Days_.
 
 I have to admit I really liked it. I was completely surprised. I just figured it
 would be a silly comedy. Who knew it would involve such tragedy. Maybe I'm just
-turning into a
-[chick flick kind of guy](http://www.nerdydork.com/?s=chick+flick), but I would
-recommend this movie for a "feel good" evening.
+turning into a [chick flick kind of guy](https://dustindavis.me/?s=chick+flick),
+but I would recommend this movie for a "feel good" evening.

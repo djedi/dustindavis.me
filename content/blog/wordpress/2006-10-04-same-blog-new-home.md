@@ -19,7 +19,7 @@ on a sub-domain, I've got my own domain for my highly refreshed blog. I really
 never thought it would come to this.
 
 Why Nerdy Dork? Because
-[I am Tri-Lamb Material](http://www.nerdydork.com/im-a-nerd-and-a-dork.html)
+[I am Tri-Lamb Material](https://dustindavis.me/im-a-nerd-and-a-dork.html)
 according to this
 [Nerd, Geek, Dork test](http://www.okcupid.com/tests/take?testid=9935030990046738815).
 

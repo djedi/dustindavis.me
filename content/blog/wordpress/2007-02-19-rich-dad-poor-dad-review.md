@@ -29,8 +29,8 @@ the first chapter I gave the book back and said I wasn't interested in reading
 any further.
 
 If you have read any of my
-[previous posts](http://www.nerdydork.com/?s=dave+ramsey), you know I'm a big
-Dave Ramsey fan. I was surprised to heard Dave often recommending this book to
+[previous posts](https://dustindavis.me/?s=dave+ramsey), you know I'm a big Dave
+Ramsey fan. I was surprised to heard Dave often recommending this book to
 everyone on the radio, even though he is often disagreeing with Kiyosaki on
 other financial matters.
 

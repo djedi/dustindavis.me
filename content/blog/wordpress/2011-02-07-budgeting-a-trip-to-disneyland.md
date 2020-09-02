@@ -101,12 +101,12 @@ getting out a spreadsheet and planning all our you expenses before any vacation,
 then saving up and paying with cash!
 
 Let's start with the Travel. Using
-[a tool I wrote](http://www.nerdydork.com/trip-fuel-cost-calculator.html) a few
+[a tool I wrote](https://dustindavis.me/trip-fuel-cost-calculator.html) a few
 years ago. I can estimate the cost of fuel to make the trip. I enter the average
 cost of a gallon of gas, my average mile per gallon my vehicle gets, my starting
 location and my destination. Google's map API will determine the distance and I
 get a one-way and round trip cost estimate. According to the
-[fuel trip cost calculator](http://www.nerdydork.com/trip-fuel-cost-calculator.html),
+[fuel trip cost calculator](https://dustindavis.me/trip-fuel-cost-calculator.html),
 it will cost about
 $330 in fuel (we have a big SUV). I will round that up to $350 for a more even
 number. I always like to round up a bit.

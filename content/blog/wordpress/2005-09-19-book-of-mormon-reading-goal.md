@@ -18,7 +18,7 @@ President Hinckley has
 of the church to read the Book of Mormon completely by the end of the year. I've
 created this spreadsheet to track my progress.
 
-![BOM Reading Goal](http://nerdydork.com/images/bom_status_snip.png)
+![BOM Reading Goal](https://dustindavis.me/images/bom_status_snip.png)
 
 Basically, I've listed each chapter in the Book of Mormon and how many verses
 are in it. To the left I've listed how many of those verses I have read. Below
@@ -28,4 +28,4 @@ have to read each day, and finally, how far behind (or ahead) of my goal I am to
 read two chapters per day.
 
 If you want to use this spreadsheet for yourself, feel free to
-[download it here](http://nerdydork.com/images/BookofMormon.xls).
+[download it here](https://dustindavis.me/images/BookofMormon.xls).

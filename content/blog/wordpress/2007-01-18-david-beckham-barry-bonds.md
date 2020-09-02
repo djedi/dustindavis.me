@@ -14,7 +14,7 @@ categories:
   - Sports & Stuff
 ---
 
-[![David Beckham](http://www.nerdydork.com/wp-content/images/_real%20madrid%20david%20beckham.jpg)](http://www.nerdydork.com/wp-content/images/real%20madrid%20david%20beckham.jpg)I
+[![David Beckham](https://dustindavis.me/wp-content/images/_real%20madrid%20david%20beckham.jpg)](https://dustindavis.me/wp-content/images/real%20madrid%20david%20beckham.jpg)I
 read
 [this article on SI.com](http://sportsillustrated.cnn.com/2007/writers/frank_deford/01/17/beckham/index.html)
 this morning about David Beckham coming to America to play soccer. It seems to

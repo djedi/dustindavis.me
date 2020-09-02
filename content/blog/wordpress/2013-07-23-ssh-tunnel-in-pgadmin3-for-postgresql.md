@@ -33,4 +33,4 @@ each of these flags is specifically doing.
 Now, create a new connection in pgAdmin using localhost as your host and
 port 5555.
 
-![New pgAdmin Connection](http://www.nerdydork.com/wp-content/uploads/2013/07/New-pgAdmin-Connection.png)
+![New pgAdmin Connection](https://dustindavis.me/wp-content/uploads/2013/07/New-pgAdmin-Connection.png)

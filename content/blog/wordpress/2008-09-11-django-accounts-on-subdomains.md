@@ -41,7 +41,7 @@ I'm doing my development and testing on Windows. So in order to test this, I've
 edited my hosts files (C:\WINDOWS\system32\drivers\etc\hosts) with my main
 domain and a few subdomains that I want to test. When I go live, I will likely
 remove these from the hosts files and set up
-[wildcard dns & subdomains](http://www.nerdydork.com/setting-up-wildcard-dns-subdomains-on-cpanel.html)
+[wildcard dns & subdomains](https://dustindavis.me/setting-up-wildcard-dns-subdomains-on-cpanel.html)
 on the server.
 
 Here is an example of my hosts file entries used to test:

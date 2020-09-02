@@ -22,7 +22,7 @@ tags:
 ---
 
 I was looking at my web stats and noticed I was getting a lot of traffic to my
-[limited review of Webfaction](http://www.nerdydork.com/webfaction-limited-review.html).
+[limited review of Webfaction](https://dustindavis.me/webfaction-limited-review.html).
 To recap, I tried out there account then decided to cancel, and they were prompt
 and friendly at delivering a refund.
 
@@ -33,7 +33,7 @@ and keep it separated from my VPS accounts mainly so I could keep cost separate
 with this business as I was going to be working on it with friends. Setting up
 [Django](http://www.djangoproject.com) was ridiculously simple compared to the
 steps I had to go through with
-[cPanel](http://www.nerdydork.com/setting-up-django-on-a-whm-cpanel-vps-liquidweb.html).
+[cPanel](https://dustindavis.me/setting-up-django-on-a-whm-cpanel-vps-liquidweb.html).
 I was able to set up the latest version of Django and the latest version of
 Python with a few clicks of a button. As far as access goes, I still had SSH to
 go in and work directly on the server, just as I can with my VPS account.
@@ -79,11 +79,11 @@ I then set up the following applications:
   on
 - wordpress - Wordpress 2.7.1
 
-[![image](http://www.nerdydork.com/wp-content/uploads/2009/05/image-thumb.png)](http://www.nerdydork.com/wp-content/uploads/2009/05/image.png)
+[![image](https://dustindavis.me/wp-content/uploads/2009/05/image-thumb.png)](https://dustindavis.me/wp-content/uploads/2009/05/image.png)
 
 I then map my application to my website like so:
 
-[![image](http://www.nerdydork.com/wp-content/uploads/2009/05/image-thumb1.png)](http://www.nerdydork.com/wp-content/uploads/2009/05/image1.png)
+[![image](https://dustindavis.me/wp-content/uploads/2009/05/image-thumb1.png)](https://dustindavis.me/wp-content/uploads/2009/05/image1.png)
 
 It's really that simple. Databases are equally easy to set up - you can set up
 MySQL or PostgreSQL. I haven't found that anything missing with Webfaction that

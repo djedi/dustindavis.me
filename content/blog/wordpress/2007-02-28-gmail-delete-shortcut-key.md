@@ -14,7 +14,7 @@ categories:
   - Web Sites
 ---
 
-![Gmail Trash](http://www.nerdydork.com/wp-content/uploads/2007/02/gmail-trash.png)
+![Gmail Trash](https://dustindavis.me/wp-content/uploads/2007/02/gmail-trash.png)
 
 I love Gmail, but I find it rather annoying that they feel you never **need **to
 delete an email. It took them about 2 years to add the delete button. I don't

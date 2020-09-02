@@ -116,7 +116,7 @@ software so valuable. In his videos, John used "panic attack" to demonstrate one
 profitable campaign he found. Here are my results after 12 days of monitoring
 (click to see full size):
 
-[![Panic Attack](http://www.nerdydork.com/wp-content/uploads/2007/04/panic-attack.png)](http://www.nerdydork.com/wp-content/uploads/2007/04/panic-attack.png)
+[![Panic Attack](https://dustindavis.me/wp-content/uploads/2007/04/panic-attack.png)](https://dustindavis.me/wp-content/uploads/2007/04/panic-attack.png)
 
 I don't have a full month of data for any keywords yet, but I got excited with
 results I have already started seeing so I tried out some ads. The first one I
@@ -127,7 +127,7 @@ rave about.
 As you can see from the screen shot below, I'm actually getting some "bars" in
 ClickBank now!
 
-[![ClickBank](http://www.nerdydork.com/wp-content/uploads/2007/04/clickbank.thumbnail.png)](http://www.nerdydork.com/wp-content/uploads/2007/04/clickbank.png)
+[![ClickBank](https://dustindavis.me/wp-content/uploads/2007/04/clickbank.thumbnail.png)](https://dustindavis.me/wp-content/uploads/2007/04/clickbank.png)
 
 On that first campaign I've tried, I've _**netted**_ \$180 in 5 days. I
 understand all the tracking techniques and all the principles behind tracking,

@@ -21,7 +21,7 @@ I couldn't help but whip out a bot to plug in to our IRC channel. My lazy coder
 bot will give a random excuse whenever someone mentions the word "why".
 
 I used my
-[Rollbot script](http://www.nerdydork.com/python-irc-bot-using-twisted-rollbot.html)
+[Rollbot script](https://dustindavis.me/python-irc-bot-using-twisted-rollbot.html)
 as a base to write this up quickly.
 
 requirements.txt

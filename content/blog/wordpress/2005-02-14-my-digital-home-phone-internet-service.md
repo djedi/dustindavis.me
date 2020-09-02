@@ -142,4 +142,4 @@ company in existence offering free long distance. Oh well! I'm sure that
 salesperson knows better by now.
 
 For more about my digital home, see my blog on
-[Dish Network and DVR](http://www.nerdydork.com/i-love-my-dish-dvr.html).
+[Dish Network and DVR](https://dustindavis.me/i-love-my-dish-dvr.html).

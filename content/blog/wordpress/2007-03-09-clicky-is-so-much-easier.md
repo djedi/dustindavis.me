@@ -14,8 +14,8 @@ categories:
   - Web Sites
 ---
 
-I wrote a [post](http://www.nerdydork.com/google-analytics-hack.html) about how
-to hack Google Analytics to show the full path on referrer URL. Honestly, its a
+I wrote a [post](https://dustindavis.me/google-analytics-hack.html) about how to
+hack Google Analytics to show the full path on referrer URL. Honestly, its a
 pain in the butt at best. I went digging around the net and came across a new
 stat tool that shows the full URL. It's called
 [Clicky](http://getclicky.com/2490) and I have to say, it is so much easier to
@@ -38,7 +38,7 @@ and she doesn't have to remember another login to see them. Kudos to me!
 
 So, let's see what people searched for yesterday to find my blog...
 
-[![Clicky Searches](http://www.nerdydork.com/wp-content/uploads/2007/03/clicky-searches.thumbnail.png)](http://www.nerdydork.com/wp-content/uploads/2007/03/clicky-searches.png)
+[![Clicky Searches](https://dustindavis.me/wp-content/uploads/2007/03/clicky-searches.thumbnail.png)](https://dustindavis.me/wp-content/uploads/2007/03/clicky-searches.png)
 
 So, what are you waiting for, [go get Clicky](http://getclicky.com/2490). They
 have free basic accounts and cheap plans if you have enormous traffic or want a

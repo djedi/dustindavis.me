@@ -13,7 +13,7 @@ categories:
   - iPod
 ---
 
-[![iPod](http://www.nerdydork.com/wp-content/images/_ipod-hand.jpg)](http://www.nerdydork.com/wp-content/images/ipod-hand.jpg)Deceptive
+[![iPod](https://dustindavis.me/wp-content/images/_ipod-hand.jpg)](https://dustindavis.me/wp-content/images/ipod-hand.jpg)Deceptive
 title I know, because from all I know it can't really be done. But wouldn't it
 be nice if you could delete a song directly from the iPod, so that when you're
 out on the go, you can just drop a song you don't particularly like without

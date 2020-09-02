@@ -21,7 +21,7 @@ it is not my address, it is missing the period in between my first and last
 name. When I was looking at this, I saw a link that said, oddly enough, \"Yes,
 this is you.\" Upon clicking the \"Learn More\" link I found this information:
 
-!["gmail"]("http://www.nerdydork.com/wp-content/images/yes%20you.png")
+!["gmail"]("https://dustindavis.me/wp-content/images/yes%20you.png")
 
 **Am I receiving someone else\'s email?** Gmail doesn\'t recognize dots (.) as
 characters within a username. This way, you can add and remove dots to your

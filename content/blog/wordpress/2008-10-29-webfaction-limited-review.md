@@ -19,7 +19,7 @@ tags:
 
 **UPDATE: Since writing this review, I have set up two accounts with
 **[**Webfaction**](http://www.webfaction.com/?affiliate=redseam)**.
-**[**Check out my latest review**](http://www.nerdydork.com/webfaction-review.html)**.**
+**[**Check out my latest review**](https://dustindavis.me/webfaction-review.html)**.**
 
 I've seen a lot of recommendations for
 [Webfaction](http://www.webfaction.com/signup?affiliate=redseam) for new Django

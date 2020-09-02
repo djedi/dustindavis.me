@@ -46,7 +46,7 @@ support for the tip):
 After installation, I set the password in WHM and now the database options
 appeared in cPanel:
 
-[![image](http://www.nerdydork.com/wp-content/uploads/2008/09/image-thumb2.png)](http://www.nerdydork.com/wp-content/uploads/2008/09/image2.png)
+[![image](https://dustindavis.me/wp-content/uploads/2008/09/image-thumb2.png)](https://dustindavis.me/wp-content/uploads/2008/09/image2.png)
 
 Just follow the wizard to create your database.
 
@@ -72,12 +72,12 @@ After compiling the module, I was given the path to where it was located
 
 I logged in to WHM -> Server Configuration -> Apache Setup -> Include Editor to
 add the following line to load the module:
-[![image](http://www.nerdydork.com/wp-content/uploads/2008/09/image-thumb3.png)](http://www.nerdydork.com/wp-content/uploads/2008/09/image3.png)
+[![image](https://dustindavis.me/wp-content/uploads/2008/09/image-thumb3.png)](https://dustindavis.me/wp-content/uploads/2008/09/image3.png)
 
 `LoadModule wsgi_module /usr/lib/httpd/modules/mod_wsgi.so `AddHandler
 wsgi-script .wsgi
 
-[![image](http://www.nerdydork.com/wp-content/uploads/2008/09/image-thumb4.png)](http://www.nerdydork.com/wp-content/uploads/2008/09/image4.png)
+[![image](https://dustindavis.me/wp-content/uploads/2008/09/image-thumb4.png)](https://dustindavis.me/wp-content/uploads/2008/09/image4.png)
 
 If it works for you... Lucky you. Unfortunately I got this error:
 
@@ -231,7 +231,7 @@ My application makes use of wildcard sub-domains, so I also needed this to work
 as well. This was fairly easy to implement.
 
 Log in to cPanel and click on Subdomains:
-[![image](http://www.nerdydork.com/wp-content/uploads/2008/09/image-thumb5.png)](http://www.nerdydork.com/wp-content/uploads/2008/09/image5.png)
+[![image](https://dustindavis.me/wp-content/uploads/2008/09/image-thumb5.png)](https://dustindavis.me/wp-content/uploads/2008/09/image5.png)
 
 For the subdomain, enter "\*" and click create (Document Root may autopopulate
 with "/public_html", this is normal).

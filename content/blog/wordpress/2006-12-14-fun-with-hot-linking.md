@@ -58,10 +58,10 @@ plain boring eBay affiliate page that list all the latest auctions for this
 product and wrote a message on the image to visit that page.
 
 The results are thus, before:
-[![before](http://www.nerdydork.com/wp-content/images/_before.gif)](http://www.nerdydork.com/wp-content/images/before.gif)
+[![before](https://dustindavis.me/wp-content/images/_before.gif)](https://dustindavis.me/wp-content/images/before.gif)
 
 And after:
-[![After!](http://www.nerdydork.com/wp-content/images/_after.gif)](http://www.nerdydork.com/wp-content/images/after.gif)
+[![After!](https://dustindavis.me/wp-content/images/_after.gif)](https://dustindavis.me/wp-content/images/after.gif)
 
 And my blog images still work fine! :D
 

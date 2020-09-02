@@ -13,7 +13,7 @@ categories:
   - Programming & Internet
 ---
 
-[![](http://www.nerdydork.com/wp-content/uploads/2011/06/clear-the-mechanism-150x150.png)](http://www.nerdydork.com/wp-content/uploads/2011/06/clear-the-mechanism.png)There
+[![](https://dustindavis.me/wp-content/uploads/2011/06/clear-the-mechanism-150x150.png)](https://dustindavis.me/wp-content/uploads/2011/06/clear-the-mechanism.png)There
 was some talk recently about distractions at work. Guys were complaining they
 can't get anything done with so many distractions. We used to have an open work
 space where you could see and hear everyone in the room. Now we have higher

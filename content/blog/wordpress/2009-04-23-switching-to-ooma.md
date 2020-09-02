@@ -16,7 +16,7 @@ categories:
 ---
 
 I been a Vonage customer for
-[a long time](http://www.nerdydork.com/my-digital-home-phone-internet-service.html).
+[a long time](https://dustindavis.me/my-digital-home-phone-internet-service.html).
 Just to give you an idea, when we first ordered it, someone from Qwest tried to
 call my wife to get us to use their long distance plan at 7 cents per minute. My
 wife told them we had had unlimited long distance to the US and Canada for \$25

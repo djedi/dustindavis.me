@@ -37,4 +37,4 @@ Caution: Don't delay if want this deal. The coupon expires Feb 15th.
 
 Note: It works. I've done it. See screen shots below.
 
-[Â  ![Amazon QuickBooks Pro Cart](http://www.nerdydork.com/wp-content/uploads/2008/01/amazon-quickbooks-pro.thumbnail.jpg)](http://www.nerdydork.com/wp-admin/upload.php?style=inline&tab=browse-all&action=view&ID=304&post_id=303&paged)[Â  ![Amazon QuickBooks Pro Ordered](http://www.nerdydork.com/wp-content/uploads/2008/01/amazon-quickbooks-pro-ordered.thumbnail.jpg)](http://www.nerdydork.com/wp-admin/upload.php?style=inline&tab=browse-all&action=view&ID=305&post_id=303&paged)
+[Â  ![Amazon QuickBooks Pro Cart](https://dustindavis.me/wp-content/uploads/2008/01/amazon-quickbooks-pro.thumbnail.jpg)](https://dustindavis.me/wp-admin/upload.php?style=inline&tab=browse-all&action=view&ID=304&post_id=303&paged)[Â  ![Amazon QuickBooks Pro Ordered](https://dustindavis.me/wp-content/uploads/2008/01/amazon-quickbooks-pro-ordered.thumbnail.jpg)](https://dustindavis.me/wp-admin/upload.php?style=inline&tab=browse-all&action=view&ID=305&post_id=303&paged)

@@ -5,14 +5,15 @@ date: 2017-07-26 14:43:37+00:00
 link: https://dustindavis.me/building-website/
 slug: building-website
 title: Building Your Own Website on a Budget in 2017
-banner: ../banner.jpg
+description: The tools I would use to build a personal website in 2017
+banner: ./images/banner.jpg
 bannerCredit:
-  'Photo by [Patrick Fore](https://www.patrickfore.com/) on
+  'Photo by [Halacious](https://unsplash.com/@halacious) on
   [Unsplash](https://unsplash.com)'
 categories:
-  - Web Sites
+  - WordPress
 tags:
-  - wordpress
+  - WordPress
 ---
 
 I find that a lot of people don't know where to go to start their own website.
@@ -22,7 +23,7 @@ small business website.
 
 ## Domain name
 
-There are lots of place to register a domain name. The biggest and most well
+There are lots of places to register a domain name. The biggest and most well
 know is [GoDaddy](https://www.godaddy.com/). GoDaddy is fine, but generally I
 register all my new domain names with [NameCheap](https://www.namecheap.com/). I
 generally choose NameCheap because they seem a bit cheaper, have a cleaner
@@ -57,10 +58,10 @@ theirs will be displayed by default.)
 
 There are lots of hosting options out there, but like I said, I mainly use
 Digital Ocean because I like to control everything. But, I think you'd be
-totally fine with bluehost and hostmonster for your first website or blog.
+totally fine with Bluehost and hostmonster for your first website or blog.
 
 Note: I think these hosting providers also offer a free domain when you sign-up.
-But for reasons above, I recommend registering and managing your domain
+But for the reasons above, I recommend registering and managing your domain
 separately.
 
 ## Now What?
@@ -68,19 +69,19 @@ separately.
 So you have a domain name and you've found somewhere to host your website, so
 now what?
 
-You will need to login to your registrar and point your domain to your webhost's
-nameservers. Don't worry, bluehost and hostmonster will walk you through this
-and you can even call them for help with this step if you need to.
+You will need to login to your registrar and point your domain to your web
+host's nameservers. Don't worry, Bluehost and hostmonster will walk you through
+this and you can even call them for help with this step if you need to.
 
 Now, you need to start building a website. The most popular platform out there
-for building blogs and small business websites is Wordpress. Because of the
+for building blogs and small business websites is WordPress. Because of the
 popularity, you are going to find a lot of resources for customizing your
 website and tutorials to help you do what you want to do.
 
-Plus, bluehost and hostmonster offer a one-click installation process for
-Wordpress
+Plus, Bluehost and hostmonster offer a one-click installation process for
+WordPress
 
-## Wordpress
+## WordPress
 
 Getting set up on wordpress will be the most time consuming part of this process
 as there is a lot to learn. If you are a do-it-yourselfer I recommend starting
@@ -97,14 +98,11 @@ theme. There are lots of free themes available, but I generally don't recommend
 them for a number of reasons:
 
 1. They get used a lot so your site will be less unique
-
-2. The author of the them will often put links back to their site to get more
+2. The author of them will often put links back to their site to get more
    traffic - it is often the deal of the theme that you must leave these links
    in order to use the theme.
-
 3. Sometimes free themes can contain more malicious code that you just want to
    avoid.
-
 4. They just don't look as nice since generally speaking not as much time and
    effort were put into them.
 
@@ -115,16 +113,16 @@ your business or blog.
 ## Getting Help
 
 For the quickest way to get started, you could just hire someone who has set up
-dozens of wordpress sites. I'm guessing you could find someone good at a site
+dozens of WordPress sites. I'm guessing you could find someone good at a site
 like
 [fiverr](https://www.fiverr.com/search/gigs?utf8=%E2%9C%93&locale=en&query=wordpress&search_in=category&category=10&sub_category=91&nested_sub_category_id=1017)
 or [freelancer](https://www.freelancer.com/). And I'm guessing you could have it
 done for \$50 or less. Your mileage may vary though because you never know what
 you're going to get. I wouldn't let that scare you away though because for those
-who have done this a lot, setting up a new Wordpress site is pretty trivial.
+who have done this a lot, setting up a new WordPress site is pretty trivial.
 
 But for this price, don't expect them to do much more than setting up. Once
-Wordpress is installed and you have your theme installed, expect to do all the
+WordPress is installed and you have your theme installed, expect to do all the
 management of the website yourself if you want to keep costs down.
 
 At this point you either need to put in the time yourself to learn and edit your
@@ -141,14 +139,11 @@ implement them.
 
 So let's say you're ready to get started today, what is this going to cost you
 to get set up for your first year? I'll estimate and round up so you can see
-worst case scenario...
+worst-case scenario...
 
 1. Domain \$15
-
 2. Hosting \$75
-
 3. Wordpress \$0
-
 4. Theme \$60
 
 **Total: \$150**

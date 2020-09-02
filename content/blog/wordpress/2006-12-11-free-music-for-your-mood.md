@@ -13,7 +13,7 @@ categories:
   - Web Sites
 ---
 
-[![Musicovery](http://www.nerdydork.com/wp-content/images/_musicovery.gif)](http://www.nerdydork.com/wp-content/images/musicovery.gif)I
+[![Musicovery](https://dustindavis.me/wp-content/images/_musicovery.gif)](https://dustindavis.me/wp-content/images/musicovery.gif)I
 stumbled across this website this morning. I thought it was pretty cool.
 Basically you just click in a little grid based on your mood, it then finds a
 song in that mood range and other songs nearby to choose from.
