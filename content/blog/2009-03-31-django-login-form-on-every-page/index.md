@@ -5,14 +5,17 @@ date: 2009-03-31 22:16:00+00:00
 link: https://dustindavis.me/django-login-form-on-every-page/
 slug: django-login-form-on-every-page
 title: 'Django: Login Form on Every Page'
-banner: ../banner.jpg
+description: How to include a login form on every page of a Django app
+banner: ./images/banner.jpg
 bannerCredit:
-  'Photo by [Patrick Fore](https://www.patrickfore.com/) on
+  'Photo by [Forian Berger](https://unsplash.com/@bergerteam) on
   [Unsplash](https://unsplash.com)'
 categories:
-  - Programming & Internet
+  - django
+  - python
 tags:
   - django
+  - python
 ---
 
 Up to the point, when it has come to Django user authentication and
@@ -31,11 +34,8 @@ page. My login form code looked something like this:
 
 ```html
 {% if user.is_authenticated %}
-
 <!-- Authenticate account menu -->
-
 {% else %}
-
 <h3>Login</h3>
 <form action="/login/" method="post" accept-charset="utf-8">
   <label for="username">Username</label
@@ -51,32 +51,30 @@ I created my own login and logout views as follows:
 
 ```python
 def mylogin(request):
-    if request.method == 'POST':
-        user = authenticate(username=request.POST['username'],
-        password=request.POST['password']) if user is not None: if user.is_active:
+  if request.method == 'POST':
+    user = authenticate(username=request.POST['username'], password=request.POST['password'])
+    if user is not None:
+      if user.is_active:
         login(request, user)
-
         # success
-
-        return HttpResponseRedirect('/') else:
-
+        return HttpResponseRedirect('/')
+      else:
         # disabled account
-
-        return direct_to_template(request, 'inactive_account.html') else:
-
-        # invalid login
-
-        return direct_to_template(request, 'invalid_login.html')
+        return direct_to_template(request, 'inactive_account.html')
+    else:
+      # invalid login
+      return direct_to_template(request, 'invalid_login.html')
 
 def mylogout(request):
-    logout(request)
-    return direct_to_template(request,'logged_out.html')
+  logout(request)
+  return direct_to_template(request, 'logged_out.html')
 ```
 
 And the URL patterns to go with them:
 
 ```python
-(r'^login/$', 'minisitetracker.sites.views.mylogin'), (r'^logout/$', 'minisitetracker.sites.views.mylogout'),
+(r'^login/$', 'minisitetracker.sites.views.mylogin'),
+(r'^logout/$', 'minisitetracker.sites.views.mylogout'),
 ```
 
 This all worked fine, except when I wanted to use the @login_requied decorator,
@@ -84,7 +82,9 @@ which redirected to /accounts/login/?next=(page I was on). So I created a simple
 redirect which basically told them to use the login form to login.
 
 ```python
-urlpatterns += patterns('django.views.generic.simple', (r'^accounts/login/$', 'direct_to_template', {'template': 'login_required.html'}), )
+urlpatterns += patterns('django.views.generic.simple',
+  (r'^accounts/login/$', 'direct_to_template', {'template': 'login_required.html'}),
+)
 ```
 
 Notice the "next" variable that gets passed in though. This is a handy feature
@@ -99,7 +99,11 @@ $smarty.post.var } or { $smarty.get.var }. These variables are not passed to
 Django automatically. So, for the first time, I wrote my own context processor:
 
 ```python
-def login(request): if 'next' in request.GET: return { 'NEXT': request.GET['next'] } else: return { 'NEXT': request.path }
+def login(request):
+  if 'next' in request.GET:
+    return { 'NEXT': request.GET['next'] }
+  else:
+    return { 'NEXT': request.path }
 ```
 
 Notice the else statement. Return the request.path by default also allowed me to
@@ -108,11 +112,8 @@ to my login form and function:
 
 ```html
 {% if user.is_authenticated %}
-
 <!-- Authenticate account menu -->
-
 {% else %}
-
 <h3>Login</h3>
 <form action="/login/" method="post" accept-charset="utf-8">
   <label for="username">Username</label
@@ -120,29 +121,27 @@ to my login form and function:
   <label for="password">Password</label
   ><input type="password" name="password" value="" id="password" />
   <input type="hidden" name="next" value="{{ NEXT }}" />
-  <p><input type="submit" value="Login ->" /></p>
+  <p><input type="submit" value="Login →" /></p>
 </form>
 {% endif %}}
 ```
 
 ```python
 def mylogin(request):
-    if request.method == 'POST':
-        user = authenticate(username=request.POST['username'],
-        password=request.POST['password'])
-        if user is not None: if user.is_active:
-            login(request, user)
-
-            # success
-
-            if request.POST['next']: return HttpResponseRedirect(request.POST['next']) else:
-            return HttpResponseRedirect('/') else:
-
-            # disabled account
-
-            return direct_to_template(request, 'inactive_account.html') else:
-
-            # invalid login
-
-            return direct_to_template(request, 'invalid_login.html')
+  if request.method == 'POST':
+    user = authenticate(username=request.POST['username'], password=request.POST['password'])
+    if user is not None:
+      if user.is_active:
+        login(request, user)
+        # success
+        if request.POST['next']:
+          return HttpResponseRedirect(request.POST['next'])
+        else:
+          return HttpResponseRedirect('/')
+      else:
+        # disabled account
+        return direct_to_template(request, 'inactive_account.html')
+    else:
+      # invalid login
+      return direct_to_template(request, 'invalid_login.html')
 ```
