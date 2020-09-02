@@ -1,6 +1,6 @@
 {
-  "projectName": "kentcdodds.com",
-  "projectOwner": "kentcdodds",
+  "projectName": "dustindavis.me",
+  "projectOwner": "djedi",
   "repoType": "github",
   "repoHost": "https://github.com",
   "files": [
@@ -11,10 +11,10 @@
   "contributorsPerLine": 7,
   "contributors": [
     {
-      "login": "kentcdodds",
+      "login": "djedi",
       "name": "Dustin Davis",
       "avatar_url": "https://avatars0.githubusercontent.com/u/1500684?v=4",
-      "profile": "https://kentcdodds.com",
+      "profile": "https://dustindavis.me",
       "contributions": [
         "code",
         "infra"

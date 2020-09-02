@@ -165,7 +165,7 @@ The good news I want to emphasize is that I'm not in pain! This really surprised
 my back surgeon. He is about 80 years old (at least it seems it to me) so he has
 seen a lot of backs. He was shocked based on my MRI that my pain went away. He
 thought I would for sure need a microdiscectomy after my MRI. But after 90 days
-and being pain free he said that the surgery may or may not help the nerve
+and being pain-free he said that the surgery may or may not help the nerve
 damage, but he didn't recommend it if I wasn't in pain.
 
 So I know I have real physical damage in my back. But that doesn't mean I have
@@ -175,7 +175,7 @@ One other resource I found was a
 [book by Scott Brady title "Pain Free For Life"](http://www.amazon.com/gp/product/B001JK9BF0/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B001JK9BF0&linkCode=as2&tag=nerdydork-20).
 Dr. Brady found pain relief through Dr. Sarno's methods and then developed
 techniques to help his patients recover from chronic pain. I wish there were an
-audio book for this one.
+audiobook for this one.
 
 One last thing... I noticed an interesting side effect from on this mind-body
 magic. I was not sick one day in all of 2013. My wife and four kids got sick a
