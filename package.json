@@ -1,10 +1,10 @@
 {
-  "name": "kentcdodds.com",
+  "name": "dustindavis.me",
   "private": true,
-  "description": "Kent's personal website",
-  "version": "1.0.5",
-  "author": "Dustin Davis <kent@doddsfamily.us> (https://kentcdodds.com)",
-  "repository": "https://github.com/kentcdodds/kentcdodds.com",
+  "description": "Dustin's personal website",
+  "version": "1.0.0",
+  "author": "Dustin Davis <dustin@davis.im> (https://dustindavis.me)",
+  "repository": "https://github.com/djedi/dustindavis.me",
   "dependencies": {
     "@babel/runtime": "^7.11.2",
     "@emotion/core": "^10.0.35",

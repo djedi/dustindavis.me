@@ -13,6 +13,9 @@ categories:
   - pain
   - rsi
   - mindbody
+description:
+  I considered changing careers because of years of wrist pain. Now I'm
+  pain-free after learning about the mindbody connection.
 ---
 
 Part of the reason I don't blog as much as I used to is not that I don't have
