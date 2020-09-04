@@ -12,7 +12,7 @@ import photoOfDustin from '../images/hero/dustin.png'
 
 function Hero({
   children,
-  title = `Hi, I'm Dustin Davis. I help people make the world better through quality software.`,
+  title = `Hi, I'm Dustin Davis. I like to improve systems by automating repetative tasks.`,
   text,
   background = `url(${heroImageRight}), url(${heroImageLeft}),
   linear-gradient(-213deg, #13772d 0%, #23904f 100%)`,
