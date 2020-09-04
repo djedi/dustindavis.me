@@ -12,8 +12,6 @@ description:
 banner: ./images/banner.jpg
 categories:
   - Family
-  - Internet
-  - Cell Phones
 ---
 
 A friend recently reached out to my wife and I, asking what tools we use to keep

@@ -5,12 +5,14 @@ date: 2017-04-14 20:49:31+00:00
 link: https://dustindavis.me/aurelia-sharing-data-components/
 slug: aurelia-sharing-data-components
 title: Aurelia - Sharing Data Between Components
-banner: ../banner.jpg
+description: Using dependency injection to share data between components.
+banner: ./images/banner.jpg
 bannerCredit:
-  'Photo by [Patrick Fore](https://www.patrickfore.com/) on
-  [Unsplash](https://unsplash.com)'
+  Photo by [Elaine Casap](https://unsplash.com/@ecasap) on
+  [Unsplash](https://unsplash.com)
 categories:
-  - Programming & Internet
+  - Aurelia
+  - JavaScript
 tags:
   - aurelia
   - dependency injection
@@ -52,8 +54,11 @@ on the page. Nothing fancy here.
 #### shared-service.js
 
 ```js
-export class Shared { constructor() { this.val = 'Initial
-value.'; } }
+export class Shared {
+  constructor() {
+    this.val = 'Initial value.'
+  }
+}
 ```
 
 This is basically my shared class (or service) that I want to inject into each

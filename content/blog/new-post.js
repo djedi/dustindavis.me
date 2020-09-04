@@ -27,15 +27,13 @@ console.log(bannerUrl)
   console.log(`${slug} created`)
 
   let bannerCredit = 'Photo by []() on [Unsplash](https://unsplash.com)'
+  const bannerPath = path.join(slug, 'images', 'banner.jpg')
   if (bannerUrl) {
-    banner.downloadImage(
-      `${bannerUrl}/download?force=true&w=1280`,
-      path.join(slug, 'images', 'banner.jpg'),
-    )
+    banner.downloadImage(bannerUrl, bannerPath)
     bannerCredit = await banner.getCredits(bannerUrl)
     console.log(bannerCredit)
   } else {
-    fs.copyFileSync('./banner.jpg', path.join(slug, 'images', 'banner.jpg'))
+    fs.copyFileSync('./banner.jpg', bannerPath)
   }
 
   const indexPath = path.join('.', slug, 'index.md')

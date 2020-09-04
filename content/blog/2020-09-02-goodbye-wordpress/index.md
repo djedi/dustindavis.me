@@ -102,3 +102,10 @@ point.
 
 Otherwise, I may just follow Kent's lead and use Twitter as my commenting
 system. 🐦
+
+## WordPress is Still Good
+
+Would I recommend Gatsby for everyone? Definitely not! I still feel, that for
+most people, [WordPress is the way to go](/blog/building-website). You don't
+have to know how to code. You don't have to know how to use Git. WordPress has
+been around forever and there are so many plugins and resources to help.

@@ -75,7 +75,7 @@ function Hero({
                       height: 160px;
                       overflow: 'hidden';
                       border-radius: 50%;
-                      background: #4b4ddf;
+                      background: #197F39;
                     `
                 : null}
               background-image: url(${image});
