@@ -314,7 +314,7 @@
 /running-portainer-on-synology                                               /blog/running-portainer-on-synology
 /tools-we-use-to-keep-our-kids-safe-with-technology                          /blog/tools-we-use-to-keep-our-kids-safe-with-technology
 /youtube-to-plex                                                             /blog/youtube-to-plex
-/google-meet-on-air-light-automation                                         /blog/google-meet-on-air-light-automation
+/google-meet-on-air-light-automation                                         /blog/on-air-light-automation
 
 # netlify analytics said that this page was requested a lot so we'll redirect it to blog which is probably where they want to go...
 /post                                                                   /blog
