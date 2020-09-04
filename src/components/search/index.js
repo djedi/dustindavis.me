@@ -263,8 +263,8 @@ function Search(props) {
         </div>
         <small css={{marginTop: 10, display: 'block'}}>
           {`If you can't find what you're looking for with this, try `}
-          <a href="https://www.google.com/search?q=site%3Adustindavis.me%2Fblog+automation">
-            using Google
+          <a href="https://duckduckgo.com/?q=site%3Adustindavis.me+automation">
+            using Duck Duck Go
           </a>
           {'.'}
         </small>
