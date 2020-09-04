@@ -1,5 +1,5 @@
 ---
-slug: 2020-09-02-goodbye-wordpress
+slug: goodbye-wordpress
 title: Goodbye WordPress
 date: 2020-09-02
 author: Dustin Davis
