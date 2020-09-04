@@ -10,8 +10,6 @@ bannerCredit:
   'Photo by [Burst](https://unsplash.com/@burst) on
   [Unsplash](https://unsplash.com)'
 categories:
-  - pain
-  - rsi
   - mindbody
 description:
   I considered changing careers because of years of wrist pain. Now I'm

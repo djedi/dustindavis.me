@@ -30,7 +30,7 @@ exports.getCredits = unsplashUrl => {
           const name = m[1]
           console.log(`name: ${name}`)
           const description = `Photo by [${name}](https://unsplash.com/${handle}) on [Unsplash](https://unsplash.com)`
-          // pbcopy(description)
+          pbcopy(description)
           resolve(description)
         })
       })
@@ -51,21 +51,22 @@ exports.downloadImage = (url, fileLocation) => {
 
 function download(uri, filename, callback) {
   console.log(`url: ${uri}\nfilename: ${filename}`)
+  const modUri = `${uri}/download?force=true&w=1280`
   request.head(uri, () => {
-    request(uri).pipe(fs.createWriteStream(filename)).on('close', callback)
+    request(modUri).pipe(fs.createWriteStream(filename)).on('close', callback)
   })
 }
 
-// function pbcopy(data) {
-//   const proc = require('child_process').spawn('pbcopy')
-//   proc.stdin.write(data)
-//   proc.stdin.end()
-// }
+function pbcopy(data) {
+  const proc = require('child_process').spawn('pbcopy')
+  proc.stdin.write(data)
+  proc.stdin.end()
+}
 
 if (args.length && args[0].startsWith('http')) {
   ;(async () => {
     const desc = await exports.getCredits(args[0])
     console.log(`desc: ${desc}`)
-    exports.downloadImage(`${args[0]}/download?force=true&w=1280`, 'banner.jpg')
+    exports.downloadImage(args[0], './images/banner.jpg')
   })()
 }
