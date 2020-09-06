@@ -2,7 +2,7 @@ const fs = require('fs')
 const path = require('path')
 const {URL} = require('url')
 const rimraf = require('rimraf')
-const {spawnSync, spawn} = require('child_process')
+const {spawnSync} = require('child_process')
 const slugify = require('@sindresorhus/slugify')
 const {createFilePath} = require('gatsby-source-filesystem')
 const remark = require('remark')
@@ -415,14 +415,6 @@ const onPreBootstrap = () => {
     return
   }
   require('./other/load-cache')
-  // can't run cypress on gatsby cloud currently
-  if (!process.env.SKIP_BUILD_VALIDATION && !process.env.GATSBY_CLOUD) {
-    // fire and forget...
-    spawn('./node_modules/.bin/cypress install', {
-      shell: true,
-      stdio: 'ignore',
-    })
-  }
 
   const result = spawnSync(
     './node_modules/.bin/npm-run-all --parallel lint test:coverage',
@@ -445,16 +437,6 @@ const onPostBuild = async () => {
   }
   fs.mkdirSync(outputLocation)
   await zipFunctions(srcLocation, outputLocation)
-  // can't run cypress on gatsby cloud currently
-  if (!process.env.SKIP_BUILD_VALIDATION && !process.env.GATSBY_CLOUD) {
-    const result = spawnSync('npm run test:e2e', {
-      stdio: 'inherit',
-      shell: true,
-    })
-    if (result.status !== 0) {
-      throw new Error(`post build failure. Status: ${result.status}`)
-    }
-  }
 }
 
 module.exports = {
