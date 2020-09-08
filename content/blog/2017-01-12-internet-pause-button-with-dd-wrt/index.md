@@ -1,16 +1,19 @@
 ---
 author: Dustin Davis
 comments: true
-date: 2017-01-12 17:01:11+00:00
+date: 2017-01-12T17:01:11.000Z
 link: https://dustindavis.me/internet-pause-button-with-dd-wrt/
 slug: internet-pause-button-with-dd-wrt
 title: Internet Pause Button with DD-WRT
-banner: ../banner.jpg
+banner: ./images/banner.jpg
 bannerCredit:
-  'Photo by [Patrick Fore](https://www.patrickfore.com/) on
-  [Unsplash](https://unsplash.com)'
+  Photo by [Nick Fewings](https://unsplash.com/@jannerboy62) on
+  [Unsplash](https://unsplash.com)
 categories:
-  - Programming & Internet
+  - family
+description:
+  How to set up DD-WRT on a Nighthawk router to allow you to pause your home
+  wifi from your phone.
 ---
 
 I love the idea of [Disney Circle](https://meetcircle.com/circle/pause/),
@@ -42,29 +45,17 @@ I have 3 TV ares in my home: Living Room, Basement, Master Bedroom. I put all
 the devices in each area in their own IP range. For example:
 
 - Living Room: 192.168.1.150 ~ 192.168.1.159
-
   - Samsung TV: 192.168.1.150
-
   - Apple TV: 192.168.1.151
-
   - Chromecast: 192.168.1.152
-
 - Basement: 192.168.1.160 ~ 192.168.1.169
-
   - Amazon FireTV: 192.168.1.160
-
   - Roku: 192.168.1.161
-
   - Wii: 192.168.1.162
-
 - Master Bedroom: 192.168.1.170 ~ 192.168.1.179
-
   - HiSense TV: 192.168.1.170
-
   - Apple TV: 192.168.1.171
-
   - Chromecast: 192.168.1.172
-
   - Roku: 192.168.1.173
 
 Finding and entering MAC addresses can be time consuming. If you Status -> LAN

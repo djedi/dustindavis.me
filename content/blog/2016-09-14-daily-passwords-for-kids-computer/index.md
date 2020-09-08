@@ -1,21 +1,26 @@
 ---
 author: Dustin Davis
 comments: true
-date: 2016-09-14 21:03:45+00:00
+date: 2016-09-14T21:03:45.000Z
 link: https://dustindavis.me/daily-passwords-for-kids-computer/
 slug: daily-passwords-for-kids-computer
 title: Daily Passwords for Kids' Computer
-banner: ../banner.jpg
+banner: ./images/banner.jpg
 bannerCredit:
-  'Photo by [Patrick Fore](https://www.patrickfore.com/) on
-  [Unsplash](https://unsplash.com)'
+  Photo by [marcos mayer](https://unsplash.com/@mmayyer) on
+  [Unsplash](https://unsplash.com)
 categories:
-  - Programming & Internet
+  - family
+  - MacOS
+  - Python
 tags:
   - cron
   - kids
   - osx
   - python
+description:
+  How I change the logins everyday on the computer to make sure they get their
+  jobs done before zoning out on the computer.
 ---
 
 In our home we have an old iMac for the kids to use. They each have their own

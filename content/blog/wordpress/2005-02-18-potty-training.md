@@ -13,7 +13,7 @@ categories:
   - Humor
 ---
 
-We've recently been trying to potty train our two year old daughter. We try to
+We've recently been trying to potty train our two-year-old daughter. We try to
 be really positive and congratulate her when she uses the toilet.
 
 We had all been shopping for a couple hours at Target for a new baby that should
