@@ -10,38 +10,6 @@ const stripMarkdownPlugin = require('strip-markdown')
 const {zipFunctions} = require('@netlify/zip-it-and-ship-it')
 const config = require('./config/website')
 
-const twoDigits = n => (n.toString().length < 2 ? `0${n}` : n)
-
-const createWorkshops = (createPage, edges) => {
-  edges.forEach(({node}, i) => {
-    const prev = i === 0 ? null : edges[i - 1].node
-    const next = i === edges.length - 1 ? null : edges[i + 1].node
-    const pagePath = node.fields.slug
-
-    createPage({
-      path: pagePath,
-      component: path.resolve(`./src/templates/workshop-page.js`),
-      context: {
-        id: node.id,
-        prev,
-        next,
-      },
-    })
-  })
-}
-
-function createWorkshopPages({data, actions}) {
-  if (!data.edges.length) {
-    throw new Error('There are no workshops!')
-  }
-
-  const {edges} = data
-  const {createPage} = actions
-  createWorkshops(createPage, edges)
-
-  return null
-}
-
 function stripMarkdown(markdownString) {
   return remark()
     .use(stripMarkdownPlugin)
@@ -136,19 +104,6 @@ const createPages = async ({actions, graphql}) => {
           }
         }
       }
-      workshops: allMdx(
-        filter: {
-          frontmatter: {published: {ne: false}}
-          fileAbsolutePath: {regex: "//content/workshops//"}
-        }
-        sort: {order: DESC, fields: [frontmatter___date]}
-      ) {
-        edges {
-          node {
-            ...PostDetails
-          }
-        }
-      }
     }
   `)
 
@@ -156,7 +111,7 @@ const createPages = async ({actions, graphql}) => {
     return Promise.reject(errors)
   }
 
-  const {blog, writing, workshops} = data
+  const {blog, writing} = data
 
   createBlogPages({
     blogPath: '/blog',
@@ -166,10 +121,6 @@ const createPages = async ({actions, graphql}) => {
   createBlogPages({
     blogPath: '/writing/blog',
     data: writing,
-    actions,
-  })
-  createWorkshopPages({
-    data: workshops,
     actions,
   })
 }
@@ -194,30 +145,10 @@ function onCreateMdxNode({node, getNode, actions}) {
   const {createNodeField} = actions
   let slug =
     node.frontmatter.slug || createFilePath({node, getNode, basePath: `pages`})
-  let {isWriting, isWorkshop, isScheduled, isPodcast} = false
+  let {isWriting} = false
 
   if (node.fileAbsolutePath.includes('content/blog/')) {
     slug = `/blog/${node.frontmatter.slug || slugify(parentNode.name)}`
-  }
-
-  if (node.fileAbsolutePath.includes('content/podcast/')) {
-    slug = `chats-with-kent-podcast/seasons/${twoDigits(
-      node.frontmatter.season,
-    )}/episodes/${node.frontmatter.slug}`
-    isPodcast = true
-  }
-
-  if (node.fileAbsolutePath.includes('content/workshops/')) {
-    isWriting = false
-    isWorkshop = true
-    isScheduled = false
-    if (node.frontmatter.date) {
-      isWriting = false
-      isScheduled = true
-    }
-    slug = `/workshops/${
-      node.frontmatter.slug || slugify(node.frontmatter.title)
-    }`
   }
 
   if (node.fileAbsolutePath.includes('content/writing-blog/')) {
@@ -340,24 +271,6 @@ function onCreateMdxNode({node, getNode, actions}) {
     name: 'isWriting',
     node,
     value: isWriting,
-  })
-
-  createNodeField({
-    name: 'isWorkshop',
-    node,
-    value: isWorkshop,
-  })
-
-  createNodeField({
-    name: 'isScheduled',
-    node,
-    value: isScheduled,
-  })
-
-  createNodeField({
-    name: 'isPodcast',
-    node,
-    value: isPodcast,
   })
 }
 
