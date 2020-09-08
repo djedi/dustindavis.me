@@ -96,6 +96,8 @@
     "eslint": "^7.7.0",
     "eslint-config-kentcdodds": "^14.15.0",
     "eslint-plugin-jest": "^23.20.0",
+    "front-matter": "^4.0.2",
+    "frontmatter": "0.0.3",
     "husky": "^4.2.5",
     "identity-obj-proxy": "^3.0.0",
     "is-ci-cli": "^2.1.2",
@@ -111,7 +113,8 @@
     "rimraf": "^3.0.2",
     "start-server-and-test": "^1.11.3",
     "title-case": "^3.0.2",
-    "unist-util-visit": "^2.0.3"
+    "unist-util-visit": "^2.0.3",
+    "yaml": "^1.10.0"
   },
   "license": "MIT",
   "main": "n/a",

@@ -1,16 +1,18 @@
 ---
 author: Dustin Davis
 comments: true
-date: 2017-03-31 15:30:46+00:00
+date: 2017-03-31T15:30:46.000Z
 link: https://dustindavis.me/aurelia-replaceable-parts-html-only-templates/
 slug: aurelia-replaceable-parts-html-only-templates
 title: Aurelia Replaceable Parts & HTML Only Templates
-banner: ../banner.jpg
+banner: ./images/banner.jpg
 bannerCredit:
-  'Photo by [Patrick Fore](https://www.patrickfore.com/) on
-  [Unsplash](https://unsplash.com)'
+  Photo by [Hello I&#x27;m Nik 🎞](https://unsplash.com/@helloimnik) on
+  [Unsplash](https://unsplash.com)
 categories:
-  - Programming & Internet
+  - Aurelia
+description:
+  When you need dynamic content in a slot, you really need a replaceable part.
 ---
 
 I've been using [Aurelia](http://aurelia.io) for over a year now. We have been
@@ -35,7 +37,7 @@ I learned this tip from
 (see chapter 7).
 
 In your template tag, you can simply add the `bindable` attribute and pass in a
-comma separated list of bindable attrubutes.
+comma-separated list of bindable attributes.
 
 ```html
 <template bindable="heading, bodyText">

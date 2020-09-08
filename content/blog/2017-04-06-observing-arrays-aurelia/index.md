@@ -1,26 +1,28 @@
 ---
 author: Dustin Davis
 comments: true
-date: 2017-04-06 19:02:30+00:00
+date: 2017-04-06T19:02:30.000Z
 link: https://dustindavis.me/observing-arrays-aurelia/
 slug: observing-arrays-aurelia
 title: Observing Arrays in Aurelia
-banner: ../banner.jpg
+banner: ./images/banner.jpg
 bannerCredit:
-  'Photo by [Patrick Fore](https://www.patrickfore.com/) on
-  [Unsplash](https://unsplash.com)'
+  Photo by [Stanislav Kondratiev](https://unsplash.com/@technobulka) on
+  [Unsplash](https://unsplash.com)
 categories:
-  - Programming & Internet
+  - Aurelia
 tags:
   - aurelia
-  - esnext
   - javascript
   - observables
+description:
+  If you're struggling to observe array data changes in Aurelia, check out these
+  code snippets.
 ---
 
 If you want to observe changes to an array in Aurelia, you can't simply use the
-`@observable` decorator as it won't recognize mutations to the the array.
-Instead, you need to use the `collectionObserver` in the `BindingEngine`.
+`@observable` decorator as it won't recognize mutations to the array. Instead,
+you need to use the `collectionObserver` in the `BindingEngine`.
 
 Example:
 
