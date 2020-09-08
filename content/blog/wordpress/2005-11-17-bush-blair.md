@@ -14,6 +14,6 @@ categories:
   - Web Sites
 ---
 
-Okay, whether you agree with this sort of stuff or not, you have to admint that
+Okay, whether you agree with this sort of stuff or not, you have to admit that
 [this is funny](http://www.andyfoulds.co.uk/amusement/bushv2.htm)! It's nice
 programming anyway...
