@@ -167,7 +167,6 @@ export const pageQuery = graphql`
       fields {
         editLink
         historyLink
-        isWriting
         title
         date
         noFooter
