@@ -89,32 +89,6 @@ function createBlogPages({data, actions}) {
   return null
 }
 
-const createEpisodes = (createPage, edges) => {
-  edges.forEach(({node}) => {
-    createPage({
-      path: node.fields.slug,
-      component: path.resolve(`./src/templates/podcast-episode.js`),
-      context: {
-        slug: node.fields.slug,
-        simpleCastId: node.frontmatter.simpleCastId,
-        title: node.fields.title,
-        season: node.frontmatter.season,
-      },
-    })
-  })
-}
-
-function createPodcastPages({data, actions}) {
-  if (!data.edges.length) {
-    throw new Error('There are no podcast episodes!')
-  }
-  const {edges} = data
-  const {createPage} = actions
-
-  createEpisodes(createPage, edges)
-  return null
-}
-
 const createPages = async ({actions, graphql}) => {
   const {data, errors} = await graphql(`
     fragment PostDetails on Mdx {
@@ -136,23 +110,6 @@ const createPages = async ({actions, graphql}) => {
       }
     }
     query {
-      podcast: allMdx(
-        filter: {fileAbsolutePath: {regex: "//content/podcast//"}}
-      ) {
-        edges {
-          node {
-            fileAbsolutePath
-            frontmatter {
-              simpleCastId
-              season
-            }
-            fields {
-              title
-              slug
-            }
-          }
-        }
-      }
       blog: allMdx(
         filter: {
           frontmatter: {published: {ne: false}}
@@ -199,13 +156,7 @@ const createPages = async ({actions, graphql}) => {
     return Promise.reject(errors)
   }
 
-  const {blog, writing, workshops, podcast} = data
-
-  createPodcastPages({
-    podcastPath: '',
-    data: podcast,
-    actions,
-  })
+  const {blog, writing, workshops} = data
 
   createBlogPages({
     blogPath: '/blog',
