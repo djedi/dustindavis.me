@@ -91,19 +91,6 @@ const createPages = async ({actions, graphql}) => {
           }
         }
       }
-      writing: allMdx(
-        filter: {
-          frontmatter: {published: {ne: false}}
-          fileAbsolutePath: {regex: "//content/writing-blog//"}
-        }
-        sort: {order: DESC, fields: [frontmatter___date]}
-      ) {
-        edges {
-          node {
-            ...PostDetails
-          }
-        }
-      }
     }
   `)
 
@@ -111,16 +98,11 @@ const createPages = async ({actions, graphql}) => {
     return Promise.reject(errors)
   }
 
-  const {blog, writing} = data
+  const {blog} = data
 
   createBlogPages({
     blogPath: '/blog',
     data: blog,
-    actions,
-  })
-  createBlogPages({
-    blogPath: '/writing/blog',
-    data: writing,
     actions,
   })
 }
@@ -145,15 +127,10 @@ function onCreateMdxNode({node, getNode, actions}) {
   const {createNodeField} = actions
   let slug =
     node.frontmatter.slug || createFilePath({node, getNode, basePath: `pages`})
-  let {isWriting} = false
+  const {isWriting} = false
 
   if (node.fileAbsolutePath.includes('content/blog/')) {
     slug = `/blog/${node.frontmatter.slug || slugify(parentNode.name)}`
-  }
-
-  if (node.fileAbsolutePath.includes('content/writing-blog/')) {
-    isWriting = true
-    slug = `/writing/blog/${node.frontmatter.slug || slugify(parent.name)}`
   }
 
   createNodeField({

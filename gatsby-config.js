@@ -64,13 +64,6 @@ module.exports = {
     {
       resolve: 'gatsby-source-filesystem',
       options: {
-        path: `${__dirname}/content/writing-blog`,
-        name: 'writing-blog',
-      },
-    },
-    {
-      resolve: 'gatsby-source-filesystem',
-      options: {
         path: `${__dirname}/src`,
         name: 'src',
       },
@@ -166,12 +159,6 @@ module.exports = {
             blogUrl: 'https://dustindavis.me/blog',
             output: '/blog/rss.xml',
             title: 'Dustin Davis Blog RSS Feed',
-          }),
-          getBlogFeed({
-            filePathRegex: `//content/writing-blog//`,
-            blogUrl: 'https://dustindavis.me/writing/blog',
-            output: '/writing/blog/rss.xml',
-            title: `Dustin's Writing Blog RSS Feed`,
           }),
         ],
       },
