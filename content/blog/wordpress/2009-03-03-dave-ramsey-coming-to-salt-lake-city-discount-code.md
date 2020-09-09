@@ -13,7 +13,7 @@ categories:
   - Yada
 ---
 
-![Dave Ramsey Live](https://dustindavis.me/wp-content/uploads/2009/03/live_event_order_logo.jpg)After
+![Dave Ramsey Live](https://nerdydork.com/wp-content/uploads/2009/03/live_event_order_logo.jpg)After
 huge success last year, Dave will be returning to Salt Lake City this year for
 his Live event. The Live Event will be held Saturday, May 16th at the E-Center.
 General admission will be

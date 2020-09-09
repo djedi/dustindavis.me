@@ -35,4 +35,4 @@ I did make a few updates to this class.
 
 You can download the original files
 [here](http://www.phpclasses.org/browse/package/2964.html) and get my updates
-[here](https://dustindavis.me/wp-content/uploads/2008/12/classemailattachment.zip).
+[here](https://nerdydork.com/wp-content/uploads/2008/12/classemailattachment.zip).

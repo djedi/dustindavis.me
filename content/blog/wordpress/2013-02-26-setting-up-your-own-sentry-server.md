@@ -18,7 +18,7 @@ tags:
   - znc
 ---
 
-[![sentry](https://dustindavis.me/wp-content/uploads/2013/02/sentry.png)](https://dustindavis.me/wp-content/uploads/2013/02/sentry.png)If
+[![sentry](https://nerdydork.com/wp-content/uploads/2013/02/sentry.png)](https://nerdydork.com/wp-content/uploads/2013/02/sentry.png)If
 you are hosting a Django site, Sentry will make your life easier.
 
 After my

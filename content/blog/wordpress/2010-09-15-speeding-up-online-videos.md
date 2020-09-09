@@ -31,6 +31,6 @@ After downloading the video, I play it with the
 [VLC media player](http://www.videolan.org/vlc/), which you can easily download
 in the Ubuntu Software Center.
 
-![](https://dustindavis.me/wp-content/uploads/2010/09/Selection_001.png)In the
+![](https://nerdydork.com/wp-content/uploads/2010/09/Selection_001.png)In the
 lower right hand corder of VLC you will see 1.00x. Click this and you will then
 have a slider to adjust the playback speed.

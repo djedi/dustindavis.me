@@ -22,7 +22,7 @@ tags:
   - webfaction
 ---
 
-[![Hosting Decisions](http://dustindavis.me/wp-content/uploads/2013/01/hosting-225x300.png)](http://dustindavis.me/wp-content/uploads/2013/01/hosting.png)
+[![Hosting Decisions](http://nerdydork.com/wp-content/uploads/2013/01/hosting-225x300.png)](http://nerdydork.com/wp-content/uploads/2013/01/hosting.png)
 
 Note: Since writing this I have become more comfortable with managing my own
 servers. The pricing point of DigitalOcean moved me in that direction to be

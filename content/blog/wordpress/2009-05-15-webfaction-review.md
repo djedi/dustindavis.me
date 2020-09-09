@@ -79,11 +79,11 @@ I then set up the following applications:
   on
 - wordpress - Wordpress 2.7.1
 
-[![image](https://dustindavis.me/wp-content/uploads/2009/05/image-thumb.png)](https://dustindavis.me/wp-content/uploads/2009/05/image.png)
+[![image](https://nerdydork.com/wp-content/uploads/2009/05/image-thumb.png)](https://nerdydork.com/wp-content/uploads/2009/05/image.png)
 
 I then map my application to my website like so:
 
-[![image](https://dustindavis.me/wp-content/uploads/2009/05/image-thumb1.png)](https://dustindavis.me/wp-content/uploads/2009/05/image1.png)
+[![image](https://nerdydork.com/wp-content/uploads/2009/05/image-thumb1.png)](https://nerdydork.com/wp-content/uploads/2009/05/image1.png)
 
 It's really that simple. Databases are equally easy to set up - you can set up
 MySQL or PostgreSQL. I haven't found that anything missing with Webfaction that

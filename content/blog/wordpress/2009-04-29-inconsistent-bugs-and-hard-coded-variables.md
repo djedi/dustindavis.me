@@ -13,7 +13,7 @@ categories:
   - Programming & Internet
 ---
 
-[![image](https://dustindavis.me/wp-content/uploads/2009/04/image-thumb2.png)](https://dustindavis.me/wp-content/uploads/2009/04/image2.png)Part
+[![image](https://nerdydork.com/wp-content/uploads/2009/04/image-thumb2.png)](https://nerdydork.com/wp-content/uploads/2009/04/image2.png)Part
 of the joys of being a one man development team (sarcastically speaking) is that
 I get to be designer, developer, and QA. Recently I had the joy of having
 working on a bug report that security rules were not working right. When I would
