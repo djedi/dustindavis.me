@@ -55,5 +55,3 @@ Now, for the Octopus example:
 `<?=$num?> Octop<?=pluralize($num, 'i', 'us')?> ha<?=pluralize($num, 've', 's')?> <?=(8 * $num)?> leg<?=pluralize(8 * $num)?>.`
 
 (I thought I'd better pluralize "legs" in case we ever have 0.125 Octopi)
-
-[Big nerdy cheesy grin!]
