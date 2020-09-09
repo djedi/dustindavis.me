@@ -1,16 +1,17 @@
 ---
 author: Dustin Davis
 comments: true
-date: 2006-12-14 16:47:49+00:00
+date: 2006-12-14T16:47:49.000Z
 link: https://dustindavis.me/fun-with-hot-linking/
 slug: fun-with-hot-linking
 title: Fun With Hot Linking
-banner: ../banner.jpg
+banner: ./images/banner.jpg
 bannerCredit:
-  'Photo by [Patrick Fore](https://www.patrickfore.com/) on
-  [Unsplash](https://unsplash.com)'
+  Photo by [Aziz Acharki](https://unsplash.com/@acharki95) on
+  [Unsplash](https://unsplash.com)
 categories:
   - Programming & Internet
+description: How to swap out images if other sites are using them on their site.
 ---
 
 There is a term out there known to webmasters as "hot linking", "inline
@@ -42,28 +43,39 @@ I wrote this PHP script that will determine whether the image was linked from my
 site, or another based on the HTTP_REFERER. Based on who is linking will
 determine which image I display.
 
-`if (strpos($_SERVER['HTTP_REFERER'], "latterdayblog.com")) { $file = "wp-content/images/little_people_nativity.jpg"; } else { $file = "little_people_nativity.jpg"; } $fp = fopen($file, 'r'); $buffer = fread($fp, filesize($file)); fclose($fp); header('Content-Type: image/jpeg'); echo $buffer;`
+```php
+if (strpos($_SERVER['HTTP_REFERER'], "latterdayblog.com")) {
+    $file = "wp-content/images/little_people_nativity.jpg";
+} else {
+    $file = "little_people_nativity.jpg";
+}
+$fp = fopen($file, 'r');
+$buffer = fread($fp, filesize($file));
+fclose($fp);
+header('Content-Type: image/jpeg');
+echo $buffer;
+```
 
 Then I added this mod_rewrite line to my .htaccess file:
-`RewriteRule wp-content/images/little_people_nativity.jpg lp.php`
+
+```text
+RewriteRule wp-content/images/little_people_nativity.jpg lp.php
+```
 
 So basically what this does is when the image is requested, instead of the web
-server just dishing out the image, it goes to my lp.php script which checks the
-referrer. If the referrer address is my own site, then it will display the image
+server just dishing out the image, it goes to my `lp.php` script which checks
+the referrer. If the referrer address is my site, then it will display the image
 expected, if not, it will display this other image I created.
 
 What is the other image I created? I had lots of ideas. Basically they are
-selling a Fisher Price Little People Nativity set. So what I did was set up a
+selling a Fisher-Price Little People Nativity set. So what I did was set up a
 plain boring eBay affiliate page that list all the latest auctions for this
 product and wrote a message on the image to visit that page.
 
-The results are thus, before:
-[![before](https://dustindavis.me/wp-content/images/_before.gif)](https://dustindavis.me/wp-content/images/before.gif)
+The results are thus, before:  
+![before](./images/before.gif)
 
-And after:
-[![After!](https://dustindavis.me/wp-content/images/_after.gif)](https://dustindavis.me/wp-content/images/after.gif)
+And after:  
+![after](./images/after.gif)
 
 And my blog images still work fine! :D
-
-[tags]hotlinking, hot linking, leeching, inline linking, image bandwidth, image
-stealing, direct linking[/tags]

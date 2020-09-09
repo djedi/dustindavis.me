@@ -19,4 +19,4 @@ sitting in your garage that you are willing to donate. I can pay for shipping
 them. Thank you much!
 
 This is my inspiration:
-[![Baseball Bat Room](https://dustindavis.me/wp-content/images/_Baseball%20Room.jpg)](https://dustindavis.me/wp-content/images/Baseball%20Room.jpg)
+[![Baseball Bat Room](https://nerdydork.com/wp-content/images/_Baseball%20Room.jpg)](https://nerdydork.com/wp-content/images/Baseball%20Room.jpg)

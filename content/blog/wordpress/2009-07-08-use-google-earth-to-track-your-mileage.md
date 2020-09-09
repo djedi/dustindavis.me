@@ -22,9 +22,9 @@ those landmarks were so I used Google Earth to find out. Curious to know just
 how accurate Google Earth was, I decided to test it out. I found a local high
 school track and measured the path around it. .25 miles looks accurate to me!
 
-[![image](https://dustindavis.me/wp-content/uploads/2009/07/image_thumb.png)](https://dustindavis.me/wp-content/uploads/2009/07/image.png)
+[![image](https://nerdydork.com/wp-content/uploads/2009/07/image_thumb.png)](https://nerdydork.com/wp-content/uploads/2009/07/image.png)
 
 To use this tool, click the ruler icon and use the path tab to draw polygon
 shapes.
 
-[![image](https://dustindavis.me/wp-content/uploads/2009/07/image_thumb1.png)](https://dustindavis.me/wp-content/uploads/2009/07/image1.png)
+[![image](https://nerdydork.com/wp-content/uploads/2009/07/image_thumb1.png)](https://nerdydork.com/wp-content/uploads/2009/07/image1.png)

@@ -17,7 +17,7 @@ So for the past couple of weeks, I haven't been able to watch TV on my install
 of Windows 7 beta. I though perhaps it was because I had installed some codecs
 when I was playing with VirtualDub because I got this error:
 
-[![image](https://dustindavis.me/wp-content/uploads/2009/04/image-thumb.png)](https://dustindavis.me/wp-content/uploads/2009/04/image.png)
+[![image](https://nerdydork.com/wp-content/uploads/2009/04/image-thumb.png)](https://nerdydork.com/wp-content/uploads/2009/04/image.png)
 
 <blockquote>  
 > 

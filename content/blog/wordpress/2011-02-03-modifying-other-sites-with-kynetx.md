@@ -44,7 +44,7 @@ Sheet. I'm sure I didn't make the most of the features Kynetx has to offer. I
 all needed was to figure out how to run some [jQuery](http://www.jquery.com) and
 I had what I needed. Kynetx supports jQuery beautifully.
 
-[![](https://dustindavis.me/wp-content/uploads/2011/02/Selection_0011-300x202.png)](https://dustindavis.me/wp-content/uploads/2011/02/Selection_0011.png)
+[![](https://nerdydork.com/wp-content/uploads/2011/02/Selection_0011-300x202.png)](https://nerdydork.com/wp-content/uploads/2011/02/Selection_0011.png)
 
 Now I don't need any help from the webmasters at UtahRealEstate. I'll just hack
 their site and make it useful to suit my needs! Thanks Kynetx!
@@ -62,7 +62,7 @@ Thanks to some
 from [Mike Grace](http://twitter.com/MikeGrace), a link will now also show up on
 the pop-up view of a property listing:
 
-[![](https://dustindavis.me/wp-content/uploads/2011/02/Selection_002-300x123.png)](https://dustindavis.me/wp-content/uploads/2011/02/Selection_002.png)
+[![](https://nerdydork.com/wp-content/uploads/2011/02/Selection_002-300x123.png)](https://nerdydork.com/wp-content/uploads/2011/02/Selection_002.png)
 
 Don't worry, if you have the plugin installed, no re-install or upgrade is
 necessary. It Just Worksâ„¢!
