@@ -1,18 +1,20 @@
 ---
 author: Dustin Davis
 comments: true
-date: 2016-02-10 23:31:56+00:00
+date: 2016-02-10T23:31:56.000Z
 link: https://dustindavis.me/aurelia-accordion-component-from-scratch/
 slug: aurelia-accordion-component-from-scratch
 title: Aurelia Accordion Component From Scratch
-banner: ../banner.jpg
+banner: ./images/banner.jpg
 bannerCredit:
-  'Photo by [Patrick Fore](https://www.patrickfore.com/) on
-  [Unsplash](https://unsplash.com)'
+  Photo by [David Vilches](https://unsplash.com/@circvs) on
+  [Unsplash](https://unsplash.com)
 categories:
-  - Programming & Internet
+  - Aurelia
+  - JavaScript
 tags:
   - aurelia
+description: How to build a simple accordion component in Aurelia
 ---
 
 As I have been working on a new project in [Aurelia](http://aurelia.io/) the
