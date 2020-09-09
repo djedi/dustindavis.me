@@ -1,17 +1,17 @@
 ---
 author: Dustin Davis
 comments: true
-date: 2014-09-25 22:25:58+00:00
+date: 2014-09-25T22:25:58.000Z
 link: https://dustindavis.me/quick-recurring-payments-stripe-checkout/
 slug: quick-recurring-payments-stripe-checkout
 title: Quick Recurring Payments with Stripe & Checkout
-banner: ../banner.jpg
+banner: ./images/banner.jpg
 bannerCredit:
-  'Photo by [Patrick Fore](https://www.patrickfore.com/) on
-  [Unsplash](https://unsplash.com)'
+  Photo by [rupixen.com](https://unsplash.com/@rupixen) on
+  [Unsplash](https://unsplash.com)
 categories:
-  - Internet Marketing
-  - Programming & Internet
+  - PHP
+description: How to quickly set up a recurring payment page with PHP and Stripe
 ---
 
 My mom called me last night. She owns a
@@ -36,7 +36,7 @@ increase our marketing spending and efforts, and I can hire a virtual assistant
 to do the majority of the work.
 
 But this post isn't really about marketing, SEO, or hiring VAs. My first order
-of business was to figure out how to allow my mom to set up an auto payment plan
+of business was to figure out how to allow my mom to set up an auto-payment plan
 on her business credit card to put that \$320 into my account each month.
 
 Without doing much research I turned to stripe, because I know I could get it
@@ -50,7 +50,6 @@ into it.
 I created a config.php file with the following:
 
 ```php
-
 <?php
 require_once('./lib/Stripe.php');
 
@@ -61,16 +60,13 @@ $stripe = array(
 
 Stripe::setApiKey($stripe['secret_key']);
 ?>
-
 ```
 
 I created a subscription plan on the Stripe admin page and gave it an ID of
 "soakers320". Then I created this very simple index.php page:
 
 ```php
-
 <?php
-
 if($_SERVER["HTTPS"] != "on")
 {
     header("Location: https://" . $_SERVER["HTTP_HOST"] . $_SERVER["REQUEST_URI"]);
@@ -80,22 +76,15 @@ if($_SERVER["HTTPS"] != "on")
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     require_once(dirname(**FILE**) . '/config.php');
 
-
-
-    <code>$token  = $_POST['stripeToken'];
-
+    $token  = $_POST['stripeToken'];
     $customer = Stripe_Customer::create(array(
         'email' =&gt; 'customer@example.com',
         'card'  =&gt; $token,
         'plan'  =&gt; 'soakers320'
     ));
 
-    echo '&lt;h1&gt;Successfully charged $320.00. Thank you!&lt;/h1&gt;';
+    echo '<h1>Successfully charged $320.00. Thank you!</h1>';
     exit;
-    </code>
-
-
-
 }
 
 ?><html>
@@ -119,9 +108,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         $('form').append($input).submit();
       };
 
-
-
-    <code>  StripeCheckout.open({
+    StripeCheckout.open({
         key:         '**my_publishable_key**',
         address:     true,
         currency:    'usd',
@@ -134,10 +121,6 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
       return false;
     });
-    </code>
-
-
-
 </script>
 <?php endif; ?>
 
@@ -147,16 +130,16 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
 Some notes on the code:
 
-Lines 3-7: I should also mention I purchased a \$9.00 SSL certificate at
-[namecheap.com]("http://namecheap.com") for added security. This code ensures
-that the page is only accessed via https.
+Lines 3-7: I should also mention I purchased a `$9.00` SSL certificate at
+[namecheap.com](http://namecheap.com) for added security. This code ensures that
+the page is only accessed via https.
 
 Lines 9-22: After the form is filled out and submitted, it creates a form past
 back to this page. This is the call that creates the customer using the
 subscription plan and actually charges their card.
 
-Lines 41-59: This creates the [Checkout]("https://stripe.com/checkout") form
-that generates the card token that is passed into this page when it is posted.
+Lines 41-59: This creates the [Checkout](https://stripe.com/checkout) form that
+generates the card token that is passed into this page when it is posted.
 
 That's about it! Let me know if you have questions on any other portions of this
 code.
