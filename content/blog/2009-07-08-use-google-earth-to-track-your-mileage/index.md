@@ -1,18 +1,19 @@
 ---
 author: Dustin Davis
 comments: false
-date: 2009-07-08 15:59:49+00:00
+date: 2009-07-08T15:59:49.000Z
 link: https://dustindavis.me/use-google-earth-to-track-your-mileage/
 slug: use-google-earth-to-track-your-mileage
 title: Use Google Earth to Track Your Mileage
-banner: ../banner.jpg
+banner: ./images/banner.jpg
 bannerCredit:
-  'Photo by [Patrick Fore](https://www.patrickfore.com/) on
-  [Unsplash](https://unsplash.com)'
+  Photo by [Toomas Tartes](https://unsplash.com/@toomastartes) on
+  [Unsplash](https://unsplash.com)
 categories:
   - Technology
 tags:
   - google earth
+description: How to use Google Earth to track distance
 ---
 
 Recently I've taken up hiking during lunch. There is a nice mountain trail
@@ -22,9 +23,9 @@ those landmarks were so I used Google Earth to find out. Curious to know just
 how accurate Google Earth was, I decided to test it out. I found a local high
 school track and measured the path around it. .25 miles looks accurate to me!
 
-[![image](https://nerdydork.com/wp-content/uploads/2009/07/image_thumb.png)](https://nerdydork.com/wp-content/uploads/2009/07/image.png)
+![screenshot 1](./images/1.png)
 
 To use this tool, click the ruler icon and use the path tab to draw polygon
 shapes.
 
-[![image](https://nerdydork.com/wp-content/uploads/2009/07/image_thumb1.png)](https://nerdydork.com/wp-content/uploads/2009/07/image1.png)
+![screenshot 2](./images/2.png)

@@ -26,5 +26,3 @@ word is your bond and you consider giving more than hoarding.
 It was an excellent book and it helped me look at all aspects of my life and
 work and find room for improvement throughout. I highly recommend it to everyone
 with a conscience.
-
-[tags]Business, Honesty, Ethics, Moral, Philanthropy, Huntsman, Book[/tags]
