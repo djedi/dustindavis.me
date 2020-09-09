@@ -1,22 +1,24 @@
 ---
 author: Dustin Davis
 comments: true
-date: 2013-03-12 19:08:39+00:00
+date: 2013-03-12T19:08:39.000Z
 link: https://dustindavis.me/python-django-google-adsense-api/
 slug: python-django-google-adsense-api
 title: Python, Django & the Google Adsense API
-banner: ../banner.jpg
+banner: ./images/banner.jpg
 bannerCredit:
-  'Photo by [Patrick Fore](https://www.patrickfore.com/) on
-  [Unsplash](https://unsplash.com)'
+  Photo by [Chester Alvarez](https://unsplash.com/@chesteralvarez) on
+  [Unsplash](https://unsplash.com)
 categories:
-  - Programming & Internet
+  - Django
+  - Python
 tags:
   - adsense
   - api
   - django
   - Google
   - python
+description: How to talk to the Google Adsense API with Django/Python
 ---
 
 I have been tasked with updating our real-time revenue stats at
@@ -32,18 +34,15 @@ few things.
 
 1. [requests](http://docs.python-requests.org/en/latest/) >
    [httplib2](https://code.google.com/p/httplib2/)
-
 2. SOAP is the suck, but at least its an API.
    [Suds](https://fedorahosted.org/suds/) makes SOAP suck less. I get it that
    SOAP is basically all .net developers know as far as APIs. ;)
-
 3. [Beautiful Soup](http://www.crummy.com/software/BeautifulSoup/) is a nice
    last resort.
-
-4. I've actually surprised how many businesses can survive on such crappy
+4. I've actually been surprised how many businesses can survive on such crappy
    technology.
 
-I saved Google Adsense for last figuring they would have the best API and it
+I saved Google Adsense for last, figuring they would have the best API and it
 would therefore be the easiest to implement. It turned out more challenging than
 I anticipated. Apparently you can't just plug in a username/password or API key,
 you have to go through the whole Oauth2 handshake to gain access to the API.
@@ -91,10 +90,11 @@ of date, but helps greatly as a starting point.
 My app is simple. I just want to read in the amount of revenue on a given day
 and store it in my local database.
 
-I created a new app in my django project called 'adsense'. I created a models.py
-file to store credentials.
+I created a new app in my django project called `adsense`. I created a
+`models.py` file to store credentials.
 
-[python] from django.contrib.auth.models import User from django.db import
+```python
+from django.contrib.auth.models import User from django.db import
 models from oauth2client.django_orm import CredentialsField
 
 class Credential(models.Model): id = models.ForeignKey(User, primary_key=True)
@@ -105,42 +105,60 @@ models.DecimalField(max_digits=7, decimal_places=2)
 
     def __unicode__(self):
         return '{0} ${1}'.format(self.date, self.revenue)
-
-[/python]
+```
 
 I put the JSON file I downloaded from the API console in my app folder and
-created a the following views.py.
+created a the following `views.py`.
 
-[python highlight="32"] import os
+```python
+import os
 
-from django.conf import settings from django.contrib.auth.decorators import
-login_required from django.contrib.sites.models import Site from django.http
-import HttpResponseBadRequest, HttpResponse from django.http import
-HttpResponseRedirect from oauth2client import xsrfutil from oauth2client.client
-import flow_from_clientsecrets from oauth2client.django_orm import Storage
+from django.conf import settings
+from django.contrib.auth.decorators import login_required
+from django.contrib.sites.models import Site
+from django.http import HttpResponseBadRequest, HttpResponse
+from django.http import HttpResponseRedirect
+from oauth2client import xsrfutil
+from oauth2client.client import flow_from_clientsecrets
+from oauth2client.django_orm import Storage
 
 from .models import Credential
 
-CLIENT_SECRETS = os.path.join(os.path.dirname(**file**), 'client_secrets.json')
 
-FLOW = flow_from_clientsecrets( CLIENT_SECRETS,
-scope='https://www.googleapis.com/auth/adsense.readonly',
-redirect_uri='http://{0}/adsense/oauth2callback/'.format(
-Site.objects.get_current().domain))
+CLIENT_SECRETS = os.path.join(os.path.dirname(__file__), 'client_secrets.json')
 
-@login_required def index(request): storage = Storage(Credential, 'id',
-request.user, 'credential') credential = storage.get() if credential is None or
-credential.invalid is True: FLOW.params['state'] = xsrfutil.generate_token(
-settings.SECRET_KEY, request.user) # force approval prompt in order to get
-refresh_token FLOW.params['approval_prompt'] = 'force' authorize_url =
-FLOW.step1_get_authorize_url() return HttpResponseRedirect(authorize_url) else:
-return HttpResponse('Validated.')
+FLOW = flow_from_clientsecrets(
+    CLIENT_SECRETS,
+    scope='https://www.googleapis.com/auth/adsense.readonly',
+    redirect_uri='http://{0}/adsense/oauth2callback/'.format(
+        Site.objects.get_current().domain))
 
-@login_required def auth_return(request): if not xsrfutil.validate_token(
-settings.SECRET_KEY, request.REQUEST['state'], request.user): return
-HttpResponseBadRequest() credential = FLOW.step2_exchange(request.REQUEST)
-storage = Storage(Credential, 'id', request.user, 'credential')
-storage.put(credential) return HttpResponseRedirect("/adsense/") [/python]
+
+@login_required
+def index(request):
+    storage = Storage(Credential, 'id', request.user, 'credential')
+    credential = storage.get()
+    if credential is None or credential.invalid is True:
+        FLOW.params['state'] = xsrfutil.generate_token(
+            settings.SECRET_KEY, request.user)
+        # force approval prompt in order to get refresh_token
+        FLOW.params['approval_prompt'] = 'force'
+        authorize_url = FLOW.step1_get_authorize_url()
+        return HttpResponseRedirect(authorize_url)
+    else:
+        return HttpResponse('Validated.')
+
+
+@login_required
+def auth_return(request):
+    if not xsrfutil.validate_token(
+            settings.SECRET_KEY, request.REQUEST['state'], request.user):
+        return  HttpResponseBadRequest()
+    credential = FLOW.step2_exchange(request.REQUEST)
+    storage = Storage(Credential, 'id', request.user, 'credential')
+    storage.put(credential)
+    return HttpResponseRedirect("/adsense/")
+```
 
 **Note that on line 32 I added a parameter to force the approval prompt.** I was
 having problems getting "invalid_grant" errors because it seemed my credentials
@@ -153,58 +171,82 @@ In my main urls.py file I include a link to my app urls file:
 
 main urls.py:
 
-[python] from django.conf.urls import patterns, include, url from django.contrib
-import admin
+```python
+from django.conf.urls import patterns, include, url
+from django.contrib import admin
 
 admin.autodiscover()
 
-urlpatterns = patterns( '', url(r'^adsense/', include('adsense.urls',
-namespace='adsense')),
+urlpatterns = patterns(
+    '',
+    url(r'^adsense/', include('adsense.urls', namespace='adsense')),
 
     url(r'^admin/doc/', include('django.contrib.admindocs.urls')),
     url(r'^admin/', include(admin.site.urls)),
-
-) [/python]
+)
+```
 
 adsense/urls.py:
 
-[python] from django.conf.urls import patterns, url
+```python
+from django.conf.urls import patterns, url
 
-urlpatterns = patterns( 'adsense.views',
-url(r'^$', 'index', name='index'),
-    url(r'^oauth2callback/$', 'auth_return',
-name='auth_return'), ) [/python]
+urlpatterns = patterns(
+    'adsense.views',
+    url(r'^$', 'index', name='index'),
+    url(r'^oauth2callback/$', 'auth_return', name='auth_return'),
+)
+```
 
 Lastly, I have a class that makes the call to the API to get revenue for given
 dates. This is located in adsense/tasks.py as I will likely hook this up soon to
 run as a task with
 [Celery](http://www.celeryproject.org/)/[RabbitMQ](http://www.rabbitmq.com/).
 
-[python] import datetime import httplib2
+```python
+import datetime
+import httplib2
 
-from apiclient.discovery import build from celery.task import PeriodicTask from
-django.contrib.auth.models import User from oauth2client.django_orm import
-Storage
+from apiclient.discovery import build
+from celery.task import PeriodicTask
+from django.contrib.auth.models import User
+from oauth2client.django_orm import Storage
 
 from .models import Credential, Revenue
 
-TODAY = datetime.date.today() YESTERDAY = TODAY - datetime.timedelta(days=1)
 
-class GetReportTask(PeriodicTask): run_every = datetime.timedelta(minutes=2)
+TODAY = datetime.date.today()
+YESTERDAY = TODAY - datetime.timedelta(days=1)
+
+
+class GetReportTask(PeriodicTask):
+    run_every = datetime.timedelta(minutes=2)
 
     def run(self, *args, **kwargs):
         scraper = Scraper()
         scraper.get_report()
 
-class Scraper(object): def get_report(self, start_date=YESTERDAY,
-end_date=TODAY): user = User.objects.get(pk=1) storage = Storage(Credential,
-'id', user, 'credential') credential = storage.get() if not credential is None
-and credential.invalid is False: http = httplib2.Http() http =
-credential.authorize(http) service = build('adsense', 'v1.2', http=http) reports
-= service.reports() report = reports.generate(
-startDate=start_date.strftime('%Y-%m-%d'),
-endDate=end_date.strftime('%Y-%m-%d'), dimension='DATE', metric='EARNINGS', )
-data = report.execute() for row in data['rows']: date = row[0] revenue = row[1]
+
+class Scraper(object):
+    def get_report(self, start_date=YESTERDAY, end_date=TODAY):
+        user = User.objects.get(pk=1)
+        storage = Storage(Credential, 'id', user, 'credential')
+        credential = storage.get()
+        if not credential is None and credential.invalid is False:
+            http = httplib2.Http()
+            http = credential.authorize(http)
+            service = build('adsense', 'v1.2', http=http)
+            reports = service.reports()
+            report = reports.generate(
+                startDate=start_date.strftime('%Y-%m-%d'),
+                endDate=end_date.strftime('%Y-%m-%d'),
+                dimension='DATE',
+                metric='EARNINGS',
+            )
+            data = report.execute()
+            for row in data['rows']:
+                date = row[0]
+                revenue = row[1]
 
                 try:
                     record = Revenue.objects.get(date=date)
@@ -215,10 +257,9 @@ data = report.execute() for row in data['rows']: date = row[0] revenue = row[1]
                 record.save()
         else:
             print 'Invalid Adsense Credentials'
-
-[/python]
+```
 
 To make it work, I got to http://localhost:8000/adsense/. I'm then prompted to
 log in to my Google account. I authorize my app to allow Adsense access. The
 credentials are then stored in my local database and I can call my Scraper
-get_report() method. Congratulations to me, it worked!
+`get_report()` method. Congratulations to me, it worked!

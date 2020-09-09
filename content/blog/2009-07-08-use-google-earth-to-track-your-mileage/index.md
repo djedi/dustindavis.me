@@ -10,7 +10,7 @@ bannerCredit:
   Photo by [Toomas Tartes](https://unsplash.com/@toomastartes) on
   [Unsplash](https://unsplash.com)
 categories:
-  - Technology
+  - tips
 tags:
   - google earth
 description: How to use Google Earth to track distance
