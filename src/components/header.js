@@ -143,6 +143,13 @@ function Header({
             </NavLink>
             <NavLink
               headerColor={headerColor}
+              to="/uses/"
+              aria-label="Tools Dustin Davis uses"
+            >
+              Uses
+            </NavLink>
+            <NavLink
+              headerColor={headerColor}
               to="/about/"
               aria-label="View about page"
             >

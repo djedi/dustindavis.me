@@ -107,6 +107,13 @@ const Toggle = ({color = 'white'}) => {
               Blog
             </Link>
             <Link
+              aria-label="Tools Dustin Davis uses"
+              to="/uses"
+              activeClassName="active"
+            >
+              Uses
+            </Link>
+            <Link
               aria-label="View about page"
               to="/about"
               activeClassName="active"
