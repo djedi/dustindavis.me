@@ -1,19 +1,22 @@
 ---
 author: Dustin Davis
 comments: true
-date: 2015-12-16 00:43:29+00:00
+date: 2015-12-16T00:43:29.000Z
 link: https://dustindavis.me/why-aurelia-over-angular-react-ember-meteor/
 slug: why-aurelia-over-angular-react-ember-meteor
 title: Why Aurelia over Angular, React, Ember or Meteor
-banner: ../banner.jpg
+banner: ./images/banner.jpg
 bannerCredit:
-  'Photo by [Patrick Fore](https://www.patrickfore.com/) on
-  [Unsplash](https://unsplash.com)'
+  Photo by [Tony Reid](https://unsplash.com/@togna_bologna) on
+  [Unsplash](https://unsplash.com)
 categories:
   - Programming & Internet
 tags:
   - django
   - Ruby on Rails
+description:
+  After looking at the path of migrating from AngularJS to Angular 2, I'm
+  changing lanes.
 ---
 
 **TL;DR - After analyzing the current state of Angular 1, Angular 2,
@@ -59,7 +62,9 @@ syntax. It's difficult to type and hard to grok. For example:
 
 Look at all those new symbols: \*, #, [], ()
 
-If I felt uncomfortable with jsx, this makes me more uncomfortable.
+If I felt uncomfortable with
+[JSX](https://reactjs.org/docs/introducing-jsx.html), this makes me more
+uncomfortable.
 
 As for [TypeScript](http://www.typescriptlang.org/), I'm fine with transpilers.
 I've taken a liking to [CoffeeScript](http://coffeescript.org/). There are a
@@ -111,11 +116,19 @@ Angular 2, Aurelia and React. We even went so far as to rate various benefits
 and provide rankings to them such as syntax legibility, learnability, community,
 etc. Our scores looked something like this:
 
-Angular 2: 487 Aurelia: 649 React: 656
+```text
+Angular 2: 487
+Aurelia: 649
+React: 656
+```
 
 Our data based decision would point us to React. But then we did a straw poll. 7
 people voted and these are the results:
 
-Angular 2: 0 Aurelia: 5 React: 2
+```text
+Angular 2: 0
+Aurelia: 5
+React: 2
+```
 
 So the decision has been made. We will be starting two new projects in Aurelia.

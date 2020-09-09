@@ -1,16 +1,17 @@
 ---
 author: Dustin Davis
 comments: true
-date: 2008-12-18 16:51:31+00:00
+date: 2008-12-18T16:51:31.000Z
 link: https://dustindavis.me/download-pop3imap-email-attachments-with-php/
 slug: download-pop3imap-email-attachments-with-php
 title: Download POP3/IMAP Email Attachments with PHP
-banner: ../banner.jpg
+banner: ./images/banner.jpg
 bannerCredit:
-  'Photo by [Patrick Fore](https://www.patrickfore.com/) on
-  [Unsplash](https://unsplash.com)'
+  Photo by [Dan-Cristian Pădureț](https://unsplash.com/@dancristianp) on
+  [Unsplash](https://unsplash.com)
 categories:
-  - Programming & Internet
+  - PHP
+description: How to download email attachments via PHP
 ---
 
 I found this niftly little class on
@@ -24,15 +25,13 @@ those reports on a daily basis to customize my own reports... in a nutshell.
 
 I did make a few updates to this class.
 
-1. The \$savedirpath variable was not utilized. It simply saved the files in the
-   same location as the script. I had it implement this parameter.
-
+1. The `$savedirpath` variable was not utilized. It simply saved the files in
+   the same location as the script. I had it implement this parameter.
 2. I added another parameter to delete emails after downloading the attachments.
    Luckily for me, when I went to add the code, I found it was already there,
    just commented out.
-
 3. Tidied up the code a bit to make it more readable for me.
 
 You can download the original files
 [here](http://www.phpclasses.org/browse/package/2964.html) and get my updates
-[here](https://nerdydork.com/wp-content/uploads/2008/12/classemailattachment.zip).
+[here](./classemailattachment.zip).

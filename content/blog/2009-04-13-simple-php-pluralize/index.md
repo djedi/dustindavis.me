@@ -1,16 +1,17 @@
 ---
 author: Dustin Davis
 comments: true
-date: 2009-04-13 16:12:10+00:00
+date: 2009-04-13T16:12:10.000Z
 link: https://dustindavis.me/simple-php-pluralize/
 slug: simple-php-pluralize
 title: Simple PHP Pluralize
-banner: ../banner.jpg
+banner: ./images/banner.jpg
 bannerCredit:
-  'Photo by [Patrick Fore](https://www.patrickfore.com/) on
-  [Unsplash](https://unsplash.com)'
+  Photo by [Serena Repice Lentini](https://unsplash.com/@serenarepice) on
+  [Unsplash](https://unsplash.com)
 categories:
-  - Programming & Internet
+  - PHP
+description: A simple function for pluralizing strings in PHP
 ---
 
 I often find myself writing a if statement when I need to pluralize a noun in
@@ -27,31 +28,46 @@ word really.
 
 Let's say I want to echo the following:
 
+```text
 There is 1 user.
-
 There are 2 users.
+```
 
-Here was my hold way of doing things quick and dirty with no functions:
+Here was my old way of doing things quick and dirty with no functions:
 
-`There <?=($num_users == 1) ? 'is' : 'are';?> <?=$num_users?> user<?($num_users != 1) echo 's';?>.`
+```php
+There <?=($num_users == 1) ? 'is' : 'are';?> <?=$num_users?>
+user<?($num_users != 1) echo 's';?>.
+```
 
 Now, let's write a simple function to use:
 
-`function pluralize($num, $plural = 's', $single = '') { if ($num == 1) return $single; else return $plural; }`
+```php
+function pluralize($num, $plural = 's', $single = '') {
+  if ($num == 1) return $single; else return $plural;
+}
+```
 
 Now I would write it like this:
 
-`There <?=pluralize($num_users, 'are', 'is')?> <?=$num_users?> user<?=pluralize($num_users)?>.`
+```php
+There <?=pluralize($num_users, 'are', 'is')?> <?=$num_users?>
+user<?=pluralize($num_users)?>.
+```
 
 OK, I don't know if saves me a whole lot of typing or not, but anyway, it makes
 it a bit easier in my mind.
 
 Now, for the Octopus example:
 
+```text
 1 Octopus has 8 legs.
-
 7 Octopi have 56 legs.
+```
 
-`<?=$num?> Octop<?=pluralize($num, 'i', 'us')?> ha<?=pluralize($num, 've', 's')?> <?=(8 * $num)?> leg<?=pluralize(8 * $num)?>.`
+```php
+<?=$num?> Octop<?=pluralize($num, 'i', 'us')?> ha<?=pluralize($num, 've', 's')?>
+<?=(8 * $num)?> leg<?=pluralize(8 * $num)?>.
+```
 
 (I thought I'd better pluralize "legs" in case we ever have 0.125 Octopi)
