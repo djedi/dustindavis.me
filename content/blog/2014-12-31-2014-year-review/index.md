@@ -10,6 +10,7 @@ bannerCredit:
   Photo by [Mohammed Fkriy](https://unsplash.com/@elsoar) on
   [Unsplash](https://unsplash.com)
 categories:
+  - Dustin
   - Family
 tags:
   - goals

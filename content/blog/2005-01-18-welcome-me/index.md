@@ -5,13 +5,13 @@ date: 2005-01-18 18:09:08+00:00
 link: https://dustindavis.me/welcome-me/
 slug: welcome-me
 title: Welcome me!
-description: My first blog post ever.
+description: My first blog post ever. Jan 18, 2005
 banner: ./images/banner.jpg
 bannerCredit:
   'Photo by [Jon Tyson](https://www.primalpath.co/) on
   [Unsplash](https://unsplash.com)'
 categories:
-  - Yada
+  - Dustin
 ---
 
 Well, I've done it! I've finally taken the plunge and created my own
