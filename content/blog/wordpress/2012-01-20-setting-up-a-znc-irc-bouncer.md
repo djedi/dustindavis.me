@@ -62,13 +62,13 @@ so 2 for the price of one!)
 3. Boot your Linode
 4. ssh into your Linode
 5. Create a new user:
-   - `adduser <username>`
+   - `adduser **username**`
 6. Create an admin group
    - `addgroup admin`
 7. Add yourself to the admin group (so you can use sudo)
-   - `adduser <username> admin`
+   - `adduser **username** admin`
 8. Log in to your user account
-   - `su <username>`
+   - `su **username**`
 9. Install ZNC
    - `sudo apt-get install znc`
 10. Make a ZNC config file
