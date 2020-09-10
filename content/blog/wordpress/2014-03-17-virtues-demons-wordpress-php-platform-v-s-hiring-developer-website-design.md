@@ -16,8 +16,8 @@ categories:
   - Programming & Internet
 ---
 
-There are pros and cons for both sides of website development, using an \"out of
-the box\" PHP platform such as WordPress or hiring a
+There are pros and cons for both sides of website development, using an "out of
+the box" PHP platform such as WordPress or hiring a
 [website developer](http://www.orangesoda.com/partner/how-it-works/web-developers/)
 to create your custom website has elements to examine before making your
 decision.
@@ -42,12 +42,12 @@ needs of your website using
 [26,000 thousand plug-ins](http://en.wikipedia.org/wiki/WordPress) available.
 
 With the development of WordPress versions 3.0, 3.8 and WordPress MU -
-\"Multi-user\", website owners can host their own blogging communities. New
+"Multi-user", website owners can host their own blogging communities. New
 website features include a dashboard feature and eight new data tables for each
 blog. The administrator can control and moderate all blogs from a single
 dashboard.
 
-WordPress\' last release in 2013, version 3.8, has an improved administrative
+WordPress' last release in 2013, version 3.8, has an improved administrative
 interface. The main dashboard has been simplified and it has a better responsive
 design for mobile devices.
 
@@ -60,7 +60,7 @@ subjected to common SQL injection and XSS Web attacks. Also, seven out of the
 ten Top _e-commerce plug-ins_ were vulnerable to Web Attacks.
 
 There are current remedies to prevent identified vulnerabilities to Web Attacks
-such as editing the site\'s _.htaccess file_ to prevent SQL injection, this also
+such as editing the site's _.htaccess file_ to prevent SQL injection, this also
 blocks sensitive files from being accessed.
 
 **_Web Design Comparative:_**
@@ -73,19 +73,19 @@ trustworthy service.
 
 From the side of custom web design and individuality of presentation,
 professional web designers offer custom-looks that can surpassed the somewhat
-\"cookie-cutter\" looks of WordPress. No other website will have the custom
-looks a professional web designer can build according to your needs and
+"cookie-cutter" looks of WordPress. No other website will have the custom looks
+a professional web designer can build according to your needs and
 specifications. Their custom layouts, size of designing elements, presentations
 using custom fonts, colors, highlights and shades, plus custom designed graphics
 will stand out to impress your customers.
 
 **_Challenges of Using a Professional Website Developer:_**
 
-The things about using a web designer is you really don\'t know who is writing
-your code. They may be exaggerating their experience level and you wouldn\'t
-know until problems develop. Even at the end of the build, you may not have what
-you asked for. Sometimes they know all the right words to say, but when it comes
-to the finished product, it will be lacking in comprehensive functionality.
+The things about using a web designer is you really don't know who is writing
+your code. They may be exaggerating their experience level and you wouldn't know
+until problems develop. Even at the end of the build, you may not have what you
+asked for. Sometimes they know all the right words to say, but when it comes to
+the finished product, it will be lacking in comprehensive functionality.
 
 For some people, taking a chance on a web designer is worth the price to get a
 more unique web design. In that case try to get referrals from people who have

@@ -76,7 +76,7 @@ reviewing here. That was probably the biggest deal breaker. Also, this price was
 for using the dev
 [PostgreSQL add-on](https://addons.heroku.com/heroku-postgresql) which wouldn't
 last long. Soon I'd need to upgrade to the Basic ($9/mo) or Crane ($50/mo)
-package. So, now my hosting was looking more like \$105 per month. On top of
+package. So, now my hosting was looking more like `$105` per month. On top of
 that, you deploy by pushing to git ('git push heroku master'). This is cool, but
 it seemed to take forever each time. It was annoying since I had to keep
 committing and pushing to troubleshoot problems. Deploying with fabric is much
@@ -142,8 +142,8 @@ have to research to do all of this on Linode.
 So here is my tl;dr version in alphabetical order:
 
 [DigitalOcean](https://www.digitalocean.com/?refcode=f1688368903d): I love their
-pricing. For as little as \$5 per month I can spin up a linux server. This would
-be great for a
+pricing. For as little as `$5` per month I can spin up a linux server. This
+would be great for a
 [ZNC IRC bouncer](https://dustindavis.me/setting-up-a-znc-irc-bouncer.html) for
 example. They seem fairly new still so time will tell how they compete with
 Linode. Their internet connection seemed a bit slow, but for root access to a

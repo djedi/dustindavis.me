@@ -21,7 +21,7 @@ I've been running Windows 7 betas for the past 3 months and it has been far more
 stable and responsive than Vista was for me. I will definitely be upgrading this
 one on release day! I have just put in my pre-order
 [at Amazon](http://rcm.amazon.com/e/cm?t=ldspdacom-20&o=1&p=21&l=ur1&category=software&banner=1FNG04A5PNRC23F35MR2&f=ifr).
-I'll be going with the Ultimate version (\$219) since I have a
+I'll be going with the Ultimate version (`$219`) since I have a
 [media center PC](http://byomc.com) and I want all the bells and whistles.
 Really, this is the first time EVER I've been excited for a Microsoft launch.
 Crazy.

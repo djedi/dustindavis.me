@@ -31,9 +31,7 @@ of my apartment. Then, a few events occurred then that caused me to switch
 banks:
 
 1. I got married
-
 2. First Security Bank was bought out by Wells Fargo
-
 3. We moved
 
 There was a discussion at work and someone brought up the fact that he recently
@@ -54,7 +52,7 @@ over the years.
 
 Before I ever heard about Dave Ramsey, I had car payments. I wanted 5 speed
 Nissan Maxima so bad and when I finally found one I had stupid written all over
-my forehead. I bought that car for \$18K and got a 8% loan from Wells Fargo
+my forehead. I bought that car for `$18K` and got a 8% loan from Wells Fargo
 (through the Nissan Dealership). As rates started to drop I decided to refinance
 it through AFCU. I think I got the rate down to the 5% area and saved quite a
 bit on the payments. Plus, after than, making payments was as easy

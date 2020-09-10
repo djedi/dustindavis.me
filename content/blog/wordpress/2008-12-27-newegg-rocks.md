@@ -21,12 +21,12 @@ time and money would have I have to spend trying.
 
 I was fortunate though. I have a client that I maintained and hosted a website
 for who came to me asking about computers. He just wanted a cheap one. "Should I
-just go to Costco and get the one for \$500, or would I be sorry for that?" I
+just go to Costco and get the one for `$500`, or would I be sorry for that?" I
 knew which one he was talking about. It was an eMachines. Now, I don't hate
 eMachines. I owned one myself in the past. It was the first computer I was able
 to afford.
 
-So I had an idea. "Why don't you give me the \$500, and I'll build you a
+So I had an idea. "Why don't you give me the `$500`, and I'll build you a
 computer." I explained that for that money I could possibly get better parts
 that were not so integrated. That way, he if every needed to upgrade some
 portion of it, it would be a lot easier. He agreed without hesitation.
@@ -47,8 +47,8 @@ doorstep within a few days.
 I had the computer put together within an hour or two and then spent some time
 installing the operating system and updating it.
 
-It was much easier than I though and I even kept \$50 for my time. My client was
-perfectly happy with his PC.
+It was much easier than I though and I even kept `$50` for my time. My client
+was perfectly happy with his PC.
 
 So having confidence, I saved up and built my own computer. I've been using it
 for over a year without any issues (Oh wait, there was a slight issue, I

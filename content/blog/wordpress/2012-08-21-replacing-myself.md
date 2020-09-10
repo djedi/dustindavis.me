@@ -54,7 +54,7 @@ I bought a copy and started reading it. I told a friend in the office about it
 as well. I only got about halfway through it, as I do with most projects, while
 my friend went on to live the 4 hour work week. I think he's currently in Bali
 and is featured in
-[\$100 Startup](http://www.amazon.com/gp/product/0307951529/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=0307951529&linkCode=as2&tag=nerdydork-20)
+[`$100` Startup](http://www.amazon.com/gp/product/0307951529/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=0307951529&linkCode=as2&tag=nerdydork-20)
 book. He's not the only friend I've seen grow rich through focus and efforts.
 
 So what is wrong with me? Why can't I follow in the footsteps of my friends and
@@ -140,7 +140,7 @@ months:
   success of OUR company and are proud to share it with their friends.
 - I sort of mentioned earlier that I have a bad habit of starting a lot of
   projects and never finishing them. In the past, I don't think I valued MY time
-  enough. Yes, I have charged clients up to \$75 per hour to work on their
+  enough. Yes, I have charged clients up to `$75` per hour to work on their
   sites, but I often didn't think twice about coding out some new idea before I
   even tested the market. I thought if I hired programmers I could have them
   create all these crazy ideas in my head. I'm finding that I am more protective

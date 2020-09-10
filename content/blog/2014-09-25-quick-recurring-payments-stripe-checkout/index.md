@@ -20,12 +20,12 @@ she had a woman come in and purchase a top of the line hot tub the other day.
 The woman said, "I'm glad I found you. You were not on Google when I searched.
 Someone up the street said I should check out your store."
 
-My mom has been paying some company \$320 per month for the last nine months
+My mom has been paying some company `$320` per month for the last nine months
 that promised to get her on the first page of Google. They have literally done
 nothing except continue to bill her month after month.
 
-I don't know how effective an SEO campaign would be if you are only paying \$320
-per month, but I know I could take half that and start getting lots more
+I don't know how effective an SEO campaign would be if you are only paying
+`$320` per month, but I know I could take half that and start getting lots more
 exposure than she is getting just by using Google Adwords.
 
 Basically my mom was calling to ask if she could send that money to me instead
@@ -37,7 +37,7 @@ to do the majority of the work.
 
 But this post isn't really about marketing, SEO, or hiring VAs. My first order
 of business was to figure out how to allow my mom to set up an auto-payment plan
-on her business credit card to put that \$320 into my account each month.
+on her business credit card to put that `$320` into my account each month.
 
 Without doing much research I turned to stripe, because I know I could get it
 set up fairly quickly with their API. And it was relatively quick. It took me

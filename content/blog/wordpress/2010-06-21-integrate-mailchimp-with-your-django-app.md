@@ -24,7 +24,7 @@ application.
 
 1. Sign up for [MailChimp](http://eepurl.com/yKuv) <-- this is an affiliate
    link. Sign up is free, but if you decide to upgrade to a paid account you
-   will get a \$30 credit by using this link.
+   will get a `$30` credit by using this link.
 
 2. Install [MailSnake](https://github.com/themartorana/mailsnake)
 
