@@ -290,7 +290,7 @@ I have already started. I have agreed to tutor someone in San Francisco to help
 them learn Django. We have had one session so far. I had a short skype call
 today from another person that is looking for someone to tutor him to help him
 build and host a Django site. So I guess this is more like consulting than
-freelance. I'm charging \$50 an hour right now. If this continues I can see
+freelance. I'm charging `$50` an hour right now. If this continues I can see
 raising my rate as my time is limited, but I'm just getting my feet wet with
 tutoring/consulting.
 

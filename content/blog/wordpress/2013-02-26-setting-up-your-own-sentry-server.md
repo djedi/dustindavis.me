@@ -27,7 +27,7 @@ I decided to put [EnvelopeBudget.com](https://envelopebudget.com) on
 [Webfaction](http://www.webfaction.com/?affiliate=redseam). But, I was still
 impressed with
 [Digital Ocean](https://www.digitalocean.com/?refcode=f1688368903d) so I kept my
-virtual server. Why not? It's only \$5 per month for full root access! Because
+virtual server. Why not? It's only `$5` per month for full root access! Because
 all their servers have SSD's I'ver never seen a virtual server boot so fast.
 Soon will be the day when you will hear someone say, "remember when computers
 had moving parts?" I kept it because I figured I'd find a use for it eventually.

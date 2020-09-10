@@ -24,7 +24,7 @@ meaning to do it, but today I finally did it. I lowered my cable/internet bill.
 
 Truthfully I was considering cancelling cable anyway. I'm paying about
 $117 per month for high speed internet and basic digital cable. I should note that I am paying $10
-extra for higher speed internet and getting a \$10 discount for bundling cable
+extra for higher speed internet and getting a `$10` discount for bundling cable
 and internet so that is pretty much a wash.
 
 Since I don't watch a lot of TV I wasn't too concerned with cancelling it
@@ -110,7 +110,7 @@ I was connected with "April" and the conversation went something like this:
 > </blockquote>
 
 _So I spent a total of 3 minutes and 45 seconds on the phone and saved myself
-\$552 over the course of the year. I would say that was worth my time and I
+`$552` over the course of the year. I would say that was worth my time and I
 don't mind keeping cable TV around either. Especially now that I have a big
 screen to watch BYU & Utah football games this fall! Oh, did I forget to mention
 that?_

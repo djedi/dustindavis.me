@@ -48,7 +48,7 @@ It see a ton of people hosting with
 [bluehost](//www.bluehost.com/track/redseam/newblog) and
 [hostmonster](//www.hostmonster.com/track/xhenxhe/startblogwebsite) (affiliate
 links) - which are pretty much the same company. You can get hosting for around
-\$5 per month (depending on current sales and how long of a contract you pick)
+`$5` per month (depending on current sales and how long of a contract you pick)
 that comes with a control panel to manage email for your domain and various
 aspects of your website. For prices to be this low they will charge a year at a
 time though. (How do I know many are hosting with them? Because if you don't
@@ -117,7 +117,7 @@ dozens of WordPress sites. I'm guessing you could find someone good at a site
 like
 [fiverr](https://www.fiverr.com/search/gigs?utf8=%E2%9C%93&locale=en&query=wordpress&search_in=category&category=10&sub_category=91&nested_sub_category_id=1017)
 or [freelancer](https://www.freelancer.com/). And I'm guessing you could have it
-done for \$50 or less. Your mileage may vary though because you never know what
+done for `$50` or less. Your mileage may vary though because you never know what
 you're going to get. I wouldn't let that scare you away though because for those
 who have done this a lot, setting up a new WordPress site is pretty trivial.
 
@@ -141,13 +141,13 @@ So let's say you're ready to get started today, what is this going to cost you
 to get set up for your first year? I'll estimate and round up so you can see
 worst-case scenario...
 
-1. Domain \$15
-2. Hosting \$75
-3. Wordpress \$0
-4. Theme \$60
+1. Domain `$15`
+2. Hosting `$75`
+3. Wordpress `$0`
+4. Theme `$60`
 
-**Total: \$150**
+**Total: `$150`**
 
-Optional: Freelancer \$50
+Optional: Freelancer `$50`
 
-**Total: \$200**
+**Total: `$200`**

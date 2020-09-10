@@ -148,7 +148,7 @@ Now, for the important part - the Disneyland park hopper passes. They will cost
 $152 each for 3 of our children and $169 each for my wife and I. That's a total
 of $794 - close to $800.
 
-So, between travel, hotel, and passes we're up to roughly \$1600 (rounding up).
+So, between travel, hotel, and passes we're up to roughly `$1600` (rounding up).
 Now we need to plan for food. Remember that we already have breakfast covered.
 
 One of our neighbors told me that when they drive to Disneyland they pack a
@@ -163,7 +163,7 @@ sandwhiches for every meal. I figure we could spend
 $150 on grocery items for making sandwhiches and packing chips, crackers, & other goodies. Then I would plan $250
 for eating out. That would give us
 $50 per day for eating out. That's basically one meal at a restaraunt for a family of five. Then I would give us $150
-for treats & refreshments inside the park. Again, that is \$50 for each day we
+for treats & refreshments inside the park. Again, that is `$50` for each day we
 are in the park.
 
 All of these we could definitely save money if we mostly eat from the groceries
@@ -178,10 +178,10 @@ $50 to buy toys and souvenirs, so that really helped. I hope it didn't set a pre
 per person for the whole trip. That gives us
 $300 for souvinirs. If we more stuff, we will need to sacrifice on the food & treats, which is certainly doable. That gives us a total of $2450.
 We'll just round that up again and say this trip should comfortably cost us
-\$2500.
+`$2500.`
 
 Now, I can start planning for the trip. If I went accornding to plan, it is
-roughly 7 months away. I would need to make sure I'm saving \$357.15 per month
+roughly 7 months away. I would need to make sure I'm saving `$357.15` per month
 in order to have all the cash I need to make this trip happen.
 
 Of course, before I started booking my hotel and paying for my Disneyland
@@ -189,7 +189,7 @@ Tickets, I would likely call a travel agent or check out Costco for their
 Disneyland package deals. Sometimes they might just have some deals that can
 save you money. Plus, they get their paycheck from commission, so it doesn't
 cost you anything to use their services. Last time I did this, I found that
-booking through a travel agent would have cost us about \$200 more. So we did
+booking through a travel agent would have cost us about `$200` more. So we did
 everything ourselves. The first time we went, my in-laws used a travel agent. I
 must say that the package that the travel agent put together was a less
 stressful experience. Plus, it probably would have been a wash since we ended

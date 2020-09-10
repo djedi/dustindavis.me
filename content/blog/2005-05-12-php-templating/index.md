@@ -23,7 +23,7 @@ PHP rather than incorporating smarty templates.
 
 Here is basically how I create every new website I do. I start by creating a
 basic layout - or I could even purchase a cheap one from basictemplates.com
-where all templates are only \$5. I also have a bunch on disk. I normally use
+where all templates are only `$5`. I also have a bunch on disk. I normally use
 these for ideas and create a new one from scratch. I often use FrontPage 2003
 and Adobe Photoshop to help create the main template page, then I clean it up
 using [TextPad](http://www.textpad.com/)- my favorite text editor.

@@ -35,7 +35,7 @@ found that it was released in region 1. I saw a few copies on Amazon, but they
 were selling for over
 $50 per copy. I did some searching and found that the only way to order them was by joining the Disney DVD club. I didn't want to join the club for one movie. I did some calculation, and though I can't remember the exact numbers (this was two years ago) I figured if I joined the club and bought filled my requirements by buying all Rocketman movies, I could get approx 9 copies for $118.00
 ($13.10 each) and then quit. So, if I kept one and sold the rest to break even, I would just need to sell them for $14.75
-each. Since they were selling on Amazon for \$50 I figured it wouldn't be a
+each. Since they were selling on Amazon for `$50` I figured it wouldn't be a
 problem.
 
 My wife was quite surprised when she saw 9 copies of Rocketman show up in the
@@ -55,7 +55,7 @@ household quitting and rejoining. I did tell everyone what I did and said they
 could do the same to make a quit buck, but I think they were all too skeptical
 and no one took me up on it.
 
-Don't bother now, because you can buy them new on Amazon for under \$10.
+Don't bother now, because you can buy them new on Amazon for under `$10`.
 
 Look for the follow up to this post in a couple of months.
 

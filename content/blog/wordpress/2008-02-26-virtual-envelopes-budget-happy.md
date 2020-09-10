@@ -43,7 +43,7 @@ name and it in in virtual envelope in the Mvelopes system. Now we put money
 aside each month for Christmas and for those yearly expenses such as life
 insurance and gym memberships. I'm enjoying saving money by paying these things
 yearly because I know I can do it now, I don't need to pay the extra fees to be
-on a monthly plan. In the past two years we have reduced our debt by \$20,000
+on a monthly plan. In the past two years we have reduced our debt by `$20,000`
 and I believe by the end of 2008 we will be debt free except for our house.
 
 Budgeting with my wife has gotten much easier. I'm the nerd in the family so I

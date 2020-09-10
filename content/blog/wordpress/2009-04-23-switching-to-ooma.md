@@ -19,7 +19,7 @@ I been a Vonage customer for
 [a long time](https://dustindavis.me/my-digital-home-phone-internet-service.html).
 Just to give you an idea, when we first ordered it, someone from Qwest tried to
 call my wife to get us to use their long distance plan at 7 cents per minute. My
-wife told them we had had unlimited long distance to the US and Canada for \$25
+wife told them we had had unlimited long distance to the US and Canada for `$25`
 per month. That started an argument where the salesperson called my wife a liar
 and said he/she had never heard of Vonage and no companies were offering
 unlimited long distance. My how things have changed! I must admit, initially it

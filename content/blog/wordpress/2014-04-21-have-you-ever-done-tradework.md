@@ -50,7 +50,7 @@ up and said “We need to talk.” I actually hear this a lot. Since I haven’t
 really done freelance work in many years I usually just let them know I’m not in
 the freelance business. But, when he said he owned a landscaping company and
 needed a website and that he was interested in trade work, my eyes lit up. “Yes,
-we need to talk!\"
+we need to talk!"
 
 So we are going to work with each other. Hopefully it all goes well. My wife
 tends to get nervous when I do business with neighbors because she is afraid

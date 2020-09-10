@@ -31,7 +31,7 @@ sure I could find far easier & betters ways to get paid.
 So the first thing I would do is find a way to reward more designers. Here are
 my initial thoughts just for a logo competition:
 
-- Charge \$499 for every logo competition.
+- Charge `$499` for every logo competition.
 - Allow designers to submit up to 3 designs. It seems on my last competition I
   had about 60 designs submitted. It seemed half of them came from one designer,
   and the majority came from 3 designers. Limiting a designer to 3 designs would
@@ -43,7 +43,7 @@ my initial thoughts just for a logo competition:
   certainly be more.
 - For every submission the designer will get paid
   $1 at the end of the competition. There would be checks in place so that the contest owner could mark a design as garbage and X number of other designers could concur to boot the awfully bad design. That designer simply wouldn't get paid. So out of the gate, $99
-  of the \$400 would be allocated to paying out submissions.
+  of the `$400` would be allocated to paying out submissions.
 - Each designer that submits work would be allowed to rate other designs, but
   not their own. As a project owner I would be curious to get such immediate
   feedback. At the end of the competition, the design with the highest average
@@ -52,7 +52,7 @@ my initial thoughts just for a logo competition:
 - At the end of the submission deadline, the project owner could have some
   choices: 1) refund of $370. They are out $129 for running the competition
   ($5 service fee would go to 99 Designs to cover any credit card transaction fees and just a small charge for using the service. 2) Create a poll. They would select their top 6 designs to create a poll. Anyone selected for the poll would get a $10
-  bonus. That would leave s the pool with a minimum of \$315. 3) Choose an
+  bonus. That would leave s the pool with a minimum of `$315.` 3) Choose an
   outright winner. At this point 99 Designs takes their usual cut and the winner
   gets the rest.
 - If the project owner chose to do a poll and submit to friends

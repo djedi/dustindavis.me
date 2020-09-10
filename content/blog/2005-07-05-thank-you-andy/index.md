@@ -17,7 +17,7 @@ description:
 
 My wife called me hysterical last week. Our two-year-old daughter had written
 all over every cushion of our brand new sofa. This sofa is a red microfiber
-sectional. It was this year's tax return 101 costing around \$2300. I asked her
+sectional. It was this year's tax return 101 costing around `$2300`. I asked her
 to calm down for her sake and I went straight to Google. Surely we can't be the
 only ones with terrible two-year-old writing on a brand new microfiber sofa with
 a blue ballpoint pen! :) I was write (sorry for the typo...)

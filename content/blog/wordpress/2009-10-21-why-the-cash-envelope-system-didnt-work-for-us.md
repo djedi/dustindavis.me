@@ -27,7 +27,7 @@ everything he says. One area in which I don't follow along is with the cash
 envelope budget system.
 
 I think the system is excellent. I do believe it "hurts" more to spend cash. It
-is hard for me to break a \$20. I like that fact that when I spend cash I
+is hard for me to break a `$20.` I like that fact that when I spend cash I
 usually end up with change that becomes savings because I never spend change (I
 don't know that Dave ever mentions that one, but it is a nice bonus).
 
@@ -53,7 +53,7 @@ Here are the reasons why:
 
 4. Have you ever reached the checkout and when it is time to pay you realize you
    don't have your wallet. That is really mortifying to me. I'm frantic in that
-   case. I start looking through my car for a hidden \$100 bill (it's never
+   case. I start looking through my car for a hidden `$100` bill (it's never
    there) or a blank check (never there either). Even if I only live 3 blocks
    away it is inconvenient and super embarrassing. If you forget your envelope
    and you don't realize it before you get in line to checkout, are you really
