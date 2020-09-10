@@ -98,6 +98,7 @@ module.exports = {
           {
             resolve: require.resolve('./other/gatsby-remark-af'),
           },
+          {resolve: `gatsby-remark-responsive-iframe`},
         ],
       },
     },

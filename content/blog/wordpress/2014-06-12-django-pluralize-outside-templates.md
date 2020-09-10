@@ -16,7 +16,7 @@ tags:
 ---
 
 The
-[pluralize ]("https://docs.djangoproject.com/en/dev/ref/templates/builtins/#pluralize")
+[pluralize ](https://docs.djangoproject.com/en/dev/ref/templates/builtins/#pluralize)
 filter is great for humanizing text in templates. But what if you want to use
 the same function inside of your python code. For example, let\'s say you are
 sending back a message via ajax.

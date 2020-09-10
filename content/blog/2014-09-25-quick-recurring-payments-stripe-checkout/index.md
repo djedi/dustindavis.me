@@ -15,7 +15,7 @@ description: How to quickly set up a recurring payment page with PHP and Stripe
 ---
 
 My mom called me last night. She owns a
-[hot tub dealership in the Salt Lake City area]("http://soakers.biz"). She said
+[hot tub dealership in the Salt Lake City area](http://soakers.biz). She said
 she had a woman come in and purchase a top of the line hot tub the other day.
 The woman said, "I'm glad I found you. You were not on Google when I searched.
 Someone up the street said I should check out your store."
@@ -44,7 +44,7 @@ set up fairly quickly with their API. And it was relatively quick. It took me
 about 2 hours to do the research and create the page. It is nothing fancy.
 
 First I created a folder on my server named payments and dropped the lib folder
-of the [PHP Stripe API library]("https://stripe.com/docs/libraries#php-library")
+of the [PHP Stripe API library](https://stripe.com/docs/libraries#php-library)
 into it.
 
 I created a config.php file with the following:

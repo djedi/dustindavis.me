@@ -19,8 +19,8 @@ description: How to add an SSL to a website running on nginx
 ---
 
 I recently needed to update the SSL certificate on
-[EnvelopeBudget.com]("https://envelopebudget.com"). Below are the notes I took
-in the process for when I need to do it again in 5 years.
+[EnvelopeBudget.com](https://envelopebudget.com). Below are the notes I took in
+the process for when I need to do it again in 5 years.
 
 ## Step 1
 
@@ -74,7 +74,7 @@ sudo mv *.crt *.key *.csr *.zip /etc/ssl/localcerts
 ```
 
 Make sure the following is in nginx. (See
-[Setting up a Django Server with PostgreSQL, Nginx, Celery & RabbitMQ]("http://dustindavis.me/django-server-postgresql-nginx-celery-rabbitmq/"))
+[Setting up a Django Server with PostgreSQL, Nginx, Celery & RabbitMQ](http://dustindavis.me/django-server-postgresql-nginx-celery-rabbitmq/))
 
 ```text
 ssl on;
