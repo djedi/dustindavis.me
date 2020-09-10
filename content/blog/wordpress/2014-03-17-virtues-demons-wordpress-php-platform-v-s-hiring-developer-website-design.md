@@ -18,7 +18,7 @@ categories:
 
 There are pros and cons for both sides of website development, using an \"out of
 the box\" PHP platform such as WordPress or hiring a
-[website developer]("http://www.orangesoda.com/partner/how-it-works/web-developers/")
+[website developer](http://www.orangesoda.com/partner/how-it-works/web-developers/)
 to create your custom website has elements to examine before making your
 decision.
 
@@ -29,7 +29,7 @@ fee. You have full-access to create your custom website with user-friendly
 building tools for webpages and blogging site pages. WordPress has an
 open-source blogging tool with a CMS (content management system), based on PHP
 with MySQL. If the opinion of the masses can sway your decision, there are
-[60 million websites using WordPress]("http://gigaom.com/2011/11/10/confirmed-wordpress-crosses-60-million-blogs/"),
+[60 million websites using WordPress](http://gigaom.com/2011/11/10/confirmed-wordpress-crosses-60-million-blogs/),
 including 18.9 percent of the Top-ten million best websites online today. As of
 February 3, 2014, WordPress version 3.8 (released December 12, 2013) has been
 downloaded over 16 million times.
@@ -39,7 +39,7 @@ use a template processor and features thousands of themes using PHP, CSS and
 HTML coding. Advanced features can be added or edited during or after the build.
 The versatility of WordPress allows customization and tailoring to the specific
 needs of your website using
-[26,000 thousand plug-ins]("http://en.wikipedia.org/wiki/WordPress") available.
+[26,000 thousand plug-ins](http://en.wikipedia.org/wiki/WordPress) available.
 
 With the development of WordPress versions 3.0, 3.8 and WordPress MU -
 \"Multi-user\", website owners can host their own blogging communities. New

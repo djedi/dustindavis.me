@@ -20,15 +20,15 @@ tags:
   - znc
 ---
 
-First of all, I\'ll skip the discussion on what [ZNC]("http://wiki.znc.in/ZNC")
-and [IRC]("http://en.wikipedia.org/wiki/Internet_Relay_Chat") are, as you likely
+First of all, I\'ll skip the discussion on what [ZNC](http://wiki.znc.in/ZNC)
+and [IRC](http://en.wikipedia.org/wiki/Internet_Relay_Chat) are, as you likely
 know if you are reading this post. I use IRC with my development team at work.
 It\'s helpful to stay logged in 24/7 to keep up on pertinent discussions. I
 could stay logged in 24/7 with any IRC client at work, but some days (and
 perhaps some evenings) I may be working and chatting from home. To solve this
-problem I was using [tmux]("http://tmux.sourceforge.net/") and
-[irssi]("http://irssi.org/") running on my work computer. If I ever needed to
-log in from home, I would just ssh into my work computer and connect to tmux.
+problem I was using [tmux](http://tmux.sourceforge.net/) and
+[irssi](http://irssi.org/) running on my work computer. If I ever needed to log
+in from home, I would just ssh into my work computer and connect to tmux.
 
 Since switching jobs, I got a laptop. Obviously it is not connect 24/7. So I
 switched to using my home computer. In this process of changing, I decided to
@@ -42,13 +42,13 @@ computer. So, just to try it out, I set up a Linode running Ubuntu. Here are the
 step by step instructions that took me all of 10 minutes to get set up.
 
 If you don\'t have a
-[Linode]("http://www.linode.com/?r=0e672eb6d53973f0ac51b6d8e95a067f55a676bb")
+[Linode](http://www.linode.com/?r=0e672eb6d53973f0ac51b6d8e95a067f55a676bb)
 account, create one. Please feel free to use my
-[affiliate link]("http://www.linode.com/?r=0e672eb6d53973f0ac51b6d8e95a067f55a676bb").
+[affiliate link](http://www.linode.com/?r=0e672eb6d53973f0ac51b6d8e95a067f55a676bb).
 (**Note**: I now use
-[DigitalOcean]("https://www.digitalocean.com/?refcode=f1688368903d") as you can
+[DigitalOcean](https://www.digitalocean.com/?refcode=f1688368903d) as you can
 get a droplet for only \$5 per month. I have it running on my
-[Sentry]("http://dustindavis.me/setting-up-your-own-sentry-server.html") server,
+[Sentry](http://dustindavis.me/setting-up-your-own-sentry-server.html) server,
 so 2 for the price of one!)
 
 1. Add a Linode. I selected the cheapest one, which is a Linode 512 for
@@ -66,107 +66,81 @@ so 2 for the price of one!)
 
 5. Create a new user:
 
-
-    * adduser <username>
+   - adduser <username>
 
 6. Create an admin group
 
-
-    * addgroup admin
+   - addgroup admin
 
 7. Add yourself to the admin group (so you can use sudo)
 
-
-    * adduser <username> admin
+   - adduser <username> admin
 
 8. Log in to your user account
 
-
-    * su <username>
+   - su <username>
 
 9. Install ZNC
 
-
-    * sudo apt-get install znc
+   - sudo apt-get install znc
 
 10. Make a ZNC config file
 
+    - znc --makeconf
 
-    * znc --makeconf
+    - Here are the options I selected:
 
+      - listen on port 6667
 
-    * Here are the options I selected:
+      - SSL? no
 
+      - ipv6? no
 
-      * listen on port 6667
+      - Listen host - left blank for all
 
+      - No global modules
 
-      * SSL? no
+      - Username and password - I used the same as my IRC nick & password so it
+        is easy to remember
 
+      - Blind host - left blank
 
-      * ipv6? no
+      - Number of lines to buffer per channel - 5000 (why not?)
 
+      - Keep buffers after replay? no
 
-      * Listen host - left blank for all
+      - Default channel modes - went with default [+stn]
 
+      - yes on on modules
 
-      * No global modules
+      - IRC server: irc.freenode.net, port 6667, no password
 
+      - I added one IRC channel (#utahdjango), I\'ll join the others later
 
-      * Username and password - I used the same as my IRC nick & password so it is easy to remember
+      - I added my IRC user and password.
 
-
-      * Blind host - left blank
-
-
-      * Number of lines to buffer per channel - 5000 (why not?)
-
-
-      * Keep buffers after replay? no
-
-
-      * Default channel modes - went with default [+stn]
-
-
-      * yes on on modules
-
-
-      * IRC server: irc.freenode.net, port 6667, no password
-
-
-      * I added one IRC channel (#utahdjango), I\'ll join the others later
-
-
-      * I added my IRC user and password.
-
-
-      * Then I started IRC at the end of the script. (If you don\'t, just type \'znc\' to start the znc server)
+      - Then I started IRC at the end of the script. (If you don\'t, just type
+        \'znc\' to start the znc server)
 
 11. Connect to your new server. I used Limechat with the following settings:
 
+    - Network name: Linode ZNC
 
-    * Network name: Linode ZNC
+    - Server: Name I mapped to my linode IP address in my hosts file. You could
+      just enter your IP address.
 
+    - Port: 6667
 
-    * Server: Name I mapped to my linode IP address in my hosts file. You could just enter your IP address.
+    - Server Password: passoword I entered on my IRC makeconf script
 
+    - Nickname: irc nick
 
-    * Port: 6667
+    - Login name: irc nick (remember I used the same nick & password for znc
+      that I use for freenode)
 
+    - Real Name: Dustin Davis ;)
 
-    * Server Password: passoword I entered on my IRC makeconf script
-
-
-    * Nickname: irc nick
-
-
-    * Login name: irc nick (remember I used the same nick & password for znc that I use for freenode)
-
-
-    * Real Name: Dustin Davis ;)
-
-
-    * Nickserv Passoword: same as above
+    - Nickserv Passoword: same as above
 
 That was it! I was connected and up and running just like that. Now, I\'m by far
 NOT an expert on this stuff, but if you have any questions on what I did, leave
@@ -182,11 +156,11 @@ great idea. So here are some things to consider...
   this manner, consider buying another computer. I have a friend that uses a
   plug computer for this purpose. This is actually very tempting for me. Paying
   for a linode for 5 months is about the same as buying a
-  [\$99 plug computer]("http://www.globalscaletechnologies.com/p-22-sheevaplug-dev-kit-us.aspx").
+  [\$99 plug computer](http://www.globalscaletechnologies.com/p-22-sheevaplug-dev-kit-us.aspx).
   You would then have a small server running 24/7 on minimal power and it could
   also be used for a media server by plugging in an external hard drive among
-  other uses. Another options is [Tonido Plug]("http://www.tonidoplug.com/"),
-  but these always seem to sell out so fast.
+  other uses. Another options is [Tonido Plug](http://www.tonidoplug.com/), but
+  these always seem to sell out so fast.
 - User your work computer. This may not be easy. At my old job I was given a
   static IP and subdomain to connect to my computer.
 - If you are paying for hosting elsewhere, consider moving your hosting to your
@@ -196,7 +170,7 @@ great idea. So here are some things to consider...
 ## Update
 
 I purchased a
-[GuruPlug]("http://www.globalscaletechnologies.com/t-guruplugdetails.aspx") and
+[GuruPlug](http://www.globalscaletechnologies.com/t-guruplugdetails.aspx) and
 got it set up. I\'m now running ZNC from it. The set up was pretty much the
 same, so I won\'t bother documenting it. No more monthly fees and its only
 consuming 2 watts of power from home!
@@ -205,20 +179,20 @@ consuming 2 watts of power from home!
 
 My GuruPlug got fried in a lightening storm :( . I replaced it with a Mac Mini.
 Setting up ZNC on a mac is essentially the same except that I install ZNC with
-[Homebrew]("http://mxcl.github.com/homebrew/"). Just replace step 9.1 with
-\"brew install znc\"
+[Homebrew](http://mxcl.github.com/homebrew/). Just replace step 9.1 with \"brew
+install znc\"
 
 Also after owning a mac mini for about a month, I swapped out the hard drive
 with an SSD so I had to reinstall. For some reason I couldn\'t get it to work. I
 kept getting the error: \"Cannot connect to IRC (No route to host).
 Retrying...\". I
-[found a tip]("http://wiki.amahi.org/index.php/ZNC#Can.27t_connect_to_server_.28No_route_to_host.29")
+[found a tip](http://wiki.amahi.org/index.php/ZNC#Can.27t_connect_to_server_.28No_route_to_host.29)
 that suggesting using the IP address instead of the server name and that
 resolved the issue.
 
 ## Update 3
 
-I now use [DigitalOcean]("https://www.digitalocean.com/?refcode=f1688368903d")
-as you can get a droplet for only \$5 per month. I have it running on my
-[Sentry]("http://dustindavis.me/setting-up-your-own-sentry-server.html") server,
+I now use [DigitalOcean](https://www.digitalocean.com/?refcode=f1688368903d) as
+you can get a droplet for only \$5 per month. I have it running on my
+[Sentry](http://dustindavis.me/setting-up-your-own-sentry-server.html) server,
 so 2 for the price of one!

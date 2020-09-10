@@ -69,8 +69,8 @@ I learned a number of things from this email.
 
 First, I didn't even know there was an
 [Amazon Cloud Drive app](http://www.amazon.com/gp/feature.html?docId=1000796781)
-that essentially works like [Dropbox]("https://db.tt/bl2ZSRt"),
-[Copy]("https://copy.com?r=JdJJ4H"), [Google Drive]("https://drive.google.com"),
+that essentially works like [Dropbox](https://db.tt/bl2ZSRt),
+[Copy](https://copy.com?r=JdJJ4H), [Google Drive](https://drive.google.com),
 etc. So I installed it. What's one more?
 
 After installing it, I had a cloud drive folder and it synced some MP3's I had

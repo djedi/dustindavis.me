@@ -26,8 +26,8 @@ I started looking around for "better" support tools. I actually found an article
 that tried to rank 76 support tools! Everything I tried I didn't really
 **love**.
 
-Then one day I as I was listening to a [MicroConf]("http://www.microconf.com/")
-from [HIten Shah]("http://hitenism.com/"), in the Q&A someone asked him about
+Then one day I as I was listening to a [MicroConf](http://www.microconf.com/)
+from [HIten Shah](http://hitenism.com/), in the Q&A someone asked him about
 support and he said he still prefers to use Gmail.
 
 That settled it for me. Here are the reasons why I prefer to use Gmail for
@@ -43,15 +43,15 @@ just email support. So, I assume most of my customers prefer the same.
 ## Canned Responses
 
 I've heard a lot of people use canned responses, but I prefer
-[aText]("https://www.trankynam.com/atext/"). It has more features (labels,
-cursor placement) and its faster.
+[aText](https://www.trankynam.com/atext/). It has more features (labels, cursor
+placement) and its faster.
 
 You can also add lots of extra shortcuts you can use while communicating with
 your customers. Shortcuts could include sub canned responses and links.
 
 For example, I could type _eb.faq.banks_ which would then automatically change
 to a url to the FAQ page on banks for
-[Envelope Budget]("http://envelopebudget.com").
+[Envelope Budget](http://envelopebudget.com).
 
 ## Add Forms to your App to Give Yourself More Context
 
@@ -101,7 +101,7 @@ change your mind after hitting send.
 
 ## GrexIt
 
-I recently came across [this tool]("http://grexit.com/") that looks helpful when
+I recently came across [this tool](http://grexit.com/) that looks helpful when
 working with others in support. As I grow I may look into it. But as a one-man
 support team, it is just not needed right now. At least I know there are tools
 to help me in the future.
@@ -114,8 +114,8 @@ multiple stars and labels will help keep me organized.
 
 ## Mailbox & Boomerang
 
-I often use the [Mailbox app]("http://www.mailboxapp.com/") on my Mac or iPhone,
-or [Boomerang]("http://www.boomeranggmail.com/") in Gmail to archive message and
+I often use the [Mailbox app](http://www.mailboxapp.com/) on my Mac or iPhone,
+or [Boomerang](http://www.boomeranggmail.com/) in Gmail to archive message and
 have them return to my inbox and a certain time.
 
 Sometimes when a but report comes in I tell a person I will get back to them
@@ -127,7 +127,7 @@ or remember to hurry and fix the bug so I can reply!
 
 I heard someone share their **first response time** for support tickets. I
 thought, "I wish I had a way to track this." Wouldn't you know, there already
-is. Check out [Gmail Meter]("http://gmailmeter.com/"). It actually has this stat
+is. Check out [Gmail Meter](http://gmailmeter.com/). It actually has this stat
 and builds it for you - along with other interest email stats. And, like Gmail,
 its free.
 
