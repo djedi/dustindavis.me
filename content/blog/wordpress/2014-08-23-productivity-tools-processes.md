@@ -10,7 +10,7 @@ bannerCredit:
   'Photo by [Patrick Fore](https://www.patrickfore.com/) on
   [Unsplash](https://unsplash.com)'
 categories:
-  - Programming & Internet
+  - Productivity
 ---
 
 **2020 UPDATE**
@@ -18,9 +18,11 @@ categories:
 I currently use [Todoist](https://todoist.com/r/dustin_davis_vhlbue) because it
 works great across all my various devices. I also have switched to
 [Productive](https://www.apalon.com/productive.html) for my habit tracking
-because I like to have an AM an PM habit list.
+because I like to have an AM and PM habit list.
 
---
+See my [Uses](/uses/) page for my most up-to-date list of productivity tools.
+
+---
 
 Last week as I was driving to a user group meeting, I listed to a
 [podcast episode](http://www.smartpassiveincome.com/email-management/). The

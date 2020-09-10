@@ -50,14 +50,15 @@ more expensive. So we decided to just cancel our order and save a bit longer. We
 stood in line and eventually had them cancel our order and fix the double
 billing problem and return all the money to our account.
 
-So now its two weeks later. We've had one charge returned but still have \$1100+
-that needs to be returned to our account. It shouldn't take two weeks to get a
-return right? So I called again to find out what is going on. It turns out they
-never canceled our order. The question was "so you don't want your bed?" Uh, no!
-We were in the store and we canceled that. The response was. "No, you didn't. Do
-you want to cancel it now?" Oh, I didn't huh? Whatever. "YES. CANCEL IT!" Now it
-can't just be that easy. She said, "you'll have to call back at ten o'clock to
-speak with a cashier to get your money back." Seriously, it was 9:56!
+So now its two weeks later. We've had one charge returned but still have
+`$1100+` that needs to be returned to our account. It shouldn't take two weeks
+to get a return right? So I called again to find out what is going on. It turns
+out they never canceled our order. The question was "so you don't want your
+bed?" Uh, no! We were in the store and we canceled that. The response was. "No,
+you didn't. Do you want to cancel it now?" Oh, I didn't huh? Whatever. "YES.
+CANCEL IT!" Now it can't just be that easy. She said, "you'll have to call back
+at ten o'clock to speak with a cashier to get your money back." Seriously, it
+was 9:56!
 
 So I called back and I think I got it taken care of. But something that urks me
 about the whole process is how everyone seems to treat me like I'M stupid.

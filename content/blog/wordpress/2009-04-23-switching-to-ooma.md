@@ -53,7 +53,7 @@ price for each line â€“ even though I was using the same hardware and there
 nothing extra they had to do other than give the second line and activate it. I
 was paying close to
 $70 per month for that second line. With ooma premier I get 2 lines for $12.99
-per month (or \$8.34/mo. if I pay yearly). See, no brainer!
+per month (or `$8.34/mo.` if I pay yearly). See, no brainer!
 
 Plus there are a number of
 [additional features](http://www.ooma.com/learn/ooma_premier.php?section=features)
