@@ -4,6 +4,7 @@
 const {exit} = require('process')
 const frontmatter = require('frontmatter')
 const fs = require('fs')
+const opn = require('opn')
 const path = require('path')
 const readline = require('readline-sync')
 const yaml = require('yaml')
@@ -25,6 +26,13 @@ const parsed = frontmatter(content)
 
 parsed.data.description = readline.question('Short descripton of post:\n')
 parsed.data.banner = './images/banner.jpg'
+
+opn(
+  `https://unsplash.com/search/photos/${encodeURIComponent(parsed.data.title)}`,
+  {
+    wait: false,
+  },
+)
 
 const bannerUrl = readline.question('Enter unsplash banner url: ')
 console.log(bannerUrl)
