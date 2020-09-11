@@ -55,7 +55,10 @@ async function generateBlogPost() {
     },
   ])
   const slug = slugify(title)
-  const destination = fromRoot('content/blog', slug)
+  const destination = fromRoot(
+    'content/blog',
+    `${formatDate(new Date())}-${slug}`,
+  )
   mkdirp.sync(destination)
 
   const bannerCredit = await getBannerPhoto(title, destination)
@@ -66,7 +69,7 @@ async function generateBlogPost() {
       title,
       date: formatDate(new Date()),
       author: 'Dustin Davis',
-      description: `_${description}_`,
+      description,
       categories: listify(categories),
       keywords: listify(keywords),
       banner: './images/banner.jpg',
@@ -77,7 +80,7 @@ async function generateBlogPost() {
     ...require('../prettier.config'),
     parser: 'mdx',
   })
-  fs.writeFileSync(path.join(destination, 'index.mdx'), markdown)
+  fs.writeFileSync(path.join(destination, 'index.md'), markdown)
 
   console.log(`${destination.replace(process.cwd(), '')} is all ready for you`)
 }
