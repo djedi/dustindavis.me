@@ -2,12 +2,13 @@
 /* eslint-disable no-console */
 
 const {exit} = require('process')
-const banner = require('./banner')
 const frontmatter = require('frontmatter')
 const fs = require('fs')
 const path = require('path')
 const readline = require('readline-sync')
 const yaml = require('yaml')
+
+const banner = require('./banner')
 
 const args = process.argv.slice(2)
 
@@ -46,11 +47,9 @@ fs.mkdirSync(path.join(dirName, 'images'), {recursive: true})
 
   const indexPath = path.join('.', dirName, 'index.md')
   console.log(indexPath)
-  const fullContent = `---
-${yaml.stringify(parsed.data)}
----
-  
-${parsed.content}`
+  const fullContent = `---\n${yaml.stringify(parsed.data)}\n---\n\n${
+    parsed.content
+  }`
 
   fs.writeFileSync(indexPath, fullContent)
 })()
