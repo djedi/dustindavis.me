@@ -1,16 +1,17 @@
 ---
 author: Dustin Davis
 comments: true
-date: 2014-08-23 05:14:17+00:00
+date: 2014-08-23T05:14:17.000Z
 link: https://dustindavis.me/productivity-tools-processes/
 slug: productivity-tools-processes
 title: Productivity Tools & Processes
-banner: ../banner.jpg
+banner: ./images/banner.jpg
 bannerCredit:
-  'Photo by [Patrick Fore](https://www.patrickfore.com/) on
-  [Unsplash](https://unsplash.com)'
+  Photo by [Carl Heyerdahl](https://unsplash.com/@carlheyerdahl) on
+  [Unsplash](https://unsplash.com)
 categories:
   - Productivity
+description: Some new productivity ideas and tools I want to try
 ---
 
 **2020 UPDATE**
