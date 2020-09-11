@@ -1,5 +1,5 @@
 ---
-slug: 2020-09-11-how-to-create-a-debt-snowball-spreadsheet
+slug: how-to-create-a-debt-snowball-spreadsheet
 title: How to Create a Debt Snowball Spreadsheet
 date: 2020-09-11
 author: Dustin Davis
