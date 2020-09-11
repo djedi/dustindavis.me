@@ -3,7 +3,7 @@ import dustin from '../images/dustin.png'
 
 function BlogFooter() {
   return (
-    <div style={{display: 'flex'}}>
+    <div style={{display: 'flex', paddingTop: 30}}>
       <div
         style={{
           paddingRight: 20,
