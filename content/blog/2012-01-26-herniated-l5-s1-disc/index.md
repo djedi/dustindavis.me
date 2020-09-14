@@ -1,24 +1,21 @@
 ---
 author: Dustin Davis
 comments: true
-date: 2012-01-26 21:18:21+00:00
-
+date: 2012-01-26T21:18:21.000Z
 slug: herniated-l5-s1-disc
 title: Herniated L5-S1 Disc
-banner: ../banner.jpg
-bannerCredit:
-  'Photo by [Patrick Fore](https://www.patrickfore.com/) on
-  [Unsplash](https://unsplash.com)'
+banner: ./images/banner.jpg
 categories:
   - Programming & Internet
   - Yada
 tags:
   - back
   - herniated disc
+description:
+  How I herniated a disc in my back and what I am doing to cope and recover.
 ---
 
-[![](https://nerdydork.com/wp-content/uploads/2012/01/clip_image003-150x150.jpg)](http://218027m9pbuhbe3ikik1jkew07.hop.clickbank.net/?tid=NERDYDORK)I
-thought I'd share the story of how I herniated a disc in my back to hopefully
+I thought I'd share the story of how I herniated a disc in my back to hopefully
 education some programmers out there on why it is important to get up, stretch,
 work out, drink water, and all that healthy jazz you hear people talk about.
 [Getting in the zone](/blog/how-sports-improves-programmer-focus) is great, but
@@ -32,13 +29,13 @@ in the form of a sport."
 
 That hasn't worked out for me so well the older I have gotten. I always figured
 I would go on to play college sports, but I broke my arm pitching in the state
-tournament my senior year, then recovered and served a two year mission and put
+tournament my senior year, then recovered and served a two-year mission and put
 on about 40 lbs. while there. When I got home, my priorities changed and I was
 more concerned about earning money than playing sports.
 
 Since then I like to get in on all kinds of pick-up games such as basketball,
-ultimate frisbee, volleyball, softball and even some raquetball onÂ occasion.
-That was about the extent of my exercise - basically whenever I could find a
+ultimate frisbee, volleyball, softball and even some racquetball onÂ occasion.
+That was about the extent of my exercise - basically, whenever I could find a
 sport to play.
 
 On New Year's Eve, our church ward/neighborhood has a tradition of playing
@@ -55,8 +52,8 @@ So I started playing with a sore back. I didn't play too hard because of it. But
 after a couple of short games, my left leg was hurting clear down to my foot and
 it was starting to go numb. Still, I didn't do much about it. We had plans for
 the day. We went to lunch at Chili's and by that time I couldn't sit without
-being in major pain. I kept having to stad up and walk around. I'm sure I looked
-odd standing while my family was sitting and eating.
+being in major pain. I kept having to stand up and walk around. I'm sure I
+looked odd standing while my family was sitting and eating.
 
 We then did some shopping when I finally admitted to my wife that I couldn't
 take the pain any longer and I need to go home & lie down.
@@ -96,25 +93,24 @@ just have to be good enough.
 Once the cortisone kicked in, it helped out a great deal. But, I was told that
 it would likely be temporary relief, then I may be back in the same pain. So the
 next day I set up an appointment with my primary care physician to have him look
-at the MRI results and make plans going forward. I couldn't get in to my doctor
-as soon as I wanted so I scheduled an appointment with different doctor in that
-office that I guess had just barely joined that practice.
+at the MRI results and make plans going forward. I couldn't get into my doctor
+as soon as I wanted so I scheduled an appointment with a different doctor in
+that office that I guess had just barely joined that practice.
 
 It turns out that my new doctor had a herniated disc. I came in and never sat.
 He preferred to stand. He tole me about his experiences and how he had opted out
 of surgery. He had to manage his condition, but he was able to run and hand been
-on a mile mile run up the canyon that morning. I think after that appointment
-was the first time I started seeing hope. I asked for a referral to a Neural
-Surgeon just in case though so I could get a relationship established just in
-case I did decide to have surgery.
+on a mile run up the canyon that morning. I think after that appointment was the
+first time I started seeing hope. I asked for a referral to a Neural Surgeon
+just in case though so I could get a relationship established just in case I did
+decide to have surgery.
 
 In the meantime I started doing a lot of research on the internet on things I
-could do to improve my condition. I bought
-[this eBook](http://218027m9pbuhbe3ikik1jkew07.hop.clickbank.net/?tid=NERDYDORK)
-that was VERY helpful in helping me understand what had happened, why, and what
-I could do to improve and live with it, without surgery. It was almost like
-reading a slideshow with a helpful picture on every page. It took me about an
-hour to read the whole thing and I understood what was going on.
+could do to improve my condition. I bought an eBook that was VERY helpful in
+helping me understand what had happened, why, and what I could do to improve and
+live with it, without surgery. It was almost like reading a slideshow with a
+helpful picture on every page. It took me about an hour to read the whole thing
+and I understood what was going on.
 
 At my appointment with the neurosurgeon, I was prescribed physical therapy, told
 to try to walk 3 miles per day and if things didn't improve I would likely need
@@ -124,7 +120,11 @@ numbness in my foot.
 
 I snapped some photos with my iPhone of the MRI results showing the herniation:
 
-[![](https://nerdydork.com/wp-content/uploads/2012/01/IMG_0402-150x150.jpg)](https://nerdydork.com/wp-content/uploads/2012/01/IMG_0402.jpg)Â [![](https://nerdydork.com/wp-content/uploads/2012/01/IMG_0403-150x150.jpg)](https://nerdydork.com/wp-content/uploads/2012/01/IMG_0403.jpg)Â [![](https://nerdydork.com/wp-content/uploads/2012/01/IMG_0404-150x150.jpg)](https://nerdydork.com/wp-content/uploads/2012/01/IMG_0404.jpg)
+![1](./images/1.jpg)
+
+![2](./images/2.jpg)
+
+![3](./images/3.jpg)
 
 So I've been doing physical therapy three times per week and walking about 1.5
 miles per day. I think things are improving and I'm hopeful that they will
@@ -132,14 +132,10 @@ continue to improve and I can gett the feeling back in my foot.
 
 So again, to recap... If you sit at a desk all day, get up and stretch at least
 once an hour. Drink lots of water (this will help you get up and stretch as you
-are constantly running to the bathroom). If you're having lower back pain, DON'T
-PLAY BASKETBALL! Â Instead, do stretches by laying on your stomach and pressing
-your upper body up to arch your back more and use ice for relief. Sit up
-straight in your chair. Raise your monitor, work on good posture. If you really
-are having back pain, I recommend reading
-[The Herniated Disc Survival Guide](http://218027m9pbuhbe3ikik1jkew07.hop.clickbank.net/?tid=NERDYDORK)
-which show great stretches you can do and principle of good posture and lifting
-to improve your back.
+are constantly running to the bathroom). If you're having lower back pain,
+**DON'T PLAY BASKETBALL!** Instead, do stretches by laying on your stomach and
+pressing your upper body up to arch your back more and use ice for relief. Sit
+up straight in your chair. Raise your monitor, work on good posture.
 
 Also, I've ordered a GeekDesk for home and my work also bought one for me so I
 can sit or stand as I please. It's hard to stand and work ALL day.

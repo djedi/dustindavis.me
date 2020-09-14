@@ -1,14 +1,13 @@
 ---
 author: Dustin Davis
 comments: true
-date: 2012-01-20 17:22:37+00:00
-
+date: 2012-01-20T17:22:37.000Z
 slug: setting-up-a-znc-irc-bouncer
 title: Setting Up a ZNC IRC Bouncer
-banner: ../banner.jpg
+banner: ./images/banner.jpg
 bannerCredit:
-  'Photo by [Patrick Fore](https://www.patrickfore.com/) on
-  [Unsplash](https://unsplash.com)'
+  Photo by [Ash Edmonds](https://unsplash.com/@badashphotos) on
+  [Unsplash](https://unsplash.com)
 categories:
   - Technology
 tags:
@@ -18,6 +17,7 @@ tags:
   - tmux
   - ubuntu
   - znc
+description: How to stay logged in to IRC and connect on different machines
 ---
 
 First of all, I'll skip the discussion on what [ZNC](http://wiki.znc.in/ZNC) and
@@ -48,13 +48,12 @@ account, create one. Please feel free to use my
 (**Note**: I now use
 [DigitalOcean](https://www.digitalocean.com/?refcode=f1688368903d) as you can
 get a droplet for only `$5` per month. I have it running on my
-[Sentry](http://dustindavis.me/setting-up-your-own-sentry-server.html) server,
-so 2 for the price of one!)
+[Sentry](/blog/setting-up-your-own-sentry-server) server, so 2 for the price of
+one!)
 
 1. Add a Linode. I selected the cheapest one, which is a Linode 512 for
    $19.95 per month. (I understand that paying $20 is likely a waste of money
    just for an IRC bouncer, but I'll talk about this later...)
-
 2. Create an instance of Ubuntu on your Linode. I used Ubuntu 11.10. Make note
    of your new IP address for your server. You may want to create an entry in
    your hosts file so you can reference it by name instead of remembering the IP
@@ -155,5 +154,5 @@ resolved the issue.
 
 I now use [DigitalOcean](https://www.digitalocean.com/?refcode=f1688368903d) as
 you can get a droplet for only `$5` per month. I have it running on my
-[Sentry](http://dustindavis.me/setting-up-your-own-sentry-server.html) server,
-so 2 for the price of one!
+[Sentry](/blog/setting-up-your-own-sentry-server) server, so 2 for the price of
+one!
