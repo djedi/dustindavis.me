@@ -1,27 +1,28 @@
 ---
 author: Dustin Davis
 comments: true
-date: 2011-06-17 20:14:15+00:00
-
+date: 2011-06-17T20:14:15.000Z
 slug: how-sports-improves-programmer-focus
 title: How Sports Improves Programmer Focus
-banner: ../banner.jpg
+banner: ./images/banner.jpg
 bannerCredit:
-  'Photo by [Patrick Fore](https://www.patrickfore.com/) on
-  [Unsplash](https://unsplash.com)'
+  Photo by [Keith Johnston](https://unsplash.com/@acfb5071) on
+  [Unsplash](https://unsplash.com)
 categories:
-  - Programming & Internet
+  - Opinions
+description:
+  I played a lot of sports as a teenager and it has helped me focus as a
+  programmer.
 ---
 
-[![](https://nerdydork.com/wp-content/uploads/2011/06/clear-the-mechanism-150x150.png)](https://nerdydork.com/wp-content/uploads/2011/06/clear-the-mechanism.png)There
-was some talk recently about distractions at work. Guys were complaining they
-can't get anything done with so many distractions. We used to have an open work
-space where you could see and hear everyone in the room. Now we have higher
+There was some talk recently about distractions at work. Guys were complaining
+they can't get anything done with so many distractions. We used to have an open
+work space where you could see and hear everyone in the room. Now we have higher
 cubicle walls. Personally, I preferred the old layout.
 
-When a someone tells me they can't focus because there is a conversation going
-on in another cubicle, I want to just tell them to "clear the mechanism". Sadly,
-I don't think any of them know what I would be referring to. It seems all the
+When someone tells me they can't focus because there is a conversation going on
+in another cubicle, I want to just tell them to "clear the mechanism". Sadly, I
+don't think any of them know what I would be referring to. It seems all the
 programmers I currently work with now hate sports & and make it known.
 
 What I am referring to is the scene
@@ -33,9 +34,17 @@ mechanism". The crowd blurs and falls silent and Chapel enters his zone.
 I was going to share this video with co-workers, but I couldn't find it, so I
 took the time to snip it off my DVD.
 
+<iframe
+  style="border:none"
+  width="1280"
+  height="720"
+  allow="encrypted-media"
+  src="https://content.uplynk.com/player5/6f7GoZieVaq3OqEWbHv8n9ea.html"
+></iframe>
+
 This is for real. I played football, basketball, and baseball in high school.
 Honestly, I don't remember the crowd when playing. There are times when you do,
-like when timeout is called, or your passing a ball in-bounds and guys are
+like when a timeout is called, or your passing a ball in-bounds and guys are
 yanking on your jersey. But most of the game, you are so focused on the game
 that you don't even know there is a crowd around you.
 
