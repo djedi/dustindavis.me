@@ -58,21 +58,18 @@ Here are some of my favorite sources for audio books:
    so this encourages me to continue to find new interesting books to read. I do
    find that my favorite are self-help type books like Zig Ziglar stuff. It
    energizes me. I look at the membership price as an investment in me.
-
 2. [BooksShouldBeFree.com](http://www.booksshouldbefree.com/): This is a very
-   easy to navigate site with all kinds of audio books created from public
+   easy to navigate site, with all kinds of audio books created from public
    domain sources. Check out the
    [top 100](http://www.booksshouldbefree.com/Top_100) to see some of the great
-   classics available. Sometime is is nice to step away from non-fiction books
+   classics available. Sometime it is nice to step away from non-fiction books
    and just be entertained.
-
 3. [LibriVox.org](http://librivox.org/): This may be a duplicate listing because
    it seems to me that all the listings in BooksShouldBeFree.com are essentially
-   taken from LibriVox. It appears LibriVox is build on top of Wordpress, so I
+   taken from LibriVox. It appears LibriVox is build on top of WordPress, so I
    mention them mainly because they are the source we can all thank for these
    free audio books, but their user interface will not be as nice as the custom
    interface of BooksShouldBeFree.com.
-
 4. iTunes: While this integrates well with my iPhone, there are a few reasons I
    don't use iTunes much. I have purchased AudioBooks on iTunes in the past and
    after switching computers and iPhones, I don't have those books available and
@@ -80,7 +77,6 @@ Here are some of my favorite sources for audio books:
    invention of iCloud. Second, they tend to be more expensive. Generally a book
    selling for $29.95 on iTunes I'll just find on Audible.com and use 1 ($14.95)
    credit.
-
 5. Podcasts: So I know they are not audio books per say, but if you run out of
    books you want to listen to, check out some podcasts that are in your
    interest area. The best place to find these are on iTunes, and most of them
@@ -89,13 +85,13 @@ Here are some of my favorite sources for audio books:
 So how do I play these audiobooks? I have an iPhone. I found it works great with
 Audio books. If I have audiobooks in MP3, I can tell iTunes to treat it as an
 audiobook. This gives me the ability to have all the audiobook features such as
-30 second rewind, remembering position, skip when shuffling, playing at half the
+30-second rewind, remembering position, skip when shuffling, playing at half the
 speed or playing at two times the speed.
 
 I currently use an FM transmitter because I still have the factory stereo in my
 2000 Maxima. But I have found that I can't seem to find a station that is
 totally clear and I've tried a few FM transmitters. Soon I will be installing a
-new stereo that integrates better with iPhone. I went in to Best Buy last week
+new stereo that integrates better with iPhone. I went into Best Buy last week
 and found a good stereo can be purchased for
 $100 and their geek squad will install it for $50 plus parts needed for
 integration. I believe they said parts for my car will run around

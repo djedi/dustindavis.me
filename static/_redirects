@@ -1,6 +1,9 @@
 /search q=:q                                                            /blog?q=:q
 /search                                                                 /blog
 
+# affiliates
+/iwantmyname        https://www.shareasale.com/r.cfm?b=210518&u=2551398&m=25581
+
 /welcome-me                                                                  /blog/welcome-me
 /budgeting-for-the-new-year                                                  /blog/budgeting-for-the-new-year
 /strength-struggle                                                           /blog/strength-struggle
