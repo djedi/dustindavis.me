@@ -1,28 +1,30 @@
 ---
 author: Dustin Davis
 comments: true
-date: 2013-02-26 16:19:33+00:00
+date: 2013-02-26T16:19:33.000Z
 link: https://dustindavis.me/setting-up-your-own-sentry-server/
 slug: setting-up-your-own-sentry-server
 title: Setting Up Your Own Sentry Server
-banner: ../banner.jpg
+banner: ./images/banner.jpg
 bannerCredit:
-  'Photo by [Patrick Fore](https://www.patrickfore.com/) on
-  [Unsplash](https://unsplash.com)'
+  Photo by [Lance Anderson](https://unsplash.com/@lanceanderson) on
+  [Unsplash](https://unsplash.com)
 categories:
-  - Programming & Internet
+  - Django
 tags:
   - digitalocean
   - django
   - sentry
   - znc
+description: Short tutorial on how to set up your own self-hosted Sentry server.
 ---
 
-[![sentry](https://nerdydork.com/wp-content/uploads/2013/02/sentry.png)](https://nerdydork.com/wp-content/uploads/2013/02/sentry.png)If
-you are hosting a Django site, Sentry will make your life easier.
+![Sentry](./images/sentry.png)
+
+If you are hosting a Django site, Sentry will make your life easier.
 
 After my
-[review of various hosting companies](https://dustindavis.me/digitalocean-heroku-linode-webfaction-hosting-showdown.html)
+[review of various hosting companies](/blog/digitalocean-heroku-linode-webfaction-hosting-showdown.html)
 I decided to put [EnvelopeBudget.com](https://envelopebudget.com) on
 [Webfaction](http://www.webfaction.com/?affiliate=redseam). But, I was still
 impressed with
@@ -46,105 +48,89 @@ I documented the process I went through setting up the server.
 Create Ubuntu 12.10 X32 Server droplet & ssh into it as root
 
 ```bash
-
 # add non-root user
-
 adduser sentry
 
 # add to sudoers
-
 adduser sentry sudo
 
 # log out of root and log in as sentry
-
 exit
 
 # update the local package index
-
 sudo apt-get update
 
 # actually upgrade all packages that can be upgraded
-
 sudo apt-get dist-upgrade
 
 # remove any packages that are no longer needed
-
 sudo apt-get autoremove
 
 # reboot the machine, which is only necessary for some updates
-
 sudo reboot
 
 # install python-dev
-
 sudo apt-get install build-essential python-dev
 
 # download distribute
-
 curl -O http://python-distribute.org/distribute_setup.py
 
 # install distribute
-
 sudo python distribute_setup.py
 
 # remove installation files
-
 rm distribute\*
 
 # use distribute to install pip
-
 sudo easy_install pip
 
 # install virtualenv and virtualenvwrapper
-
 sudo pip install virtualenv virtualenvwrapper
 
 # to enable virtualenvwrapper add this line to the end of the .bashrc file
-
-echo "" &gt;&gt; .bashrc echo "source /usr/local/bin/virtualenvwrapper.sh"
-&gt;&gt; .bashrc
+echo "" >> .bashrc
+echo "source /usr/local/bin/virtualenvwrapper.sh" >> .bashrc
 
 # exit and log back in to restart your shell
-
 exit
 
 # make virtualenv
-
 mkvirtualenv sentry_env
 
 # install sentry
-
 pip install sentry
 
 # create settings file (file will be located in ~/.sentry/sentry.conf.py)
-
 sentry init
 
 # install postgres
-
 sudo apt-get install postgresql postgresql-contrib libpq-dev
 
 # install postgres adminpack
-
-sudo -u postgres psql CREATE EXTENSION "adminpack"; q
+sudo -u postgres psql
+CREATE EXTENSION "adminpack";
+q
 
 # change postgres password &amp; create database
-
-sudo passwd postgres sudo su - postgres psql -d template1 -c "ALTER USER
-postgres WITH PASSWORD '<span class="highlight">changeme</span>';" createdb
-<span class="highlight">your_sentry_db_name</span> createuser
-<span class="highlight">your_sentry_user</span> --pwprompt psql -d template1 -U
-postgres GRANT ALL PRIVILEGES ON DATABASE
-<span class="highlight">your_sentry_db_name</span> to
-<span class="highlight">your_sentry_user</span>; q exit
+sudo passwd postgres
+sudo su - postgres
+psql -d template1 -c "ALTER USER postgres WITH PASSWORD '<span class="highlight">changeme</span>';"
+createdb <span class="highlight">your_sentry_db_name</span>
+createuser <span class="highlight">your_sentry_user</span> --pwprompt
+psql -d template1 -U postgres
+GRANT ALL PRIVILEGES ON DATABASE <span class="highlight">your_sentry_db_name</span> to <span class="highlight">your_sentry_user</span>;
+q
+exit
 
 # update config file to use postgres &amp; host (with vim or your editor of choice)
+sudo apt-get install vim
+vim .sentry/sentry.conf.py
+```
 
-sudo apt-get install vim vim .sentry/sentry.conf.py</pre>
+The following are the contents of my `sentry.conf.py` file:
 
-<p>The following are the contents of my sentry.conf.py file</p>
-
-<pre>DATABASES = {
+```python
+DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'NAME': '<span class="highlight">your_sentry_db_name</span>',
@@ -184,7 +170,7 @@ sudo ln -s ../sites-available/sentry
 sudo vim /etc/nginx/sites-available/sentry
 ```
 
-Here are the contents of my nginx file:
+Here are the contents of my Nginx file:
 
 ```text
 server {

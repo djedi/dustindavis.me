@@ -1,14 +1,14 @@
 ---
 author: Dustin Davis
 comments: true
-date: 2013-01-02 15:54:50+00:00
+date: 2013-01-02T15:54:50.000Z
 link: https://dustindavis.me/the-fitness-resolution-i-didnt-plan-on-tmfit/
 slug: the-fitness-resolution-i-didnt-plan-on-tmfit
 title: "The Fitness Resolution I Didn't Plan On #TmFit"
-banner: ../banner.jpg
+banner: ./images/banner.jpg
 bannerCredit:
-  'Photo by [Patrick Fore](https://www.patrickfore.com/) on
-  [Unsplash](https://unsplash.com)'
+  Photo by [Anastase Maragos](https://unsplash.com/@visualsbyroyalz) on
+  [Unsplash](https://unsplash.com)
 categories:
   - Fitness
 tags:
@@ -16,12 +16,12 @@ tags:
   - exercise
   - fitness
   - tmfit
+description:
+  How I got pulled into a fitness goal without really thinking about it.
 ---
 
-[caption id="attachment_1028" align="alignright"
-width="212"]![After my final football game my senior year (1995) with my dad the offensive coordinator.](https://nerdydork.com/wp-content/uploads/2013/01/dad1-212x300.jpg)](https://nerdydork.com/wp-content/uploads/2013/01/dad1.jpg)
-After my final football game my senior year (1995) with my dad the offensive
-coordinator.[/caption]
+![High School Football Photo](./images/dad1.jpg) _After my final football game
+my senior year (1995) with my dad the offensive coordinator._
 
 During my holiday vacation while going through my social feed I happened across
 a post by [Alex Lawrence](https://twitter.com/_AlexLawrence) entitled
@@ -29,10 +29,9 @@ a post by [Alex Lawrence](https://twitter.com/_AlexLawrence) entitled
 I read it because it looked interesting, not because I had any desire to start
 exercising or lose weight. Something in the article moved me though. It moved me
 into activity. Alex's story resonated with me. I too used to play a lot of
-sports. I too
-[had back problems](https://dustindavis.me/herniated-l5-s1-disc.html).
-Thankfully, despite doctors saying it would most likely require surgery, I
-didn't need surgery.
+sports. I too [had back problems](/blog/herniated-l5-s1-disc). Thankfully,
+despite doctors saying it would most likely require surgery, I didn't need
+surgery.
 
 You wouldn't know it now if you met me, but I was voted by my senior class as
 most athletic. I started varsity 7 seasons in 3 sports. Like Alex said, it's not
@@ -44,15 +43,13 @@ the table. I never had to worry about weight. I was a bean pole. In high school
 I was 6'3" and 170 lbs. I tried to gain weight but it seemed I never could. I
 was generally exercising at least 2 hours per day through sports.
 
-[caption id="attachment_1029" align="alignleft"
-width="218"]![Last day of my mission at the Johannesburg temple - a stop on the way home.](https://nerdydork.com/wp-content/uploads/2013/01/joberg-218x300.jpg)](https://nerdydork.com/wp-content/uploads/2013/01/joberg.jpg)
-Last day of my mission at the Johannesburg temple - a stop on the way
-home.[/caption]
+![Last day of my mission 1998](./images/joberg.jpg) _Last day of my mission at
+the Johannesburg temple - a stop on the way home._
 
 My senior year I broke my arm pitching in the state tournament. I was bed ridden
 for a while and once my arm healed I left to serve a two year mission where I
 didn't exercise except for once a  week when we would often play sports, and I
-was in a car the whole time after my first 5 months. I came home weighing 22o
+was in a car the whole time after my first 5 months. I came home weighing 220
 lbs. Most people told me I look normal so it felt like a comfortable weight. I
 maintained that weight eating all I wanted and playing a lot of basketball,
 volleyball, and softball. That was the what I weighed when I got married.
@@ -64,9 +61,8 @@ in the 240's (which I have a number of times), then I cut back, eat less,
 exercise a little and get down to the 230 range. I don't think I have been down
 to 220 since being married though.
 
-[caption id="attachment_1030" align="alignright"
-width="225"]![The most recent photo I could find - with the family](https://nerdydork.com/wp-content/uploads/2013/01/DSCN4434-225x300.jpg)](https://nerdydork.com/wp-content/uploads/2013/01/DSCN4434.jpg)
-The most recent photo I could find - with the family[/caption]
+![The most recent photo I could find - with the family](./images/family.jpg)
+_The most recent photo I could find - with the family_
 
 After reading Alex's article I decided to jump in and make a public commitment.
 I left a comment on his blog and even suggested we change the twitter hash tag

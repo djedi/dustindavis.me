@@ -1,16 +1,14 @@
 ---
 author: Dustin Davis
 comments: true
-date: 2013-01-17 22:23:05+00:00
+date: 2013-01-17T22:23:05.000Z
 link: https://dustindavis.me/digitalocean-heroku-linode-webfaction-hosting-showdown/
 slug: digitalocean-heroku-linode-webfaction-hosting-showdown
 title: 'DigitalOcean, Heroku, Linode & Webfaction: Hosting Showdown'
-banner: ../banner.jpg
-bannerCredit:
-  'Photo by [Patrick Fore](https://www.patrickfore.com/) on
-  [Unsplash](https://unsplash.com)'
+banner: ./images/hosting.png
+
 categories:
-  - Programming & Internet
+  - Hosting
 tags:
   - celery
   - digitalocean
@@ -20,9 +18,10 @@ tags:
   - memcached
   - rabbitmq
   - webfaction
+description:
+  I tried out four different web hosts to determine where I want to host my next
+  site.
 ---
-
-[![Hosting Decisions](http://nerdydork.com/wp-content/uploads/2013/01/hosting-225x300.png)](http://nerdydork.com/wp-content/uploads/2013/01/hosting.png)
 
 Note: Since writing this I have become more comfortable with managing my own
 servers. The pricing point of DigitalOcean moved me in that direction to be
@@ -72,12 +71,12 @@ running but in the end I decided it wasn't for me (at least for this project)
 mainly due to the price. Minimally it would cost me
 $55 per month because I needed two dynos (one web and one worker), and the [SSL add-on](https://addons.heroku.com/ssl). Seriously, why do they charge $20
 per month to use SSL? SSL set up is free on the other 3 hosting plans I'm
-reviewing here. That was probably the biggest deal breaker. Also, this price was
+reviewing here. That was probably the biggest deal-breaker. Also, this price was
 for using the dev
 [PostgreSQL add-on](https://addons.heroku.com/heroku-postgresql) which wouldn't
 last long. Soon I'd need to upgrade to the Basic ($9/mo) or Crane ($50/mo)
 package. So, now my hosting was looking more like `$105` per month. On top of
-that, you deploy by pushing to git ('git push heroku master'). This is cool, but
+that, you deploy by pushing to git ('git push Heroku master'). This is cool, but
 it seemed to take forever each time. It was annoying since I had to keep
 committing and pushing to troubleshoot problems. Deploying with fabric is much
 faster for me on the other three servers. Time to move on.
@@ -92,8 +91,8 @@ I go to the best place I know to spin up a new server fast -
 [Linode](http://www.linode.com/?r=0e672eb6d53973f0ac51b6d8e95a067f55a676bb). It
 probably took me about 2 hours to get everything up and running. I took copious
 notes along the way though. After getting it to work on the 512 plan
-($20 per month), I destroyed that linode and set it up again on a 1 GB plan ($40/month).
-It took about 40 minute the second time (setting it up twice was faster than
+($20 per month), I destroyed that Linode and set it up again on a 1 GB plan ($40/month).
+It took about 40 minutes the second time (setting it up twice was faster than
 figuring out Heroku). I was surprised at how much faster the performance was on
 Linode. Webfaction & Heroku felt about the same, but Linode felt significantly
 faster.
@@ -109,22 +108,22 @@ Linode. It only took about 30 minutes this time. Overall the site felt slower
 than Linode though. I'm guessing it was due to having only one core and because
 I'm located in Utah, my Linode was in Texas and DigitalOcean is New York. Still,
 installing packages seemed to take a lot longer so I'm thinking it was their
-data center's internet speed that was source of slower speeds. Sorry, I don't
-have any benchmarks so I can't really give real numbers. One thing that really
-impressed me though was the reboot time of the server. It seemed about 5 times
-faster than my linode likely due to the SSD.
+data center's internet speed that was the source of slower speeds. Sorry, I
+don't have any benchmarks so I can't really give real numbers. One thing that
+really impressed me though was the reboot time of the server. It seemed about 5
+times faster than my Linode likely due to the SSD.
 
 So, now it was time to make a choice. I had a launch counter ticking down on my
 homepage and I had to decide NOW. I had already spent 3 days making a decision.
 I finally decided to go with Webfaction's 1 GB plan which is
 $40 per month (or $30 per month if paid yearly). I like the idea of having a
-managed plan. The biggest downside for me is that I don't have root or sudo
-access. They don't use virtualenv for their application setup and setting up
+managed plan. The biggest downside for me is that I don't have root or `sudo`
+access. They don't use `virtualenv` for their application setup and setting up
 projects is a bit kludgy felling because of it. Also, setting up Celery &
 RabbitMQ doesn't feel as painless, but I managed it thanks to
 [Mark Liu's tutorial](http://www.markliu.me/2011/sep/29/django-celery-on-webfaction-using-rabbitmq/).
-I know there is a way to use virtualenv and gunicorn on Webfaction, but I doubt
-I'll take the time to set my project up that way.
+I know there is a way to use `virtualenv` and `gunicorn` on Webfaction, but I
+doubt I'll take the time to set my project up that way.
 
 There was a snag though. I had originally set up my account on their most basic
 account with only has 256 MB of RAM. My site was already killed for running 2x
@@ -133,8 +132,8 @@ account and migrate my existing account. So I actually ended up launching on
 Linode. The site is up now and hosting performance is great, but I will likely
 move back to Webfaction because I soon started to realize there is always
 something else to set up. I have a git repo, a [Trac](http://trac.edgewall.org/)
-system, email, & FTP already set up on Webfaction. I would likely want to put a
-Wordpress blog at /blog. All of this is so easy with Webfaction and its more I
+system, email, & FTP already set up on Webfaction. I would likely want to put
+aWordPresss blog at /blog. All of this is so easy with Webfaction and its more I
 have to research to do all of this on Linode.
 
 ## TL;DR
@@ -142,7 +141,7 @@ have to research to do all of this on Linode.
 So here is my tl;dr version in alphabetical order:
 
 [DigitalOcean](https://www.digitalocean.com/?refcode=f1688368903d): I love their
-pricing. For as little as `$5` per month I can spin up a linux server. This
+pricing. For as little as `$5` per month I can spin up a Linux server. This
 would be great for a
 [ZNC IRC bouncer](https://dustindavis.me/setting-up-a-znc-irc-bouncer.html) for
 example. They seem fairly new still so time will tell how they compete with
@@ -152,11 +151,11 @@ server, it can be overlooked.
 [Heroku](http://www.heroku.com/): If I were a hipster I'd bite the bullet and
 host here to get in with the cool crowd. Overall it was just too expensive for a
 bootstrapped startup project. The biggest benefit I see with Heroku is the
-ability to scale fast, both forwards and backwards when you need to. Scaling is
-a good problem to have. If I get to that that point, money won't be an issue and
-I will revisit Heroku. I would probably also use it if I built a very small site
-where the specs fit within their free model or if I was in the middle of a
-hack-a-thon and needed to get online fast.
+ability to scale fast, both forwards and backward when you need to. Scaling is a
+good problem to have. If I get to that point, money won't be an issue and I will
+revisit Heroku. I would probably also use it if I built a very small site where
+the specs fit within their free model or if I was in the middle of a hack-a-thon
+and needed to get online fast.
 
 [Linode](http://www.linode.com/?r=0e672eb6d53973f0ac51b6d8e95a067f55a676bb):
 This seems to be the standard for spinning up your own dedicated server with
@@ -175,7 +174,7 @@ found sufficient reason to leave.
 ## UPDATE
 
 After doing a number of installs at work I got more comfortable with deploying
-on gunicorn & nginx, so I ended up switching to
+on `gunicorn` & Nginx, so I ended up switching to
 [DigitalOcean](https://www.digitalocean.com/?refcode=f1688368903d). This is
 where EnvelopeBudget.com is currently hosted and a have a couple other droplets
 hosting [YouTrack](http://www.jetbrains.com/youtrack/) &
@@ -187,24 +186,18 @@ to complete your SSL setup.
 ### Reasons for leaving Webfaction:
 
 - Total control of SSL setup
-
 - Performance - I wanted SD drives
-
 - Price - more computing power for the price
-
 - Virtualenv - Upgrading is a lot easier when using virtualenv
 
 #### Things to consider before leaving Webfaction
 
 - Webfaction comes with email. I'm now using [Zoho](http://www.zoho.com/) for
   free email.
-
 - Easier to configure - It took a while to figure out how to run Wordpress on
   /blog with nginx. Also, I had to learn the whole process of configuring an SSL
   certificate.
-
 - I didn't bother migrating Trac. Webfaction had a nice one click installer.
   I've moved to [YouTrack](http://www.jetbrains.com/youtrack/) instead.
-
 - There are a number of other one-click install solutions available on
   Webfaction. Be sure you know what you are leaving.

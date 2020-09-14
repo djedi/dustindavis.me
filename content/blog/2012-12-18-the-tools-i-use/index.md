@@ -1,22 +1,30 @@
 ---
 author: Dustin Davis
 comments: true
-date: 2012-12-18 22:08:24+00:00
+date: 2012-12-18T22:08:24.000Z
 link: https://dustindavis.me/the-tools-i-use/
 slug: the-tools-i-use
 title: The Tools I Use
-banner: ../banner.jpg
+banner: ./images/banner.jpg
 bannerCredit:
-  'Photo by [Patrick Fore](https://www.patrickfore.com/) on
-  [Unsplash](https://unsplash.com)'
+  Photo by [Louis Hansel @shotsoflouis](https://unsplash.com/@louishansel) on
+  [Unsplash](https://unsplash.com)
 categories:
-  - Technology
+  - Dustin
+description: Some of my favorite apps and websites
 ---
 
-I written
-[a post like this before](https://dustindavis.me/my-applications.html), but that
-was 2009 and I was using Windows 7. I have since switched to Linux and then OSX,
-so I figured it would be a good time to visit the topic again.
+## Update
+
+This is a nice snapshot of the tools I used in 2012. Going forward visit the
+[Uses](/uses/) page to see the most up-to-date list of apps, websites, and other
+tools I prefer to use on a day-to-day basis.
+
+---
+
+I have written [a post like this before](/blog/my-applications), but that was
+2009 and I was using Windows 7. I have since switched to Linux and then OSX, so
+I figured it would be a good time to visit the topic again.
 
 Here are the applications and tools I use:
 
@@ -42,7 +50,7 @@ Here are the applications and tools I use:
   [Base](http://menial.co.uk/base/), [Sequel Pro](http://www.sequelpro.com/):
   GUI tools for working with databases.
 - [LimeChat](http://limechat.net/mac/): For all my
-  [IRC](https://dustindavis.me/setting-up-a-znc-irc-bouncer.html) communication.
+  [IRC](/blog/setting-up-a-znc-irc-bouncer) communication.
 - [Adium](http://adium.im/): For instant messaging (Google Talk mainly)
 - [Tweetbot](http://tapbots.com/software/tweetbot/): Yes, I bought a twitter
   client. It is that good.
