@@ -11,7 +11,7 @@ bannerCredit:
   Hostreviews.co.uk](https://unsplash.com/@hostreviews) on
   [Unsplash](https://unsplash.com)
 categories:
-  - Programming & Internet
+  - Django
 tags:
   - cpanel
   - Django
