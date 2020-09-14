@@ -2,7 +2,7 @@
 author: Dustin Davis
 comments: true
 date: 2008-10-29 12:48:18+00:00
-link: https://dustindavis.me/webfaction-limited-review/
+
 slug: webfaction-limited-review
 title: Webfaction Limited Review
 banner: ../banner.jpg
@@ -19,7 +19,7 @@ tags:
 
 **UPDATE: Since writing this review, I have set up two accounts with
 **[**Webfaction**](http://www.webfaction.com/?affiliate=redseam)**.
-**[**Check out my latest review**](https://dustindavis.me/webfaction-review.html)**.**
+**[**Check out my latest review**](/blog/webfaction-review)**.**
 
 I've seen a lot of recommendations for
 [Webfaction](http://www.webfaction.com/signup?affiliate=redseam) for new Django

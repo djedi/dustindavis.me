@@ -2,7 +2,7 @@
 author: Dustin Davis
 comments: true
 date: 2009-04-04 11:14:35+00:00
-link: https://dustindavis.me/motorola-em1000r-20-mile-2-way-frsgmrs-radio-pair/
+
 slug: motorola-em1000r-20-mile-2-way-frsgmrs-radio-pair
 title: Motorola EM1000R 20-Mile 2-Way FRS/GMRS Radio, Pair
 banner: ../banner.jpg

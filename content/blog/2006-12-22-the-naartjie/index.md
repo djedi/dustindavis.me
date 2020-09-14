@@ -2,7 +2,7 @@
 author: Dustin Davis
 comments: true
 date: 2006-12-22 18:07:12+00:00
-link: https://dustindavis.me/the-naartjie/
+
 slug: the-naartjie
 title: The Naartjie
 description: What is a naartjie and where did it come from?

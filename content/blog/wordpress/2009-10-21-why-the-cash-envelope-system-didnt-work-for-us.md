@@ -2,7 +2,7 @@
 author: Dustin Davis
 comments: true
 date: 2009-10-21 06:01:29+00:00
-link: https://dustindavis.me/why-the-cash-envelope-system-didnt-work-for-us/
+
 slug: why-the-cash-envelope-system-didnt-work-for-us
 title: Why The Cash Envelope System Didn't Work for Us
 banner: ../banner.jpg

@@ -2,7 +2,7 @@
 author: Dustin Davis
 comments: true
 date: 2008-09-19 15:53:28+00:00
-link: https://dustindavis.me/windows-live-writer/
+
 slug: windows-live-writer
 title: Windows Live Writer
 banner: ../banner.jpg

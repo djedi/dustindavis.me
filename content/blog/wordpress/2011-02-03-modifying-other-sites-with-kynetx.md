@@ -2,7 +2,7 @@
 author: Dustin Davis
 comments: true
 date: 2011-02-03 23:31:06+00:00
-link: https://dustindavis.me/modifying-other-sites-with-kynetx/
+
 slug: modifying-other-sites-with-kynetx
 title: Modifying Other Sites with Kynetx
 banner: ../banner.jpg

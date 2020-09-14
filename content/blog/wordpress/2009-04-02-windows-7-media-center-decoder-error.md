@@ -2,7 +2,7 @@
 author: Dustin Davis
 comments: true
 date: 2009-04-02 19:21:23+00:00
-link: https://dustindavis.me/windows-7-media-center-decoder-error/
+
 slug: windows-7-media-center-decoder-error
 title: Windows 7 Media Center Decoder Error
 banner: ../banner.jpg

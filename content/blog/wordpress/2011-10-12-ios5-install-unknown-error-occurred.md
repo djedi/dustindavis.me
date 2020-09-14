@@ -2,7 +2,7 @@
 author: Dustin Davis
 comments: true
 date: 2011-10-12 20:12:11+00:00
-link: https://dustindavis.me/ios5-install-unknown-error-occurred/
+
 slug: ios5-install-unknown-error-occurred
 title: iOS5 Install Unknown Error Occurred
 banner: ../banner.jpg

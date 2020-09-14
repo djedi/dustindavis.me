@@ -1,16 +1,17 @@
 ---
 author: Dustin Davis
 comments: true
-date: 2006-09-13 11:37:54+00:00
-link: https://dustindavis.me/bedbugs-beetles-or-skeeters/
+date: 2006-09-13T11:37:54.000Z
+
 slug: bedbugs-beetles-or-skeeters
 title: Bedbugs & Beetles, or Skeeters?...
-banner: ../banner.jpg
+banner: ./images/banner.jpg
 bannerCredit:
-  'Photo by [Patrick Fore](https://www.patrickfore.com/) on
-  [Unsplash](https://unsplash.com)'
+  Photo by [Krzysztof  Niewolny](https://unsplash.com/@epan5) on
+  [Unsplash](https://unsplash.com)
 categories:
   - Humor
+description: Old song from 2nd grade that sits in my head...
 ---
 
 My daughter came home from pre-school singing a turtle song with a familiar
@@ -18,7 +19,7 @@ tune. The tune came from a song I used to hear a lot back when I was in the
 second grade. I tried to google it to find the "official" lyrics, only to learn
 there seems to be no official lyrics - every
 [version](http://www.kayshapero.net/child2.htm) I
-[found](http://kilowan.wordpress.com/2006/09/02/skeeters-and-the-bed-bugs/)on
+[found](http://kilowan.wordpress.com/2006/09/02/skeeters-and-the-bed-bugs/) on
 the internet seemed to be noticeably different. So, I decided to post it as I
 remember it:
 

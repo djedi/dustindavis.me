@@ -2,7 +2,7 @@
 author: Dustin Davis
 comments: true
 date: 2014-06-12T17:33:01.000Z
-link: https://dustindavis.me/django-pluralize-outside-templates/
+
 slug: django-pluralize-outside-templates
 title: Django Pluralize Outside of Templates
 banner: ./images/banner.jpg

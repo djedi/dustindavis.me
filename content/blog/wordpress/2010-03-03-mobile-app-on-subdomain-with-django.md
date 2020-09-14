@@ -2,7 +2,7 @@
 author: Dustin Davis
 comments: true
 date: 2010-03-03 17:07:48+00:00
-link: https://dustindavis.me/mobile-app-on-subdomain-with-django/
+
 slug: mobile-app-on-subdomain-with-django
 title: Mobile App on Subdomain with Django
 banner: ../banner.jpg

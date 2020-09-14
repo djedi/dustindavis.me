@@ -2,7 +2,7 @@
 author: Dustin Davis
 comments: true
 date: 2006-10-17T15:03:18.000Z
-link: https://dustindavis.me/gmail-addresses-ignore-dots/
+
 slug: gmail-addresses-ignore-dots
 title: Gmail Addresses Ignore Dots
 banner: ./images/banner.jpg

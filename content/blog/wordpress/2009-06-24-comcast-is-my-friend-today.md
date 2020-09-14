@@ -2,7 +2,7 @@
 author: Dustin Davis
 comments: true
 date: 2009-06-24 21:31:37+00:00
-link: https://dustindavis.me/comcast-is-my-friend-today/
+
 slug: comcast-is-my-friend-today
 title: Comcast is My Friend Today
 banner: ../banner.jpg

@@ -2,7 +2,7 @@
 author: Dustin Davis
 comments: true
 date: 2020-08-06 23:08:26+00:00
-link: https://dustindavis.me/tools-we-use-to-keep-our-kids-safe-with-technology/
+
 slug: tools-we-use-to-keep-our-kids-safe-with-technology
 title: Tools We Use to Keep Our Kids Safe with Technology
 description:

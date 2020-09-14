@@ -2,7 +2,7 @@
 author: Dustin Davis
 comments: true
 date: 2009-03-03 18:20:20+00:00
-link: https://dustindavis.me/dave-ramsey-coming-to-salt-lake-city-discount-code/
+
 slug: dave-ramsey-coming-to-salt-lake-city-discount-code
 title: Dave Ramsey Coming to Salt Lake City (Discount code)
 banner: ../banner.jpg

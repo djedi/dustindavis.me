@@ -2,7 +2,7 @@
 author: Dustin Davis
 comments: true
 date: 2009-05-15 15:29:24+00:00
-link: https://dustindavis.me/webfaction-review/
+
 slug: webfaction-review
 title: Webfaction Review
 banner: ../banner.jpg
@@ -22,9 +22,9 @@ tags:
 ---
 
 I was looking at my web stats and noticed I was getting a lot of traffic to my
-[limited review of Webfaction](https://dustindavis.me/webfaction-limited-review.html).
-To recap, I tried out there account then decided to cancel, and they were prompt
-and friendly at delivering a refund.
+[limited review of Webfaction](/blog/webfaction-limited-review). To recap, I
+tried out there account then decided to cancel, and they were prompt and
+friendly at delivering a refund.
 
 Since that time, I have set up two
 [Webfaction](http://www.webfaction.com?affiliate=redseam) accounts. When I
@@ -33,10 +33,10 @@ and keep it separated from my VPS accounts mainly so I could keep cost separate
 with this business as I was going to be working on it with friends. Setting up
 [Django](http://www.djangoproject.com) was ridiculously simple compared to the
 steps I had to go through with
-[cPanel](https://dustindavis.me/setting-up-django-on-a-whm-cpanel-vps-liquidweb.html).
-I was able to set up the latest version of Django and the latest version of
-Python with a few clicks of a button. As far as access goes, I still had SSH to
-go in and work directly on the server, just as I can with my VPS account.
+[cPanel](/blog/setting-up-django-on-a-whm-cpanel-vps-liquidweb). I was able to
+set up the latest version of Django and the latest version of Python with a few
+clicks of a button. As far as access goes, I still had SSH to go in and work
+directly on the server, just as I can with my VPS account.
 
 [Webfaction](http://www.webfaction.com?affiliate=redseam) has a method of
 breaking things down by domains, applications, and websites. Once you understand

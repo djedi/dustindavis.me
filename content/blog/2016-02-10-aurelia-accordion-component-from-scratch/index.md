@@ -2,7 +2,7 @@
 author: Dustin Davis
 comments: true
 date: 2016-02-10T23:31:56.000Z
-link: https://dustindavis.me/aurelia-accordion-component-from-scratch/
+
 slug: aurelia-accordion-component-from-scratch
 title: Aurelia Accordion Component From Scratch
 banner: ./images/banner.jpg

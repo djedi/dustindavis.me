@@ -2,7 +2,7 @@
 author: Dustin Davis
 comments: true
 date: 2012-09-28 18:58:34+00:00
-link: https://dustindavis.me/rsi-or-carpal-tunnel-brain-cure/
+
 slug: rsi-or-carpal-tunnel-brain-cure
 title: How I Cured My RSI & Back Pain
 banner: ./images/banner.jpg
@@ -66,8 +66,7 @@ there were so many people singing his praises. There must be something to this.
 I watched two videos on YouTube (inserted below) and decided I was jumping in
 with both feet. I bought the book Aaron mentioned in his blog,
 [The Mindbody Prescription](http://www.amazon.com/gp/product/0446675156/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=0446675156&linkCode=as2&tag=nerdydork-20) -
-well, I actually bought the audio book with my
-[Audible](https://dustindavis.me/audio-books.html) account.
+well, I actually bought the audio book with my Audible account.
 
 <iframe width="720" height="405" src="https://www.youtube.com/embed/vsR4wydiIBI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -77,15 +76,14 @@ I've listened to the audio book and this morning I bought another one of his
 books -
 [Healing Back Pain](http://www.amazon.com/gp/product/0446557684/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=0446557684&linkCode=as2&tag=nerdydork-20),
 which I just started listening to this morning. Those who follow my blog know
-about
-[my herniated disc experience](https://dustindavis.me/herniated-l5-s1-disc.html)
-that I blogged about. To digress slightly I want to say that my back has been
-feeling great. I did physical therapy and after about 3 months the numbness in
-my leg and foot went away and I haven't really had any pain since then. When it
-happened I really worried I would never be normal again, especially since the
-specialists all told me they would be surprised if I didn't need surgery. Well,
-I didn't need surgery. It turns out herniated discs can heal. I even played in a
-softball tournament this summer and it didn't bother me at all.
+about [my herniated disc experience](/blog/herniated-l5-s1-disc) that I blogged
+about. To digress slightly I want to say that my back has been feeling great. I
+did physical therapy and after about 3 months the numbness in my leg and foot
+went away and I haven't really had any pain since then. When it happened I
+really worried I would never be normal again, especially since the specialists
+all told me they would be surprised if I didn't need surgery. Well, I didn't
+need surgery. It turns out herniated discs can heal. I even played in a softball
+tournament this summer and it didn't bother me at all.
 
 It is now Friday, just four days since reading Aaron's blog post. I have removed
 all my ergonomic crutches. I have been typing away like crazy and ignoring the

@@ -2,7 +2,7 @@
 author: Dustin Davis
 comments: true
 date: 2011-06-17 20:14:15+00:00
-link: https://dustindavis.me/how-sports-improves-programmer-focus/
+
 slug: how-sports-improves-programmer-focus
 title: How Sports Improves Programmer Focus
 banner: ../banner.jpg

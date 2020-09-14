@@ -2,7 +2,7 @@
 author: Dustin Davis
 comments: true
 date: 2007-02-19 21:04:41+00:00
-link: https://dustindavis.me/rich-dad-poor-dad-review/
+
 slug: rich-dad-poor-dad-review
 title: Rich Dad, Poor Dad - Review
 banner: ../banner.jpg
@@ -28,11 +28,10 @@ which in my mind confirmed my suspicions about the author. So after only reading
 the first chapter I gave the book back and said I wasn't interested in reading
 any further.
 
-If you have read any of my
-[previous posts](https://dustindavis.me/?s=dave+ramsey), you know I'm a big Dave
-Ramsey fan. I was surprised to heard Dave often recommending this book to
-everyone on the radio, even though he is often disagreeing with Kiyosaki on
-other financial matters.
+If you have read any of my [previous posts](/blog/?q=dave+ramsey), you know I'm
+a big Dave Ramsey fan. I was surprised to heard Dave often recommending this
+book to everyone on the radio, even though he is often disagreeing with Kiyosaki
+on other financial matters.
 
 In the meantime my brother-in-law's business has started turning a profit and
 another friend of mine that also recommended the book has continued to build his

@@ -2,7 +2,7 @@
 author: Dustin Davis
 comments: true
 date: 2017-07-26 14:43:37+00:00
-link: https://dustindavis.me/building-website/
+
 slug: building-website
 title: Building Your Own Website on a Budget in 2017
 description: The tools I would use to build a personal website in 2017

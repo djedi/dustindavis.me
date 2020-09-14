@@ -2,7 +2,7 @@
 author: Dustin Davis
 comments: true
 date: 2009-04-13T16:12:10.000Z
-link: https://dustindavis.me/simple-php-pluralize/
+
 slug: simple-php-pluralize
 title: Simple PHP Pluralize
 banner: ./images/banner.jpg

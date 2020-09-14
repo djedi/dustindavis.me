@@ -2,7 +2,7 @@
 author: Dustin Davis
 comments: true
 date: 2007-03-29 16:36:50+00:00
-link: https://dustindavis.me/sorting-an-html-table/
+
 slug: sorting-an-html-table
 title: Sorting an HTML Table
 banner: ../banner.jpg

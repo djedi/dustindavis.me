@@ -2,7 +2,7 @@
 author: Dustin Davis
 comments: true
 date: 2008-09-10 13:12:54+00:00
-link: https://dustindavis.me/gmail-thunberbird-wow/
+
 slug: gmail-thunberbird-wow
 title: Gmail + Thunberbird = WOW
 banner: ../banner.jpg

@@ -2,7 +2,7 @@
 author: Dustin Davis
 comments: true
 date: 2009-05-05 16:25:14+00:00
-link: https://dustindavis.me/my-applications/
+
 slug: my-applications
 title: My Applications
 banner: ../banner.jpg

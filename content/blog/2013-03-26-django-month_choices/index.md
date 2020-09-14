@@ -2,7 +2,7 @@
 author: Dustin Davis
 comments: true
 date: 2013-03-26T16:10:17.000Z
-link: https://dustindavis.me/django-month_choices/
+
 slug: django-month_choices
 title: Django MONTH_CHOICES
 banner: ./images/banner.jpg

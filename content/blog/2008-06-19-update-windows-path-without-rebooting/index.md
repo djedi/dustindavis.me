@@ -2,7 +2,7 @@
 author: Dustin Davis
 comments: true
 date: 2008-06-19 11:38:06+00:00
-link: https://dustindavis.me/update-windows-path-without-rebooting/
+
 slug: update-windows-path-without-rebooting
 title: Update Windows Path Without Rebooting
 description: Updating the PATH environment variable without rebooting in Windows

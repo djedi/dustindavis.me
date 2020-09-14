@@ -2,7 +2,7 @@
 author: Dustin Davis
 comments: true
 date: 2012-12-18T22:08:24.000Z
-link: https://dustindavis.me/the-tools-i-use/
+
 slug: the-tools-i-use
 title: The Tools I Use
 banner: ./images/banner.jpg

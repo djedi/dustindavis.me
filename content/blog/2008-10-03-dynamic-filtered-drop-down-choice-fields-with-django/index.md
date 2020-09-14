@@ -2,7 +2,7 @@
 author: Dustin Davis
 comments: true
 date: 2008-10-03 17:05:18+00:00
-link: https://dustindavis.me/dynamic-filtered-drop-down-choice-fields-with-django/
+
 slug: dynamic-filtered-drop-down-choice-fields-with-django
 title: Dynamic Filtered Drop-Down Choice Fields With Django
 description:

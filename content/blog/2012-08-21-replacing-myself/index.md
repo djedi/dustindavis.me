@@ -1,26 +1,25 @@
 ---
 author: Dustin Davis
 comments: true
-date: 2012-08-21 17:35:52+00:00
-link: https://dustindavis.me/replacing-myself/
+date: 2012-08-21T17:35:52.000Z
 slug: replacing-myself
 title: Replacing Myself
-banner: ../banner.jpg
+banner: ./images/banner.jpg
 bannerCredit:
-  'Photo by [Patrick Fore](https://www.patrickfore.com/) on
-  [Unsplash](https://unsplash.com)'
+  Photo by [Brad Neathery](https://unsplash.com/@bradneathery) on
+  [Unsplash](https://unsplash.com)
 categories:
   - Programming & Internet
 tags:
   - freelance
   - outsourcing
   - programming
+description: My plan to hire someone to help with my business
 ---
 
-[![](https://nerdydork.com/wp-content/uploads/2012/08/canstockphoto4054314-300x300.jpg)](https://nerdydork.com/wp-content/uploads/2012/08/canstockphoto4054314.jpg)Back
-when I was working as a Quality Analyst my real desire was to code. I wanted to
-be a programmer. Instead of finding a new job, I found small jobs through a site
-called GetAFreelancer, now known as
+Back when I was working as a Quality Analyst my real desire was to code. I
+wanted to be a programmer. Instead of finding a new job, I found small jobs
+through a site called GetAFreelancer, now known as
 [Freelancer.com](http://www.freelancer.com/affiliates/xhenxhe/). It was a great
 way test my skills, learn new things, get experience, build a portfolio and make
 a little money along the way.
@@ -44,18 +43,18 @@ But, still wouldn't it be nice to get to a place where you are the boss, you are
 the owner, you own the product and you hire people to maintain it for you? Most
 would say yes.
 
-I first heard about John Jonas during a "death of adsense" campaign where he was
+I first heard about John Jonas during a "Death of AdSense" campaign where he was
 interviewed on a phone call about how it had become increasingly difficult to
 earn money with Google Adsense. I really liked what John Jonas was saying. He
 gave out so much information for free and gained my trust quickly. I started
 following his blog. At some point in time he mentioned the
-[4 Hour Workweek](http://www.amazon.com/gp/product/0307465357/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=0307465357&linkCode=as2&tag=nerdydork-20).
+[4 Hour Workweek](https://amzn.to/35A35QF).
+
 I bought a copy and started reading it. I told a friend in the office about it
 as well. I only got about halfway through it, as I do with most projects, while
 my friend went on to live the 4 hour work week. I think he's currently in Bali
-and is featured in
-[`$100` Startup](http://www.amazon.com/gp/product/0307951529/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=0307951529&linkCode=as2&tag=nerdydork-20)
-book. He's not the only friend I've seen grow rich through focus and efforts.
+and is featured in [`$100` Startup](https://amzn.to/3klhog3) book. He's not the
+only friend I've seen grow rich through focus and efforts.
 
 So what is wrong with me? Why can't I follow in the footsteps of my friends and
 build businesses that allow me to work 4 hours per week?
@@ -63,7 +62,7 @@ build businesses that allow me to work 4 hours per week?
 As many times as I asked myself this, I knew the answer. I wasn't willing to do
 the things my friends where doing. I have put in lots of extra hours, but I
 don't do the uncomfortable things, like creating video tutorials, doing
-webinars, creating newletters and autoresponders. I still don't. I'm leaving
+webinars, creating newsletters and autoresponders. I still don't. I'm leaving
 money on the table and I'm completely aware of it.
 
 I recently saw a tweet, I don't even remember who from, but it said something to
@@ -104,7 +103,7 @@ I actually hired a virtual assistant at the same time. That only lasted two
 weeks before she sent a resignation letter. I decided to hire another
 programmer. I asked Jaymar if he knew anyone looking for a job and he recommend
 a Catherine - a girl he went to college with. Catherine was very good with PHP
-but had no experience with python & Django. Catherine started by helping me with
+but had no experience with Python & Django. Catherine started by helping me with
 PHP, but has quickly learned python and Django and does an excellent job. She
 even able to quickly migrate from Windows to Linux to make life easier
 programming in python. It has been helpful having both programmers live in the
@@ -114,7 +113,7 @@ I follow John's advice of having them send me an email everyday answering 3
 questions: 1. What did you work on today? 2. What problems did you encounter? 3.
 How can I help you?
 
-Because of a full time job, family with 4 small kids, church callings, etc., I
+Because of a full-time job, family with 4 small kids, church callings, etc., I
 don't always get to work on my business as much as I would like, or as much as I
 should. I have found that having these two programmers forces me to focus on my
 business daily. Here are some points that I have found beneficial the past few
@@ -125,8 +124,8 @@ months:
 - I can more easily help them help me. I often review their code and offer
   suggested improvements. They learn faster this way and we stay on the same
   page. It was harder to do with article marketing (as I didn't have much
-  interest) or with iPhone development (because I didn't have experience to know
-  if their code was good or not).
+  interest) or with iPhone development (because I didn't have the experience to
+  know if their code was good or not).
 - They work while I sleep. I encourage them to work the hours that are best for
   them. If I have an idea or have something come up at night, I can send them an
   email and it will be done in the morning. This is great!
@@ -141,10 +140,10 @@ months:
 - I sort of mentioned earlier that I have a bad habit of starting a lot of
   projects and never finishing them. In the past, I don't think I valued MY time
   enough. Yes, I have charged clients up to `$75` per hour to work on their
-  sites, but I often didn't think twice about coding out some new idea before I
+  sites, but I often didn't think twice about coding out some new ideas before I
   even tested the market. I thought if I hired programmers I could have them
   create all these crazy ideas in my head. I'm finding that I am more protective
-  of their time. I know I have to pay them month in and month out, so I need to
+  of their time. I know I have to pay them month-in and month-out, so I need to
   ensure that I have the income to provide their salary. So I ensure that I have
   them working on projects that I believe will make the most income. This has in
   a way reigned in my entrepreneurial ADD.

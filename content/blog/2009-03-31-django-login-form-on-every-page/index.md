@@ -2,7 +2,7 @@
 author: Dustin Davis
 comments: true
 date: 2009-03-31 22:16:00+00:00
-link: https://dustindavis.me/django-login-form-on-every-page/
+
 slug: django-login-form-on-every-page
 title: 'Django: Login Form on Every Page'
 description: How to include a login form on every page of a Django app

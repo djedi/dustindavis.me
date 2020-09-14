@@ -2,7 +2,7 @@
 author: Dustin Davis
 comments: true
 date: 2019-09-11 20:21:34+00:00
-link: https://dustindavis.me/convert-audio-clip-to-ringtone-mac-automation/
+
 slug: convert-audio-clip-to-ringtone-mac-automation
 title: Convert Audio Clip to Ringtone - Mac Automation
 description:

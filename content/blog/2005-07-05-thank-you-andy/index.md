@@ -2,7 +2,7 @@
 author: Dustin Davis
 comments: false
 date: 2005-07-05 19:12:56+00:00
-link: https://dustindavis.me/thank-you-andy/
+
 slug: thank-you-andy
 title: Thank You Andy!
 banner: ./images/banner.jpg

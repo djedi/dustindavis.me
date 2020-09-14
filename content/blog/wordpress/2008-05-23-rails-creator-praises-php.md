@@ -2,7 +2,7 @@
 author: Dustin Davis
 comments: true
 date: 2008-05-23 19:06:27+00:00
-link: https://dustindavis.me/rails-creator-praises-php/
+
 slug: rails-creator-praises-php
 title: Rails Creator Praises PHP
 banner: ../banner.jpg

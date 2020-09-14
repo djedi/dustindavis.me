@@ -2,7 +2,6 @@
 author: Dustin Davis
 comments: true
 date: 2009-04-23 15:12:03+00:00
-link: https://dustindavis.me/switching-to-ooma/
 slug: switching-to-ooma
 title: Switching to ooma
 banner: ../banner.jpg
@@ -16,18 +15,18 @@ categories:
 ---
 
 I been a Vonage customer for
-[a long time](https://dustindavis.me/my-digital-home-phone-internet-service.html).
-Just to give you an idea, when we first ordered it, someone from Qwest tried to
-call my wife to get us to use their long distance plan at 7 cents per minute. My
-wife told them we had had unlimited long distance to the US and Canada for `$25`
-per month. That started an argument where the salesperson called my wife a liar
-and said he/she had never heard of Vonage and no companies were offering
-unlimited long distance. My how things have changed! I must admit, initially it
-was rocky and I felt like a VOIP pioneer at the time. Now it seems crazy not to
-use VOIP if you are paying for high speed internet. I know many competitors have
-cropped up over the years. I've tried a couple and cancelled quickly because of
-various issues. Well, I finally found something I feel may be worthy enough to
-get me to drop Vonage. It's ooma.
+[a long time](/blog/my-digital-home-phone-internet-service). Just to give you an
+idea, when we first ordered it, someone from Qwest tried to call my wife to get
+us to use their long distance plan at 7 cents per minute. My wife told them we
+had had unlimited long distance to the US and Canada for `$25` per month. That
+started an argument where the salesperson called my wife a liar and said he/she
+had never heard of Vonage and no companies were offering unlimited long
+distance. My how things have changed! I must admit, initially it was rocky and I
+felt like a VOIP pioneer at the time. Now it seems crazy not to use VOIP if you
+are paying for high speed internet. I know many competitors have cropped up over
+the years. I've tried a couple and cancelled quickly because of various issues.
+Well, I finally found something I feel may be worthy enough to get me to drop
+Vonage. It's ooma.
 
 Basically with ooma you pay a little more up-front for the hardware, but then
 you get free phone service for life â€“ or as long as they happen to stay in

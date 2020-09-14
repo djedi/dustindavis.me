@@ -2,7 +2,7 @@
 author: Dustin Davis
 comments: true
 date: 2007-07-02 13:10:50+00:00
-link: https://dustindavis.me/sortable-drag-drop-table-rows/
+
 slug: sortable-drag-drop-table-rows
 title: Sortable (Drag & Drop) Table Rows
 banner: ../banner.jpg

@@ -2,7 +2,7 @@
 author: Dustin Davis
 comments: true
 date: 2007-10-16 19:49:59+00:00
-link: https://dustindavis.me/restoring-mysql-innodb-files-on-windows/
+
 slug: restoring-mysql-innodb-files-on-windows
 title: Restoring MySQL InnoDB Files on Windows
 description: How I escaped disaster by restoring a MySQL database

@@ -2,7 +2,7 @@
 author: Dustin Davis
 comments: true
 date: 2009-05-21 21:04:23+00:00
-link: https://dustindavis.me/django-djson-er-json/
+
 slug: django-djson-er-json
 title: Django & Djson… er, JSON
 banner: ../banner.jpg

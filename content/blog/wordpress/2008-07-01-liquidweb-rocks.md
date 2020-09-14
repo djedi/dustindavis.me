@@ -2,7 +2,7 @@
 author: Dustin Davis
 comments: true
 date: 2008-07-01 12:12:43+00:00
-link: https://dustindavis.me/liquidweb-rocks/
+
 slug: liquidweb-rocks
 title: Liquidweb Rocks
 banner: ../banner.jpg

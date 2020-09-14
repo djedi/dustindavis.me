@@ -2,7 +2,7 @@
 author: Dustin Davis
 comments: true
 date: 2008-08-11 18:58:06+00:00
-link: https://dustindavis.me/django-model-style-guide/
+
 slug: django-model-style-guide
 title: Django Model Style Guide
 banner: ../banner.jpg

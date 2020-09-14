@@ -2,7 +2,7 @@
 author: Dustin Davis
 comments: true
 date: 2012-01-20 17:22:37+00:00
-link: https://dustindavis.me/setting-up-a-znc-irc-bouncer/
+
 slug: setting-up-a-znc-irc-bouncer
 title: Setting Up a ZNC IRC Bouncer
 banner: ../banner.jpg

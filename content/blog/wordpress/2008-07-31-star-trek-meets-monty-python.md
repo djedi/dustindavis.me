@@ -2,7 +2,7 @@
 author: Dustin Davis
 comments: true
 date: 2008-07-31 14:18:00+00:00
-link: https://dustindavis.me/star-trek-meets-monty-python/
+
 slug: star-trek-meets-monty-python
 title: Star Trek Meets Monty Python
 banner: ../banner.jpg

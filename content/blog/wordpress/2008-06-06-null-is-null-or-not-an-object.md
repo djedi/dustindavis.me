@@ -2,7 +2,7 @@
 author: Dustin Davis
 comments: true
 date: 2008-06-06 16:14:26+00:00
-link: https://dustindavis.me/null-is-null-or-not-an-object/
+
 slug: null-is-null-or-not-an-object
 title: "'null' is null or not an object"
 banner: ../banner.jpg

@@ -2,7 +2,7 @@
 author: Dustin Davis
 comments: true
 date: 2017-04-14 20:49:31+00:00
-link: https://dustindavis.me/aurelia-sharing-data-components/
+
 slug: aurelia-sharing-data-components
 title: Aurelia - Sharing Data Between Components
 description: Using dependency injection to share data between components.

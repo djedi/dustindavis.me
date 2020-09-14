@@ -2,7 +2,7 @@
 author: Dustin Davis
 comments: true
 date: 2009-06-26 11:27:10+00:00
-link: https://dustindavis.me/windows-7-releases-october-22nd-2009/
+
 slug: windows-7-releases-october-22nd-2009
 title: Windows 7 Releases October 22nd 2009
 banner: ../banner.jpg

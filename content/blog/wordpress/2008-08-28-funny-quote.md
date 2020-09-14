@@ -2,7 +2,7 @@
 author: Dustin Davis
 comments: true
 date: 2008-08-28 16:11:38+00:00
-link: https://dustindavis.me/funny-quote/
+
 slug: funny-quote
 title: Funny Quote
 banner: ../banner.jpg

@@ -2,7 +2,7 @@
 author: Dustin Davis
 comments: true
 date: 2007-03-28 15:53:00+00:00
-link: https://dustindavis.me/word-wrap-reflow-in-firefox-table-cell/
+
 slug: word-wrap-reflow-in-firefox-table-cell
 title: Word Wrap / Reflow in Firefox Table Cell
 banner: ../banner.jpg

@@ -2,7 +2,7 @@
 author: Dustin Davis
 comments: true
 date: 2015-01-14T13:01:36.000Z
-link: https://dustindavis.me/essentialism-book-review/
+
 slug: essentialism-book-review
 title: Essentialism Book Review
 banner: ./images/banner.jpg

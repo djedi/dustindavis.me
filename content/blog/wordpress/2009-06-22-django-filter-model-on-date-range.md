@@ -2,7 +2,7 @@
 author: Dustin Davis
 comments: true
 date: 2009-06-22 16:44:45+00:00
-link: https://dustindavis.me/django-filter-model-on-date-range/
+
 slug: django-filter-model-on-date-range
 title: 'Django: Filter Model on Date Range'
 banner: ../banner.jpg

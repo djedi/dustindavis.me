@@ -2,7 +2,7 @@
 author: Dustin Davis
 comments: true
 date: 2011-03-11 22:59:33+00:00
-link: https://dustindavis.me/django-smart_unicode/
+
 slug: django-smart_unicode
 title: Django smart_unicode
 banner: ../banner.jpg

@@ -2,7 +2,7 @@
 author: Dustin Davis
 comments: true
 date: 2006-01-13T15:49:31.000Z
-link: https://dustindavis.me/html-files-parsed-through-php/
+
 slug: html-files-parsed-through-php
 title: HTML Files Parsed Through PHP
 banner: ./images/banner.jpg

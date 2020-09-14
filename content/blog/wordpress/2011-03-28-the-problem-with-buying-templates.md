@@ -2,7 +2,7 @@
 author: Dustin Davis
 comments: true
 date: 2011-03-28 21:13:38+00:00
-link: https://dustindavis.me/the-problem-with-buying-templates/
+
 slug: the-problem-with-buying-templates
 title: The Problem with Buying Templates
 banner: ../banner.jpg

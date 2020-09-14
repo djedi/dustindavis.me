@@ -2,7 +2,7 @@
 author: Dustin Davis
 comments: true
 date: 2015-03-06 18:36:25+00:00
-link: https://dustindavis.me/top-8-ng-shirts/
+
 slug: top-8-ng-shirts
 title: Top 8 ng-shirts
 description: My favorite shirts frong ng-conf (AngularJS) ranked.

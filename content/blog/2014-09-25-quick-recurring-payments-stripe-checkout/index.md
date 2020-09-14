@@ -2,7 +2,7 @@
 author: Dustin Davis
 comments: true
 date: 2014-09-25T22:25:58.000Z
-link: https://dustindavis.me/quick-recurring-payments-stripe-checkout/
+
 slug: quick-recurring-payments-stripe-checkout
 title: Quick Recurring Payments with Stripe & Checkout
 banner: ./images/banner.jpg

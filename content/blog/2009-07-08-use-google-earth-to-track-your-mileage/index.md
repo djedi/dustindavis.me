@@ -2,7 +2,7 @@
 author: Dustin Davis
 comments: false
 date: 2009-07-08T15:59:49.000Z
-link: https://dustindavis.me/use-google-earth-to-track-your-mileage/
+
 slug: use-google-earth-to-track-your-mileage
 title: Use Google Earth to Track Your Mileage
 banner: ./images/banner.jpg

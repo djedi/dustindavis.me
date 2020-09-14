@@ -2,7 +2,7 @@
 author: Dustin Davis
 comments: true
 date: 2008-07-08 17:39:50+00:00
-link: https://dustindavis.me/web-frameworks-rock/
+
 slug: web-frameworks-rock
 title: Web Frameworks Rock
 banner: ../banner.jpg

@@ -2,7 +2,7 @@
 author: Dustin Davis
 comments: true
 date: 2020-07-23 20:39:35+00:00
-link: https://dustindavis.me/running-portainer-on-synology/
+
 slug: running-portainer-on-synology
 title: Running Portainer on Synology
 banner: ./images/banner.png

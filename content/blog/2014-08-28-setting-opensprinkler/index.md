@@ -2,7 +2,7 @@
 author: Dustin Davis
 comments: true
 date: 2014-08-28T17:37:32.000Z
-link: https://dustindavis.me/setting-opensprinkler/
+
 slug: setting-opensprinkler
 title: Setting up OpenSprinkler
 banner: ./images/opensprinkler.jpg

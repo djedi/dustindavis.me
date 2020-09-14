@@ -2,7 +2,7 @@
 author: Dustin Davis
 comments: true
 date: 2009-03-10 21:40:42+00:00
-link: https://dustindavis.me/django-filtering-a-modelform-field/
+
 slug: django-filtering-a-modelform-field
 title: 'Django: Filtering a ModelForm field'
 banner: ../banner.jpg

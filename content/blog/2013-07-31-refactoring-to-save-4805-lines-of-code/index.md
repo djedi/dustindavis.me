@@ -2,7 +2,7 @@
 author: Dustin Davis
 comments: true
 date: 2013-07-31T17:29:14.000Z
-link: https://dustindavis.me/refactoring-to-save-4805-lines-of-code/
+
 slug: refactoring-to-save-4805-lines-of-code
 title: Refactoring to Save 4805 Lines of Code
 banner: ./images/banner.jpg

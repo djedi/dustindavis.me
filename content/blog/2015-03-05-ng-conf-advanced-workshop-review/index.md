@@ -2,7 +2,7 @@
 author: Dustin Davis
 comments: true
 date: 2015-03-05T18:00:00.000Z
-link: https://dustindavis.me/ng-conf-advanced-workshop-review/
+
 slug: ng-conf-advanced-workshop-review
 title: ng-conf Advanced Workshop Review
 banner: ./images/banner.jpg

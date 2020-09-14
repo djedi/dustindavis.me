@@ -2,7 +2,7 @@
 author: Dustin Davis
 comments: true
 date: 2014-04-16T16:21:14.000Z
-link: https://dustindavis.me/sync-personal-docs-kindle-mac/
+
 slug: sync-personal-docs-kindle-mac
 title: Sync Personal Docs on Kindle for Mac
 banner: ./images/banner.jpg

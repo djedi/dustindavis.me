@@ -2,7 +2,7 @@
 author: Dustin Davis
 comments: true
 date: 2009-04-29 21:31:24+00:00
-link: https://dustindavis.me/inconsistent-bugs-and-hard-coded-variables/
+
 slug: inconsistent-bugs-and-hard-coded-variables
 title: Inconsistent Bugs and Hard Coded Variables
 banner: ../banner.jpg

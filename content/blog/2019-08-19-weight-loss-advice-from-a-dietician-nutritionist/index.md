@@ -2,7 +2,7 @@
 author: Dustin Davis
 comments: true
 date: 2019-08-19 23:22:32+00:00
-link: https://dustindavis.me/weight-loss-advice-from-a-dietician-nutritionist/
+
 slug: weight-loss-advice-from-a-dietician-nutritionist
 title: Weight Loss Advice from a Dietician/Nutritionist
 description: Some notes and learnings from visiting with a nutritionist

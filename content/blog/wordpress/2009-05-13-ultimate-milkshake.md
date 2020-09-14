@@ -2,7 +2,7 @@
 author: Dustin Davis
 comments: true
 date: 2009-05-13 20:29:47+00:00
-link: https://dustindavis.me/ultimate-milkshake/
+
 slug: ultimate-milkshake
 title: Ultimate Milkshake
 banner: ../banner.jpg

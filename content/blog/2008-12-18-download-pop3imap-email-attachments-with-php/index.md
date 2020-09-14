@@ -2,7 +2,7 @@
 author: Dustin Davis
 comments: true
 date: 2008-12-18T16:51:31.000Z
-link: https://dustindavis.me/download-pop3imap-email-attachments-with-php/
+
 slug: download-pop3imap-email-attachments-with-php
 title: Download POP3/IMAP Email Attachments with PHP
 banner: ./images/banner.jpg

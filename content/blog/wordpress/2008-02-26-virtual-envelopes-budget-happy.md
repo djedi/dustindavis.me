@@ -2,7 +2,7 @@
 author: Dustin Davis
 comments: true
 date: 2008-02-26 17:04:07+00:00
-link: https://dustindavis.me/virtual-envelopes-budget-happy/
+
 published: false
 slug: virtual-envelopes-budget-happy
 title: Virtual Envelopes - Budget Happy!
