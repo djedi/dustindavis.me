@@ -17,6 +17,9 @@ function FourOFour() {
       {UnsubscribeIllustration}
       <h1>NOT FOUND</h1>
       <p>{`You just hit a route that doesn't exist... the sadness.`}</p>
+      <p>
+        <a href="/">DustinDavis.me</a>
+      </p>
     </div>
   )
 }

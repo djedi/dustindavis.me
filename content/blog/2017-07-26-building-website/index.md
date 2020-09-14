@@ -31,7 +31,7 @@ interface, they don't try to upsell so many services on checkout, and I've found
 some GoDaddy commercials distasteful.
 
 If I'm looking for a more unique top-level domain like davis.im, I will use
-[iwantmyname.com](https://iwantmyname.com/).
+[iwantmyname.com](/iwantmyname).
 
 You can order your domain name with hosting companies, but I recommend you use
 one of these bigger domain registrars to own your domain separately because it

@@ -1,20 +1,16 @@
 ---
 author: Dustin Davis
 comments: true
-date: 2011-11-17 16:07:07+00:00
-
+date: 2011-11-17T16:07:07.000Z
 slug: audio-books
 title: Audio Books!
-banner: ../banner.jpg
+banner: ./images/banner.jpg
 bannerCredit:
-  'Photo by [Patrick Fore](https://www.patrickfore.com/) on
-  [Unsplash](https://unsplash.com)'
+  Photo by [Distingué CiDDiQi](https://unsplash.com/@distingue) on
+  [Unsplash](https://unsplash.com)
 categories:
-  - Books
-  - Electronics
-  - Finance
-  - Technology
-  - Web Sites
+  - Audiobooks
+description: Let me share my love of audiobooks!
 ---
 
 Commuting is a drag. There was a point in time that I had a 5 minute commute to
@@ -30,16 +26,19 @@ I am constantly eating something and Spitz BBQ sunflower seeds are my
 addiction. 2) Listen to audio books.
 
 Why audio books? A few reasons. First, I'm not much of a music person. I never
-have been. I will listen to music onÂ occasion, but it gets old fast to me. I
+have been. I will listen to music on occasion, but it gets old fast to me. I
 know, I'm strange in this regard. Second, I like learning new things. I don't
 really get that from music. Third, there are lots of books I would like to read,
 but I just don't have the time. My average weekday looks something like this:
 
-4:00 AM - 6:30 AM: Freelance or independent work 6:30 AM - 7:15 AM: Shower & get
-dressed 7:15 AM - 8:00 AM: Commute to work 8:00 AM - 5:00 PM: Work my butt off!
-5:00 PM - 5:45 PM: Commute home 5:45 PM - 8:00 PM: Family time (dinner, play
-with kids, etc) 8:00 PM - 10:00 PM: Time with my wife (watch TV, talk, eat
-ice-cream) 10:00 PM - 10:30 PM: Ready for bed, read, pray
+4:00 AM - 6:30 AM: Freelance or independent work  
+6:30 AM - 7:15 AM: Shower & get dressed  
+7:15 AM - 8:00 AM: Commute to work  
+8:00 AM - 5:00 PM: Work my butt off!  
+5:00 PM - 5:45 PM: Commute home  
+5:45 PM - 8:00 PM: Family time (dinner, play with kids, etc)  
+8:00 PM - 10:00 PM: Time with my wife (watch TV, talk, eat ice-cream)  
+10:00 PM - 10:30 PM: Ready for bed, read, pray
 
 So that is an average day, I wouldn't say I stick to this schedule religiously,
 but it is somewhat predictable if nothing is on the schedule. So you can see I
