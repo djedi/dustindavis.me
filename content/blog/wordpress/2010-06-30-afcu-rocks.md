@@ -2,7 +2,7 @@
 author: Dustin Davis
 comments: true
 date: 2010-06-30 15:13:40+00:00
-link: https://dustindavis.me/afcu-rocks/
+
 slug: afcu-rocks
 title: America First Credit Union Rocks!
 banner: ../banner.jpg

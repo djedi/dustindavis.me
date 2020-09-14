@@ -5,7 +5,7 @@ date: 2017-04-19 21:19:20+00:00
 excerpt:
   In this post I'll show two real-world examples of where I have used Aurelia's
   <compose> template tag.
-link: https://dustindavis.me/real-world-examples-of-aurelias-compose/
+
 slug: real-world-examples-of-aurelias-compose
 title: Real-World Examples of Aurelia's Compose Tag
 description: Let me show you a few examples of how we use the <compose> tag

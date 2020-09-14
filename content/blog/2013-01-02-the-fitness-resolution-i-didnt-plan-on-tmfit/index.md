@@ -2,7 +2,7 @@
 author: Dustin Davis
 comments: true
 date: 2013-01-02T15:54:50.000Z
-link: https://dustindavis.me/the-fitness-resolution-i-didnt-plan-on-tmfit/
+
 slug: the-fitness-resolution-i-didnt-plan-on-tmfit
 title: "The Fitness Resolution I Didn't Plan On #TmFit"
 banner: ./images/banner.jpg

@@ -2,7 +2,7 @@
 author: Dustin Davis
 comments: true
 date: 2009-02-13 21:07:18+00:00
-link: https://dustindavis.me/vista-ubuntu-mac-windows-7-what-to-do/
+
 slug: vista-ubuntu-mac-windows-7-what-to-do
 title: Vista, Ubuntu, Mac, Windows 7... what to do?
 banner: ../banner.jpg

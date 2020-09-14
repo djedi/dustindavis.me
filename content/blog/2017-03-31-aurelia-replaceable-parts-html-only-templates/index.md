@@ -2,7 +2,7 @@
 author: Dustin Davis
 comments: true
 date: 2017-03-31T15:30:46.000Z
-link: https://dustindavis.me/aurelia-replaceable-parts-html-only-templates/
+
 slug: aurelia-replaceable-parts-html-only-templates
 title: Aurelia Replaceable Parts & HTML Only Templates
 banner: ./images/banner.jpg

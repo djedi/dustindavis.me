@@ -2,7 +2,7 @@
 author: Dustin Davis
 comments: true
 date: 2013-08-21T17:19:29.000Z
-link: https://dustindavis.me/memcachedkeylengtherror-key-length-is-250/
+
 slug: memcachedkeylengtherror-key-length-is-250
 title: 'MemcachedKeyLengthError: Key length is > 250'
 banner: ./images/banner.jpg

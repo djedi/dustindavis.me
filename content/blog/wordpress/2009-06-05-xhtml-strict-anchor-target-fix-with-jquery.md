@@ -2,7 +2,7 @@
 author: Dustin Davis
 comments: true
 date: 2009-06-05 22:55:10+00:00
-link: https://dustindavis.me/xhtml-strict-anchor-target-fix-with-jquery/
+
 slug: xhtml-strict-anchor-target-fix-with-jquery
 title: XHTML Strict Anchor Target Fix with jQuery
 banner: ../banner.jpg

@@ -2,7 +2,6 @@
 author: Dustin Davis
 comments: false
 date: 2005-01-18 18:09:08+00:00
-link: https://dustindavis.me/welcome-me/
 slug: welcome-me
 title: Welcome me!
 description: My first blog post ever. Jan 18, 2005

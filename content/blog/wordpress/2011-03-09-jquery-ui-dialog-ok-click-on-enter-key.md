@@ -2,7 +2,7 @@
 author: Dustin Davis
 comments: true
 date: 2011-03-09 18:19:43+00:00
-link: https://dustindavis.me/jquery-ui-dialog-ok-click-on-enter-key/
+
 slug: jquery-ui-dialog-ok-click-on-enter-key
 title: 'jQuery UI Dialog: OK click on Enter key'
 banner: ../banner.jpg

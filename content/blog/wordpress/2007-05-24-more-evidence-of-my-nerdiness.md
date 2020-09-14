@@ -2,7 +2,7 @@
 author: Dustin Davis
 comments: true
 date: 2007-05-24 17:17:12+00:00
-link: https://dustindavis.me/more-evidence-of-my-nerdiness/
+
 slug: more-evidence-of-my-nerdiness
 title: More Evidence of My Nerdiness
 banner: ../banner.jpg

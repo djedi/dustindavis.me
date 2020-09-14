@@ -2,7 +2,7 @@
 author: Dustin Davis
 comments: true
 date: 2011-11-17 16:07:07+00:00
-link: https://dustindavis.me/audio-books/
+
 slug: audio-books
 title: Audio Books!
 banner: ../banner.jpg

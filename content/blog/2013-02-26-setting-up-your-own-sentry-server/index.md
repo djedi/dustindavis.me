@@ -2,7 +2,7 @@
 author: Dustin Davis
 comments: true
 date: 2013-02-26T16:19:33.000Z
-link: https://dustindavis.me/setting-up-your-own-sentry-server/
+
 slug: setting-up-your-own-sentry-server
 title: Setting Up Your Own Sentry Server
 banner: ./images/banner.jpg

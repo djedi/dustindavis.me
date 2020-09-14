@@ -2,7 +2,7 @@
 author: Dustin Davis
 comments: true
 date: 2015-12-16T00:43:29.000Z
-link: https://dustindavis.me/why-aurelia-over-angular-react-ember-meteor/
+
 slug: why-aurelia-over-angular-react-ember-meteor
 title: Why Aurelia over Angular, React, Ember or Meteor
 banner: ./images/banner.jpg

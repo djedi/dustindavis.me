@@ -2,7 +2,7 @@
 author: Dustin Davis
 comments: true
 date: 2011-04-28T22:38:14.000Z
-link: https://dustindavis.me/python-irc-bot-using-twisted-rollbot/
+
 slug: python-irc-bot-using-twisted-rollbot
 title: Python IRC Bot Using Twisted (Rollbot)
 banner: ./images/banner.jpg

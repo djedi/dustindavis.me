@@ -2,7 +2,7 @@
 author: Dustin Davis
 comments: true
 date: 2010-01-12 00:21:05+00:00
-link: https://dustindavis.me/basic-authentication-on-mod_wsgi/
+
 slug: basic-authentication-on-mod_wsgi
 title: Basic Authentication on mod_wsgi
 banner: ../banner.jpg
@@ -32,7 +32,7 @@ authentication for now. (I'm still learning about API best practices).
 
 I got some basic API calls working in my local machine running "manage.py
 runserver". Once I pushed it live, the basic authentication would not work. I'm
-hosting with [Webfaction](https://dustindavis.me/webfaction-review.html) so I
+hosting with [Webfaction](/blog/webfaction-review) so I
 [posted to the forum](http://forum.webfaction.com/viewtopic.php?id=3752) for
 help and continued to look.
 

@@ -2,7 +2,7 @@
 author: Dustin Davis
 comments: true
 date: 2008-08-01 13:07:07+00:00
-link: https://dustindavis.me/i-love-cool-tools/
+
 slug: i-love-cool-tools
 title: I Love Cool Tools
 banner: ../banner.jpg

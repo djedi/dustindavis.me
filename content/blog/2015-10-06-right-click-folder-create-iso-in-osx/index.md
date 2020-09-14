@@ -2,7 +2,7 @@
 author: Dustin Davis
 comments: true
 date: 2015-10-06 20:55:50+00:00
-link: https://dustindavis.me/right-click-folder-create-iso-in-osx/
+
 slug: right-click-folder-create-iso-in-osx
 title: Right Click Folder & Create ISO in OSX
 description:

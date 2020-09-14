@@ -2,7 +2,7 @@
 author: Dustin Davis
 comments: true
 date: 2012-07-20 22:29:31+00:00
-link: https://dustindavis.me/phurlite-simple-php-sqlite-url-shortener/
+
 slug: phurlite-simple-php-sqlite-url-shortener
 title: 'Phurlite: Simple PHP SQLite URL Shortener'
 banner: ../banner.jpg

@@ -2,7 +2,7 @@
 author: Dustin Davis
 comments: true
 date: 2015-04-10 14:41:25+00:00
-link: https://dustindavis.me/using-gmail-for-support/
+
 slug: using-gmail-for-support
 title: Using Gmail for Support
 description: How and why I prefer to simply use Gmail for customer support.

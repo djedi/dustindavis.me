@@ -2,7 +2,7 @@
 author: Dustin Davis
 comments: true
 date: 2020-06-30 20:15:13+00:00
-link: https://dustindavis.me/keep-webmin-running/
+
 slug: keep-webmin-running
 title: Keep Webmin Running
 banner: ./images/banner.jpg

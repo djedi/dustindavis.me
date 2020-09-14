@@ -2,7 +2,7 @@
 author: Dustin Davis
 comments: true
 date: 2013-07-30T17:33:16.000Z
-link: https://dustindavis.me/python-twisted-irc-bot-lazy-coder/
+
 slug: python-twisted-irc-bot-lazy-coder
 title: 'Python Twisted IRC Bot: Lazy Coder'
 banner: ./images/banner.jpg

@@ -2,7 +2,7 @@
 author: Dustin Davis
 comments: true
 date: 2013-03-02T07:29:19.000Z
-link: https://dustindavis.me/django-textile-template-caching/
+
 slug: django-textile-template-caching
 title: Django Textile/Markdown Template Caching Speedup
 banner: ./images/banner.jpg

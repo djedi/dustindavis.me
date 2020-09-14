@@ -2,7 +2,7 @@
 author: Dustin Davis
 comments: false
 date: 2005-05-12T14:42:41.000Z
-link: https://dustindavis.me/php-templating/
+
 slug: php-templating
 title: PHP Templating
 banner: ./images/banner.jpg

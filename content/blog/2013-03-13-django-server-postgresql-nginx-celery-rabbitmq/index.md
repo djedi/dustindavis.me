@@ -2,7 +2,7 @@
 author: Dustin Davis
 comments: true
 date: 2013-03-13T17:51:57.000Z
-link: https://dustindavis.me/django-server-postgresql-nginx-celery-rabbitmq/
+
 slug: django-server-postgresql-nginx-celery-rabbitmq
 title: Setting up a Django Server with PostgreSQL, Nginx, Celery & RabbitMQ
 banner: ./images/banner.jpg

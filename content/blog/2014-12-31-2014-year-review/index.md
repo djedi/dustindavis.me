@@ -2,7 +2,7 @@
 author: Dustin Davis
 comments: true
 date: 2014-12-31T12:15:17.000Z
-link: https://dustindavis.me/2014-year-review/
+
 slug: 2014-year-review
 title: 2014 Year In Review
 banner: ./images/banner.jpg

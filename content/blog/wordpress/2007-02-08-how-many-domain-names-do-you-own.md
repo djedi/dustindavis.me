@@ -2,7 +2,7 @@
 author: Dustin Davis
 comments: true
 date: 2007-02-08 23:31:11+00:00
-link: https://dustindavis.me/how-many-domain-names-do-you-own/
+
 slug: how-many-domain-names-do-you-own
 title: How Many Domain Names Do You Own?
 banner: ../banner.jpg

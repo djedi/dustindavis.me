@@ -2,7 +2,7 @@
 author: Dustin Davis
 comments: true
 date: 2012-01-26 21:18:21+00:00
-link: https://dustindavis.me/herniated-l5-s1-disc/
+
 slug: herniated-l5-s1-disc
 title: Herniated L5-S1 Disc
 banner: ../banner.jpg
@@ -21,9 +21,9 @@ tags:
 thought I'd share the story of how I herniated a disc in my back to hopefully
 education some programmers out there on why it is important to get up, stretch,
 work out, drink water, and all that healthy jazz you hear people talk about.
-[Getting in the zone](https://dustindavis.me/how-sports-improves-programmer-focus.html)
-is great, but as you get older, it's not a good idea to get in the zone for more
-than an hour at a time.
+[Getting in the zone](/blog/how-sports-improves-programmer-focus) is great, but
+as you get older, it's not a good idea to get in the zone for more than an hour
+at a time.
 
 I'll admit, the older I get, the less active I get. In high school I played
 sports non-stop, moving from football, to basketball to baseball with the

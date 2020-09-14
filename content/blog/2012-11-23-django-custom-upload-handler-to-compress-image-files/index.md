@@ -1,25 +1,25 @@
 ---
 author: Dustin Davis
 comments: true
-date: 2012-11-23 06:51:30+00:00
-link: https://dustindavis.me/django-custom-upload-handler-to-compress-image-files/
+date: 2012-11-23T06:51:30.000Z
 slug: django-custom-upload-handler-to-compress-image-files
 title: Django Custom Upload Handler to Compress Image Files
-banner: ../banner.jpg
+banner: ./images/banner.jpg
 bannerCredit:
-  'Photo by [Patrick Fore](https://www.patrickfore.com/) on
-  [Unsplash](https://unsplash.com)'
+  Photo by [Patrick Tomasso](https://unsplash.com/@impatrickt) on
+  [Unsplash](https://unsplash.com)
 categories:
-  - Programming & Internet
+  - Django
 tags:
   - django
   - image
+description: How to compress images when they are saved in a Django application.
 ---
 
 I got a somewhat unique request on a project the other day. My client has a lead
 tracking system where his salesman input leads and often upload scanned
 documents to include with the leads. I implemented this all with standard Django
-forms and a formset wizard to input multiple files.
+forms and a `formset` wizard to input multiple files.
 
 My client was worried that a lot of images would be uploaded and he would have
 to start paying extra for storage. He asked if I could compress images on upload
@@ -37,6 +37,7 @@ hopefully.
 
 I created a file named uploadhandlers.py in my app and added the following code:
 
+```python
     import os
 
     from django.conf import settings
@@ -75,14 +76,17 @@ I created a file named uploadhandlers.py in my app and added the following code:
         # Portrait
         else:
             return int(longest_side * ratio), longest_side
+```
 
 You can see from the code that I am simply extending the
 MemoryFileUploadHandler, which is one of the Django default upload handlers. I'm
-overriding the file_complete function to change the size and jpeg quality -
+overriding the `file_complete` function to change the size and jpeg quality -
 which are settings in my settings file.
 
 To implement the change, I update my views. The view that contains the form has
 to be csrf_exempt, and the view handling the uploads switches to this upload
 handler on the fly with the following code:
 
+```python
     request.upload_handlers.insert(0, CompressImageUploadHandler())
+```

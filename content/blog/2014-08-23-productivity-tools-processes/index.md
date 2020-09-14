@@ -2,7 +2,7 @@
 author: Dustin Davis
 comments: true
 date: 2014-08-23T05:14:17.000Z
-link: https://dustindavis.me/productivity-tools-processes/
+
 slug: productivity-tools-processes
 title: Productivity Tools & Processes
 banner: ./images/banner.jpg

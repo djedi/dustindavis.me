@@ -2,7 +2,7 @@
 author: Dustin Davis
 comments: true
 date: 2008-04-18 19:13:23+00:00
-link: https://dustindavis.me/skills-for-deals/
+
 slug: skills-for-deals
 title: Skills for Deals
 banner: ../banner.jpg

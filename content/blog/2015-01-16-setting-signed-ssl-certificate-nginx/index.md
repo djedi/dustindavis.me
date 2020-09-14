@@ -2,7 +2,7 @@
 author: Dustin Davis
 comments: true
 date: 2015-01-16T19:23:40.000Z
-link: https://dustindavis.me/setting-signed-ssl-certificate-nginx/
+
 slug: setting-signed-ssl-certificate-nginx
 title: Setting up a Signed SSL Certificate on Nginx
 banner: ./images/banner.jpg

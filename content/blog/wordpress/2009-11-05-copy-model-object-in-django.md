@@ -2,7 +2,7 @@
 author: Dustin Davis
 comments: true
 date: 2009-11-05 22:41:27+00:00
-link: https://dustindavis.me/copy-model-object-in-django/
+
 slug: copy-model-object-in-django
 title: Copy Model Object in Django
 banner: ../banner.jpg

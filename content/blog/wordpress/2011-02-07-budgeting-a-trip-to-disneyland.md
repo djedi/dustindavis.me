@@ -2,7 +2,7 @@
 author: Dustin Davis
 comments: true
 date: 2011-02-07 17:50:11+00:00
-link: https://dustindavis.me/budgeting-a-trip-to-disneyland/
+
 slug: budgeting-a-trip-to-disneyland
 title: Budgeting a Trip to Disneyland
 banner: ../banner.jpg
@@ -101,13 +101,12 @@ getting out a spreadsheet and planning all our you expenses before any vacation,
 then saving up and paying with cash!
 
 Let's start with the Travel. Using
-[a tool I wrote](https://dustindavis.me/trip-fuel-cost-calculator.html) a few
-years ago. I can estimate the cost of fuel to make the trip. I enter the average
-cost of a gallon of gas, my average mile per gallon my vehicle gets, my starting
-location and my destination. Google's map API will determine the distance and I
-get a one-way and round trip cost estimate. According to the
-[fuel trip cost calculator](https://dustindavis.me/trip-fuel-cost-calculator.html),
-it will cost about
+[a tool I wrote](/blog/trip-fuel-cost-calculator) a few years ago. I can
+estimate the cost of fuel to make the trip. I enter the average cost of a gallon
+of gas, my average mile per gallon my vehicle gets, my starting location and my
+destination. Google's map API will determine the distance and I get a one-way
+and round trip cost estimate. According to the
+[fuel trip cost calculator](/blog/trip-fuel-cost-calculator), it will cost about
 $330 in fuel (we have a big SUV). I will round that up to $350 for a more even
 number. I always like to round up a bit.
 

@@ -2,7 +2,7 @@
 author: Dustin Davis
 comments: true
 date: 2009-05-14 12:38:54+00:00
-link: https://dustindavis.me/one-liner-to-decompress-targz-files/
+
 slug: one-liner-to-decompress-targz-files
 title: One Liner to Decompress tar.gz Files
 banner: ../banner.jpg

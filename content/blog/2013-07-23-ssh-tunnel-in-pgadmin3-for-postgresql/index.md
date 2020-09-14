@@ -2,7 +2,7 @@
 author: Dustin Davis
 comments: true
 date: 2013-07-23 20:08:59+00:00
-link: https://dustindavis.me/ssh-tunnel-in-pgadmin3-for-postgresql/
+
 slug: ssh-tunnel-in-pgadmin3-for-postgresql
 title: SSH Tunnel in pgAdmin3 for PostgreSQL
 description:

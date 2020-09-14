@@ -2,7 +2,7 @@
 author: Dustin Davis
 comments: true
 date: 2015-02-04
-link: https://dustindavis.me/create-lego-logo-inspired-text-illustrator/
+
 slug: create-lego-logo-inspired-text-illustrator
 title: How to Create Lego Logo Inspired Text in Illustrator
 description: Quick and simple tutorial for creating Lego type fonts.

@@ -2,7 +2,7 @@
 author: Dustin Davis
 comments: true
 date: 2009-03-07 00:05:53+00:00
-link: https://dustindavis.me/dave-ramsey-recovery-plan/
+
 slug: dave-ramsey-recovery-plan
 title: Dave Ramsey Recovery Plan
 banner: ../banner.jpg

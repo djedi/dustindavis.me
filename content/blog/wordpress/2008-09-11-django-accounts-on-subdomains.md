@@ -2,7 +2,7 @@
 author: Dustin Davis
 comments: true
 date: 2008-09-11 18:33:13+00:00
-link: https://dustindavis.me/django-accounts-on-subdomains/
+
 slug: django-accounts-on-subdomains
 title: Django Accounts on Subdomains
 banner: ../banner.jpg
@@ -41,7 +41,7 @@ I'm doing my development and testing on Windows. So in order to test this, I've
 edited my hosts files (C:\WINDOWS\system32\drivers\etc\hosts) with my main
 domain and a few subdomains that I want to test. When I go live, I will likely
 remove these from the hosts files and set up
-[wildcard dns & subdomains](https://dustindavis.me/setting-up-wildcard-dns-subdomains-on-cpanel.html)
+[wildcard dns & subdomains](/blog/setting-up-wildcard-dns-subdomains-on-cpanel)
 on the server.
 
 Here is an example of my hosts file entries used to test:

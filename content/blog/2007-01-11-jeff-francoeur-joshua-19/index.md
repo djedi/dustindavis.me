@@ -2,7 +2,7 @@
 author: Dustin Davis
 comments: true
 date: 2007-01-11T18:31:15.000Z
-link: https://dustindavis.me/jeff-francoeur-joshua-19/
+
 slug: jeff-francoeur-joshua-19
 title: Jeff Francoeur & Joshua 1:9
 banner: ./images/jeff.jpg

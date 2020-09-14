@@ -2,7 +2,7 @@
 author: Dustin Davis
 comments: true
 date: 2011-10-14 17:00:11+00:00
-link: https://dustindavis.me/django-dev-environment-virtualenv-pip-git-pycharm/
+
 slug: django-dev-environment-virtualenv-pip-git-pycharm
 title: 'My Django Dev Environment: Virtualenv, pip, git, & PyCharm'
 banner: ../banner.jpg

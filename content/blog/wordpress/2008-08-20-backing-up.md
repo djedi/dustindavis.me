@@ -2,7 +2,7 @@
 author: Dustin Davis
 comments: true
 date: 2008-08-20 11:23:50+00:00
-link: https://dustindavis.me/backing-up/
+
 slug: backing-up
 title: Backing Up
 banner: ../banner.jpg

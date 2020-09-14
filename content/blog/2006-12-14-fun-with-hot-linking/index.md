@@ -2,7 +2,7 @@
 author: Dustin Davis
 comments: true
 date: 2006-12-14T16:47:49.000Z
-link: https://dustindavis.me/fun-with-hot-linking/
+
 slug: fun-with-hot-linking
 title: Fun With Hot Linking
 banner: ./images/banner.jpg

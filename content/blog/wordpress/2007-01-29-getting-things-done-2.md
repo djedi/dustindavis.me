@@ -2,7 +2,7 @@
 author: Dustin Davis
 comments: true
 date: 2007-01-29 15:29:55+00:00
-link: https://dustindavis.me/getting-things-done-2/
+
 slug: getting-things-done-2
 title: Getting Things Done
 banner: ../banner.jpg

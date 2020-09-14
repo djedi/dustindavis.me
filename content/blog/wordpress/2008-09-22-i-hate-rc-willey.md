@@ -2,7 +2,7 @@
 author: Dustin Davis
 comments: true
 date: 2008-09-22 16:49:39+00:00
-link: https://dustindavis.me/i-hate-rc-willey/
+
 slug: i-hate-rc-willey
 title: I Hate RC Willey
 banner: ../banner.jpg

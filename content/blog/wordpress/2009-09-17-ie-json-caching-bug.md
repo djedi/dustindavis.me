@@ -2,7 +2,7 @@
 author: Dustin Davis
 comments: true
 date: 2009-09-17 16:18:08+00:00
-link: https://dustindavis.me/ie-json-caching-bug/
+
 slug: ie-json-caching-bug
 title: IE & JSON Caching Bug
 banner: ../banner.jpg

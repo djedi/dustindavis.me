@@ -2,7 +2,7 @@
 author: Dustin Davis
 comments: true
 date: 2008-06-19 17:34:08+00:00
-link: https://dustindavis.me/remember-trbl/
+
 slug: remember-trbl
 title: Remember TRBL
 banner: ../banner.jpg

@@ -2,7 +2,7 @@
 author: Dustin Davis
 comments: true
 date: 2008-07-07 15:44:49+00:00
-link: https://dustindavis.me/funny-vader/
+
 slug: funny-vader
 title: Funny Vader
 banner: ../banner.jpg

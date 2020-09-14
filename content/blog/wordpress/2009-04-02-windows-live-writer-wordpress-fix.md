@@ -2,7 +2,7 @@
 author: Dustin Davis
 comments: true
 date: 2009-04-02 19:45:22+00:00
-link: https://dustindavis.me/windows-live-writer-wordpress-fix/
+
 slug: windows-live-writer-wordpress-fix
 title: Windows Live Writer Wordpress Fix
 banner: ../banner.jpg

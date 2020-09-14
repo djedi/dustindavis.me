@@ -2,7 +2,7 @@
 author: Dustin Davis
 comments: true
 date: 2012-03-06 18:11:05+00:00
-link: https://dustindavis.me/how-to-reset-a-django-admin-password/
+
 slug: how-to-reset-a-django-admin-password
 title: How to Reset a Django Admin Password
 banner: ../banner.jpg

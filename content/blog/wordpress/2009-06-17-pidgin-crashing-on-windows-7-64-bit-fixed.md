@@ -2,7 +2,7 @@
 author: Dustin Davis
 comments: true
 date: 2009-06-17 16:28:26+00:00
-link: https://dustindavis.me/pidgin-crashing-on-windows-7-64-bit-fixed/
+
 slug: pidgin-crashing-on-windows-7-64-bit-fixed
 title: Pidgin Crashing on Windows 7 64-bit – Fixed
 banner: ../banner.jpg

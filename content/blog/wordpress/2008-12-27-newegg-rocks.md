@@ -2,7 +2,7 @@
 author: Dustin Davis
 comments: true
 date: 2008-12-27 12:05:22+00:00
-link: https://dustindavis.me/newegg-rocks/
+
 slug: newegg-rocks
 title: Newegg Rocks!
 banner: ../banner.jpg

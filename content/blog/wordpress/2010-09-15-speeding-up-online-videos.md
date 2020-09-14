@@ -2,7 +2,7 @@
 author: Dustin Davis
 comments: true
 date: 2010-09-15 20:32:57+00:00
-link: https://dustindavis.me/speeding-up-online-videos/
+
 slug: speeding-up-online-videos
 title: Speeding Up Online Videos
 banner: ../banner.jpg

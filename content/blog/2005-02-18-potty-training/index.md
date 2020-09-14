@@ -2,7 +2,7 @@
 author: Dustin Davis
 comments: false
 date: 2005-02-18T18:35:04.000Z
-link: https://dustindavis.me/potty-training/
+
 slug: potty-training
 title: Potty Training
 banner: ./images/banner.jpg

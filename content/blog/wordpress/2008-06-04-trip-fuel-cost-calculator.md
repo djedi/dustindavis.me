@@ -2,7 +2,7 @@
 author: Dustin Davis
 comments: true
 date: 2008-06-04 23:03:35+00:00
-link: https://dustindavis.me/trip-fuel-cost-calculator/
+
 slug: trip-fuel-cost-calculator
 title: Trip Fuel Cost Calculator
 banner: ../banner.jpg

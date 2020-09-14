@@ -2,7 +2,7 @@
 author: Dustin Davis
 comments: true
 date: 2016-09-14T21:03:45.000Z
-link: https://dustindavis.me/daily-passwords-for-kids-computer/
+
 slug: daily-passwords-for-kids-computer
 title: Daily Passwords for Kids' Computer
 banner: ./images/banner.jpg

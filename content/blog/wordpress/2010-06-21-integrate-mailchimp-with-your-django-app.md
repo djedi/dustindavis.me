@@ -2,7 +2,7 @@
 author: Dustin Davis
 comments: true
 date: 2010-06-21 18:05:33+00:00
-link: https://dustindavis.me/integrate-mailchimp-with-your-django-app/
+
 slug: integrate-mailchimp-with-your-django-app
 title: Integrate MailChimp with your Django App
 banner: ../banner.jpg

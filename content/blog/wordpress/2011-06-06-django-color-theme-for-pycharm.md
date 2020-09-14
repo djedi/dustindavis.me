@@ -2,7 +2,7 @@
 author: Dustin Davis
 comments: true
 date: 2011-06-06 14:13:02+00:00
-link: https://dustindavis.me/django-color-theme-for-pycharm/
+
 slug: django-color-theme-for-pycharm
 title: Django Color Theme for PyCharm
 banner: ../banner.jpg

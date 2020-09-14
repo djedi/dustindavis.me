@@ -2,7 +2,7 @@
 author: Dustin Davis
 comments: true
 date: 2017-01-12T17:01:11.000Z
-link: https://dustindavis.me/internet-pause-button-with-dd-wrt/
+
 slug: internet-pause-button-with-dd-wrt
 title: Internet Pause Button with DD-WRT
 banner: ./images/banner.jpg

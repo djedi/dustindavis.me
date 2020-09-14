@@ -2,7 +2,7 @@
 author: Dustin Davis
 comments: true
 date: 2010-01-28 19:16:48+00:00
-link: https://dustindavis.me/django-programmingerror-cant-adapt/
+
 slug: django-programmingerror-cant-adapt
 title: "Django: ProgrammingError: Can't Adapt"
 banner: ../banner.jpg

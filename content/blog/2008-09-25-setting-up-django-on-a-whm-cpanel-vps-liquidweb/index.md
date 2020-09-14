@@ -2,7 +2,7 @@
 author: Dustin Davis
 comments: true
 date: 2008-09-25T12:55:44.000Z
-link: https://dustindavis.me/setting-up-django-on-a-whm-cpanel-vps-liquidweb/
+
 slug: setting-up-django-on-a-whm-cpanel-vps-liquidweb
 title: Setting up Django on a WHM/cPanel VPS (LiquidWeb)
 banner: ./images/banner.jpg

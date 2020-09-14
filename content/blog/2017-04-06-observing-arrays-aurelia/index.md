@@ -2,7 +2,7 @@
 author: Dustin Davis
 comments: true
 date: 2017-04-06T19:02:30.000Z
-link: https://dustindavis.me/observing-arrays-aurelia/
+
 slug: observing-arrays-aurelia
 title: Observing Arrays in Aurelia
 banner: ./images/banner.jpg

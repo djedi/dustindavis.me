@@ -2,7 +2,7 @@
 author: Dustin Davis
 comments: true
 date: 2008-10-03 22:45:44+00:00
-link: https://dustindavis.me/django-tip-get_field_display/
+
 slug: django-tip-get_field_display
 title: 'Django Tip: get_FIELD_display()'
 banner: ../banner.jpg

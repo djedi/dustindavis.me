@@ -2,7 +2,7 @@
 author: Dustin Davis
 comments: true
 date: 2008-12-19 20:53:48+00:00
-link: https://dustindavis.me/ebay-research-tool/
+
 slug: ebay-research-tool
 title: eBay Research Tool
 banner: ../banner.jpg

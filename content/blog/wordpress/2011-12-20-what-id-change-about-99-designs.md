@@ -2,7 +2,7 @@
 author: Dustin Davis
 comments: true
 date: 2011-12-20 16:30:07+00:00
-link: https://dustindavis.me/what-id-change-about-99-designs/
+
 slug: what-id-change-about-99-designs
 title: What I'd Change About 99 Designs
 banner: ../banner.jpg

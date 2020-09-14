@@ -2,7 +2,7 @@
 author: Dustin Davis
 comments: true
 date: 2013-03-12T19:08:39.000Z
-link: https://dustindavis.me/python-django-google-adsense-api/
+
 slug: python-django-google-adsense-api
 title: Python, Django & the Google Adsense API
 banner: ./images/banner.jpg

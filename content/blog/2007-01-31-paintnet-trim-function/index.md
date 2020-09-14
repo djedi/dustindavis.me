@@ -2,7 +2,7 @@
 author: Dustin Davis
 comments: true
 date: 2007-01-31 18:15:17+00:00
-link: https://dustindavis.me/paintnet-trim-function/
+
 slug: paintnet-trim-function
 title: Paint.net Trim Function
 description: How to trim an image like you would in Photoshop

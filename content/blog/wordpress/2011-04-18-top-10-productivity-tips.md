@@ -2,7 +2,7 @@
 author: Dustin Davis
 comments: true
 date: 2011-04-18 19:47:45+00:00
-link: https://dustindavis.me/top-10-productivity-tips/
+
 slug: top-10-productivity-tips
 title: Top 10 Productivity Tips
 banner: ../banner.jpg

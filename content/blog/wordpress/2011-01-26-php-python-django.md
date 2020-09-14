@@ -2,7 +2,7 @@
 author: Dustin Davis
 comments: true
 date: 2011-01-26 20:41:29+00:00
-link: https://dustindavis.me/php-python-django/
+
 slug: php-python-django
 title: PHP, Python & Django
 banner: ../banner.jpg

@@ -2,7 +2,7 @@
 author: Dustin Davis
 comments: true
 date: 2010-04-22 11:24:11+00:00
-link: https://dustindavis.me/implementing-a-forgot-password-feature-on-a-django-site/
+
 slug: implementing-a-forgot-password-feature-on-a-django-site
 title: Implementing a Forgot Password Feature on a Django Site
 banner: ../banner.jpg
