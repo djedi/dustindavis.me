@@ -28,15 +28,11 @@ decided to check out that framework also.
 Off the bat, there were things I immediately like better about it:
 
 1. The website theme was green, not red. I like green better than red.
-
 2. Python seemed to have a better history and community than Ruby.
-
 3. Their template syntax was similar to PHP's Smarty template engine, which I
    really liked.
-
 4. Their description of Model/View/Template made more sense to me than every
    Model/View/Controller explaination I have heard or read.
-
 5. I saw a blog post comparing an app written in Django, PHP, & Ruby and Django
    performed the best.
 

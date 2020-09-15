@@ -24,19 +24,12 @@ range. I'm in the process of filtering transactions for
 filters:
 
 - Month to date
-
 - Last month
-
 - Past week
-
 - Past 2 weeks
-
 - Last 30 days
-
 - Last 60 days
-
 - Last 90 days
-
 - All transactions
 
 There really is easy ways to do all of these, but they are slightly different.
