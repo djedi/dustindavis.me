@@ -25,10 +25,10 @@ small business website.
 
 There are lots of places to register a domain name. The biggest and most well
 know is [GoDaddy](https://www.godaddy.com/). GoDaddy is fine, but generally I
-register all my new domain names with [NameCheap](https://www.namecheap.com/). I
-generally choose NameCheap because they seem a bit cheaper, have a cleaner
-interface, they don't try to upsell so many services on checkout, and I've found
-some GoDaddy commercials distasteful.
+register all my new domain names with [Namecheap](/namecheap). I generally
+choose NameCheap because they seem a bit cheaper, have a cleaner interface, they
+don't try to upsell so many services on checkout, and I've found some GoDaddy
+commercials distasteful.
 
 If I'm looking for a more unique top-level domain like davis.im, I will use
 [iwantmyname.com](/iwantmyname).
