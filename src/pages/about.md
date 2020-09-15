@@ -17,8 +17,8 @@ Growing up, I was very much into sports. My dad coached football, wrestling, and
 baseball. My older brother and I often got to with him and the team on long bus
 trips.
 
-In high school, I played football, basketball, and baseball. I ended my senior
-year by breaking my arm while pitching in the state tournament,
+In high school, I played football 🏈, basketball 🏀, and baseball ⚾️. I ended
+my senior year by breaking my arm while pitching in the state tournament,
 [Dave Dravecky](https://www.youtube.com/watch?v=EzLtowZNrmE) style. 😬💔
 
 I recovered and shortly after this I served a 2-year mission for
@@ -41,8 +41,8 @@ tuition reimbursement program! 💯
 I've been fortunate to work for some great companies as you can see from my
 [LinkedIn](https://www.linkedin.com/in/dustindavis/) profile.
 
-I currently live in northern Utah with my wife 👧🏻 and 5 kids 🙍🏼‍♀️🙍‍♂️🙍‍♂️🙍‍♂️🙍‍♂️and our
-dog 🐶.
+I currently live in northern Utah with my wife 👧🏻 and 5 kids 🙎🏼‍♀️🙍🏼‍♂️🙍🏻‍♂️🙍🏼‍♂️🙍🏻‍♂️ and our
+dog 🐶. Now my sport of choice is pickleball!
 
 ## Why Blog?
 
