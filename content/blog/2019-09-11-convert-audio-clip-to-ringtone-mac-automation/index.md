@@ -12,7 +12,7 @@ bannerCredit:
   'Photo by [Morning Brew](https://unsplash.com/@morningbrew) on
   [Unsplash](https://unsplash.com)'
 categories:
-  - Programming & Internet
+  - audio
 ---
 
 Creating your own ringtones for your iPhone is a fairly simple process:

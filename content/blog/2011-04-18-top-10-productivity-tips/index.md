@@ -10,7 +10,7 @@ bannerCredit:
   Afflatus](https://unsplash.com/@modernafflatusphotography) on
   [Unsplash](https://unsplash.com)
 categories:
-  - Humor
+  - humor
 description: Everyone has their productivity hacks. Let me share mind with you.
 ---
 

@@ -9,7 +9,7 @@ bannerCredit:
   Photo by [Eliza Diamond](https://unsplash.com/@eliza28diamonds) on
   [Unsplash](https://unsplash.com)
 categories:
-  - Programming & Internet
+  - Django
 tags:
   - date
   - django

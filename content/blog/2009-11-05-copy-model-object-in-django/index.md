@@ -9,7 +9,7 @@ bannerCredit:
   Photo by [Adam Nieścioruk](https://unsplash.com/@adamsky1973) on
   [Unsplash](https://unsplash.com)
 categories:
-  - Programming & Internet
+  - Django
 tags:
   - django
 description: How to copy a database record in Django

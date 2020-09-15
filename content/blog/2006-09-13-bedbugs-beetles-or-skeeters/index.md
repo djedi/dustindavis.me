@@ -10,7 +10,7 @@ bannerCredit:
   Photo by [Krzysztof  Niewolny](https://unsplash.com/@epan5) on
   [Unsplash](https://unsplash.com)
 categories:
-  - Humor
+  - humor
 description: Old song from 2nd grade that sits in my head...
 ---
 

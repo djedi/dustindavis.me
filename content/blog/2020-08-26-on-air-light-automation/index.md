@@ -8,7 +8,6 @@ description:
   virtual meeting.
 categories:
   - automation
-  - programming
   - bash
   - work from home
 keywords:

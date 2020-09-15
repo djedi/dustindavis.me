@@ -6,8 +6,7 @@ slug: herniated-l5-s1-disc
 title: Herniated L5-S1 Disc
 banner: ./images/banner.jpg
 categories:
-  - Programming & Internet
-  - Yada
+  - health
 tags:
   - back
   - herniated disc

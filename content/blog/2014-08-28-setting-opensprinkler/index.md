@@ -7,7 +7,7 @@ slug: setting-opensprinkler
 title: Setting up OpenSprinkler
 banner: ./images/opensprinkler.jpg
 categories:
-  - Home
+  - automation
 description: How I set up OpenSprinkler
 ---
 

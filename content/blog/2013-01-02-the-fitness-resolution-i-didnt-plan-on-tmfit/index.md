@@ -10,7 +10,7 @@ bannerCredit:
   Photo by [Anastase Maragos](https://unsplash.com/@visualsbyroyalz) on
   [Unsplash](https://unsplash.com)
 categories:
-  - Fitness
+  - fitness
 tags:
   - diet
   - exercise

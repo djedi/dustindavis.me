@@ -11,7 +11,7 @@ bannerCredit:
   'Photo by [Adam Śmigielski](https://smigielski.studio) on
   [Unsplash](https://unsplash.com)'
 categories:
-  - Yada
+  - yada
 ---
 
 I thought I would take some time to educate my fellow Americans about the

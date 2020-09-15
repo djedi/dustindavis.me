@@ -10,10 +10,10 @@ bannerCredit:
   Photo by [Jason Blackeye](https://unsplash.com/@jeisblack) on
   [Unsplash](https://unsplash.com)
 categories:
-  - nginx
+  - Nginx
 tags:
   - http
-  - nginx
+  - Nginx
   - ssl
 description: How to add an SSL to a website running on nginx
 ---

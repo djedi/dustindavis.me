@@ -12,7 +12,7 @@ bannerCredit:
   [Unsplash](https://unsplash.com)'
 categories:
   - Django
-  - python
+  - Python
 tags:
   - Django
   - python

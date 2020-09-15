@@ -10,7 +10,7 @@ bannerCredit:
   Photo by [Kon Karampelas](https://unsplash.com/@konkarampelas) on
   [Unsplash](https://unsplash.com)
 categories:
-  - Web Sites
+  - Gmail
 tags:
   - gmail
 description:

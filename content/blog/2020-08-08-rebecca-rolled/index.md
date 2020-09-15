@@ -5,7 +5,7 @@ date: 2020-08-08
 author: Dustin Davis
 description: You've been Rick Roll'd, but have you been Rebecca Roll'd?
 categories:
-  - Humor
+  - humor
   - Dustin
 keywords:
   - Friday

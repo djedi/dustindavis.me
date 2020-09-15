@@ -11,7 +11,7 @@ bannerCredit:
   'Photo by  on [Joshua Hoehne](https://unsplash.com/@mrthetrain)
   [Unsplash](https://unsplash.com)'
 categories:
-  - windows
+  - Windows
 tags:
   - cmd
   - command

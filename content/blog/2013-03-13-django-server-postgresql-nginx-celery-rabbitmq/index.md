@@ -10,7 +10,9 @@ bannerCredit:
   Photo by [Kevin Horvat](https://unsplash.com/@hidd3n) on
   [Unsplash](https://unsplash.com)
 categories:
-  - Dango
+  - Django
+  - Nginx
+  - PostgreSQL
 tags:
   - celery
   - celerycam

@@ -10,12 +10,12 @@ bannerCredit:
   'Photo by [Andrea Leopardi](https://unsplash.com/@whatyouhide) on
   [Unsplash](https://unsplash.com)'
 categories:
-  - apache
+  - Apache
   - bash
   - cron
-  - mysql
-  - virtualmin
-  - webmin
+  - MySQL
+  - Virtualmin
+  - Webmin
 tags:
   - apache
   - bash

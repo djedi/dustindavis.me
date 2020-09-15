@@ -1,14 +1,13 @@
 ---
 author: Dustin Davis
 comments: true
-date: 2008-05-23 19:06:27+00:00
-
+date: 2008-05-23T19:06:27.000Z
 slug: rails-creator-praises-php
 title: Rails Creator Praises PHP
-banner: ../banner.jpg
+banner: ./images/banner.jpg
 bannerCredit:
-  'Photo by [Patrick Fore](https://www.patrickfore.com/) on
-  [Unsplash](https://unsplash.com)'
+  Photo by [Darren Bockman](https://unsplash.com/@bockman) on
+  [Unsplash](https://unsplash.com)
 categories:
   - PHP
 tags:
@@ -17,6 +16,7 @@ tags:
   - rails
   - ruby
   - Ruby on Rails
+description: Ruby on Rails creator, DHH gives a little praise to PHP
 ---
 
 I would consider myself above average, maybe even an expert when in comes to

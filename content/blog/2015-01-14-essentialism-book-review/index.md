@@ -10,7 +10,7 @@ bannerCredit:
   Photo by [Polina Rytova](https://unsplash.com/@polina_art) on
   [Unsplash](https://unsplash.com)
 categories:
-  - Books
+  - books
 description: My review of the highly-touted book, Essentialism
 ---
 

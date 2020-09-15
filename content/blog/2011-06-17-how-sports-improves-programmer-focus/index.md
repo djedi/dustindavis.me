@@ -9,7 +9,7 @@ bannerCredit:
   Photo by [Keith Johnston](https://unsplash.com/@acfb5071) on
   [Unsplash](https://unsplash.com)
 categories:
-  - Opinions
+  - opinions
 description:
   I played a lot of sports as a teenager and it has helped me focus as a
   programmer.

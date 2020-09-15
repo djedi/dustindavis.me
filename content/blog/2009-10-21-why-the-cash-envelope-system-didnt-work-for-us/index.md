@@ -9,8 +9,8 @@ bannerCredit:
   Photo by [Colin Watts](https://unsplash.com/@imagefactory) on
   [Unsplash](https://unsplash.com)
 categories:
-  - Family
-  - Finance
+  - family
+  - finance
 tags:
   - budget
   - budgeting

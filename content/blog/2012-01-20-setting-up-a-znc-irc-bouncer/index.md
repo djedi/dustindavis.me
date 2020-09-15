@@ -9,7 +9,7 @@ bannerCredit:
   Photo by [Ash Edmonds](https://unsplash.com/@badashphotos) on
   [Unsplash](https://unsplash.com)
 categories:
-  - Technology
+  - bash
 tags:
   - irc
   - irssi
