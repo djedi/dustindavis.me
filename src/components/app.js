@@ -5,11 +5,17 @@ function App({name, icon, href}) {
     <div
       css={{
         width: 120,
-        height: 150,
+        height: 160,
         float: 'left',
         textAlign: 'center',
-        paddingTop: 10,
+        padding: 10,
         marginBottom: 10,
+        border: 0,
+        ':hover': {
+          border: 0,
+          borderRadius: 10,
+          boxShadow: '0 0 20px 10px #1c9a2c',
+        },
       }}
     >
       <a href={href} target="_app">
