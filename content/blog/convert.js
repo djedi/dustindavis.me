@@ -28,7 +28,9 @@ parsed.data.description = readline.question('Short descripton of post:\n')
 parsed.data.banner = './images/banner.jpg'
 
 opn(
-  `https://unsplash.com/search/photos/${encodeURIComponent(parsed.data.title)}`,
+  `https://unsplash.com/search/photos/${encodeURIComponent(
+    parsed.data.title,
+  )}?orientation=landscape`,
   {
     wait: false,
   },
