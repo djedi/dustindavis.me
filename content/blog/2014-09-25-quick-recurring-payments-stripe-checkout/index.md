@@ -131,8 +131,8 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 Some notes on the code:
 
 Lines 3-7: I should also mention I purchased a `$9.00` SSL certificate at
-[namecheap.com](http://namecheap.com) for added security. This code ensures that
-the page is only accessed via https.
+[namecheap.com](/namecheap) for added security. This code ensures that the page
+is only accessed via https.
 
 Lines 9-22: After the form is filled out and submitted, it creates a form past
 back to this page. This is the call that creates the customer using the

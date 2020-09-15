@@ -24,7 +24,8 @@ the process for when I need to do it again in 5 years.
 
 ## Step 1
 
-Purchase an SSL certificate. I bought a cheap one from namecheap.com.
+Purchase an SSL certificate. I bought a cheap one from
+[namecheap.com](/namecheap).
 
 ## Step 2
 
