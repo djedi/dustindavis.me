@@ -9,7 +9,7 @@ bannerCredit:
   Photo by [Distingué CiDDiQi](https://unsplash.com/@distingue) on
   [Unsplash](https://unsplash.com)
 categories:
-  - Audiobooks
+  - audiobooks
 description: Let me share my love of audiobooks!
 ---
 

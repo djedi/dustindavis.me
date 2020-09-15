@@ -10,7 +10,7 @@ bannerCredit:
   Photo by [Sam Dan Truong](https://unsplash.com/@sam_truong) on
   [Unsplash](https://unsplash.com)
 categories:
-  - python
+  - Python
   - Django
 tags:
   - django

@@ -8,7 +8,7 @@ title: How to Create Lego Logo Inspired Text in Illustrator
 description: Quick and simple tutorial for creating Lego type fonts.
 banner: ./images/banner.png
 categories:
-  - Tutorials
+  - tutorials
 tags:
   - illustrator
   - lego

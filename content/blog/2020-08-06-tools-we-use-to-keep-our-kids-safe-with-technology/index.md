@@ -11,7 +11,7 @@ description:
   other technology.
 banner: ./images/banner.jpg
 categories:
-  - Family
+  - family
 ---
 
 A friend recently reached out to my wife and I, asking what tools we use to keep

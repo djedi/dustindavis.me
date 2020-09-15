@@ -10,7 +10,8 @@ bannerCredit:
   Photo by [Tony Reid](https://unsplash.com/@togna_bologna) on
   [Unsplash](https://unsplash.com)
 categories:
-  - Programming & Internet
+  - Aurelia
+  - JavaScript
 tags:
   - django
   - Ruby on Rails

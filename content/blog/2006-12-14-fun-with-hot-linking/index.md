@@ -10,7 +10,7 @@ bannerCredit:
   Photo by [Aziz Acharki](https://unsplash.com/@acharki95) on
   [Unsplash](https://unsplash.com)
 categories:
-  - Programming & Internet
+  - Apache
 description: How to swap out images if other sites are using them on their site.
 ---
 

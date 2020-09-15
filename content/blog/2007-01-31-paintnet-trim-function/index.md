@@ -11,7 +11,7 @@ bannerCredit:
   'Photo by [Peter Beukema](https://unsplash.com/@peterbeukema) on
   [Unsplash](https://unsplash.com)'
 categories:
-  - Programming & Internet
+  - images
 ---
 
 I'm really liking [Paint.net](http://www.getpaint.net). I can't afford Photoshop

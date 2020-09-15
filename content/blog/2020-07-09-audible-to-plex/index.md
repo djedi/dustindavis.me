@@ -14,7 +14,7 @@ bannerCredit:
   [Unsplash](https://unsplash.com)'
 categories:
   - Plex
-  - Audiobooks
+  - audiobooks
 ---
 
 ## Why

@@ -9,9 +9,7 @@ bannerCredit:
   Photo by [Daniel Kuruvilla](https://unsplash.com/@d_kuruvilla) on
   [Unsplash](https://unsplash.com)
 categories:
-  - Programming & Internet
-  - Technology
-  - Web Sites
+  - hosting
 tags:
   - webfaction
 description: A quick review of Webfaction hosting

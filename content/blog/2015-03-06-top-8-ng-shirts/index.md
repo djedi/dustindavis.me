@@ -12,7 +12,6 @@ bannerCredit:
   [Unsplash](https://unsplash.com)'
 categories:
   - AngularJS
-  - conferences
 ---
 
 I love collecting t-shirts at programming conferences. So far I've gotten some

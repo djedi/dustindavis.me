@@ -9,7 +9,7 @@ bannerCredit:
   Photo by [Brad Neathery](https://unsplash.com/@bradneathery) on
   [Unsplash](https://unsplash.com)
 categories:
-  - Programming & Internet
+  - freelance
 tags:
   - freelance
   - outsourcing

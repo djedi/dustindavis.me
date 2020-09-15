@@ -8,7 +8,7 @@ title: 'DigitalOcean, Heroku, Linode & Webfaction: Hosting Showdown'
 banner: ./images/hosting.png
 
 categories:
-  - Hosting
+  - hosting
 tags:
   - celery
   - digitalocean

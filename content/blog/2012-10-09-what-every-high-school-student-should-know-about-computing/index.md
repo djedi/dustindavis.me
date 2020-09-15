@@ -9,7 +9,7 @@ bannerCredit:
   Photo by [NESA by Makers](https://unsplash.com/@nesabymakers) on
   [Unsplash](https://unsplash.com)
 categories:
-  - Opinions
+  - opinions
 description: What I would teach beginning computer students
 ---
 

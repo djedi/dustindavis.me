@@ -10,7 +10,7 @@ bannerCredit:
   Photo by [Carl Heyerdahl](https://unsplash.com/@carlheyerdahl) on
   [Unsplash](https://unsplash.com)
 categories:
-  - Productivity
+  - productivity
 description: Some new productivity ideas and tools I want to try
 ---
 

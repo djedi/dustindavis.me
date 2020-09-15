@@ -7,7 +7,6 @@ slug: running-portainer-on-synology
 title: Running Portainer on Synology
 banner: ./images/banner.png
 categories:
-  - Programming & Internet
   - Synology
   - Docker
 description:

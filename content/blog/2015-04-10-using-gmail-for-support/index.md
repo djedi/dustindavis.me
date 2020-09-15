@@ -11,7 +11,7 @@ bannerCredit:
   'Photo by [Stephen Phillips](https://hostreviews.co.uk/) on
   [Unsplash](https://unsplash.com)'
 categories:
-  - gmail
+  - Gmail
   - support
 tags:
   - atext
