@@ -34,7 +34,7 @@ greatest:
 4. The difference between a browser and the Internet and the difference between
    different browsers.
 5. The difference between a file and an application - how files relate to
-   applications.
+   applications. (Your Word *document* is not your Word *application*)
 6. How to set up a printer and scanner and install the necessary drivers.
 7. How to install applications on each operating system listed above.
 8. The difference between a text file and a binary or application file. How a
