@@ -78,9 +78,9 @@ block.
 I allow all contacts during screen time, but only allow specific contacts during
 downtime. These specific contacts are generally family members.
 
-### Allows Allowed
+### Always Allowed
 
-There are a number of apps I set as allows allowed. This allows them to use
+There are a number of apps I set as always allowed. This allows them to use
 these apps when they are grounded (see above in Downtime). These are generally
 productive and essential apps such as Messages, Maps, Banking, Calculator,
 Scriptures, etc.
