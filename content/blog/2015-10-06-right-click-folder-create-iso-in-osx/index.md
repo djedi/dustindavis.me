@@ -38,7 +38,8 @@ to run it again. So I created a service. I'll show you how simple it was.
 ### The service receives selected **folders** in **Finder**. Set the shell to **/usr/bin/python** and pass input **as arguments**. Add the following 3 lines of python:
 
 ```python
-import sys from subprocess import call
+import sys
+from subprocess import call
 
 call('hdiutil makehybrid -o "{0}.iso" "{0}" -iso -joliet'.format(sys.argv[1]),
 shell=True)
