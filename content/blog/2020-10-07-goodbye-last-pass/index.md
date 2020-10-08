@@ -48,7 +48,7 @@ imported them into Bitwarden.
 [Bitwarden had instructions](https://bitwarden.com/help/article/import-from-lastpass/)
 for everything.
 
-I think installed the
+I then installed the
 [iOS app](https://apps.apple.com/us/app/bitwarden-password-manager/id1137397744)
 on my phone and the
 [Chrome extension](https://chrome.google.com/webstore/detail/bitwarden-free-password-m/nngceckbapebfimnlniiiahkandclblb)
