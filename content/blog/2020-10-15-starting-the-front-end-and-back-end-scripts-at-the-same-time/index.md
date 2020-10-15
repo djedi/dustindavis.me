@@ -1,6 +1,6 @@
 ---
-slug: starting-the-front-end-and-back-end-scripts-at-the-same-time
-title: Starting the Front-End and Back-End Scripts at the Same Time
+slug: starting-front-end-and-back-end-scripts-at-the-same-time
+title: Starting Front-End and Back-End Scripts at the Same Time
 date: 2020-10-15
 author: Dustin Davis
 description:
