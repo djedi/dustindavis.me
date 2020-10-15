@@ -4,8 +4,8 @@ title: Starting the Front-End and Back-End Scripts at the Same Time
 date: 2020-10-15
 author: Dustin Davis
 description:
-  When you need to start a backend and transpile your front-end code from
-  development purposes, here is a hand script to do both.
+  When you need to start a backend and transpile your front-end code for
+  development purposes, here is a handy script to do both at the same time.
 categories:
   - Django
   - python
