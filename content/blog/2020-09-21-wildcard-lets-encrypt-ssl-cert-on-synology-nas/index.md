@@ -105,10 +105,43 @@ export IWMN_PASSWORD="iwantmyname-password"
   --config-home "/path/to/save/acmeconfigs/"
 ```
 
-Now add the following to `/etc/crontab` to keep the cert renewed:
+I found that after renewing a cert that my main domain pointing to my control
+panel worked, but all my other reverse proxy subdomains were still pointing to
+the expired certificate. After digging around I found the
+`/usr/syno/etc/certificate/ReverseProxy` directory. I added the following to my
+script:
+
+```bash
+cd /usr/syno/etc/certificate/ReverseProxy/
+ls -d $PWD/* | xargs -n 1 cp -v /usr/syno/etc/certificate/system/default/*.pem
+```
+
+This basically copies my renewed cert to each of my reverse proxy certificates
+directories.
+
+So the full script now looks like this:
+
+```bash
+export CERT_DOMAIN="*.mydomain.tld"
+export IWMN_EMAIL="iwantmynameemail@sample.com"
+export IWMN_PASSWORD="iwantmyname-password"
+/usr/local/share/acme.sh/acme.sh --issue -d $CERT_DOMAIN --dns dns_iwmn \
+  --certpath /usr/syno/etc/certificate/system/default/cert.pem \
+  --keypath /usr/syno/etc/certificate/system/default/privkey.pem \
+  --fullchainpath /usr/syno/etc/certificate/system/default/fullchain.pem \
+  --capath /usr/syno/etc/certificate/system/default/chain.pem \
+  --dnssleep 20 \
+  --config-home "/path/to/save/acmeconfigs/" && \
+cd /usr/syno/etc/certificate/ReverseProxy/ && \
+ls -d $PWD/* | xargs -n 1 cp -v /usr/syno/etc/certificate/system/default/*.pem && \
+cd -
+```
+
+Now I just run this script regularly by adding the following to `/etc/crontab`
+to keep the cert renewed:
 
 ```text
-0 10 2 * *  root  /usr/local/share/acme.sh/acme.sh --cron --home /path/to/save/acmeconfigs/
+0 2 */10 * *  root  /path/to/cert_install.sh >/dev/null 2>&1
 ```
 
 💥👊
