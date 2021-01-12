@@ -39,9 +39,9 @@ player is great. But, there are a few reasons why I prefer to move them to Plex.
 
 ## Downloading Audiobooks
 
-Go to Audible.com and then browse to your library. This will show all the books
-you have purchased. There is a download button next to each title to download
-the book in .aax format.
+Go to [Audible.com](https://amzn.to/3oyWUTI) and then browse to your library.
+This will show all the books you have purchased. There is a download button next
+to each title to download the book in .aax format.
 
 ## Convert the book to M4B
 
