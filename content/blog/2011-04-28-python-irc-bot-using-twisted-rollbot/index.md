@@ -15,7 +15,7 @@ tags:
   - BeautifulSoup
   - Friday
   - irc
-  - python
+  - Python
   - Rebecca Black
   - RickRoll'd
   - twisted

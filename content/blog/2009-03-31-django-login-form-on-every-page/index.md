@@ -15,7 +15,7 @@ categories:
   - Python
 tags:
   - Django
-  - python
+  - Python
 ---
 
 Up to the point, when it has come to Django user authentication and

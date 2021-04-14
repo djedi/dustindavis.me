@@ -15,7 +15,7 @@ categories:
 tags:
   - cpanel
   - Django
-  - python
+  - Python
   - whm
 description: Tutorial for getting Django running on WHM & cPanel
 ---

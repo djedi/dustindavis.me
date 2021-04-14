@@ -13,7 +13,7 @@ categories:
 tags:
   - cron
   - django
-  - python
+  - Python
   - webfaction
 description: How to adjust the python path to run Django scripts in cron
 ---

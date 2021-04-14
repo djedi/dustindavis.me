@@ -14,7 +14,7 @@ categories:
   - Django
 tags:
   - django
-  - python
+  - Python
   - refactor
 description: Using Python magic to save a lot of lines of code.
 ---
