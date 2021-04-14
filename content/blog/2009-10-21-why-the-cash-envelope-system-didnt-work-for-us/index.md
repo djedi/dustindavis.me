@@ -9,7 +9,7 @@ bannerCredit:
   Photo by [Colin Watts](https://unsplash.com/@imagefactory) on
   [Unsplash](https://unsplash.com)
 categories:
-  - family
+  - Family
   - finance
 tags:
   - budget

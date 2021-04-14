@@ -10,7 +10,7 @@ bannerCredit:
   Photo by [Nick Fewings](https://unsplash.com/@jannerboy62) on
   [Unsplash](https://unsplash.com)
 categories:
-  - family
+  - Family
 description:
   How to set up DD-WRT on a Nighthawk router to allow you to pause your home
   wifi from your phone.
