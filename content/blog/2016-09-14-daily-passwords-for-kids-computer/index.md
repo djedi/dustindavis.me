@@ -10,7 +10,7 @@ bannerCredit:
   Photo by [marcos mayer](https://unsplash.com/@mmayyer) on
   [Unsplash](https://unsplash.com)
 categories:
-  - family
+  - Family
   - MacOS
   - Python
 tags:

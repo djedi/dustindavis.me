@@ -10,7 +10,7 @@ bannerCredit:
   Photo by [Elisabeth Wales](https://unsplash.com/@elventhorncreations) on
   [Unsplash](https://unsplash.com)
 categories:
-  - family
+  - Family
 description:
   The miracle product that removed the ballpoint pen ink from our new sofa
 ---

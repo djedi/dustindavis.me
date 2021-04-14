@@ -11,7 +11,7 @@ bannerCredit:
   [Unsplash](https://unsplash.com)
 categories:
   - Dustin
-  - family
+  - Family
 tags:
   - goals
   - year-end-review

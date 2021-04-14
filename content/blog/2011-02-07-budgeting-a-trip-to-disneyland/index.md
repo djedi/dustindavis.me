@@ -9,7 +9,7 @@ bannerCredit:
   Photo by [Brian McGowan](https://unsplash.com/@sushioutlaw) on
   [Unsplash](https://unsplash.com)
 categories:
-  - family
+  - Family
   - finance
 description: How to plan a trip to Disneyland on a budget (circa 2011)
 ---
