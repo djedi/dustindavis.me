@@ -49,9 +49,9 @@ Update the local package index. Upgrade all the packages that can be upgraded.
 Remove packages that are no longer needed and then reboot for good measure.
 
 ```bash
-sudo apt-get update
-sudo apt-get dist-upgrade
-sudo apt-get autoremove
+sudo apt update
+sudo apt dist-upgrade
+sudo apt autoremove
 sudo reboot
 ```
 
@@ -59,9 +59,9 @@ Install libraries for Python, PIP, PIL/Pillow, PostgreSQL, libevent for gevent,
 memcached server and library, RabbitMQ, git, nginx, & supervisor
 
 ```bash
-sudo apt-get install build-essential python-dev python-pip libjpeg8-dev \
-  libfreetype6-dev zlib1g-dev postgresql postgresql-contrib libpq-dev \
-  libevent-dev memcached libmemcached-dev rabbitmq-server git nginx supervisor
+sudo apt install build-essential python2-dev libjpeg8-dev libfreetype6-dev \
+  zlib1g-dev postgresql postgresql-contrib libpq-dev libevent-dev memcached \
+	libmemcached-dev rabbitmq-server git nginx supervisor
 ```
 
 Install virtualenv and virtualenvwrapper. To enable it, we need to add a line to
@@ -85,7 +85,7 @@ Install postgres adminpack
 ```bash
 sudo -u postgres psql
 CREATE EXTENSION "adminpack";
-q
+\q
 ```
 
 Change postgres password & create database
@@ -98,7 +98,7 @@ createdb projectdb
 createuser username --pwprompt
 psql -d template1 -U postgres
 GRANT ALL PRIVILEGES ON DATABASE projectdb to username;
-q
+\q
 exit
 ```
 
