@@ -15,7 +15,7 @@ tags:
   - git
   - pip
   - pycharm
-  - python
+  - Python
   - virtualenv
 description:
   How I use virtualenv and pip to manager my python dependencies per project
@@ -51,8 +51,8 @@ To get out of your virtualenv:
 deactivate
 ```
 
-Tip: many tutorials I have seen would name their environment inzolo_env, but I
-put `env_` first for consistency in tab autocompletion convenience. I was using
+Tip: many tutorials I have seen would name their environment inzolo*env, but I
+put `env*` first for consistency in tab autocompletion convenience. I was using
 just env, but the virtualenv you are using will show up on your command line and
 it is helpful to see which one you have activated if you have multiple projects.
 

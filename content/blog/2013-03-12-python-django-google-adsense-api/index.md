@@ -17,7 +17,7 @@ tags:
   - api
   - django
   - Google
-  - python
+  - Python
 description: How to talk to the Google Adsense API with Django/Python
 ---
 

@@ -11,9 +11,9 @@ bannerCredit:
 categories:
   - Django
 tags:
-  - django
+  - Django
   - encoding
-  - python
+  - Python
   - unicode
   - utf8
 description: Use Django's `smart_unicode` function to solve unicode errors

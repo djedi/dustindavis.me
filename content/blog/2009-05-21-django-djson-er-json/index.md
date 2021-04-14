@@ -14,7 +14,7 @@ tags:
   - django
   - jquery
   - json
-  - python
+  - Python
   - simplejson
 description: Converting a DB object to JSON format
 ---

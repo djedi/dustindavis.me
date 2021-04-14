@@ -17,7 +17,7 @@ tags:
   - cron
   - kids
   - osx
-  - python
+  - Python
 description:
   How I change the logins everyday on the computer to make sure they get their
   jobs done before zoning out on the computer.

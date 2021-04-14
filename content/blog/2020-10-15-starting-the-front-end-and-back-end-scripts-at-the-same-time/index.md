@@ -8,7 +8,7 @@ description:
   development purposes, here is a handy script to do both at the same time.
 categories:
   - Django
-  - python
+  - Python
   - bash
   - JavaScript
   - Aurelia

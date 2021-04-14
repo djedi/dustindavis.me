@@ -14,7 +14,7 @@ tags:
   - django
   - iphone
   - mobile
-  - python
+  - Python
 description: Using an alternate settings file for a mobile version of my site.
 ---
 
