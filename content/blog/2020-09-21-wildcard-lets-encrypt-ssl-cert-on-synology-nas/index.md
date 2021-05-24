@@ -144,4 +144,15 @@ to keep the cert renewed:
 0 2 */10 * *  root  /path/to/cert_install.sh >/dev/null 2>&1
 ```
 
+**NOTE:** When I add a new reverse proxy, I need to copy the wildcard cert to
+the new reverse proxy directory. Because I don't know what the directory name is
+exactly, I just put the snippet above (added again below) in a script named
+`update-reverse-proxies.sh` and it will copy the wild copy the cert to all the
+reverse proxies again.
+
+```bash
+cd /usr/syno/etc/certificate/ReverseProxy/
+ls -d $PWD/* | xargs -n 1 cp -v /usr/syno/etc/certificate/system/default/*.pem
+```
+
 💥👊
