@@ -58,3 +58,14 @@ not.
 
 Well, that day has arrived. I've been completely impressed with Bitwarden. I
 haven't had any desire to go back to LastPass in all this time.
+
+**Update:** The Bitwarden Server image I was using has been
+[renamed](https://libredd.it/r/selfhosted/comments/n0m6pu/looks_like_bitwarden_rs_is_being_renamed_to/)
+to [Vaultwarden](https://hub.docker.com/r/vaultwarden/server). I'm adding this
+snippet to help me remember the quickest way to upgrade my docker image on
+Synology.
+
+```shell
+sudo su -
+docker run -d --name vaultwarden -v /volume1/docker/bitwarden:/data -p 8085:80 vaultwarden/server:latest
+```
