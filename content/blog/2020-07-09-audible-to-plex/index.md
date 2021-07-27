@@ -112,7 +112,46 @@ Audiobook library on Plex.
 
 ## Automate
 
-Of course I have all this automated with [Hazel](https://www.noodlesoft.com/) so
-the only step I really need to do is download the .aax file and automation takes
-care of the test of it! But I won't go into the details here. That would make
-for a much longer tutorial.
+Here is a script I wrote that will do all of the above. You would just run
+`aax2m4b ebookfilename.aax`:
+
+```bash
+# Remove DRM and clip Audible intro and outro
+function aax2m4b() {
+   local PLEX_DIR=/Volumes/Media/Audiobooks
+   local AAXtoMP3_DIR=~/src/p/AAXtoMP3
+   local TARGET_DIR=~/Downloads/m4b
+   local AUTHCODE=`cat $AAXtoMP3_DIR/.authcode`
+   rm -rf $TARGET_DIR
+   mkdir -p $TARGET_DIR
+
+   # Remove DRM
+   $AAXtoMP3_DIR/AAXtoMP3 --aac -e:m4b --authcode $AUTHCODE --target_dir $TARGET_DIR -D 'converted' -F '$title by $artist' "$1"
+
+   local NEWFILE=`ls $TARGET_DIR/converted/*.m4b`
+   local BASENAME=`basename -a $TARGET_DIR/converted/*.m4b`
+   echo $NEWFILE
+
+   # Cut Audible intro/outro
+   # calculate duration to trim audible end clip
+   dur=$(ffprobe -i "$NEWFILE" -show_entries format=duration -v quiet -of csv="p=0")
+   dur=$(echo $dur | cut -d "." -f 1 | cut -d "," -f 1)
+   trim=$((dur - 6))
+
+   # main work to copy and trim
+   ffmpeg -hide_banner -i "$NEWFILE" -ss 2 -t $trim -map 0:a -c copy output.m4b
+
+   # add the cover art back on
+   mp4art -q --add $TARGET_DIR/converted/cover.jpg output.m4b
+
+   # move file
+   mv output.m4b "$BASENAME"
+   cp "$BASENAME" "$PLEX_DIR"
+   echo "Copied to $PLEX_DIR"
+}
+```
+
+I have all this automated with [Hazel](https://www.noodlesoft.com/) so the only
+step I really need to do is download the .aax file and automation takes care of
+the rest of it! But I won't go into the details here. That would make for a much
+longer tutorial.
