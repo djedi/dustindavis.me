@@ -1,7 +1,7 @@
 ---
 slug: starting-a-new-side-hustle-startup
 title: Starting a New Side Hustle Startup
-date: 2021-07-28
+date: 2021-07-27
 author: Dustin Davis
 description:
   Follow me on a journey to create a new side hustle startup with some friends.
