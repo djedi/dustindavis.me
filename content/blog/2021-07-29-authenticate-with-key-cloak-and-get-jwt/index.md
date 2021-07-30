@@ -133,4 +133,5 @@ Here is a gif showing the working POC:
 
 ![Demo](./images/demo.gif)
 
-Next POC, I'll want to try to run a query in Hasura with my JWT.
+Next POC, I'll want to try to
+[run a query in Hasura with my JWT](poc-use-key-cloak-jwt-to-authorize-hasura-queries).
