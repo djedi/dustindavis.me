@@ -191,3 +191,10 @@ Now, when I open a Google Meet window or tab, within a few seconds my lamp turns
 on. When I close the tab, the lamp turns off.
 
 ![Working GIF](./images/1.gif)
+
+## Hardware Update
+
+I found this ON AIR light on ebay for about \$30. I hot-glued some clips to the
+top of my monitor and mounted it for fun look.
+
+![ON AIR LED light](./images/on-air-light.jpg)
