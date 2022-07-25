@@ -194,7 +194,7 @@ on. When I close the tab, the lamp turns off.
 
 ## Hardware Update
 
-I found this ON AIR light on ebay for about \$30. I hot-glued some clips to the
-top of my monitor and mounted it for fun look.
+I found this ON AIR light on eBay for about 30 bucks. I hot-glued some clips to
+the top of my monitor and mounted it for fun look.
 
 ![ON AIR LED light](./images/on-air-light.jpg)
