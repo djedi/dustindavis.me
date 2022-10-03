@@ -64,7 +64,7 @@ services:
 
 ## The Problem
 
-The dockerfile was installing all the front-end requirments in
+The dockerfile was installing all the front-end requirements in
 `/app/node_modules`. Docker compose was mounting my local `./frontend` directory
 to my container's app directory. For me it was working fine because I had a
 `node_modules` directory in my `./frontend` directory from running `npm install`
@@ -76,7 +76,7 @@ work.
 ## The Fix
 
 The easiest fix I found was to add the add another volume which essentially
-keeps the `node_modules` diretory on the server. It is a one-line fix in my
+keeps the `node_modules` directory on the server. It is a one-line fix in my
 docker compose file.
 
 ```yaml

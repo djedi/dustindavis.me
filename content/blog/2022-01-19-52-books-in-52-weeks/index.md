@@ -3,7 +3,7 @@ slug: 52-books-in-52-weeks
 title: 52 Books in 52 Weeks
 date: 2022-01-19
 author: Dustin Davis
-description: What I learned from reading/listending to 1 book per week.
+description: What I learned from reading/listening to 1 book per week.
 categories:
   - Audiobooks
   - Goals
@@ -23,11 +23,11 @@ do it.
 ## How I tracked my books
 
 After setting this goal, I created a spreadsheet on Google Sheets. I listed a
-number of books that I wanted to read throughought the year. The great thing
-about having this goals was that I didn't feel like I had to be picky. Instead
-it was more of a matter of trying to find books to add! All those audiobooks
-that I have purchased with credits on Audible and haven't taken the time to
-listen to, I could now add to my list.
+number of books that I wanted to read throughout the year. The great thing about
+having this goals was that I didn't feel like I had to be picky. Instead it was
+more of a matter of trying to find books to add! All those audiobooks that I
+have purchased with credits on Audible and haven't taken the time to listen to,
+I could now add to my list.
 
 The spreadsheet was pretty simple. I had the following columns for each book:
 
@@ -71,9 +71,9 @@ free I believe.
 
 Search my blog for [Audiobooks](https://dustindavis.me/blog/?q=audiobooks) to
 see more posts about audiobooks, using Plex, and other topics I may add in the
-futre on the subject.
+future on the subject.
 
-A few peoople have asked how I find the time to read so many books. Again, the
+A few people have asked how I find the time to read so many books. Again, the
 answer would have to be Audiobooks. I am busy and I don't think I would make the
 time to read this much. The beauty of audiobooks is that I can often multi-task.
 There are certain activities that don't require a lot of thinking that allow me
@@ -82,12 +82,12 @@ common activies where I find I listen to audiobooks are:
 
 - Driving
 - Cleaning the house
-- Doing yardwork
+- Doing yard work
 - Exercising (lifting weights, treadmill, bike)
 
 ## Staying focused
 
-The spreadsheet was really the best tool I had in stying focuses and motivated.
+The spreadsheet was really the best tool I had in staying focuses and motivated.
 I used the
 [Tab Snooze extension](https://chrome.google.com/webstore/detail/tab-snooze/pdiebiamhaleloakpcgmpnenggpjbcbm)
 to open this spreadsheet on weekly basis to make sure I didn't forget to keep it
@@ -165,7 +165,7 @@ I read three books with a total of 777 pages. (Jackpot).
 
 This is not 100% accurate because there were a few of books that sometimes I
 read and sometimes I listed, or, I started reading then converted the book to an
-auiobook and finished by listening.
+audiobook and finished by listening.
 
 ## Highlights
 
@@ -188,7 +188,7 @@ would be the #1 book I recommend.
 
 ### Most Moving
 
-Around Easter I read a few books focusd on Jesus Christ. They were:
+Around Easter I read a few books focused on Jesus Christ. They were:
 
 - Considering the Cross by Jake Hilton (6 hours 10 minutes)
 - He Chose the Nails by Max Lucado (3 hours 35 minutes)
@@ -196,7 +196,7 @@ Around Easter I read a few books focusd on Jesus Christ. They were:
 
 I had tried to read Jesus the Christ a couple of times when I was younger but I
 never made it very far. Listening to the book was just what I needed. I could
-not get enough of Chist. Yes, I have heard stories of Christ all my life. But,
+not get enough of Christ. Yes, I have heard stories of Christ all my life. But,
 during this time I was like a sponge. I just wanted more and more. It is hard to
 really describe how these books affected me, but it was a spiritually moving
 time of year for me.
@@ -229,7 +229,7 @@ I read three books in the following order:
 - The Washington Hypothesis by Timothy Ballard (7 hours 39 minutes)
 - The Lincoln Hypothesis by Timothy Ballard (7 hours 44 minutes)
 
-I beleve he wrote them in the reverse order, but I think reading them in
+I believe he wrote them in the reverse order, but I think reading them in
 chronological order like this was helpful. I have a greater respect for the
 pilgrims and Washington and Lincoln. I wish every American would read these
 books. Sadly, I think many in this country today would not have any interest and
@@ -237,9 +237,9 @@ not even agree with them. But I found a lot of truth and light in these books.
 
 Also, I later learned on [Relative Finder](https://www.relativefinder.org/) that
 I am a direct descendent of some famous pilgrims.
-[Willam and Mary Brewster](<https://en.wikipedia.org/wiki/William_Brewster_(Mayflower_passenger)>)
+[William and Mary Brewster](<https://en.wikipedia.org/wiki/William_Brewster_(Mayflower_passenger)>)
 are my 12th great grandparents.
 [William Bradford](<https://en.wikipedia.org/wiki/William_Bradford_(governor)>)
 is my 11th great grandfather. I learned on Relative Finder that I am tied to a
-lot of poeople I now have greater love and respect for. But the names listed
+lot of people I now have greater love and respect for. But the names listed
 above were direct ancestors.
