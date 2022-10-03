@@ -230,23 +230,24 @@ have to learn from it. I figure there is more coming with repairs needed to our
 Expedition right now, but so far, here is how much stupid tax I've paid by doing
 business with AutoSavvy:
 
-| Item                               | Amount     |
-| ---------------------------------- | ---------- |
-| Q70L Bumper                        | 766.00     |
-| Theft protection                   | 359.00     |
-| Car Stereo                         | 2,000.00   |
-| Tim Dahle Diagnosis                | 400.00     |
-| Car Payments/no car                | 1,300.00   |
-| Ford Service                       | 550.00     |
-| Having to Purchase Another Vehicle | 7,752.00   |
-| Purchase fees and warranty         | 3,925.00   |
-| New Key for Expedition             | 300.00     |
-| AutoSavvy Reimbursement            | +336.00    |
-| **Total Stupid Tax**               | **17,016** |
+| Item                               | Amount      |
+| ---------------------------------- | ----------- |
+| Q70L Bumper                        | 766.00      |
+| Theft protection                   | 359.00      |
+| Car Stereo                         | 2,000.00    |
+| Tim Dahle Diagnosis                | 🔴 400.00   |
+| Car Payments/no car                | 🔴 1,300.00 |
+| Ford Service                       | 🔴 550.00   |
+| Having to Purchase Another Vehicle | 7,752.00    |
+| Purchase fees and warranty         | 3,925.00    |
+| New Key for Expedition             | 🔴 300.00   |
+| AutoSavvy Reimbursement            | +336.00     |
+| **Total Stupid Tax**               | **17,016**  |
 
 Let me pay this stupid tax so that you don't have to! Buying from AutoSavvy is
 just not worth the risk.
 
-If AutoSavvy wants to try to make any of this right, I'm happy pull down this
-post and my change my Google reviews, but I'm not holding my breath and I'm
-ready to move on.
+If AutoSavvy wants to try to make any of this right (particularly the
+highlighted 🔴 items that I was told I would be reimbursed for), I'm happy pull
+down this post and my change my Google reviews, but I'm not holding my breath
+and I'm ready to move on.
