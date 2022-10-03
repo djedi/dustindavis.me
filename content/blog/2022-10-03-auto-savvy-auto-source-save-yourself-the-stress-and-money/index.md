@@ -220,8 +220,8 @@ My wife was pulling out of a drive way and the front bumper scraped the cement a
 bit. A huge chunk of Bondo fell off and make it look horrible. Is it customary
 to repair a bumper with Bondo?
 
-We took it in and had it repaired correctly and as I suspected, it was more that
-$600. It was actually $1366.00 to have it repaired correctly.
+We took it in and had it repaired and as I suspected, it was more that $600. It
+was actually $1366.00 to have it repaired correctly.
 
 ## Stupid Tax
 
