@@ -37,7 +37,7 @@ time, it worked more like this
 
 Process 1
 
-1. Recieve mail
+1. Receive mail
 1. Put mail in an inbox
 
 Process 2

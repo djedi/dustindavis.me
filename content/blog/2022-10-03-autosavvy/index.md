@@ -1,11 +1,11 @@
 ---
-slug: auto-savvy-auto-source-save-yourself-the-stress-and-money
+slug: autosavvy
 title: AutoSavvy / AutoSource - Save Yourself the Stress and Money
 date: 2022-10-03
 author: Dustin Davis
 description:
-  I've purchased 3 cars from AutoSource AutoSavvy and it has been the most
-  frustrationg and most expenensive car buying experience every. Save yourself!
+  I've purchased 3 cars from AutoSource / AutoSavvy and it has been the most
+  frustrating and most expensive car buying experience every. Save yourself!
 categories:
   - ''
 banner: ./images/banner.jpg
