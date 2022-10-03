@@ -35,4 +35,5 @@ cypress/videos
 cypress/screenshots
 .env
 .netlify
-*.ignored*
+*.ignored*# Layer0 generated build directory
+.layer0

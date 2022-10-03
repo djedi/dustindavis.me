@@ -2,7 +2,7 @@ const fs = require('fs')
 const path = require('path')
 const {URL} = require('url')
 const rimraf = require('rimraf')
-const {spawnSync} = require('child_process')
+// const {spawnSync} = require('child_process')
 const slugify = require('@sindresorhus/slugify')
 const {createFilePath} = require('gatsby-source-filesystem')
 const remark = require('remark')
@@ -257,13 +257,13 @@ const onPreBootstrap = () => {
   }
   require('./other/load-cache')
 
-  const result = spawnSync(
-    './node_modules/.bin/npm-run-all --parallel lint test:coverage',
-    {stdio: 'inherit', shell: true},
-  )
-  if (result.status !== 0) {
-    throw new Error(`pre build failure. Status: ${result.status}`)
-  }
+  // const result = spawnSync(
+  //   './node_modules/.bin/npm-run-all --parallel lint test:coverage',
+  //   {stdio: 'inherit', shell: true},
+  // )
+  // if (result.status !== 0) {
+  //   throw new Error(`pre build failure. Status: ${result.status}`)
+  // }
 }
 
 const onPostBuild = async () => {
