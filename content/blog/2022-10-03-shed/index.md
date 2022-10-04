@@ -101,4 +101,12 @@ It got too dark to finish, so we cleaned up and called it a night.
 
 ## Day 4 - Monday
 
-Coming soon...
+I got the shingles finished and installed the door. The door was a struggle. It
+was very heavy. It was quite dark when I finished so I snapped another photo in
+the morning.
+
+![](./images/3-1.jpg)
+
+![](./images/3-2.jpg)
+
+Now all that is left is paint and installing the side vents.
