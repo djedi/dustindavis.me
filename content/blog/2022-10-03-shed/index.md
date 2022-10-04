@@ -1,12 +1,12 @@
 ---
-slug: building-a-backyard-shed
+slug: shed
 title: Building a Backyard Shed
 date: 2022-10-03
 author: Dustin Davis
 description:
   I bought a Sturdy-Built shed kit. Below are photos of the build process.
 categories:
-  - diy
+  - DIY
 banner: ./images/banner.jpg
 bannerCredit:
   Photo by [Josh Eckstein](https://unsplash.com/@dcejoshe) on
