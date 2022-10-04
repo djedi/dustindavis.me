@@ -7,7 +7,7 @@ description:
   I've purchased 3 cars from AutoSource / AutoSavvy and it has been the most
   frustrating and most expensive car buying experience every. Save yourself!
 categories:
-  - ''
+  - Rants
 banner: ./images/banner.jpg
 bannerCredit:
   Photo by [Andre Hunter](https://unsplash.com/@dre0316) on

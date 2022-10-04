@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+0 config set-backend origin \
+  --environment production \
+  --deploy
