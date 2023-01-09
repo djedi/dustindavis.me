@@ -15,25 +15,25 @@ categories:
 ---
 
 I recently went to a dietician/nutritionist. I wasn't excited about going. I
-only went because my wife begged me to. My extreme high blood pressure and lack
+only went because my wife begged me to. My extremely high blood pressure and lack
 of energy were scaring her.
 
-I didn't want somebody telling what I can and can't eat. I've read so many diet
+I didn't want somebody telling me what I can and can't eat. I've read so many diet
 and fitness books and I've heard all the theories of losing weight. Which one
 was I going to get from this guy?
 
 And I'll just say, this guy had better be fit himself. If I get some pudgy
-dad-body type guy giving me advice, I'll turnaround and walk out.
+dad-body type guy giving me advice, I'll turn around and walk out.
 
 A small part of me was hopeful though - hopeful for a change.
 
-Like I said, I've read lots of diet books. I've tried lots of "diets" and plans.
+As I said, I've read lots of diet books. I've tried lots of "diets" and plans.
 Each promise success and the failure is always me - not the diet.
 
 Here is my biggest problem - I love food! I enjoy eating good food. I don't mind
 having a spare tire as long as I get to enjoy ice cream!
 
-So first impressions of the doctor - the guy was ripped!. I couldn't help but
+So first impressions of the doctor - the guy was ripped! I couldn't help but
 stare at the veins bulging out of his unusually large biceps. He definitely
 looked fit.
 
@@ -60,7 +60,7 @@ PERFECT! I HATE counting calories. He told me that it often keeps you focused on
 food, which is not what you want to be focused on all day anyway.
 
 Second, he told me to eat what I truly want to eat. WHAT!? That's right. I can
-have ice-cream every day if I want, I just need to eat less.
+have ice cream every day if I want, I just need to eat less.
 
 I can't write up everything I learned in his office that day. It would take
 forever. But if I were to summarize everything into 4 rules of eating and
@@ -81,7 +81,7 @@ Food:
 4. Wait 20 minutes before having more (and drink non-caloric fluid during the
    meal)
 
-Now for some additional notes and clarification on some the "rules" above.
+Now for some additional notes and clarification on some of the "rules" above.
 
 He reiterated something I've heard many times. Exercise is not about weight
 loss. You cannot burn enough calories to make up for bad eating habits.
@@ -95,7 +95,7 @@ eating plan if I never feel satisfied.
 
 Rule #1 makes it sound like I can eat anything. While that is sort of true, I
 did get advice on what to eat to change how I FUNCTION. He recommends at least
-one serving (he demonstrated a serving my cupping his hands like an all-state
+one serving (he demonstrated a serving by cupping his hands like an all-state
 commercial) per day of the following:
 
 - Whole Grains
@@ -104,7 +104,7 @@ commercial) per day of the following:
 - Lean Proteins
 - 1 tsp healthy oils
 
-Rule #2 I like to call "mindful eating". I put all distractions away and I focus
+Rule #2 I like to call "mindful eating". I put all distractions away and focus
 on the food in front of me. No working. No reading. No podcasts. I can enjoy a
 conversation with someone or have some music in the background. But other than
 that, when I'm eating, I'm eating.
@@ -122,7 +122,7 @@ about 20 minutes for our stomach to signal to our brain that we are full. This
 is the reason for #4.
 
 I can always go back and have seconds if I'm still full, but I need to start
-with less that I think I need.
+with less than I think I need.
 
 In the past, I would rarely drink fluids when I eat - especially at restaurants.
 You're going to think I'm crazy, but in the spirit of full disclosure, this was
@@ -145,7 +145,7 @@ cause you to gain weight. In fact, he said, "Have you tried Dr. Pepper Ten? It
 is amazing!" It is now my favorite soda.
 
 So now when I eat, I'm more mindful. I put my phone away and enjoy what I'm
-eating. I drink a lot of fluid while I eat. I'm feeling better and I've been
+eating. I drink a lot of fluids while I eat. I'm feeling better and I've been
 losing about 2 lbs per week.
 
 One other thing stood out during this meeting. He said, "If you could pick any
