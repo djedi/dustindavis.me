@@ -119,6 +119,9 @@ function Post({data: {site, mdx}}) {
         </a>
       </Container>
       <Container noVerticalPadding>
+        <script defer src="https://commento.davis.im/js/commento.js" />
+        <div id="commento" />
+              
         <p css={{textAlign: 'right'}}>
           <a
             target="_blank"
