@@ -2,17 +2,11 @@ import React from 'react'
 import PropTypes from 'prop-types'
 
 const trackingCode = `
-var _paq = window._paq = window._paq || [];
-/* tracker methods like "setCustomDimension" should be called before "trackPageView" */
-_paq.push(['trackPageView']);
-_paq.push(['enableLinkTracking']);
-(function() {
-  var u="//analytics.redseam.com/";
-  _paq.push(['setTrackerUrl', u+'matomo.php']);
-  _paq.push(['setSiteId', '1']);
-  var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-  g.type='text/javascript'; g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
-})();`
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-YTTL61KN8J');
+`
 
 export default class HTML extends React.Component {
   render() {
@@ -25,6 +19,7 @@ export default class HTML extends React.Component {
             name="viewport"
             content="width=device-width, initial-scale=1, shrink-to-fit=no"
           />
+					<script async src="https://www.googletagmanager.com/gtag/js?id=G-YTTL61KN8J"></script>
           <script
             type="text/javascript"
             dangerouslySetInnerHTML={{__html: trackingCode}}
