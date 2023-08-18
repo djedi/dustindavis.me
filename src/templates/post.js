@@ -119,9 +119,9 @@ function Post({data: {site, mdx}}) {
         </a>
       </Container>
       <Container noVerticalPadding>
-        <script defer src="https://commento.davis.im/js/commento.js" />
         <div id="commento" />
-              
+        <script defer src="https://commento.davis.im/js/commento.js" />
+
         <p css={{textAlign: 'right'}}>
           <a
             target="_blank"
@@ -153,7 +153,7 @@ function Post({data: {site, mdx}}) {
 }
 
 export const pageQuery = graphql`
-  query($id: String!) {
+  query ($id: String!) {
     site {
       siteMetadata {
         keywords
