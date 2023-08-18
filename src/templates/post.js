@@ -14,6 +14,7 @@ import {fonts} from '../lib/typography'
 import config from '../../config/website'
 import {bpMaxSM} from '../lib/breakpoints'
 import get from 'lodash/get'
+import Commento from 'components/Commento'
 
 export default function PostPage(props) {
   return <Post {...props} />
@@ -119,8 +120,7 @@ function Post({data: {site, mdx}}) {
         </a>
       </Container>
       <Container noVerticalPadding>
-        <div id="commento" />
-        <script defer src="https://commento.davis.im/js/commento.js" />
+        <Commento id={mdx.fields.slug} />
 
         <p css={{textAlign: 'right'}}>
           <a
