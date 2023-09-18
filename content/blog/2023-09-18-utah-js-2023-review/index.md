@@ -11,7 +11,6 @@ categories:
   - JavaScript
   - TypeScript
 banner: ./images/banner.jpg
-bannerCredit: Photo by []() on [Unsplash](https://unsplash.com)
 ---
 
 I attended the UtahJS conference last week. I went in with only my phone in my
