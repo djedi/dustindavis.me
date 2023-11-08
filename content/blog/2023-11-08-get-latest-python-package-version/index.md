@@ -4,10 +4,9 @@ title: Get Latest Python Package Version
 date: 2023-11-08
 author: Dustin Davis
 description:
-  Discover how to quickly determine the latest version of any Python package for
-  your requirements.txt file. Our script simplifies Python package management,
-  saving you time and ensuring you always have the most recent updates. Perfect
-  for Python developers who value efficiency.
+  Discover how to quickly determine the latest version of any Python package
+  using the pip command. Use my script to quickly get the text you need to paste
+  into your requirements file.
 categories:
   - Python
   - cli
