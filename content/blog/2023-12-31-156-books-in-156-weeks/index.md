@@ -94,7 +94,7 @@ page.
 ## Biggest Flop
 
 I added the Alchemist to the list when someone mentioned they were reading it
-again and it was one of their favorite books. I listened to it on a read trip to
+again and it was one of their favorite books. I listened to it on a road trip to
 Washington. I found it very boring and when it was over, my only thought was,
 "That was stupid." Sorry if you're a fan of the book. I'm not.
 
