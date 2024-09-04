@@ -91,26 +91,29 @@ Here’s my updated `checkmeet` script that checks for open Google Meet or Micro
 # Path to store the last state
 state_file="/tmp/desk_switch_state.txt"
 
-# Initialize the state file if it doesn't exist
-if [ ! -f "$state_file" ]; then
-  echo "off" > "$state_file"
-fi
+# Initialize the state file on first run
+echo "off" > "$state_file"
 
 # Function to check if the browser has a meet.google.com or a teams.microsoft.com tab open
 check_tabs_for_meet_or_teams() {
   browser=$1
   osascript <<EOF
-  tell application "$browser"
-    set meetOrTeamsTabExists to false
-    repeat with w in windows
-      repeat with t in tabs of w
-        if (URL of t contains "meet.google.com") or (URL of t contains "teams.microsoft.com") or (URL of t contains "/l/meetup-join/") then
-          set meetOrTeamsTabExists to true
-        end if
+  if application "$browser" is running then
+    tell application "$browser"
+      set meetOrTeamsTabExists to false
+      repeat with w in windows
+        repeat with t in tabs of w
+          if (URL of t contains "meet.google.com") or (URL of t contains "teams.microsoft.com/l/meetup-join") then
+            log "Matched tab URL in $browser: " & URL of t
+            set meetOrTeamsTabExists to true
+          end if
+        end repeat
       end repeat
-    end repeat
-    return meetOrTeamsTabExists
-  end tell
+      return meetOrTeamsTabExists
+    end tell
+  else
+    return false
+  end if
 EOF
 }
 
@@ -122,31 +125,34 @@ call_webhook() {
 
 # Infinite loop to check every 5 seconds
 while true; do
+  # echo "Checking for Meet or Teams..."
   # Check Arc and Chrome browsers
   arc_meet_or_teams_open=$(check_tabs_for_meet_or_teams "Arc")
   chrome_meet_or_teams_open=$(check_tabs_for_meet_or_teams "Google Chrome")
-
+  
   # Determine current state
   if [[ "$arc_meet_or_teams_open" == "true" ]] || [[ "$chrome_meet_or_teams_open" == "true" ]]; then
     current_state="on"
   else
     current_state="off"
   fi
-
+  
   # Read the last state
   last_state=$(cat "$state_file")
-
+  
   # Only call the webhook if the state has changed
   if [ "$current_state" != "$last_state" ]; then
     if [ "$current_state" == "on" ]; then
       call_webhook "desk_switch_on"
+      echo "💡 ON AIR 💡"
     else
       call_webhook "desk_switch_off"
+      echo "🔇 OFF AIR 🔇"
     fi
     # Update the last state
     echo "$current_state" > "$state_file"
   fi
-
+  
   # Wait for 5 seconds before the next check
   sleep 5
 done
