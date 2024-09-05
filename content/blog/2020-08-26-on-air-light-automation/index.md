@@ -31,10 +31,6 @@ I tried a few solutions, such as using the door or a remote-controlled LED light
 
 ### The Solution
 
-This is version 2. I originally used IFTTT to automate the light. But, they
-changed their free tier so that you need a paid subscription to control
-SmartLife devices. So, I switched to Home Assistant.
-
 ## Hardware
 
 Hardware needed:
@@ -42,9 +38,11 @@ Hardware needed:
 - [Smart Plug](https://amzn.to/31wUiMU)
 - [Lamp](https://amzn.to/3TcVyzy) (I started with \$7 lamp from Walmart)
 
-## Docker & Home Assistant Setup
+## IFTTT vs Home Assistant
 
-So there is a better, free alternative: **Home Assistant**. Here’s how I set it up:
+I've updated this post, so consider this version 2.0. I originally used IFTTT to automate the light. But, they changed their free tier so that you need a paid subscription to control SmartLife devices.
+
+There is a better, free alternative: **Home Assistant**. I run this on home server I have in the basement. Here’s how I set it up:
 
 ### Step 1: Docker Setup
 
