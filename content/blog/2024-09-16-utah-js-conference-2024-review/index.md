@@ -7,7 +7,7 @@ description: "Explore key insights from UtahJS Conference 2024, including React 
 categories:
   - JavaScript
   - TypeScript
-banner: ./images/banner.png
+banner: ./images/banner.jpg
 
 ---
 
@@ -29,7 +29,7 @@ But, another reason I really enjoy conferences is because you can see the tools 
 
 Cursor is interesting. I believe it is based on VS Code so you can use all the same extensions. It has AI built in to recognize the code in your project to give you better code suggestions. From what I saw, it seemed very similar to [Sourcegraph's Cody](https://sourcegraph.com/cody), which I have settled into using on a daily basis.
 
-![[./images/CleanShot 2024-09-16 at 11.13.19@2x.png]]
+![[./images/twitter.png]]
 
 Another tool or library I heard mentioned a few times in talks, but didn't look into is [TanStack](https://tanstack.com/) and more specifically [TanStack Query](https://tanstack.com/query/latest/docs/framework/react/guides/queries).
 
