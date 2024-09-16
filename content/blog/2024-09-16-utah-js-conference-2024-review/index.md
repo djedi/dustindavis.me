@@ -43,8 +43,9 @@ The coolest thing I learned that was unrelated to his talk was due to technical 
 
 Someone in the audience suggested he press period (.) while in his GitHub repo. This opens the project in a VS Code instance. He could then edit and run his code from an online VS Code instance.
 
-Here is another little tip I saw: import the lit html package and with the right plugin, VS Code will highlight HTML code in your JavaScript
+Here is another little tip I saw: import the `lit html` package and with the right plugin, VS Code will highlight HTML code in your JavaScript
 
+```js
   app.innerHTML = html`
     <div>
       <div class="card">
@@ -59,6 +60,7 @@ Here is another little tip I saw: import the lit html package and with the right
       </div>
     </div>
   `
+```
 
 ## Nate Hearns
 
