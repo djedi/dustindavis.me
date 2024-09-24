@@ -25,7 +25,7 @@ module.exports = eleventyConfig => {
   eleventyConfig.addGlobalData('eleventyComputed', {
     permalink: data => {
       if (data.slug) {
-        return `/blog/${data.slug}`;
+        return `/blog/${data.slug}/`;
       }
       return data.url;
     },
