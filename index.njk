@@ -1,0 +1,199 @@
+---
+layout: false
+---
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="/static/index.css" />
+
+    <link rel="manifest" href="/manifest.webmanifest" />
+    <title data-react-helmet="true">Dustin Davis</title>
+    <meta
+      data-react-helmet="true"
+      name="description"
+      content="Come check out how Dustin Davis can help you level-up your life and home."
+    />
+    <meta
+      data-react-helmet="true"
+      name="image"
+      content="https://dustindavis.me/static/metaImage-cbdeae74e969e8201872f20e3360aa1a.jpg"
+    />
+    <meta
+      data-react-helmet="true"
+      property="og:url"
+      content="https://dustindavis.me"
+    />
+    <meta data-react-helmet="true" property="og:title" content="Dustin Davis" />
+    <meta
+      data-react-helmet="true"
+      property="og:description"
+      content="Come check out how Dustin Davis can help you level-up your life and home."
+    />
+    <meta
+      data-react-helmet="true"
+      property="og:image"
+      content="https://dustindavis.me/static/metaImage-cbdeae74e969e8201872f20e3360aa1a.jpg"
+    />
+    <meta
+      data-react-helmet="true"
+      name="twitter:card"
+      content="summary_large_image"
+    />
+    <meta
+      data-react-helmet="true"
+      name="twitter:creator"
+      content="@DustinDavis"
+    />
+    <meta
+      data-react-helmet="true"
+      name="twitter:title"
+      content="Dustin Davis"
+    />
+    <meta
+      data-react-helmet="true"
+      name="twitter:description"
+      content="Come check out how Dustin Davis can help you level-up your life and home."
+    />
+    <meta
+      data-react-helmet="true"
+      name="twitter:image"
+      content="https://dustindavis.me/static/metaImage-cbdeae74e969e8201872f20e3360aa1a.jpg"
+    />
+    <noscript data-react-helmet="true"
+      >This site runs best with JavaScript enabled.</noscript
+    >
+
+    <meta name="theme-color" content="#4147DC" />
+    <link
+      rel="apple-touch-icon"
+      sizes="192x192"
+      href="/favicons/android-chrome-192x192.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="512x512"
+      href="/favicons/android-chrome-512x512.png"
+    />
+    <link
+      rel="alternate"
+      type="application/rss+xml"
+      title="Dustin Davis Blog RSS Feed"
+      href="/blog/rss.xml"
+    />
+    <link rel="sitemap" type="application/xml" href="/sitemap.xml" />
+  </head>
+  <body>
+    <noscript>This site runs best with JavaScript enabled.</noscript>
+    <div id="">
+      <div style="outline: none" tabindex="-1" id="focus-wrapper">
+        <div class="css-18roemd">
+          <div class="css-1c3h18e">
+            <section class="css-1304hif">
+              <div class="css-1rc053l">
+                <div class="css-l6omq"></div>
+
+                <div class="css-j7qwjs">
+                  <h1 class="css-dpyspu">
+                    Hi, I&#x27;m Dustin Davis. I like to improve systems through
+                    automation.
+                  </h1>
+                </div>
+
+                <div class="css-c94e0u">
+                  <img
+                    src="/images/dustin.avif"
+                    alt="Dustin Davis"
+                    class="css-kluv8c"
+                  />
+                </div>
+              </div>
+            </section>
+
+            <header class="css-q92rab">
+              <div class="css-1xn00s8">
+                <nav class="css-sgter1">
+                  <a
+                    aria-current="page"
+                    aria-label="go to homepage"
+                    class="css-vm6284 none"
+                    href="/"
+                  >
+                    <span>Dustin Davis</span></a
+                  >
+
+                  <div class="css-1rqjet3">
+                    <div class="mobile-nav">
+                      <button aria-label="open menu" class="css-fiyo81">
+                        <div class="css-1sr19yy"></div>
+                      </button>
+                    </div>
+
+                    <a
+                      aria-label="View blog page"
+                      class="ejdwv5k0 css-ryp6la"
+                      href="/blog/"
+                      >Blog</a
+                    >
+                    <a
+                      aria-label="Tools Dustin Davis uses"
+                      class="ejdwv5k0 css-ryp6la"
+                      href="/uses/"
+                      >Uses</a
+                    >
+                    <a
+                      aria-label="View about page"
+                      class="ejdwv5k0 css-ryp6la"
+                      href="/about/"
+                      >About</a
+                    >
+                  </div>
+                </nav>
+              </div>
+            </header>
+
+            <div class="css-1qbb3aa">
+              <h2>Blog</h2>
+
+              {% set recentPosts = collections.blog | limit(5) %} {% for post in
+              recentPosts %}
+              <div class="css-10ib5jr">
+                <a
+                  aria-label="View {{ post.data.title }}"
+                  href="{{ post.url }}"
+                >
+                  <h3 class="css-17rgc70 e14pug150">{{ post.data.title }}</h3>
+                </a>
+                <div class="css-1n3ac9c e14pug151">
+                  <p>{{ post.data.description }}</p>
+                  <a
+                    aria-label="View {{ post.data.title}}"
+                    href="{{ post.url }}"
+                    >Read →</a
+                  >
+                </div>
+              </div>
+              {% endfor %}
+              <a aria-label="Visit blog page" href="/blog">View all articles</a>
+            </div>
+          </div>
+
+          {% include "footer.njk" %}
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head><meta charSet="utf-8"/><meta http-equiv="x-ua-compatible" content="ie=edge"/><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-YTTL61KN8J"></script>
+    <script type="text/javascript">
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag('js', new Date());
+      gtag('config', 'G-YTTL61KN8J');
+    </script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.3.2/lazysizes.min.js" async></script>
+
+    <link rel="stylesheet" href="/static/base.css"/>
+
+    <link rel="manifest" href="/manifest.webmanifest"/>
+    <title data-react-helmet="true">About Dustin Davis</title><meta data-react-helmet="true" name="image" content="https://dustindavis.me/static/metaImage-cbdeae74e969e8201872f20e3360aa1a.jpg"/><meta data-react-helmet="true" property="og:url" content="https://dustindavis.me"/><meta data-react-helmet="true" property="og:title" content="About Dustin Davis"/><meta data-react-helmet="true" property="og:description" content="All about Dustin Davis"/><meta data-react-helmet="true" property="og:image" content="https://dustindavis.me/static/metaImage-cbdeae74e969e8201872f20e3360aa1a.jpg"/><meta data-react-helmet="true" property="fb:app_id" content=""/><meta data-react-helmet="true" name="twitter:card" content="summary_large_image"/><meta data-react-helmet="true" name="twitter:creator" content="@DustinDavis"/><meta data-react-helmet="true" name="twitter:title" content="About Dustin Davis"/><meta data-react-helmet="true" name="twitter:description" content="All about Dustin Davis"/><meta data-react-helmet="true" name="twitter:image" content="https://dustindavis.me/static/metaImage-cbdeae74e969e8201872f20e3360aa1a.jpg"/><meta data-react-helmet="true" name="description" content="All about Dustin Davis"/><meta data-react-helmet="true" name="keywords" content="Software Engineer"/>
+    <noscript data-react-helmet="true">This site runs best with JavaScript enabled.</noscript>
+    <script data-react-helmet="true" type="application/ld+json">
+      [{
+          "@context": "http://schema.org",
+          "@type": "WebSite",
+          "url": "https://dustindavis.me",
+          "name": "About Dustin Davis",
+          "alternateName": "Dustin Davis"
+        }
+      ]
+    </script>
+    <meta name="theme-color" content="#4147DC"/>
+    <link rel="apple-touch-icon" sizes="192x192" href="/favicons/android-chrome-192x192.png"/>
+    <link rel="apple-touch-icon" sizes="512x512" href="/favicons/android-chrome-512x512.png"/>
+    <link rel="alternate" type="application/rss+xml" title="Dustin Davis Blog RSS Feed" href="/blog/rss.xml"/>
+    <link rel="sitemap" type="application/xml" href="/sitemap.xml"/>
+  </head>
+  <body>
+    <noscript>This site runs best with JavaScript enabled.</noscript>
+    <div id="">
+      <div style="outline:none" tabindex="-1" id="focus-wrapper">
+
+        <div class="css-18roemd">
+          <div class="css-1c3h18e">
+            <section class="css-1bv29bk eukkugl0"></section>
+            <header class="css-q92rab">
+              <div class="css-1xn00s8">
+                <nav class="css-sgter1">
+                  <a aria-label="go to homepage" class="css-m8fnaz none" href="/"><img src="/images/dustin-circle.avif" alt="Dustin Davis"/>
+                    <span>Dustin Davis</span></a>
+                  <div class="css-1rqjet3">
+                    <div class="mobile-nav">
+                      <button aria-label="open menu" class="css-fiyo81">
+                        <div class="css-1sr19yy"></div>
+                      </button>
+                    </div>
+                    {% for item in nav %}
+                      <a
+                        aria-label="{{ item.ariaLabel }}"
+                        href="{{ item.url }}"
+                        class="ejdwv5k0 css-ryp6la{% if page.url == item.url %} active{% endif %}"
+                        {% if page.url == item.url %}aria-current="page"{% endif %}
+                      >
+                        {{ item.label }}
+                      </a>
+                    {% endfor %}
+                  </div>
+                </nav>
+              </div>
+            </header>
+            <div class="container{% if not fullWidth %}-800{% endif %}">
+
+              {% block content %}
+                {{ content | safe  }}
+              {% endblock content%}
+            </div>
+          </div>
+          {% include "footer.njk" %}
+        </div>
+      </div>
+    </div>
+
+  </body>
+</html>
