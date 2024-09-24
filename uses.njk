@@ -1,0 +1,95 @@
+---
+fullWidth: true
+---
+
+<h1>Uses</h1>
+
+<nav class="section-nav">
+  <ul>
+    <li><a href="#applications">Applications</a></li>
+    <li><a href="#extensions">Browser Extensions</a></li>
+    <li><a href="#cli-tools">CLI Tools</a></li>
+  </ul>
+</nav>
+
+<h2><a name="applications">Applications</a></h2>
+
+<p>
+  These are the Applications I have installed as of {{ applications.lastUpdated
+  }}
+</p>
+
+<ul class="app-list">
+  {% for app in applications.applications %}
+  <li class="app-item">
+    <div class="app-icon">
+      <a
+        href="{{ app.url }}"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="Visit {{ app.appName }} website"
+      >
+        <img src="{{ app.iconPath }}" alt="" width="64" height="64" />
+      </a>
+    </div>
+    <div class="app-details">
+      <h2 class="app-name">
+        <a
+          href="{{ app.url }}"
+          class="app-link"
+          target="_blank"
+          rel="noopener noreferrer"
+          >{{ app.appName }}</a
+        >
+      </h2>
+      <p class="app-description">{{ app.description }}</p>
+    </div>
+  </li>
+  {% endfor %}
+</ul>
+
+<h2>
+  <a name="extensions">Browser Extensions</a>
+</h2>
+
+<p>These are some of my favorite browser extentions as of {{ extensions.lastUpdated }}</p>
+
+<ul class="extension-list">
+  {% for extension in extensions.extensions %}
+    <li class="extension-item">
+      <div class="extension-icon">
+        <a href="{{ extension.url }}" target="_blank" rel="noopener noreferrer" aria-label="Visit {{ extension.name }} extension page">
+          <img src="{{ extension.iconUrl }}" alt="" width="64" height="64">
+        </a>
+      </div>
+      <div class="extension-details">
+        <h2 class="extension-name">
+          <a href="{{ extension.url }}" class="extension-link" target="_blank" rel="noopener noreferrer">{{ extension.name }}</a>
+        </h2>
+        <p class="extension-description">{{ extension.description }}</p>
+      </div>
+    </li>
+  {% endfor %}
+</ul>
+
+
+<h2><a name="cli-tools">CLI tools</a></h2>
+
+<p>
+  These are the cli tools I have installed via
+  <a href="https://brew.sh">Homebrew</a> as of {{ cli_tools.lastUpdated }}
+</p>
+
+<ul class="cli-list">
+  {% for tool in cli_tools.tools %}
+  <li class="cli-item">
+    <div class="cli-details">
+      <h2 class="cli-name"><a href="{{ tool.url }}">{{ tool.name }}</a></h2>
+      <p class="cli-description">{{ tool.description }}</p>
+    </div>
+  </li>
+  {% endfor %}
+
+    <link rel="stylesheet" href="/static/uses.css" />
+  </li>
+</ul>

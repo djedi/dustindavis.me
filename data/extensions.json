@@ -1,0 +1,50 @@
+{
+  "lastUpdated": "2024-09-24",
+  "extensions": [
+    {
+      "name": "Bitwarden Password Manager",
+      "description": "At home, at work, or on the go, Bitwarden easily secures all your passwords, passkeys, and sensitive information",
+      "url": "https://chrome.google.com/webstore/detail/nngceckbapebfimnlniiiahkandclblb"
+    },
+    {
+      "name": "ColorZilla",
+      "description": "Advanced Eyedropper, Color Picker, Gradient Generator and other colorful goodies",
+      "url": "https://chrome.google.com/webstore/detail/bhlhnicpbhignbdhedgjhgdocnmhomnp"
+    },
+    {
+      "name": "Extension Exporter",
+      "description": "Export name and URL of all installed extensions into an HTML file.",
+      "url": "https://chrome.google.com/webstore/detail/doikmfpjbcjjimnbablebijofdbgfepb"
+    },
+    {
+      "name": "Foxified",
+      "description": "Emulate firefox extensions in Chrome, Opera and other Chromium based browsers",
+      "url": "https://chrome.google.com/webstore/detail/cldmemdnllncchfahbcnjijheaolemfk"
+    },
+    {
+      "name": "FullDownload",
+      "description": "Full download JS/CSS/HTML",
+      "url": "https://chrome.google.com/webstore/detail/jlgfpehamfinbdbdofmhakpcgjilbkol"
+    },
+    {
+      "name": "Raindrop.io",
+      "description": "All-in-one bookmark manager",
+      "url": "https://chrome.google.com/webstore/detail/ldgfbffkinooeloadekpmfoklnobpien"
+    },
+    {
+      "name": "Social Media Death Clock",
+      "description": "Remind yourself of your mortality while you waste away on social media",
+      "url": "https://chrome.google.com/webstore/detail/jjmjickedeooblgpimknfghpfffncfhb"
+    },
+    {
+      "name": "The Pirate Bay Torrent Search",
+      "description": "Search for torrents using the official ",
+      "url": "https://chrome.google.com/webstore/detail/enfgmbhdgelbkmhhhdiljfimmcghnalc"
+    },
+    {
+      "name": "uBlock Origin",
+      "description": "Finally, an efficient blocker. Easy on CPU and memory.",
+      "url": "https://chrome.google.com/webstore/detail/cjpalhdlnbpafiamejdnhcphjbkeiagm"
+    }
+  ]
+}

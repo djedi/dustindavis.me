@@ -1,0 +1,437 @@
+{
+  "lastUpdated": "2024-09-24",
+  "applications": [
+    {
+      "appName": "Affinity Photo 2",
+      "iconPath": "/app-icons/Affinity Photo 2.png",
+      "description": "Affinity Photo 2 is a professional photo editing software that offers advanced tools and features for retouching, editing, and enhancing images.",
+      "url": "https://affinity.serif.com/photo/"
+    },
+    {
+      "appName": "Alfred 5",
+      "iconPath": "/app-icons/Alfred 5.png",
+      "description": "Alfred 5 is a productivity application for macOS that boosts efficiency with workflows, text expansion, and more.",
+      "url": "https://www.alfredapp.com/"
+    },
+    {
+      "appName": "Android Studio",
+      "iconPath": "/app-icons/Android Studio.png",
+      "description": "Android Studio is the official Integrated Development Environment (IDE) for Android app development, providing tools for designing, developing, and testing Android applications.",
+      "url": "https://developer.android.com/studio"
+    },
+    {
+      "appName": "Arc",
+      "iconPath": "/app-icons/Arc.png",
+      "description": "Arc is a mobile application that allows users to easily capture and edit photos and videos with a variety of filters and effects.",
+      "url": "https://www.arcapp.com/"
+    },
+    {
+      "appName": "Audacity",
+      "iconPath": "/app-icons/Audacity.png",
+      "description": "Audacity is a free, open-source audio editing software that allows users to record and edit audio tracks. It offers a range of editing tools and effects for creating professional-grade audio projects.",
+      "url": "https://www.audacityteam.org/"
+    },
+    {
+      "appName": "Audiobook Builder",
+      "iconPath": "/app-icons/Audiobook Builder.png",
+      "description": "Audiobook Builder allows users to create audiobooks from audio files by easily organizing, combining, and converting them into formats compatible with various devices.",
+      "url": "https://www.splasm.com/audiobookbuilder/"
+    },
+    {
+      "appName": "Authy Desktop",
+      "iconPath": "/app-icons/Authy Desktop.png",
+      "description": "Authy Desktop is a multi-platform app that provides secure 2-factor authentication for your online accounts. It generates unique codes that must be entered along with your password to access your accounts, adding an extra layer of security.",
+      "url": "https://authy.com/download/"
+    },
+    {
+      "appName": "Beekeeper Studio",
+      "iconPath": "/app-icons/Beekeeper Studio.png",
+      "description": "Beekeeper Studio is an open-source SQL query builder and database management tool that allows users to connect to multiple database systems, run queries, and visualize data in an intuitive interface.",
+      "url": "https://www.beekeeperstudio.io/"
+    },
+    {
+      "appName": "Beyond Compare",
+      "iconPath": "/app-icons/Beyond Compare.png",
+      "description": "Beyond Compare is a file comparison tool that allows users to compare and synchronize files and folders. It is widely used by developers, designers, and system administrators.",
+      "url": "https://www.scootersoftware.com/"
+    },
+    {
+      "appName": "Bitwarden",
+      "iconPath": "/app-icons/Bitwarden.png",
+      "description": "Bitwarden is an open source password manager that securely stores all of your passwords in an encrypted vault.",
+      "url": "https://bitwarden.com/"
+    },
+    {
+      "appName": "Brave Browser",
+      "iconPath": "/app-icons/Brave Browser.png",
+      "description": "Brave Browser is a fast and secure web browser that blocks ads and trackers, while also providing users with reward tokens for viewing privacy-respecting ads.",
+      "url": "https://brave.com/"
+    },
+    {
+      "appName": "Camtasia 2024",
+      "iconPath": "/app-icons/Camtasia 2024.png",
+      "description": "Camtasia 2024 is a powerful video editing and screen recording software that allows users to create professional-looking videos easily. It offers a wide range of features such as multi-track editing, animations, transitions, and more.",
+      "url": "https://www.techsmith.com/video-editor.html"
+    },
+    {
+      "appName": "ChatGPT",
+      "iconPath": "/app-icons/ChatGPT.png",
+      "description": "ChatGPT is a chatbot application that uses GPT-3 technology to engage in human-like conversations and provide helpful responses.",
+      "url": "https://chat.openai.com/"
+    },
+    {
+      "appName": "Chromium",
+      "iconPath": "/app-icons/Chromium.png",
+      "description": "Chromium is an open-source web browser developed by Google. It serves as the foundation for Google Chrome and other browsers.",
+      "url": "https://www.chromium.org/"
+    },
+    {
+      "appName": "CleanMyMac X",
+      "iconPath": "/app-icons/CleanMyMac X.png",
+      "description": "CleanMyMac X is a cleaning and optimization tool for Mac computers that helps users remove junk files, speed up performance, and improve overall system health.",
+      "url": "https://macpaw.com/cleanmymac"
+    },
+    {
+      "appName": "CleanShot X",
+      "iconPath": "/app-icons/CleanShot X.png",
+      "description": "CleanShot X is a powerful screen capturing tool for macOS that allows users to take screenshots, record screen videos, annotate images, and much more.",
+      "url": "https://getcleanshot.com/"
+    },
+    {
+      "appName": "Cursor",
+      "iconPath": "/app-icons/Cursor.png",
+      "description": "Cursor is a productivity tool that allows users to easily highlight, extract, and share text from any website or document.",
+      "url": "https://www.cursor.app/"
+    },
+    {
+      "appName": "DNSFilter Agent",
+      "iconPath": "/app-icons/DNSFilter Agent.png",
+      "description": "The DNSFilter Agent is a lightweight software that provides DNS-level filtering and security for devices on a network by blocking access to malicious websites and content.",
+      "url": "https://www.dnsfilter.com/"
+    },
+    {
+      "appName": "Day One",
+      "iconPath": "/app-icons/Day One.png",
+      "description": "Day One is a journaling app that allows users to easily capture and record their thoughts, experiences, and memories in a digital format. Users can add photos, tags, and locations to entries, as well as sync their journals to multiple devices.",
+      "url": "https://dayoneapp.com/"
+    },
+    {
+      "appName": "Discord",
+      "iconPath": "/app-icons/Discord.png",
+      "description": "Discord is a communication platform designed for gamers, allowing users to voice chat, video chat, and message other users in real-time.",
+      "url": "https://discord.com/"
+    },
+    {
+      "appName": "Displays",
+      "iconPath": "/app-icons/Displays.png",
+      "description": "Displays is a digital design tool that allows users to create interactive prototypes and design mockups for websites and mobile apps.",
+      "url": "https://www.displaysapp.com/"
+    },
+    {
+      "appName": "Docker",
+      "iconPath": "/app-icons/Docker.png",
+      "description": "Docker is a platform for developing, shipping, and running applications. It enables developers to package applications into containers that can be deployed on any infrastructure.",
+      "url": "https://www.docker.com/"
+    },
+    {
+      "appName": "Evernote",
+      "iconPath": "/app-icons/Evernote.png",
+      "description": "Evernote is a note-taking app that helps you stay organized and productive. You can capture ideas, create to-do lists, and save important information all in one place.",
+      "url": "https://www.evernote.com/"
+    },
+    {
+      "appName": "Fantastical",
+      "iconPath": "/app-icons/Fantastical.png",
+      "description": "Fantastical is a calendar and task management application that integrates with Apple devices and supports natural language input for creating events and tasks.",
+      "url": "https://flexibits.com/fantastical"
+    },
+    {
+      "appName": "Firefox",
+      "iconPath": "/app-icons/Firefox.png",
+      "description": "Firefox is a free and open-source web browser developed by the Mozilla Foundation. It is known for its privacy features, speed, and customizability.",
+      "url": "https://www.mozilla.org/en-US/firefox/"
+    },
+    {
+      "appName": "FreeCAD",
+      "iconPath": "/app-icons/FreeCAD.png",
+      "description": "FreeCAD is a free and open-source 3D modeling software that allows users to design real-life objects of any size. It offers a wide range of features for creating 3D models and can be extended with various plugins.",
+      "url": "https://www.freecadweb.org/"
+    },
+    {
+      "appName": "GIMP",
+      "iconPath": "/app-icons/GIMP.png",
+      "description": "GIMP (GNU Image Manipulation Program) is a free and open-source raster graphics editor used for image editing and creation. It has a wide range of features and can be used for tasks such as photo retouching, image composition, and graphic design.",
+      "url": "https://www.gimp.org/"
+    },
+    {
+      "appName": "Google Chrome",
+      "iconPath": "/app-icons/Google Chrome.png",
+      "description": "Google Chrome is a fast, secure, and easy-to-use web browser developed by Google.",
+      "url": "https://www.google.com/intl/en_us/chrome/"
+    },
+    {
+      "appName": "Google Docs",
+      "iconPath": "/app-icons/Google Docs.png",
+      "description": "Google Docs is a web-based word processor offered by Google. It allows users to create and edit documents online while collaborating in real-time with others.",
+      "url": "https://www.google.com/docs/about/"
+    },
+    {
+      "appName": "Google Drive",
+      "iconPath": "/app-icons/Google Drive.png",
+      "description": "Google Drive is a file storage and synchronization service developed by Google. It allows users to store files in the cloud, synchronize files across devices, and share files with others.",
+      "url": "https://www.google.com/drive/"
+    },
+    {
+      "appName": "Google Sheets",
+      "iconPath": "/app-icons/Google Sheets.png",
+      "description": "Google Sheets is a web-based spreadsheet application developed by Google. It allows users to create, edit, and collaborate on spreadsheets in real-time.",
+      "url": "https://www.google.com/sheets"
+    },
+    {
+      "appName": "Google Slides",
+      "iconPath": "/app-icons/Google Slides.png",
+      "description": "Google Slides is a web-based presentation program that allows users to create, edit, and collaborate on presentations online.",
+      "url": "https://www.google.com/slides"
+    },
+    {
+      "appName": "HandBrake",
+      "iconPath": "/app-icons/HandBrake.png",
+      "description": "HandBrake is a free and open-source video transcoder software that allows users to convert video files from one format to another.",
+      "url": "https://handbrake.fr/"
+    },
+    {
+      "appName": "Headlamp",
+      "iconPath": "/app-icons/Headlamp.png",
+      "description": "Headlamp is a productivity tool that helps individuals manage their tasks and to-do lists effectively.",
+      "url": "https://www.headlamp.app/"
+    },
+    {
+      "appName": "Keynote",
+      "iconPath": "/app-icons/Keynote.png",
+      "description": "Keynote is a presentation software application developed by Apple Inc. It allows users to create visually stunning presentations with various tools and effects.",
+      "url": "https://www.apple.com/keynote/"
+    },
+    {
+      "appName": "Kindle",
+      "iconPath": "/app-icons/Kindle.png",
+      "description": "Kindle is a popular e-reader app developed by Amazon for reading e-books, magazines, newspapers, and other digital publications. It allows users to purchase and download books from the Amazon Kindle Store.",
+      "url": "https://www.amazon.com/gp/digital/fiona/kcp-landing-page"
+    },
+    {
+      "appName": "LaunchControl",
+      "iconPath": "/app-icons/LaunchControl.png",
+      "description": "LaunchControl is a powerful launchd(8) frontend for macOS. It provides a graphical interface for managing all of the system and user services on your Mac.",
+      "url": "http://www.soma-zone.com/LaunchControl/"
+    },
+    {
+      "appName": "Loom",
+      "iconPath": "/app-icons/Loom.png",
+      "description": "Loom is a video recording tool that allows users to quickly create and share videos for work or school.",
+      "url": "https://www.loom.com/"
+    },
+    {
+      "appName": "Messenger",
+      "iconPath": "/app-icons/Messenger.png",
+      "description": "Messenger is a messaging app that allows users to communicate with friends and family via text, voice, and video chats.",
+      "url": "https://www.messenger.com/"
+    },
+    {
+      "appName": "Microsoft Azure Storage Explorer",
+      "iconPath": "/app-icons/Microsoft Azure Storage Explorer.png",
+      "description": "Microsoft Azure Storage Explorer is a standalone app that allows you to easily work with Azure storage data on Windows, macOS, and Linux.",
+      "url": "https://azure.microsoft.com/en-us/features/storage-explorer/"
+    },
+    {
+      "appName": "Numbers",
+      "iconPath": "/app-icons/Numbers.png",
+      "description": "Numbers is a spreadsheet application developed by Apple Inc. It is part of the iWork productivity suite and is available for Mac, iPad, and iPhone.",
+      "url": "https://www.apple.com/mac/numbers/"
+    },
+    {
+      "appName": "Obsidian",
+      "iconPath": "/app-icons/Obsidian.png",
+      "description": "Obsidian is a powerful note-taking and knowledge management application that allows users to create a personal knowledge base of interconnected notes, ideas, and information.",
+      "url": "https://obsidian.md/"
+    },
+    {
+      "appName": "Pages",
+      "iconPath": "/app-icons/Pages.png",
+      "description": "Pages is a word processing application developed by Apple for macOS and iOS. It allows users to create, edit, and share documents with a variety of templates and formatting options.",
+      "url": "https://www.apple.com/pages/"
+    },
+    {
+      "appName": "Paw",
+      "iconPath": "/app-icons/Paw.png",
+      "description": "Paw is a full-featured HTTP client that lets you test and describe the APIs of your web services.",
+      "url": "https://paw.cloud/"
+    },
+    {
+      "appName": "Plex",
+      "iconPath": "/app-icons/Plex.png",
+      "description": "Plex is a streaming platform that organizes all your personal media and streams it to all your devices.",
+      "url": "https://www.plex.tv/"
+    },
+    {
+      "appName": "Postman",
+      "iconPath": "/app-icons/Postman.png",
+      "description": "Postman is a collaboration platform for API development that allows users to design, mock, test, document, and monitor APIs in a single tool.",
+      "url": "https://www.postman.com/"
+    },
+    {
+      "appName": "PowerShell",
+      "iconPath": "/app-icons/PowerShell.png",
+      "description": "PowerShell is a task automation and configuration management framework from Microsoft, consisting of a command-line shell and scripting language. It is built on the .NET framework and designed to be flexible, easy to use, and efficient.",
+      "url": "https://docs.microsoft.com/en-us/powershell/"
+    },
+    {
+      "appName": "Raindrop.io",
+      "iconPath": "/app-icons/Raindrop.io.png",
+      "description": "Raindrop.io is a bookmark manager that allows users to save and organize their favorite links, articles, images, and videos from across the web.",
+      "url": "https://raindrop.io/"
+    },
+    {
+      "appName": "Rectangle",
+      "iconPath": "/app-icons/Rectangle.png",
+      "description": "Rectangle is a window management application for macOS that allows users to easily resize and position windows using keyboard shortcuts or by dragging. It supports various window arrangements and custom window sizes.",
+      "url": "https://rectangleapp.com/"
+    },
+    {
+      "appName": "ScanSnapHomeMain",
+      "iconPath": "/app-icons/ScanSnapHomeMain.png",
+      "description": "ScanSnap Home is a scanning application that allows users to easily scan, store, and organize documents on their computers.",
+      "url": "https://www.fujitsu.com/global/products/computing/peripheral/scanners/software/fujitsu-scanner-software-scansnap-home.html"
+    },
+    {
+      "appName": "Scrivener",
+      "iconPath": "/app-icons/Scrivener.png",
+      "description": "Scrivener is a powerful content-generation tool for writers that allows users to outline and organize their work, as well as easily rearrange and edit pieces of text.",
+      "url": "https://www.literatureandlatte.com/scrivener/overview"
+    },
+    {
+      "appName": "Shotcut",
+      "iconPath": "/app-icons/Shotcut.png",
+      "description": "Shotcut is a free, open-source, cross-platform video editor for Windows, Mac, and Linux. It features a wide range of format support, audio and video effects, and supports 4K resolutions.",
+      "url": "https://www.shotcut.org/"
+    },
+    {
+      "appName": "Signal",
+      "iconPath": "/app-icons/Signal.png",
+      "description": "Signal is a secure messaging app that offers end-to-end encryption to protect your communications and ensure privacy.",
+      "url": "https://signal.org/"
+    },
+    {
+      "appName": "Slack",
+      "iconPath": "/app-icons/Slack.png",
+      "description": "Slack is a collaboration platform that brings together teams, facilitating communication and file sharing through channels and direct messages.",
+      "url": "https://slack.com/"
+    },
+    {
+      "appName": "Spotify",
+      "iconPath": "/app-icons/Spotify.png",
+      "description": "Spotify is a digital music streaming service that gives users access to millions of songs, podcasts, and videos from artists all around the world.",
+      "url": "https://www.spotify.com/"
+    },
+    {
+      "appName": "Synology Drive Client",
+      "iconPath": "/app-icons/Synology Drive Client.png",
+      "description": "Synology Drive Client is a desktop application that allows users to easily access, sync, and share files on their Synology NAS",
+      "url": "https://www.synology.com/en-global/dsm/feature/drive_client"
+    },
+    {
+      "appName": "Tag Editor",
+      "iconPath": "/app-icons/Tag Editor.png",
+      "description": "Tag Editor is a software that allows users to easily edit metadata tags of audio files including titles, artists, albums, and genres.",
+      "url": "https://amvidia.com/tag-editor"
+    },
+    {
+      "appName": "Telegram",
+      "iconPath": "/app-icons/Telegram.png",
+      "description": "Telegram is a cloud-based instant messaging app that offers secure messaging and file sharing capabilities. It is known for its speed and privacy features, as well as support for channels, bots, and large group chats.",
+      "url": "https://telegram.org/"
+    },
+    {
+      "appName": "The Unarchiver",
+      "iconPath": "/app-icons/The Unarchiver.png",
+      "description": "The Unarchiver is a free, open-source program to extract files from various archive formats. It can handle a wide variety of compressed file types, making it a versatile tool for managing archives on macOS.",
+      "url": "https://theunarchiver.com/"
+    },
+    {
+      "appName": "Todoist",
+      "iconPath": "/app-icons/Todoist.png",
+      "description": "Todoist is a task management app that helps you organize your tasks, set deadlines, and prioritize your work.",
+      "url": "https://todoist.com/"
+    },
+    {
+      "appName": "ToothFairy",
+      "iconPath": "/app-icons/ToothFairy.png",
+      "description": "ToothFairy is a utility application for macOS that allows users to quickly and easily connect and disconnect Bluetooth devices with just a click.",
+      "url": "https://c-command.com/toothfairy/"
+    },
+    {
+      "appName": "Tower",
+      "iconPath": "/app-icons/Tower.png",
+      "description": "Tower is a powerful Git client for Mac and Windows that makes using Git easy and more efficient. It allows users to manage their repositories, collaborate with others, and streamline their development workflow.",
+      "url": "https://www.git-tower.com/"
+    },
+    {
+      "appName": "Upscayl",
+      "iconPath": "/app-icons/Upscayl.png",
+      "description": "Upscayl is an educational app designed to help students prepare for UPSC examinations through various study materials, practice tests, and mock exams.",
+      "url": "https://www.upscayl.com/"
+    },
+    {
+      "appName": "VLC",
+      "iconPath": "/app-icons/VLC.png",
+      "description": "VLC is a free and open-source multimedia player that supports various formats including audio and video files.",
+      "url": "https://www.videolan.org/vlc/"
+    },
+    {
+      "appName": "Visual Studio Code",
+      "iconPath": "/app-icons/Visual Studio Code.png",
+      "description": "Visual Studio Code is a lightweight yet powerful source code editor developed by Microsoft. It has built-in support for various programming languages and features like IntelliSense, debugging, and Git integration.",
+      "url": "https://code.visualstudio.com/"
+    },
+    {
+      "appName": "Warp",
+      "iconPath": "/app-icons/Warp.png",
+      "description": "Warp is a cloud gaming service that allows users to stream high-quality PC games to their devices without the need for expensive hardware.",
+      "url": "https://playwarp.com/"
+    },
+    {
+      "appName": "Xcode",
+      "iconPath": "/app-icons/Xcode.png",
+      "description": "Xcode is an integrated development environment (IDE) for macOS containing a suite of software development tools created by Apple for developing software for macOS, iOS, iPadOS, watchOS, and tvOS.",
+      "url": "https://developer.apple.com/xcode/"
+    },
+    {
+      "appName": "calibre",
+      "iconPath": "/app-icons/calibre.png",
+      "description": "Calibre is a free and open-source e-book library management application that helps you organize, convert and manage your e-books. It also allows you to sync e-books with e-book readers and download news from the web to convert it into an e-book format.",
+      "url": "https://calibre-ebook.com/"
+    },
+    {
+      "appName": "iMovie",
+      "iconPath": "/app-icons/iMovie.png",
+      "description": "iMovie is a video editing software application developed by Apple Inc. It allows users to edit videos, add music, effects, and create professional-looking movies.",
+      "url": "https://www.apple.com/imovie/"
+    },
+    {
+      "appName": "iTerm",
+      "iconPath": "/app-icons/iTerm.png",
+      "description": "iTerm is a macOS terminal emulator with a wide range of features such as split panes, hotkey window, autocomplete, and more.",
+      "url": "https://iterm2.com/"
+    },
+    {
+      "appName": "reMarkable",
+      "iconPath": "/app-icons/reMarkable.png",
+      "description": "reMarkable is a digital paper tablet designed for sketching, drawing, note-taking and reading. It offers a paper-like reading and writing experience, long battery life, and high-quality display.",
+      "url": "https://remarkable.com/"
+    },
+    {
+      "appName": "zoom.us",
+      "iconPath": "/app-icons/zoom.us.png",
+      "description": "Zoom is a cloud-based video conferencing platform that allows users to virtually connect with others through video and audio calls, webinars, and online meetings. It is commonly used for remote work, online learning, and social gatherings.",
+      "url": "https://zoom.us/"
+    }
+  ]
+}

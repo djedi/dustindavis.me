@@ -1,0 +1,23 @@
+{
+  "lastUpdated": "2024-09-24",
+  "extensions": [
+    {
+      "name": "Bitwarden",
+      "iconUrl": "https://lh3.googleusercontent.com/J_l8abQyJgx7POjRoDfGaFYWFnYQNpRSy4kH5IlbwSdM-l_gZf2rJlk2NLSQTY8g-U2vrclpb0EZApHyOe6sjzbKcUc=s120",
+      "description": "A secure and free password manager for all of your devices.",
+      "url": "https://chromewebstore.google.com/detail/bitwarden-free-password-m/nngceckbapebfimnlniiiahkandclblb"
+    },
+    {
+      "name": "Tab Snooze",
+      "iconUrl": "https://lh3.googleusercontent.com/rwr4w4xFcQ1iKJntRi2sHkZqKr2ORf1OXIIohDT6Vep-fMtZp8Z6EdojWEXQacmVAAzCQARJctSn9zcvMfpnfuH_=s120",
+      "description": "Save articles, videos and todos for later. They'll magically reopen when you need them.",
+      "url": "https://chromewebstore.google.com/detail/tab-snooze-works-as-of-no/kgnigbfnfjgpfaiaafcbgdkpalapiinb"
+    },
+    {
+      "name": "ColorZilla",
+      "iconUrl": "https://lh3.googleusercontent.com/dqKrPk33LRO7ZFvKvSJv0q-rofymwBRJDiA3fuAZEXydo_tTS-959G0ZZKjLet9xVoVEWmD0FTYTZMEFx1mzbPzuOQ=s120",
+      "description": "Advanced Eyedropper, Color Picker, Gradient Generator and other colorful goodies.",
+      "url": "https://chromewebstore.google.com/detail/ColorZilla/bhlhnicpbhignbdhedgjhgdocnmhomnp"
+    }
+  ]
+}

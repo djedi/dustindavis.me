@@ -3,5 +3,15 @@
   [headers.values]
     Access-Control-Allow-Origin = "*"
 
-[[plugins]]
-  package = "netlify-plugin-gatsby-cache"
+[build]
+  publish = "_site" # Output directory for 11ty
+  command = "npx @11ty/eleventy" # Command to build the site
+
+[context.production.environment]
+  NODE_ENV = "production"
+
+[context.deploy-preview]
+  command = "npx @11ty/eleventy"
+
+[context.branch-deploy]
+  command = "npx @11ty/eleventy"

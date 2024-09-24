@@ -1,0 +1,31 @@
+singleQuote: true
+useTabs: false
+tabWidth: 2
+printWidth: 120
+trailingComma: 'es5'
+
+overrides:
+  - files: '*.{yaml,yml}'
+    options:
+      parser: 'yaml'
+      proseWrap: 'always'
+  - files: '*.md'
+    options:
+      parser: 'markdown'
+      proseWrap: 'always'
+      printWidth: 80
+  - files: 'README'
+    options:
+      parser: 'markdown'
+      proseWrap: 'always'
+      printWidth: 80
+  - files: '*.svelte'
+    options:
+      quoteProps: 'as-needed'
+      semi: true
+  - files: '*.html'
+    options:
+      parser: 'html'
+  - files: '*.css'
+    options:
+      parser: 'css'

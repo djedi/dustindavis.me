@@ -1,0 +1,220 @@
+{
+  "lastUpdated": "2024-09-24",
+  "tools": [
+    {
+      "name": "automake",
+      "description": "Automake is a tool for automatically generating Makefile.in files from Makefile.am files. It is part of the GNU build system and aids in simplifying the process of building software applications.",
+      "url": "https://www.gnu.org/software/automake/"
+    },
+    {
+      "name": "azure-cli",
+      "description": "The Azure Command-Line Interface (CLI) is a set of commands used to manage Azure resources from the command line or in scripts.",
+      "url": "https://github.com/Azure/azure-cli"
+    },
+    {
+      "name": "bat",
+      "description": "bat is a cat clone with syntax highlighting and Git integration.",
+      "url": "https://github.com/sharkdp/bat"
+    },
+    {
+      "name": "bitwarden-cli",
+      "description": "bitwarden-cli is a command line interface tool for accessing and managing passwords stored in the Bitwarden password manager.",
+      "url": "https://bitwarden.com/"
+    },
+    {
+      "name": "certbot",
+      "description": "Certbot is a free, open source software tool for automatically using Let’s Encrypt certificates on manually-administrated websites to enable HTTPS.",
+      "url": "https://certbot.eff.org/"
+    },
+    {
+      "name": "curl",
+      "description": "curl is a command-line tool for transferring data with URL syntax.",
+      "url": "https://curl.se/"
+    },
+    {
+      "name": "derailed/k9s/k9s",
+      "description": "A CLI tool to navigate and observe Kubernetes resources in real-time",
+      "url": "https://github.com/derailed/k9s"
+    },
+    {
+      "name": "direnv",
+      "description": "direnv is a directory-specific environment manager for shell environments.",
+      "url": "https://direnv.net/"
+    },
+    {
+      "name": "docker",
+      "description": "Docker is a platform for developing, shipping, and running applications in containers.",
+      "url": "https://www.docker.com/"
+    },
+    {
+      "name": "git",
+      "description": "git is a free and open-source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.",
+      "url": "https://git-scm.com/"
+    },
+    {
+      "name": "gnu-sed",
+      "description": "GNU sed is a stream editor for filtering and transforming text. It processes text line by line and can perform tasks such as search, find and replace, insert text, delete lines, and more.",
+      "url": "https://www.gnu.org/software/sed/"
+    },
+    {
+      "name": "grep",
+      "description": "grep is a command-line utility for searching plain-text data sets for lines that match a regular expression.",
+      "url": "https://www.gnu.org/software/grep/"
+    },
+    {
+      "name": "handbrake",
+      "description": "HandBrake is a free and open-source transcoder for digital video files, originally developed in 2003. It supports converting videos from nearly any format to a selection of modern, widely supported codecs.",
+      "url": "https://handbrake.fr/"
+    },
+    {
+      "name": "hashicorp/tap/terraform",
+      "description": "Terraform is a tool for building, changing, and versioning infrastructure safely and efficiently. It allows infrastructure to be described as code, providing a high-level configuration language that can be shared, reused, and versioned.",
+      "url": "https://www.terraform.io/"
+    },
+    {
+      "name": "helm",
+      "description": "Helm is a package manager for Kubernetes that helps you manage Kubernetes applications without manually configuring resources like deployments, services, and ingress.",
+      "url": "https://helm.sh/"
+    },
+    {
+      "name": "imagemagick",
+      "description": "ImageMagick is a free and open-source command-line tool for creating, editing, composing, or converting bitmap images.",
+      "url": "https://imagemagick.org/"
+    },
+    {
+      "name": "jq",
+      "description": "jq is a lightweight and flexible command-line JSON processor that allows you to filter, map, and transform JSON data with ease.",
+      "url": "https://stedolan.github.io/jq/"
+    },
+    {
+      "name": "libksba",
+      "description": "libksba is a library that provides a high-level interface to the functions provided by the Key Server (KS) bundle. It is used to parse X.509 and CMS related objects. It also helps in writing high-level related applications.",
+      "url": "https://www.gnupg.org/software/libksba/index.html"
+    },
+    {
+      "name": "mas",
+      "description": "mas is a CLI tool for discovering, installing, and updating App Store applications on macOS.",
+      "url": "https://github.com/mas-cli/mas"
+    },
+    {
+      "name": "minikube",
+      "description": "Minikube is a tool that makes it easy to run Kubernetes locally. It creates a single-node Kubernetes cluster on your local machine.",
+      "url": "https://minikube.sigs.k8s.io/"
+    },
+    {
+      "name": "mp4v2",
+      "description": "mp4v2 is a set of tools to create, inspect and modify MP4 files. It provides a library for working with MP4 files in C++ and a command-line tool for interacting with MP4 files.",
+      "url": "https://github.com/TechSmith/mp4v2"
+    },
+    {
+      "name": "nvm",
+      "description": "nvm (Node Version Manager) is a tool that allows you to manage multiple versions of Node.js on your machine.",
+      "url": "https://github.com/nvm-sh/nvm"
+    },
+    {
+      "name": "ocrmypdf",
+      "description": "ocrmypdf is a command line tool for adding OCR text layer to scanned PDF files. It uses Tesseract OCR engine to recognize text in PDF images and creates a searchable PDF with embedded text.",
+      "url": "https://ocrmypdf.readthedocs.io/"
+    },
+    {
+      "name": "openjdk@11",
+      "description": "openjdk@11 is a Command Line Interface tool for managing OpenJDK 11 installations on your system.",
+      "url": "https://openjdk.java.net/"
+    },
+    {
+      "name": "openssl@1.1",
+      "description": "OpenSSL is a robust, commercial-grade, and full-featured toolkit for the Transport Layer Security (TLS) and Secure Sockets Layer (SSL) protocols. It is also a general-purpose cryptography library.",
+      "url": "https://www.openssl.org/docs/man1.1.1/"
+    },
+    {
+      "name": "opentofu",
+      "description": "opentofu is a CLI tool for managing and interacting with Tofu manifests, which are used for bootstrapping OpenShift clusters.",
+      "url": "https://github.com/openshift-cs/opentofu"
+    },
+    {
+      "name": "oven-sh/bun/bun",
+      "description": "CLI tool that provides a virtual shell script oven for executing shell scripts easily and efficiently.",
+      "url": "https://github.com/bun/bun"
+    },
+    {
+      "name": "pandoc",
+      "description": "Pandoc is a command-line tool for converting files from one markup format to another.",
+      "url": "https://pandoc.org/"
+    },
+    {
+      "name": "pnpm",
+      "description": "Fast, disk space efficient package manager for Node.js projects",
+      "url": "https://pnpm.io/"
+    },
+    {
+      "name": "pyenv-virtualenv",
+      "description": "pyenv-virtualenv is a plugin for pyenv that makes it easier to manage virtual environments for Python projects.",
+      "url": "https://github.com/pyenv/pyenv-virtualenv"
+    },
+    {
+      "name": "ripgrep",
+      "description": "ripgrep is a line-oriented search tool that recursively searches your current directory for a regex pattern while respecting your gitignore rules",
+      "url": "https://github.com/BurntSushi/ripgrep"
+    },
+    {
+      "name": "rsync",
+      "description": "rsync is a command-line utility that provides fast and efficient file synchronization and transfer capabilities between different systems",
+      "url": "https://rsync.samba.org/"
+    },
+    {
+      "name": "ruby@3.2",
+      "description": "ruby@3.2 is a command line interface tool for managing Ruby versions. It allows users to easily switch between different versions of Ruby installed on their system.",
+      "url": "https://github.com/rbenv/rbenv"
+    },
+    {
+      "name": "ssh-copy-id",
+      "description": "ssh-copy-id is a script that simplifies the process of adding public keys to a remote machine's authorized_keys file. It securely copies the local public key to the remote machine.",
+      "url": "https://linux.die.net/man/1/ssh-copy-id"
+    },
+    {
+      "name": "teamookla/speedtest/speedtest",
+      "description": "speedtest is a CLI tool developed by teamookla for testing internet speed and performance using the Speedtest.net infrastructure.",
+      "url": "https://www.speedtest.net/apps/cli"
+    },
+    {
+      "name": "tilt",
+      "description": "Tilt is a CLI tool that helps developers manage local development environments by automating tasks like building, deploying, and watching for changes in code.",
+      "url": "https://github.com/tilt-dev/tilt"
+    },
+    {
+      "name": "tmux",
+      "description": "tmux is a terminal multiplexer that allows multiple terminal sessions to be accessed and controlled from a single window.",
+      "url": "https://github.com/tmux/tmux"
+    },
+    {
+      "name": "wget",
+      "description": "GNU Wget is a free utility for non-interactive download of files from the web. It supports HTTP, HTTPS, and FTP protocols, as well as retrieval through HTTP proxies.",
+      "url": "https://www.gnu.org/software/wget/"
+    },
+    {
+      "name": "yamlfmt",
+      "description": "yamlfmt is a simple command-line tool for formatting YAML files",
+      "url": "https://github.com/mmlb/yamlfmt"
+    },
+    {
+      "name": "yarn",
+      "description": "Yarn is a package manager that securely installs dependencies in a project, for faster and more reliable builds.",
+      "url": "https://yarnpkg.com/"
+    },
+    {
+      "name": "yq",
+      "description": "yq is a lightweight and portable command-line YAML processor. It allows you to filter, query, and manipulate YAML files using a simple and expressive syntax.",
+      "url": "https://mikefarah.gitbook.io/yq/"
+    },
+    {
+      "name": "yt-dlp",
+      "description": "yt-dlp is a command-line program to download videos from YouTube and other sites. It is a fork of youtube-dl with additional features and improvements.",
+      "url": "https://github.com/yt-dlp/yt-dlp"
+    },
+    {
+      "name": "zlib",
+      "description": "zlib is a software library for data compression. It provides in-memory compression and decompression functions, including functions that transparently support the gzip file format.",
+      "url": "https://zlib.net/"
+    }
+  ]
+}

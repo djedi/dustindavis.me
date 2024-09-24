@@ -1,0 +1,107 @@
+{
+  "lastUpdated": "2024-09-24",
+  "extensions": [
+    {
+      "name": "Bitwarden Password Manager",
+      "description": "At home, at work, or on the go, Bitwarden easily secures all your passwords, passkeys, and sensitive information",
+      "url": "https://chrome.google.com/webstore/detail/nngceckbapebfimnlniiiahkandclblb",
+      "iconUrl": "https://lh3.googleusercontent.com/J_l8abQyJgx7POjRoDfGaFYWFnYQNpRSy4kH5IlbwSdM-l_gZf2rJlk2NLSQTY8g-U2vrclpb0EZApHyOe6sjzbKcUc=s60"
+    },
+    {
+      "name": "Checker Plus for Google Calendar™",
+      "description": "See your next events, get meeting notifications and snooze events without opening the Google Calendar page!",
+      "url": "https://chrome.google.com/webstore/detail/hkhggnncdpfibdhinjiegagmopldibha",
+      "iconUrl": "https://lh3.googleusercontent.com/Di24xdHZLsnypDLCfujMl90xLjoZVi9e-Y0x7NcFiOFDX0mkNqNU7GMH2Ai081dTtfr-YHUSe1zzecYJIa6Sh2EIiw=s60"
+    },
+    {
+      "name": "Color Picker - Eyedropper Tool",
+      "description": "Pick colors from web pages with Eyedropper. Color picker, gradient generator, color palette. Quickly grab HEX, RGB colors.",
+      "url": "https://chrome.google.com/webstore/detail/phillbeieoddghchonmfebjhclflpoaj",
+      "iconUrl": "https://lh3.googleusercontent.com/jHQ-jWN9HtbrzSqeX51At493W3WLdjHn0hnWl8rwgD11UNG9GdpdX_0ZmkW7loczA0ezJ60SO0Laa4LKyS3gRXNyK40=s60"
+    },
+    {
+      "name": "Extension Exporter",
+      "description": "Export name and URL of all installed extensions into an HTML file.",
+      "url": "https://chrome.google.com/webstore/detail/doikmfpjbcjjimnbablebijofdbgfepb",
+      "iconUrl": "https://lh3.googleusercontent.com/x7LxKClybahntIvNLpk-oNKPWOu8MwOewT7WsUWjaQk1CfwyQFMowXhYnZUIH8f1Zau9OjWhopdM0wi3mh9V3Syy2A=s60"
+    },
+    {
+      "name": "Ramp for Chrome",
+      "description": "The best way to experience Ramp in your browser. Easily find your card info, submit receipt, and receive helpful tips.",
+      "url": "https://chrome.google.com/webstore/detail/idefohglmnkliiadgfofeokcpjobdeik",
+      "iconUrl": "https://lh3.googleusercontent.com/mFWUCXmLJppfxdZ1j_3qcnclTvrq8YTdjlj_8GLioDA1W8q1JjdXE6su-wqHFORPnF47_8dCRwDrukPNKsIScZuxzw=s60"
+    },
+    {
+      "name": "Read Aloud: A Text to Speech Voice Reader",
+      "description": "Read aloud the current web-page article with one click, using text to speech (TTS). Supports 40+ languages.",
+      "url": "https://chrome.google.com/webstore/detail/hdhinadidafjejdhmfkjgnolgimiaplp",
+      "iconUrl": "https://lh3.googleusercontent.com/_l4UaD5Gwub2AwFZdomRpfMD2737y0Ow6k2sfVuWdm0fQ0iGSdEfhd9X77taeQ-0VM6Wi3HnpecLWUAI9uHq11TSktw=s60"
+    },
+    {
+      "name": "Read on reMarkable",
+      "description": "Read web articles on your reMarkable with a click.",
+      "url": "https://chrome.google.com/webstore/detail/bfhkfdnddlhfippjbflipboognpdpoeh",
+      "iconUrl": "https://lh3.googleusercontent.com/oMxKy5ZevaIzxAp3vh82bGpIu_g1fr7IxfeHg-I_pGu3qxQLBD2WJNI5MGqsLe3qPLiontRedZosm2mDRiuaj186YvM=s60"
+    },
+    {
+      "name": "Tab auto reloader",
+      "description": "This extension reloads the current tab at a chosen interval.",
+      "url": "https://chrome.google.com/webstore/detail/knnahnemielbnanghaphjgheamgcjjcb",
+      "iconUrl": "https://lh3.googleusercontent.com/DNntdNMH_7k3MluRLHR7WYlcVS1JO7fs3yTF0fDpBYL64bTqZeO2S69zBX1cM4Zsq6eZXknF7Q2HvoPMWPCGhrtLSdY=s60"
+    },
+    {
+      "name": "Tab Snooze - Works as of Nov",
+      "description": "Save articles, videos and todos for later. They'll magically reopen when you need them.",
+      "url": "https://chrome.google.com/webstore/detail/kgnigbfnfjgpfaiaafcbgdkpalapiinb",
+      "iconUrl": "https://lh3.googleusercontent.com/rwr4w4xFcQ1iKJntRi2sHkZqKr2ORf1OXIIohDT6Vep-fMtZp8Z6EdojWEXQacmVAAzCQARJctSn9zcvMfpnfuH_=s60"
+    },
+    {
+      "name": "uBlock Origin",
+      "description": "Finally, an efficient blocker. Easy on CPU and memory.",
+      "url": "https://chrome.google.com/webstore/detail/cjpalhdlnbpafiamejdnhcphjbkeiagm",
+      "iconUrl": "https://lh3.googleusercontent.com/rrgyVBVte7CfjjeTU-rCHDKba7vtq-yn3o8-10p5b6QOj_2VCDAO3VdggV5fUnugbG2eDGPPjoJ9rsiU_tUZBExgLGc=s60"
+    },
+    {
+      "name": "FullDownload",
+      "description": "Full download JS/CSS/HTML",
+      "url": "https://chrome.google.com/webstore/detail/jlgfpehamfinbdbdofmhakpcgjilbkol",
+      "iconUrl": "https://lh3.googleusercontent.com/hvqbQDOBZAAsYbiwREE7BbwtLugwy5xvLEDCTXJxLuRmP94Ghg3ZW2EcOoJSxPXfIv4EsTIXJWNGRoNiVjgOTJI7AA=s60"
+    },
+    {
+      "name": "Raindrop.io",
+      "description": "All-in-one bookmark manager",
+      "url": "https://chrome.google.com/webstore/detail/ldgfbffkinooeloadekpmfoklnobpien",
+      "iconUrl": "https://lh3.googleusercontent.com/GsyRyzu8R26g2Caw3_AEcZD7opQ2CADN9wOdPdq8-Rr-zBvLgC_BOCQrYUwECEQ-4iub4XOQw36QMyWhyBhMF6Vf=s60"
+    },
+    {
+      "name": "Social Media Death Clock",
+      "description": "Remind yourself of your mortality while you waste away on social media",
+      "url": "https://chrome.google.com/webstore/detail/jjmjickedeooblgpimknfghpfffncfhb",
+      "iconUrl": "https://lh3.googleusercontent.com/8auCDF0qYM3wwM5pWb9A5G98bYbdE8ZxpLiZWaVjXq5_4a7rlSityLvvYwrBmcjynCdB5rT-kxbsx9D4_34bYUpNdQ=s60"
+    },
+    {
+      "name": "Video Speed Controller",
+      "description": "Speed up, slow down, advance and rewind HTML5 audio/video with shortcuts",
+      "url": "https://chrome.google.com/webstore/detail/nffaoalbilbmmfgbnbgppjihopabppdk",
+      "iconUrl": "https://lh3.googleusercontent.com/5yY1QQ__b0c2ZLmmi6mcdjX-9V3LAgXhgUaZtsICFTjeQV0S6xkVncmV99oEtU-H8WN8dZpWh_cycXSXoyffADsoYg=s60"
+    },
+    {
+      "name": "Foxified",
+      "description": "Emulate firefox extensions in Chrome, Opera and other Chromium based browsers",
+      "url": "https://chrome.google.com/webstore/detail/cldmemdnllncchfahbcnjijheaolemfk",
+      "iconUrl": "https://lh3.googleusercontent.com/t7uttg7F_o86RiEW2QaRg5eBBmMnpDEIhH0wdgjbeLJdXVCjugdqOaxw4BLLxR5c9vcHUTy-aNAZJctblAotV1sb=s60"
+    },
+    {
+      "name": "Grammarly: AI Writing and Grammar Checker App",
+      "description": "Improve your writing with all-in-one assistance—including generative AI, grammar check, and more.",
+      "url": "https://chrome.google.com/webstore/detail/kbfnbcaeplbcioakkpcpgfkobkghlhen",
+      "iconUrl": "https://lh3.googleusercontent.com/Ywdz5mn9q2Mx76DU45LSH-Pv5OGpqk8QAOY3lT1AWScMTZYQtAhqhVjtY5I2JZK530QIycLZooe2a0k3quGqYUaZ=s60"
+    },
+    {
+      "name": "The Pirate Bay Torrent Search",
+      "description": "Search for torrents using the official ",
+      "url": "https://chrome.google.com/webstore/detail/enfgmbhdgelbkmhhhdiljfimmcghnalc",
+      "iconUrl": "https://lh3.googleusercontent.com/MgN6i2udJ8h44IMaDH--4U42prn06Vhvzr4MenZLpD-_O0_OLJssb5NFXAfcxGSdus2s4oRZAIdtVYXRuiX5C1-K3Q=s60"
+    }
+  ]
+}
