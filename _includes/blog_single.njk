@@ -219,11 +219,10 @@
 
             <article class="css-nl2wjm">
               <div class="css-nn9o15">
-                {# {% responsiveImage "{{ page.inputPath | directroyPath }}/{{
-                banner }}", "Image description", "custom-class" %} #} {% set
-                imagePath = page.inputPath | directoryPath %} {% responsiveImage
-                imagePath + '/' + banner, title, "blog-banner-image" %} {% if
-                bannerCredit %}
+                <h1 class="blog-title">{{ title }}</h1>
+                {% set imagePath = page.inputPath | directoryPath %} {%
+                responsiveImage imagePath + '/' + banner, title,
+                "blog-banner-image" %} {% if bannerCredit %}
                 <div style="text-align: center; margin-top: -2em">
                   {{ bannerCredit | markdown | safe }}
                 </div>

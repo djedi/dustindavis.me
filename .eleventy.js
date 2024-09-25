@@ -15,6 +15,10 @@ module.exports = eleventyConfig => {
   eleventyConfig.addPassthroughCopy('static');
   eleventyConfig.addPassthroughCopy('app-icons');
 
+  eleventyConfig.addFilter('dateToRfc822', dateObj => {
+    return DateTime.fromJSDate(dateObj).toRFC2822();
+  });
+
   // Configure the Markdown-it library
   const markdownItOptions = {
     html: true,
@@ -27,7 +31,7 @@ module.exports = eleventyConfig => {
       if (data.slug) {
         return `/blog/${data.slug}/`;
       }
-      return data.url;
+      return data.permalink;
     },
     layout: data => {
       // If frontmatter layout is set to false, don't use a layout
@@ -120,7 +124,7 @@ module.exports = eleventyConfig => {
         srcSet = `${smallestImage.url} ${smallestImage.width}w`;
       } else {
         // If the image doesn't exist, generate it
-        console.log('🏞️ Optimizing: ', src);
+        console.log(`🏞️ Generating ${src} as ${outputPath}`);
         stats = await eleventyImage(imagePath, {
           widths: [width], // Use the width parameter
           formats: ['webp', 'jpeg'],

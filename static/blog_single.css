@@ -1526,3 +1526,9 @@ div.caption {
   text-align: center;
   margin-top: -1.55rem;
 }
+
+h1.blog-title {
+  font-size: 2.5em;
+  margin-top: 0;
+  text-align: center;
+}

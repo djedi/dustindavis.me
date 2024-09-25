@@ -27,6 +27,7 @@
     "gray-matter": "^4.0.3",
     "jsdom": "^25.0.1",
     "lazysizes": "^5.3.2",
+    "luxon": "^3.5.0",
     "markdown-it": "^14.1.0",
     "potrace": "^2.1.8",
     "prismjs": "^1.29.0",
