@@ -37,7 +37,4 @@ and it will trigger a new build and deploy.
 - [ ] Fix all 404 errors in console
 - [ ] Fix social share cards
 - [ ] Fix favicon
-- [ ] Fix RSS feed
 - [ ] Fix manifest icons
-- [ ]
-- [ ]
