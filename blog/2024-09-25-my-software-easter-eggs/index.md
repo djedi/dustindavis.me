@@ -44,7 +44,6 @@ using it to test. So, I put in an easter egg to load it when the
 [Konami code](https://en.wikipedia.org/wiki/Konami_Code) was entered.
 
 For those unfamiliar, the Konami code is a famous cheat code that originated in
-
 video games developed by [Konami](https://www.konami.com/). The code is: Up, Up,
 Down, Down, Left, Right, Left, Right, B, A. It was first used in the 1986
 release of [Gradius](<https://en.wikipedia.org/wiki/Gradius_(video_game)>) for
