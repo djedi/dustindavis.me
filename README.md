@@ -38,3 +38,4 @@ and it will trigger a new build and deploy.
 - [ ] Fix social share cards
 - [ ] Fix favicon
 - [ ] Fix manifest icons
+- [ ] Add meta links to banner images in blog single njk
