@@ -15,9 +15,3 @@
 
 [context.branch-deploy]
   command = "npx @11ty/eleventy"
-
-[[plugins]]
-  package = "@netlify/plugin-cache"
-
-  [plugins.inputs]
-  paths = ["_cache", "_site/img"]
