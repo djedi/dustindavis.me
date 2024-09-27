@@ -31,9 +31,3 @@ extension to export your extensions. Then run:
 
 This site is configured to deploy to Netlify. Simply push your changes to master
 and it will trigger a new build and deploy.
-
-## TODO
-
-- [ ] Fix all 404 errors in console
-- [ ] Fix favicon
-- [ ] Fix manifest icons

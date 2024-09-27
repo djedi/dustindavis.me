@@ -865,56 +865,6 @@ svg:not(:root) {
   display: none !important;
 }
 
-@font-face {
-  font-family: Inter Thin;
-  font-style: normal;
-  font-weight: 200;
-  src: url('/static/Inter-Thin-BETA-95dcd9833440639fb058f2fd5597cf8b.woff2') format('woff2'),
-    url(/static/Inter-Thin-BETA-993430a02687d7531d7e95cf1ffdf74a.woff) format('woff');
-}
-@font-face {
-  font-family: Inter ExtraLight;
-  font-style: normal;
-  font-weight: 200;
-  src: url('/static/Inter-ExtraLight-BETA-3e86dd6bb8806f2b1567d8821f10d46b.woff2') format('woff2'),
-    url(/static/Inter-ExtraLight-BETA-7410d5373a896ff636cbb81f6cb05f6b.woff) format('woff');
-}
-@font-face {
-  font-family: Inter Light;
-  font-style: normal;
-  font-weight: 300;
-  src: url('/static/Inter-Light-BETA-42922cef6c883e28417cfc6733f581f4.woff2') format('woff2'),
-    url(/static/Inter-Light-BETA-235041efc07faa8126288ec912358690.woff) format('woff');
-}
-@font-face {
-  font-family: Inter Regular;
-  font-style: normal;
-  font-weight: 400;
-  src: url('/static/Inter-Regular-bffaed793493dc46bf0789e2275909ac.woff2') format('woff2'),
-    url(/static/Inter-Regular-aebfbb3c9c7d49053fce8cadbc6e6735.woff) format('woff');
-}
-@font-face {
-  font-family: Inter Medium;
-  font-style: normal;
-  font-weight: 500;
-  src: url('/static/Inter-Medium-2e5e0884f40cc3929881d89710fa432e.woff2') format('woff2'),
-    url(/static/Inter-Medium-c09fb3891c96d467a92d9d898e4a931a.woff) format('woff');
-}
-@font-face {
-  font-family: Inter SemiBold;
-  font-style: normal;
-  font-weight: 600;
-  src: url('/static/Inter-SemiBold-cd04cacdf531638687dd675e1d35c153.woff2') format('woff2'),
-    url(/static/Inter-SemiBold-acc6eebdcdac6e62d128cc4421d0f11a.woff) format('woff');
-}
-@font-face {
-  font-family: Inter Bold;
-  font-style: normal;
-  font-weight: 700;
-  src: url('/static/Inter-Bold-34356f6bf3d0f6de82656cca908803cf.woff2') format('woff2'),
-    url(/static/Inter-Bold-61c493e3af34ba077777c6bb54862837.woff) format('woff');
-}
-
 .css-18roemd {
   display: -webkit-box;
   display: -webkit-flex;
