@@ -86,7 +86,7 @@ module.exports = eleventyConfig => {
   });
 
   eleventyConfig.addFilter('githubPath', filePath => {
-    return `https://github.com/djedi/dustindavis.me/edit/master/content${filePath.substring(1)}`;
+    return `https://github.com/djedi/dustindavis.me/edit/master/${filePath.substring(1)}`;
   });
 
   /**
