@@ -36,13 +36,13 @@ the new shortcode.
 
 Here is an example of the shortcode, this markdown:
 
-```html
+```md
 [!Image Alt Text](./path/to/image.jpg) _Caption for Image_
 ```
 
 becomes this shortcode:
 
-```html
+```njk
 {% raw %}{% responsiveImage "./path/to/image.jpg", "Image Alt Text",
 "custom-class", 720, "Caption for Image" %}{% endraw %}
 ```
@@ -69,8 +69,8 @@ times go, but I have set up a caching mechanism to mitigate this issue when
 building locally.
 
 One major update to the blog that I did in the process was to create scripts to
-generate the data from my ["Uses"](/uses) page. Now I have a scripts that will
-read all the applications and cli tools that I have installed on my Mac and
+generate the data from my ["Uses"](/uses) page. Now I have scripts that will
+read all the applications and CLI tools that I have installed on my Mac and
 generate a data file that 11ty will use to generate the page. I can now just run
 this script whenever I want to update the page. As a bonus, to make things even
 easier for me, I have integrated it with my [OpenAI](https://openai.com) account

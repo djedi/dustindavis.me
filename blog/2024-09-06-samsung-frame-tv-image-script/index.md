@@ -3,38 +3,52 @@ slug: samsung-frame-tv-image-script
 title: Resizing Classic Art for the Samsung Frame TV Without the Mat
 date: 2024-09-06
 author: Dustin Davis
-description: A guide to using a custom script to resize and crop images for
-  perfect display on a Samsung Frame TV.
+description:
+  A guide to using a custom script to resize and crop images for perfect display
+  on a Samsung Frame TV.
 categories:
   - automation
   - bash
   - cli
 banner: ./images/banner.jpg
-bannerCredit: ""
+bannerCredit: ''
 ---
 
-One of the things I love about my Samsung Frame TV is how it blends into the room like a piece of artwork. But there’s one thing that always bugged me—when an image doesn’t perfectly match the screen’s dimensions, the TV adds a mat around the image, which takes away from the seamless look of a framed piece of art.
+One of the things I love about my Samsung Frame TV is how it blends into the
+room like a piece of artwork. But there's one thing that always bugged me—when
+an image doesn't perfectly match the screen's dimensions, the TV adds a mat
+around the image, which takes away from the seamless look of a framed piece of
+art.
 
-To solve this problem, I wrote a simple shell script that resizes and crops any image to fit the exact dimensions of my Samsung Frame TV (3840x2160). I mainly use it to download classic artwork, resize it, and then display it without any distracting matting. The result is a cleaner, more immersive look on the screen.
+To solve this problem, I wrote a simple shell script that resizes and crops any
+image to fit the exact dimensions of my Samsung Frame TV (3840x2160). I mainly
+use it to download classic artwork, resize it, and then display it without any
+distracting matting. The result is a cleaner, more immersive look on the screen.
 
 ## What This Script Does
 
-This script takes an image file as input, adjusts its resolution to 300 DPI, and then resizes and crops the image to perfectly fit the 3840x2160 dimensions of the Samsung Frame TV. It works for both macOS and Linux users.
+This script takes an image file as input, adjusts its resolution to 300 DPI, and
+then resizes and crops the image to perfectly fit the 3840x2160 dimensions of
+the Samsung Frame TV. It works for both macOS and Linux users.
 
 ### Features
 
-- Resizes images to match the TV’s resolution (3840x2160).
+- Resizes images to match the TV's resolution (3840x2160).
 - Crops the image to maintain the correct aspect ratio.
 - Automatically adjusts resolution to 300 DPI for the best quality display.
 - Supports macOS and Linux installations of ImageMagick.
 
 ## How to Use the Script
 
-Here’s how you can use this script to prepare your own art for display on the Frame TV:
+Here's how you can use this script to prepare your own art for display on the
+Frame TV:
 
 ### Step 1: Install ImageMagick
 
-This script requires ImageMagick, a powerful tool for image manipulation. If it’s not installed on your system, the script will try to install it for you using Homebrew (macOS) or apt (Linux). To manually install ImageMagick, you can run:
+This script requires ImageMagick, a powerful tool for image manipulation. If
+it's not installed on your system, the script will try to install it for you
+using Homebrew (macOS) or apt (Linux). To manually install ImageMagick, you can
+run:
 
 **macOS:**
 
@@ -51,32 +65,37 @@ sudo apt-get install imagemagick
 
 ### Step 2: Run the Script
 
-You can either provide the image file name as an argument when running the script, or the script will prompt you to enter the file name.
+You can either provide the image file name as an argument when running the
+script, or the script will prompt you to enter the file name.
 
 ```bash
 ./frame-tv-image-resize.sh your_image.jpg
 ```
 
-Alternatively, you can run the script without any parameters, and it will ask you for the image name:
+Alternatively, you can run the script without any parameters, and it will ask
+you for the image name:
 
 ```bash
 ./frame-tv-image-resize.sh
-📁 Please enter the name of the image file to be framed: 
+📁 Please enter the name of the image file to be framed:
 ```
 
 ### Step 3: Let the Script Work
 
-Once the script runs, it will create a new image file with `-framed.jpg` appended to the original name. This new image is perfectly sized for the Samsung Frame TV. No more fake matting!
+Once the script runs, it will create a new image file with `-framed.jpg`
+appended to the original name. This new image is perfectly sized for the Samsung
+Frame TV. No more fake matting!
 
 The script uses ImageMagick to:
 
 1. Detect the current dimensions and aspect ratio of the input image.
-2. Resize the image to either 3840 pixels wide or 2160 pixels tall, depending on its original aspect ratio.
+2. Resize the image to either 3840 pixels wide or 2160 pixels tall, depending on
+   its original aspect ratio.
 3. Crop the image to match the TV’s exact dimensions.
 
 ## The Script
 
-Here’s the script I use:
+Here's the script I use:
 
 ```bash
 #!/bin/bash
@@ -145,14 +164,23 @@ echo "✅ Image processing complete. New file: $NEW_FILENAME"
 
 ### Step 4: Upload to Your Samsung Frame TV
 
-Once you have your resized image, you can upload it to your Samsung Frame TV using the SmartThings app or a USB drive, depending on how you prefer to manage your TV’s gallery.
+Once you have your resized image, you can upload it to your Samsung Frame TV
+using the SmartThings app or a USB drive, depending on how you prefer to manage
+your TV's gallery.
 
 ## Example Use Case
 
-I often download high-resolution classic art pieces from public domain sites like [Wikimedia Commons](https://commons.wikimedia.org/) and use this script to ensure they display perfectly on my Frame TV. Whether it’s Van Gogh’s **Starry Night** or **The Great Wave off Kanagawa**, this script ensures it looks like it was made for the space.
+I often download high-resolution classic art pieces from public domain sites
+like [Wikimedia Commons](https://commons.wikimedia.org/) and use this script to
+ensure they display perfectly on my Frame TV. Whether it's Van Gogh's **Starry
+Night** or **The Great Wave off Kanagawa**, this script ensures it looks like it
+was made for the space.
 
 ## Final Thoughts
 
-This script is a simple solution for those who want to customize their Samsung Frame TV experience and avoid those fake mat borders. Plus, it’s fun to see your TV truly blend in with the decor, especially when displaying your favorite classic art pieces. Feel free to fork it, modify it, and make it your own!
+This script is a simple solution for those who want to customize their Samsung
+Frame TV experience and avoid those fake mat borders. Plus, it's fun to see your
+TV truly blend in with the decor, especially when displaying your favorite
+classic art pieces. Feel free to fork it, modify it, and make it your own!
 
 Happy framing!
