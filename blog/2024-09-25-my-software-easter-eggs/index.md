@@ -140,7 +140,17 @@ To prove his point, the next time Clippy made his appearance, the customer
 whipped out his phone and started recording it. Notice he was looking for the
 "zoo" line again, as that one seem to really trigger him.
 
-<iframe width="720" height="405" src="https://www.youtube.com/embed/U7C9T_QL1zU?si=Wk3j1pHj2T7Sz4Gv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe
+    style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
+    src="https://www.youtube.com/embed/U7C9T_QL1zU?si=Wk3j1pHj2T7Sz4Gv"
+    title="YouTube video player"
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    referrerpolicy="strict-origin-when-cross-origin"
+    allowfullscreen
+  ></iframe>
+</div>
 
 Support still had no clue what was going on. So they reached out to us and asked
 if we had any ideas as to what might be causing this.

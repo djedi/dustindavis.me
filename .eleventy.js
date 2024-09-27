@@ -6,6 +6,7 @@ const eleventyImage = require('@11ty/eleventy-img');
 const potrace = require('potrace');
 const syntaxHighlight = require('@11ty/eleventy-plugin-syntaxhighlight');
 const markdownIt = require('markdown-it');
+const sharp = require('sharp');
 
 module.exports = eleventyConfig => {
   eleventyConfig.addPlugin(syntaxHighlight);
@@ -14,6 +15,7 @@ module.exports = eleventyConfig => {
   eleventyConfig.addPassthroughCopy('manifest.webmanifest');
   eleventyConfig.addPassthroughCopy('static');
   eleventyConfig.addPassthroughCopy('app-icons');
+  eleventyConfig.addPassthroughCopy('favicon.ico');
 
   eleventyConfig.addFilter('dateToRfc822', dateObj => {
     return DateTime.fromJSDate(dateObj).toRFC2822();
@@ -87,55 +89,69 @@ module.exports = eleventyConfig => {
     return `https://github.com/djedi/dustindavis.me/edit/master/content${filePath.substring(1)}`;
   });
 
+  /**
+   * Generates a meta image for a given source image.
+   *
+   * This shortcode generates a meta image with a size of 1200x630 pixels and a quality of 80% in the JPEG format. The generated image is saved in the `dist/img/meta` directory with a filename based on the source image filename.
+   *
+   * @param {string} src - The path to the source image.
+   * @returns {string} The URL of the generated meta image.
+   */
+  eleventyConfig.addShortcode('metaImage', async src => {
+    const normalizedSrc = path.normalize(src);
+    const outputDir = './_site/img/meta';
+    // generate a hash from the normalized source path
+    const hash = crypto.createHash('sha256').update(normalizedSrc).digest('hex').substring(0, 8);
+    const outputFilename = `${path.basename(normalizedSrc, path.extname(normalizedSrc))}-${hash}${path.extname(normalizedSrc)}`;
+    const outputPath = path.join(outputDir, outputFilename);
+
+    // return if the image already exists
+    if (fs.existsSync(outputPath)) {
+      return `/img/meta/${outputFilename}`;
+    }
+
+    if (!fs.existsSync(outputDir)) {
+      fs.mkdirSync(outputDir);
+    }
+
+    console.log('Generating meta image:', outputPath);
+    await sharp(src).resize(1200, 630, { fit: 'cover' }).toFormat('jpeg', { quality: 80 }).toFile(outputPath);
+
+    return `/img/meta/${outputFilename}`;
+  });
+
   eleventyConfig.addShortcode(
     'responsiveImage',
     async function (src, alt, className, width = 720, imageDescription = '') {
-      // If src does not exist, try looking at the relative path
+      const imageSrc = path.normalize(src);
+      const srcHash = crypto.createHash('sha256').update(imageSrc).digest('hex').substring(0, 8);
       const inputDir = this.page?.inputPath.split('/').slice(0, -1).join('/');
-      let imagePath = src;
+      let imagePath = imageSrc;
       if (!fs.existsSync(imagePath)) {
-        imagePath = path.join(process.cwd(), inputDir, src);
+        imagePath = path.join(process.cwd(), inputDir, imageSrc);
       }
 
-      // Output folder for images
+      console.log(`🏞️ Processing image: ${imagePath}`);
+
       const outputFolder = './_site/img/';
 
-      // Generate a unique filename based on the source image and desired width
-      const uniqueFilename = `${path.basename(imagePath, path.extname(imagePath))}-${width}.jpeg`;
-      const outputPath = path.join(outputFolder, uniqueFilename);
+      const stats = await eleventyImage(imagePath, {
+        widths: [width],
+        formats: ['webp', 'jpeg'],
+        outputDir: outputFolder,
+        filenameFormat: (id, src, width, format) => {
+          const extension = path.extname(src);
+          const name = path.basename(src, extension);
+          const filename = `${name}-${width}w.${format}-${srcHash}.${format}`;
+          console.log(`📸 Generated: ${filename}`);
+          return filename;
+        },
+      });
 
-      let stats;
-      let smallestImage;
-      let srcSet;
+      const smallestImage = stats.webp[0];
+      const srcSet = stats.webp.map(image => `${image.url} ${image.width}w`).join(', ');
 
-      // Check if the optimized image already exists
-      if (fs.existsSync(outputPath)) {
-        console.log(`Skipping optimization for ${imagePath}, file already exists.`);
-        stats = {
-          jpeg: [
-            {
-              url: `/img/${uniqueFilename}`,
-              width: width,
-              height: width, // You might want to store and retrieve the actual height
-            },
-          ],
-        };
-        smallestImage = stats.jpeg[0];
-        srcSet = `${smallestImage.url} ${smallestImage.width}w`;
-      } else {
-        // If the image doesn't exist, generate it
-        console.log(`🏞️ Generating ${src} as ${outputPath}`);
-        stats = await eleventyImage(imagePath, {
-          widths: [width], // Use the width parameter
-          formats: ['webp', 'jpeg'],
-          outputDir: outputFolder,
-        });
-        smallestImage = stats.webp[0]; // Choose the smallest image as the base
-        srcSet = stats.webp.map(image => `${image.url} ${image.width}w`).join(', ');
-      }
-
-      // Generate or retrieve the placeholder SVG
-      const placeholderSVG = await generateSvgTrace(fs.existsSync(outputPath) ? outputPath : stats.jpeg[0].outputPath);
+      const placeholderSVG = await generateSvgTrace(stats.jpeg[0].outputPath);
 
       return `
         <figure class="${className}">
