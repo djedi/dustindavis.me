@@ -18,4 +18,6 @@
 
 [[plugins]]
   package = "@netlify/plugin-cache"
-  config = { paths = ["_cache", "_site/img"]}
+
+  [plugins.inputs]
+  paths = ["_cache", "_site/img"]
