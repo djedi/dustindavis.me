@@ -35,7 +35,5 @@ and it will trigger a new build and deploy.
 ## TODO
 
 - [ ] Fix all 404 errors in console
-- [ ] Fix social share cards
 - [ ] Fix favicon
 - [ ] Fix manifest icons
-- [ ] Add meta links to banner images in blog single njk

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+  {% set bannerPath = page.inputPath | directoryPath + '/' + banner %}
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
@@ -42,36 +43,30 @@
     <title>{{ title }}</title>
     <meta name="keywords" content="" />
     <meta name="description" content="{{ description }}" />
-    {#
+
     <meta
       name="image"
-      content="https://dustindavis.me/static/ed0bae9cf0895a0b08ca479e662b1057/3e561/banner.jpg"
+      content="https://dustindavis.me{% metaImage bannerPath %}"
     />
-    #}
-    <meta
-      property="og:url"
-      content="https://dustindavis.me/blog/samsung-frame-tv-image-script"
-    />
+    <meta property="og:url" content="https://dustindavis.me{{ page.url}}" />
     <meta property="og:type" content="article" />
     <meta property="og:title" content="{{ title}}" />
     <meta property="og:description" content="{{ description }}" />
-    {#
     <meta
       property="og:image"
-      content="https://dustindavis.me/static/ed0bae9cf0895a0b08ca479e662b1057/3e561/banner.jpg"
+      content="https://dustindavis.me{% metaImage bannerPath %}"
     />
-    #}
     <meta property="fb:app_id" content="" />
+
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:creator" content="@DustinDavis" />
     <meta name="twitter:title" content="{{ title }}" />
     <meta name="twitter:description" content="{{ description}}" />
-    {#
     <meta
       name="twitter:image"
-      content="https://dustindavis.me/static/ed0bae9cf0895a0b08ca479e662b1057/3e561/banner.jpg"
+      content="https://dustindavis.me{% metaImage bannerPath %}"
     />
-    #}
+
     <noscript>This site runs best with JavaScript enabled.</noscript>
     <meta name="theme-color" content="#4147DC" />
     <link
@@ -189,9 +184,8 @@
             <article class="css-nl2wjm">
               <div class="css-nn9o15">
                 <h1 class="blog-title">{{ title }}</h1>
-                {% set imagePath = page.inputPath | directoryPath %} {%
-                responsiveImage imagePath + '/' + banner, title,
-                "blog-banner-image" %} {% if bannerCredit %}
+                {% responsiveImage bannerPath, title, "blog-banner-image" %} {%
+                if bannerCredit %}
                 <div style="text-align: center; margin-top: -2em">
                   {{ bannerCredit | markdown | safe }}
                 </div>
