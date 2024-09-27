@@ -19,11 +19,11 @@ major project was to create an online video clipping tool that would allow our
 customers to create clips of their video assets so they could post them on their
 social media channels and other platforms.
 
-For example, lets say a new station wanted to create a clip of their weather
+For example, let's say a news station wanted to create a clip of their weather
 report and upload it to [Twitter](https://twitter.com),
 [Facebook](https://www.facebook.com), and [YouTube](https://www.youtube.com).
 They could load their new program into the video clipping tool and create a clip
-of the weather report. The tool would then generate a new video and upload it
+of the weather report. The tool would then generate a new video and upload it to
 the places they had configured to send it.
 
 It was a lot of fun and I was in a whole new world of technology. I had never
@@ -57,15 +57,21 @@ numerous video games (even those not made by Konami) and various websites as an
 easter egg. It's a nod to gaming culture and often unlocks special features or
 humorous content when entered on a website or app.
 
+Fun fact: in the 2012 Disney animated film
+["Wreck-It Ralph"](https://www.imdb.com/title/tt1772341/), the Konami code is
+used by King Candy to access the
+[Sugar Rush](https://disney.fandom.com/wiki/Sugar_Rush) game's code room,
+demonstrating its enduring legacy in pop culture beyond just video games.
+
 That is cool and all, but it was never found by the customers.
 
-But here is were the story gets more interesting.
+But here is where the story gets more fun.
 
 The code name for this project was "Clippy" because it was a video clipping
 tool. But, it also paid homage to the
 [Microsoft Clippy](https://en.wikipedia.org/wiki/Office_Assistant) character.
 
-Microsoft Clippy, was an animated character that served as an office assistant
+Microsoft Clippy was an animated character that served as an office assistant
 for Microsoft Office from 1997 to 2003. Clippy was a paperclip with eyes and
 eyebrows, designed to help users by offering tips and suggestions while they
 worked in various Office applications.
@@ -87,7 +93,7 @@ Due to its unpopularity, Microsoft began to phase out Clippy with Office XP in
 removed from the software.
 
 But, thanks to some crafty developers, Clippy was resurrected in the form of a
-javascript library called [Clippy.js](https://mklab.eu.org/clippy/).
+JavaScript library called [Clippy.js](https://mklab.eu.org/clippy/).
 
 I added this library and had it give some obvious and obnoxious advice to the
 user explaining how to use the system.
@@ -105,7 +111,7 @@ tendency to belittle others for their lack of technical knowledge. He often
 makes his coworkers feel stupid and incompetent, even when they're asking for
 help with relatively simple computer issues.
 
-Here are some examples of the Nick Burn's lines that I would randomly show at
+Here are some examples of the Nick Burns' lines that I would randomly show at
 the end of the help routine:
 
 - "Was that so hard?"
@@ -118,10 +124,10 @@ Clippy always closed with the same phrase as Nick Burns. "Oh, and by the way...
 YOU'RE WELCOME!"
 
 I'll admit, I enjoyed this easter egg so much, that I wanted it to be found. So,
-I made fairly easy to get to.
+I made it fairly easy to get to.
 
 All you had to do to trigger it was to type the word "help" anywhere, anytime in
-the app. As soon as you entered that four key combination, Clippy would appear
+the app. As soon as you entered that four-key combination, Clippy would appear
 and give you a little "help".
 
 So, if you were creating a video clip and it happened to have the word "help" in
@@ -138,7 +144,7 @@ triggering it.
 
 To prove his point, the next time Clippy made his appearance, the customer
 whipped out his phone and started recording it. Notice he was looking for the
-"zoo" line again, as that one seem to really trigger him.
+"zoo" line again, as that one seemed to really trigger him.
 
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
   <iframe
