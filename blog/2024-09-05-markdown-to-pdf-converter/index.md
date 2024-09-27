@@ -1,10 +1,13 @@
 ---
 slug: markdown-to-pdf-converter
-title: "Markdown to PDF Magic: Create a One-Command Converter for macOS"
+title: 'Markdown to PDF Magic: Create a One-Command Converter for macOS'
 date: 2024-09-05
 author: Dustin Davis
 description:
-  Learn how to streamline your documentation workflow by building a custom script that transforms Markdown files into professionally formatted PDFs with a single command. This step-by-step guide covers everything from installing prerequisites to creating and using your own mdtopdf tool on macOS.
+  Learn how to streamline your documentation workflow by building a custom
+  script that transforms Markdown files into professionally formatted PDFs with
+  a single command. This step-by-step guide covers everything from installing
+  prerequisites to creating and using your own mdtopdf tool on macOS.
 categories:
   - automation
   - MacOS
@@ -16,11 +19,16 @@ banner: ./images/banner.png
 
 # How to Convert Markdown to PDF with a Custom Script
 
-As a developer, I often find myself writing documentation in Markdown. While Markdown is great for version control and easy editing, sometimes I need to share my docs as PDFs. For example, I may want to read and mark up a document on my e-ink reader or iPad. Today, I'm going to show you how to create a simple script that converts Markdown files to PDFs with just one command.
+As a developer, I often find myself writing documentation in Markdown. While
+Markdown is great for version control and easy editing, sometimes I need to
+share my docs as PDFs. For example, I may want to read and mark up a document on
+my e-ink reader or iPad. Today, I'm going to show you how to create a simple
+script that converts Markdown files to PDFs with just one command.
 
 ## Prerequisites
 
-Before we dive into the script, make sure you have the following installed on your macOS system:
+Before we dive into the script, make sure you have the following installed on
+your macOS system:
 
 1. **Homebrew**: If you don't have it, install it with:
 
@@ -40,13 +48,15 @@ Before we dive into the script, make sure you have the following installed on yo
    brew install pandoc
    ```
 
-After installing MacTeX, you need to add it to your PATH. Add this line to your `~/.zshrc` file:
+After installing MacTeX, you need to add it to your PATH. Add this line to your
+`~/.zshrc` file:
 
 ```bash
 export PATH="/usr/local/texlive/2024/bin/universal-darwin:$PATH"
 ```
 
-Make sure to replace "2024" with the actual year of your TeX Live installation if it's different.
+Make sure to replace "2024" with the actual year of your TeX Live installation
+if it's different.
 
 ## Creating the Script
 
@@ -119,7 +129,8 @@ Now you can use the script from anywhere in your terminal by running:
 mdtopdf your_markdown_file.md
 ```
 
-The script will create a PDF with the same name as your Markdown file, but with a .pdf extension.
+The script will create a PDF with the same name as your Markdown file, but with
+a .pdf extension.
 
 ## What the Script Does
 
@@ -131,10 +142,14 @@ The script will create a PDF with the same name as your Markdown file, but with 
    - It sets the paper size to A4.
 5. It checks if the conversion was successful and provides appropriate output.
 
-The script also includes some error handling and uses emojis in the output messages to make them more visually appealing and easier to read at a glance.
+The script also includes some error handling and uses emojis in the output
+messages to make them more visually appealing and easier to read at a glance.
 
 ## Conclusion
 
-With this script, converting your Markdown files to PDFs becomes a breeze. No more fiddling with pandoc options every time you need a PDF - just run `mdtopdf` and you're done! Feel free to modify the script to suit your needs, such as changing the margin sizes or paper format.
+With this script, converting your Markdown files to PDFs becomes a breeze. No
+more fiddling with pandoc options every time you need a PDF - just run `mdtopdf`
+and you're done! Feel free to modify the script to suit your needs, such as
+changing the margin sizes or paper format.
 
 Happy converting!
