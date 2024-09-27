@@ -1,20 +1,31 @@
 {
   "editor.formatOnSave": true,
   "cSpell.words": [
+    "Atteberry",
     "Audiobook",
     "audiobooks",
+    "autoplay",
     "Avraham",
     "Brene",
+    "Clippy",
+    "cringy",
     "Dahle",
     "dockerized",
     "Evernote",
+    "Fallon",
     "Gileadi",
     "Goodreads",
+    "Gradius",
     "INFINITI",
     "iwantmyname",
+    "Kevan",
+    "Konami",
+    "MCSE",
     "nightscout",
     "Plex",
-    "Shortcode"
+    "Shortcode",
+    "Uplynk",
+    "yada"
   ],
   "workbench.colorCustomizations": {
     "commandCenter.border": "#e7e7e799",
@@ -35,5 +46,12 @@
     "activityBarBadge.background": "#e57a9b",
     "activityBarBadge.foreground": "#15202b"
   },
-  "peacock.color": "#2048a1"
+  "peacock.color": "#2048a1",
+  "grammarly.selectors": [
+    {
+      "language": "markdown",
+      "scheme": "file",
+      "pattern": "blog/2024-09-25-my-software-easter-eggs/index.md"
+    }
+  ]
 }
