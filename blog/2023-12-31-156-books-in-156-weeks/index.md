@@ -14,11 +14,11 @@ bannerCredit:
   [Unsplash](https://unsplash.com/photos/assorted-books-PBNbMX6jtBM?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)
 ---
 
-A few years ago I set a goal to read
+A few years ago, I set a goal to read
 [52 books in 52 weeks](52-books-in-52-weeks). I got so much out of it that I
-decided to do it again, and again. When people hear that I have read a book a
-week, usually the next question is, which books were your favorite, or which do
-you recommend.
+decided to do it again and again. When people hear that I have read a book a
+week, usually the next question is, "Which books were your favorite?" or "Which
+do you recommend?"
 
 So here are some highlights from my reading in 2023.
 
@@ -84,11 +84,11 @@ I have read a lot of personal finance books over the years. I didn't think that
 I would learn much new from this one, but I actually really enjoyed it. It talks
 about the offense and defense and playing field when it comes to personal
 finance. It is kind of like reading 3 books in one. With the defense, it is
-information much like you would get from Dave Ramsey. With the offense it is
+information much like you would get from Dave Ramsey. With the offense, it is
 similar information you would get from Robert Kiyosaki. The playing field is
-like getting a condensed version of The Creature From Jekyll Island. Overall I
+like getting a condensed version of The Creature From Jekyll Island. Overall, I
 think the book helped me talk more about finances in our marriage. Even if those
-conversations are uncomfortable, then need to happen to help us get on the same
+conversations are uncomfortable, they need to happen to help us get on the same
 page.
 
 ## Biggest Flop
@@ -109,7 +109,7 @@ the next book.
 
 I'm a big John Sarno fan. His book, The Mindbody Prescription, gave me my life
 back. When I recommend it to people they will often say something like, "It
-makes sense, but what do I do now?". Now, if someone is dealing with chronic
+makes sense, but what do I do now?" Now, if someone is dealing with chronic
 pain, I will recommend The Great Pain Deception. It goes into a lot more detail
 with an exhaustive list of ailments that can be cured with a mindbody approach.
 
@@ -118,14 +118,14 @@ with an exhaustive list of ailments that can be cured with a mindbody approach.
 Notice I read two books on financial fasting. I liked the idea and tried it out.
 It went well. It helped me be more mindful of the things I casually spend money
 on. It led to some good financial conversations. That is the beauty of having
-this reading goal. When I have an idea, or hear of an idea. I looks for books on
+this reading goal. When I have an idea, or hear of an idea, I look for books on
 the topic to gain insights.
 
 ## Most Inspiring
 
 I would say the book that led me to change my daily habits the most was the
 Miracle Morning. It started a pattern of getting up earlier and doing some
-meditaion, journaling and study. I had gotten lazy and this book was the kicker
+meditation, journaling and study. I had gotten lazy and this book was the kicker
 to get me up and going earlier. Did it last? For a few months. But I plan on
 reading it again for hopefully another surge of motivation!
 
@@ -139,7 +139,7 @@ more flavorful. It reminded me of the time I shot a couple of quail and ate them
 for dinner back when I was a teenager in high school. They were so small, yet so
 delicious - so much so that I have never forgotten the experience. Reading this
 book made me wonder if this is how chicken used to taste before the emphasis was
-on breading chickens that grew very large, very fast. There were several
+on breeding chickens that grew very large, very fast. There were several
 interesting changes described in the book and it has slowly led to me wanting to
 grow and harvest more of my own food.
 

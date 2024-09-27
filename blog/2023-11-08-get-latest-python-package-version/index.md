@@ -15,7 +15,7 @@ banner: ./images/python-packages.png
 bannerCredit:
 ---
 
-When you need to add a package to your `requirements.txt` file how do you know
+When you need to add a package to your `requirements.txt` file, how do you know
 what version to use? Well, if you're like me, you may have done one of the
 following:
 
@@ -77,5 +77,5 @@ echo "$1==$latest_version"
 
 Now I just run `piplatest requests` and I get the output `requests==2.31.0`.
 Even better, I run `piplatest requests | pbcopy` and it will put it on my
-clipboard for me to paste to my requirements file. (If you don't have `pbcopy`
-you can install it via `brew install pbcopy`)
+clipboard for me to paste into my requirements file. (If you don't have
+`pbcopy`, you can install it via `brew install pbcopy`)
