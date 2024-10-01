@@ -219,7 +219,7 @@ automatically if needed.
 Now, when I open a Google Meet window or tab, within a few seconds my lamp turns
 on. When I close the tab, the lamp turns off.
 
-![Working GIF](/blog/2020-08-26-on-air-light-automation/images/1.gif)
+![Working GIF](./images/1.gif)
 
 ## Hardware Update
 
