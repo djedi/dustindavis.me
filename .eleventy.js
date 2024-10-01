@@ -1,5 +1,5 @@
 const crypto = require('node:crypto');
-const fs = require('node:fs');
+const fs = require('fs-extra');
 const path = require('node:path');
 const { DateTime } = require('luxon');
 const eleventyImage = require('@11ty/eleventy-img');
@@ -17,7 +17,7 @@ module.exports = eleventyConfig => {
   eleventyConfig.addPassthroughCopy('app-icons');
   eleventyConfig.addPassthroughCopy('favicon.ico');
   eleventyConfig.addPassthroughCopy('icon-192x192.png');
-  eleventyConfig.addPassthroughCopy('**/*.gif');
+  // eleventyConfig.addPassthroughCopy('**/*.gif');
 
   eleventyConfig.addFilter('dateToRfc822', dateObj => {
     return DateTime.fromJSDate(dateObj).toRFC2822();
@@ -49,6 +49,21 @@ module.exports = eleventyConfig => {
       // Use the default layout for other pages
       return 'base.njk';
     },
+  });
+
+  // Copies relative images and files in blog posts to the output directory
+  eleventyConfig.addPlugin(eleventyConfig => {
+    eleventyConfig.addTransform('copy-associated-files', function (content, outputPath) {
+      if (outputPath?.endsWith('.html') && this.inputPath.includes('/blog/')) {
+        const inputDir = this.inputPath.split('/').slice(0, -1).join('/');
+        const outputDir = outputPath.split('/').slice(0, -1).join('/');
+
+        fs.copySync(inputDir, outputDir, {
+          filter: src => !src.endsWith('index.md'),
+        });
+      }
+      return content;
+    });
   });
 
   eleventyConfig.addCollection('categories', collectionApi => {

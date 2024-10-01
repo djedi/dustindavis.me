@@ -51,7 +51,9 @@ ringtone() {
 
 Now you could simply run the following:
 
-    > ringtone clip.mp3
+```bash
+ringtone clip.mp3
+```
 
 This would generate a file name clip.m4r
 
@@ -97,6 +99,6 @@ Press ⌘S to save. Name it something like "Create Ringtone"
 
 ### Step 8: Test it out!
 
-![Create-Rington-1.gif](/blog/2019-09-11-convert-audio-clip-to-ringtone-mac-automation/images/Create-Rington-1.gif)
+![Create-Rington-1.gif](./images/Create-Rington-1.gif)
 
 [If you just want the workflow, you can download it here. Create-Ringtone.workflow](images/Create-Ringtone.workflow.zip)[Download](images/Create-Ringtone.workflow.zip)

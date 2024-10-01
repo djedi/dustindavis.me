@@ -22,21 +22,39 @@ is a little script that will help you convert quickly.
 First, the script:
 
 ```shell
-#!/bin/sh
+#!/bin/bash
 
-s=$1
+# Check if input is passed via stdin or as an argument
+if [[ -t 0 ]]; then
+  s=$1
+else
+  read s
+fi
+
+# Ensure input file exists
+if [[ ! -f "$s" ]]; then
+  echo "❌ Input file does not exist: $s"
+  exit 1
+fi
+
 ICON_NAME="${s%.*}.icns"
-echo "Converting $1 to $ICON_NAME..."
+echo "Converting $s to $ICON_NAME..."
 
 # Create an icon directory to work in
 ICONS_DIR="tempicon.iconset"
-mkdir $ICONS_DIR
+mkdir -p $ICONS_DIR
 
-# Create all other images sizes
-sips -z 1024 1024 $1 --out "$ICONS_DIR/icon_512x512@2x.png"
+# Create the first image and check for errors
+sips -z 1024 1024 "$s" --out "$ICONS_DIR/icon_512x512@2x.png"
+if [[ $? -ne 0 ]]; then
+  echo "❌ Failed to create icon_512x512@2x.png"
+  exit 1
+fi
+
+# Create all other image sizes
 sips -z 512  512  "$ICONS_DIR/icon_512x512@2x.png" --out "$ICONS_DIR/icon_512x512.png"
 sips -z 512  512  "$ICONS_DIR/icon_512x512@2x.png" --out "$ICONS_DIR/icon_256x256@2x.png"
-sips -z 256  256  "$ICONS_DIR/icon_512x512@2x.png" --out "$ICONS_DIR/icon_256x256x.png"
+sips -z 256  256  "$ICONS_DIR/icon_512x512@2x.png" --out "$ICONS_DIR/icon_256x256.png"
 sips -z 256  256  "$ICONS_DIR/icon_512x512@2x.png" --out "$ICONS_DIR/icon_128x128@2x.png"
 sips -z 128  128  "$ICONS_DIR/icon_512x512@2x.png" --out "$ICONS_DIR/icon_128x128.png"
 sips -z 64   64   "$ICONS_DIR/icon_512x512@2x.png" --out "$ICONS_DIR/icon_64x64.png"
@@ -46,12 +64,17 @@ sips -z 16   16   "$ICONS_DIR/icon_512x512@2x.png" --out "$ICONS_DIR/icon_16x16.
 
 # Create the icns file
 iconutil -c icns $ICONS_DIR
+if [[ $? -ne 0 ]]; then
+  echo "❌ Failed to create ICNS file"
+  exit 1
+fi
 
-# remove the temporary directory
+# Remove the temporary directory
 rm -rf $ICONS_DIR
 
-# rename icns
-mv tempicon.icns $ICON_NAME
+# Rename icns
+mv tempicon.icns "$ICON_NAME"
+echo "✅ Successfully created $ICON_NAME"
 ```
 
 Save this script as `png2icns` and make it executable (`chmod +x png2icns`). Put
