@@ -23,6 +23,7 @@
     "@11ty/eleventy-plugin-syntaxhighlight": "^5.0.0",
     "@xmldom/xmldom": "^0.9.3",
     "axios": "^1.7.7",
+    "fs-extra": "^11.2.0",
     "glob": "^11.0.0",
     "gray-matter": "^4.0.3",
     "jsdom": "^25.0.1",

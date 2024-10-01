@@ -5,7 +5,7 @@
 
 [build]
   publish = "_site" # Output directory for 11ty
-  command = "pnpm install && npx @11ty/eleventy" # Command to build the site
+  command = "npx @11ty/eleventy" # Command to build the site
 
 [context.production.environment]
   NODE_ENV = "production"
