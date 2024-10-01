@@ -17,6 +17,7 @@ module.exports = eleventyConfig => {
   eleventyConfig.addPassthroughCopy('app-icons');
   eleventyConfig.addPassthroughCopy('favicon.ico');
   eleventyConfig.addPassthroughCopy('icon-192x192.png');
+  eleventyConfig.addPassthroughCopy('**/*.gif');
 
   eleventyConfig.addFilter('dateToRfc822', dateObj => {
     return DateTime.fromJSDate(dateObj).toRFC2822();

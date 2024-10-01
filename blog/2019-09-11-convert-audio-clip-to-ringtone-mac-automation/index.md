@@ -29,19 +29,25 @@ This tutorial will only cover steps 3 and 4 to make it easier for you.
 It will require having [FFmpeg](https://ffmpeg.org/) installed on your machine.
 You can easily install it with Homebrew:
 
-    > brew install ffmpeg
+```bash
+brew install ffmpeg
+```
 
 You can now use FFmpeg to convert an mp3 file to m4a with the following command:
 
-    > ffmpeg -i clip.mp3 -c:a aac -b:a 192k clip.m4a
+```bash
+ffmpeg -i clip.mp3 -c:a aac -b:a 192k clip.m4a
+```
 
 Good luck remembering that though. You could add a nice function to your .zshrc
 or .bashrc file:
 
-    ringtone() {
-        ffmpeg -i "$1" -c:a aac -b:a 192k temp_ringtone.m4a
-        mv temp_ringtone.m4a "${1%.mp3}.m4r"
-    }
+```bash
+ringtone() {
+    ffmpeg -i "$1" -c:a aac -b:a 192k temp_ringtone.m4a
+    mv temp_ringtone.m4a "${1%.mp3}.m4r"
+}
+```
 
 Now you could simply run the following:
 
@@ -78,8 +84,10 @@ Pass input: **as arguments**
 
 ### Step 6: Add the following script:
 
-    /usr/local/bin/ffmpeg -i "$1" -c:a aac -b:a 192k temp_ringtone.m4a
-    mv temp_ringtone.m4a "${1%.mp3}.m4r"
+```bash
+/usr/local/bin/ffmpeg -i "$1" -c:a aac -b:a 192k temp_ringtone.m4a
+mv temp_ringtone.m4a "${1%.mp3}.m4r"
+```
 
 {% responsiveImage "images/image.png", "", "", 720, "" %}
 
@@ -89,6 +97,6 @@ Press ⌘S to save. Name it something like "Create Ringtone"
 
 ### Step 8: Test it out!
 
-{% responsiveImage "images/Create-Rington-1.gif", "", "", 720, "" %}
+![Create-Rington-1.gif](/blog/2019-09-11-convert-audio-clip-to-ringtone-mac-automation/images/Create-Rington-1.gif)
 
 [If you just want the workflow, you can download it here. Create-Ringtone.workflow](images/Create-Ringtone.workflow.zip)[Download](images/Create-Ringtone.workflow.zip)
