@@ -102,4 +102,4 @@ whatever you prefer).
 You should now be able to right-click on an image and select Quick Action -> PNG
 to ICNS. Your `icns` file should show up in your folder.
 
-{% responsiveImage "./images/workflow.gif", "Workflow example gif", "", 720, "" %}
+![Workflow Example](./images/workflow.gif)
