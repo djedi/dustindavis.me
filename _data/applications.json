@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2024-09-24",
+  "lastUpdated": "2024-10-01",
   "applications": [
     {
       "appName": "Affinity Photo 2",
@@ -258,12 +258,6 @@
       "iconPath": "/app-icons/Pages.png",
       "description": "Pages is a word processing application developed by Apple for macOS and iOS. It allows users to create, edit, and share documents with a variety of templates and formatting options.",
       "url": "https://www.apple.com/pages/"
-    },
-    {
-      "appName": "Paw",
-      "iconPath": "/app-icons/Paw.png",
-      "description": "Paw is a full-featured HTTP client that lets you test and describe the APIs of your web services.",
-      "url": "https://paw.cloud/"
     },
     {
       "appName": "Plex",

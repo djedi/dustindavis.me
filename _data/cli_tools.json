@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2024-09-24",
+  "lastUpdated": "2024-10-01",
   "tools": [
     {
       "name": "automake",
@@ -145,6 +145,11 @@
       "name": "pnpm",
       "description": "Fast, disk space efficient package manager for Node.js projects",
       "url": "https://pnpm.io/"
+    },
+    {
+      "name": "poetry",
+      "description": "Poetry is a dependency management and packaging tool for Python projects. It allows you to easily manage project dependencies, virtual environments, build processes, and other packaging details.",
+      "url": "https://python-poetry.org/"
     },
     {
       "name": "pyenv-virtualenv",

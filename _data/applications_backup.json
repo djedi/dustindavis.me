@@ -260,6 +260,12 @@
       "url": "https://www.apple.com/pages/"
     },
     {
+      "appName": "Paw",
+      "iconPath": "/app-icons/Paw.png",
+      "description": "Paw is a full-featured HTTP client that lets you test and describe the APIs of your web services.",
+      "url": "https://paw.cloud/"
+    },
+    {
       "appName": "Plex",
       "iconPath": "/app-icons/Plex.png",
       "description": "Plex is a streaming platform that organizes all your personal media and streams it to all your devices.",
