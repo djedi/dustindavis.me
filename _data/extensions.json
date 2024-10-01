@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2024-09-24",
+  "lastUpdated": "2024-10-01",
   "extensions": [
     {
       "name": "Bitwarden Password Manager",
@@ -98,10 +98,10 @@
       "iconUrl": "https://lh3.googleusercontent.com/Ywdz5mn9q2Mx76DU45LSH-Pv5OGpqk8QAOY3lT1AWScMTZYQtAhqhVjtY5I2JZK530QIycLZooe2a0k3quGqYUaZ=s60"
     },
     {
-      "name": "The Pirate Bay Torrent Search",
-      "description": "Search for torrents using the official ",
-      "url": "https://chrome.google.com/webstore/detail/enfgmbhdgelbkmhhhdiljfimmcghnalc",
-      "iconUrl": "https://lh3.googleusercontent.com/MgN6i2udJ8h44IMaDH--4U42prn06Vhvzr4MenZLpD-_O0_OLJssb5NFXAfcxGSdus2s4oRZAIdtVYXRuiX5C1-K3Q=s60"
+      "name": "HLS Downloader",
+      "description": "HTTP Live Streams sniffer and downloader.",
+      "url": "https://chrome.google.com/webstore/detail/akchjcffcpnpjjjmdhmplbbiaaafdplm",
+      "iconUrl": "https://lh3.googleusercontent.com/J1B8LKAVEyatYbWw6dybRhxwZCgqn0NPzR5OueUmpgoomUCAf_w2ilj8PopI_PybWFYNOgqjdUwEoydHd1336BGBtJE=s60"
     }
   ]
 }
