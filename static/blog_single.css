@@ -1506,3 +1506,29 @@ h1.blog-title {
   margin-top: 0;
   text-align: center;
 }
+
+ol {
+  list-style-type: decimal;
+  padding-left: 2rem;
+  margin-bottom: 1.55rem;
+}
+
+ol li {
+  margin-bottom: 0.5rem;
+  padding-left: 0.5rem;
+}
+
+ol li::marker {
+  color: #1c9a2c;
+  font-weight: bold;
+}
+
+ol ol {
+  list-style-type: lower-alpha;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+ol ol ol {
+  list-style-type: lower-roman;
+}
