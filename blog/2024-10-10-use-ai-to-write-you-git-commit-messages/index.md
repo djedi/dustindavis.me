@@ -1,6 +1,6 @@
 ---
-slug: use-ai-to-write-you-git-commit-messages
-title: Use AI to Write You Git Commit Messages
+slug: use-ai-to-write-your-git-commit-messages
+title: Use AI to Write Your Git Commit Messages
 date: 2024-10-10
 author: Dustin Davis
 description:
@@ -24,7 +24,7 @@ How much would you pay a person to write better git commit messages than you are
 willing to write?
 
 That is a question I asked myself this morning as I was creating a series of git
-commits for a new feature. Sure, writing a messaage describing what you did when
+commits for a new feature. Sure, writing a message describing what you did when
 you commit a change is not terribly difficult. But, as laziness is my
 superpower, I wanted to see if I could get a computer to do it for me.
 
@@ -141,10 +141,11 @@ messages to ensure they accurately represent your changes. You may also want to
 customize the prompt or fine-tune the AI model to better suit your project's
 specific needs.
 
-Also, I have not idea how much this is going to cost me. I assume less than a
-dollar per month. That is is why I asked my initial question of how much would I
+Also, I have no idea how much this is going to cost me. I assume less than a
+dollar per month. That is why I asked my initial question of how much I would
 pay someone to write better git commit messages than I am willing to write.
 
 By incorporating AI into your git workflow, you're not only saving time but also
 potentially improving the overall quality of your project's version history.
+
 Give it a try and see how it enhances your development process!
