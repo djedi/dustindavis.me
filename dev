@@ -1,0 +1,16 @@
+#!/bin/bash
+
+# Function to open browser when server is ready
+wait_and_open() {
+  echo "Waiting for server to start..."
+  while ! curl -s http://localhost:8080 > /dev/null 2>&1; do
+    sleep 1
+  done
+  open http://localhost:8080
+}
+
+# Start the browser opener in background
+wait_and_open &
+
+# Run npm start in foreground so Ctrl+C works
+npm start

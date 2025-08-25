@@ -53,5 +53,6 @@
       "scheme": "file",
       "pattern": "blog/2024-09-25-my-software-easter-eggs/index.md"
     }
-  ]
+  ],
+  "claudeCodeChat.permissions.yoloMode": true
 }
