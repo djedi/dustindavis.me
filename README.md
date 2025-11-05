@@ -9,6 +9,14 @@ everything.
 Run `newpost.sh`. It will prompt you for the title and then generate a new post
 for you.
 
+## Running Locally
+
+Run:
+
+```bash
+pnpm dev
+```
+
 ## Uses Updates
 
 Run the following scripts to update the uses page. These scripts will update
