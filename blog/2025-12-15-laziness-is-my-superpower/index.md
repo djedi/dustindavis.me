@@ -23,13 +23,17 @@ basement. His method would have been to carry an armload down the stairs, stack
 it, walk back up, and repeat until done. Instead, I tossed all the wood down the
 stairwell first, then went down once to stack everything.
 
-My dad was confused. "Why are you doing it that way?"
+My dad was confused. "Why are you doing it that way? You're going to have bark
+and wood chips all over the bottom of the stairwell."
 
-"I only want to walk up and down the stairs once."
+"I'll sweep it up," I said. "I only want to walk up and down the stairs once."
 
-To me, it made perfect sense. Minimize trips. Batch the work. Same result, less
-effort. To this day, my wife still questions my "systems" when doing yard work.
-But they work.
+To me, it made perfect sense. Sweeping up some debris was far less work than
+dozens of trips up and down those stairs, opening and closing the door each
+time. Minimize trips. Batch the work. Same result, less effort.
+
+To this day, my wife still questions my "systems" when doing yard work. But they
+work.
 
 ## The Brilliant Design
 
