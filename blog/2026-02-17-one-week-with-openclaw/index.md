@@ -138,3 +138,7 @@ _[OpenClaw](https://openclaw.ai) is open source and free to use with your own
 API keys or Claude Max subscription. Check out the
 [docs](https://docs.openclaw.ai) or the
 [Discord community](https://discord.com/invite/clawd) if you're curious._
+
+---
+
+_And in case you're wondering — yes, OpenClaw was my editor on this post and published it for me. All through Telegram._
