@@ -41,7 +41,7 @@ git svn fetch
 ```bash
 cd ..
 mkdir newgitrepo
-cd newgitrepoÂ
+cd newgitrepo
 git init
 git remote add origin git@myusername.unfuddle.com:myusername/myrepo.git
 cp -R ../svntemp/trunk/* .

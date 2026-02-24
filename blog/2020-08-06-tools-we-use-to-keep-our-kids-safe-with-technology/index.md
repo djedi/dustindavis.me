@@ -23,10 +23,10 @@ constant battle to stay ahead of the game. But I'll do my best to lay it out.
 First a little background... We have 5 kids. 17F, 15M, 13M, 10M, 6M. Our rules
 are a bit different for our 17-year-old daughter because she has type-1 diabetes
 and we use the open-source [Loop](https://loopkit.github.io/loopdocs/) app along
-with [OmniPod](https://www.myomnipod.com/Omnipod-system) to manager her
+with [OmniPod](https://www.myomnipod.com/Omnipod-system) to manage her
 diabetes. It has really helped her keep her blood sugar under control. But in
-order to use it, she needs to have her phone with near her all the time. But
-otherwise are rules are pretty consistent with each of the kids.
+order to use it, she needs to have her phone near her all the time. But
+otherwise our rules are pretty consistent with each of the kids.
 
 ## The Contract
 
@@ -87,7 +87,7 @@ Scriptures, etc.
 
 ### Content & Privacy Restrictions
 
-This one has a lot of options and I can say for sure they each option is set the
+This one has a lot of options and I can't say for sure that each option is set the
 same for each of my kids.
 
 #### iTunes & App Store Purchases
@@ -117,7 +117,7 @@ a password to play a game. That is how these types of privileges get lost.
 
 #### Share My Location
 
-This is turned on. It is helpful know where my kids are at any given time and
+This is turned on. It is helpful to know where my kids are at any given time and
 they lose their devices a lot. We have recovered a device from another home
 thanks to this feature.
 
@@ -149,7 +149,7 @@ some extra reward hours of the internet.
 
 ## Verizon Smart Family
 
-The router only works if the kids' devices are connected to wifi. So I turn off
+The router only works if the kids' devices are connected to wifi. So if I turn off
 their internet on the router, it is not uncommon for them to just turn off wifi
 and start using their cellular data. We have an unlimited plan so this happens
 often.
@@ -159,7 +159,7 @@ to. It also provides similar content filters and limits that I set up on my
 router.
 
 This is where it becomes useful to disable the ability to delete apps. It has
-been a struggle to keep the kids from disabling it, so it is best to just add it
+been a struggle to keep the kids from disabling it, so it is best to just add it to
 the contract and have consequences for when you find they have disabled it.
 
 ## Smart Plugs
@@ -167,7 +167,7 @@ the contract and have consequences for when you find they have disabled it.
 A recent addition to our home is [smart plugs](https://amzn.to/3if1sLj). I use
 them for my lamp because it is nice to tell Alexa to turn off my lamp. I have
 recently found them handy to just turn off all power to the TV and video games
-downstairs when kids are not listening. I just put a smart plug-in from of the
+downstairs when kids are not listening. I just put a smart plug in front of the
 power strip that everything else plugs in to. Then I can use my phone to turn it
 off.
 
@@ -185,4 +185,4 @@ time to get everything rebooted.
 Phones and other devices are not allowed in bedrooms and bathrooms. We ask that
 they use them in open areas of the house. We have a charging station in my
 office where all the kids' devices go for the night to get charged. Each night
-at 9:00 pm, Alexa well announce that it is time to turn in cell phones.
+at 9:00 pm, Alexa will announce that it is time to turn in cell phones.

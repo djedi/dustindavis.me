@@ -23,11 +23,11 @@ specify all for with one line such as
 margin: 0 10px 88px 10px;
 ```
 
-The problem is, I can never remember which one is where. Know I'm not going to
+The problem is, I can never remember which one is where. Now I'm not going to
 forget. It's simply top, right, bottom, left... TRBL, TRouBLe, trouble. Who can
 forget trouble?
 
-Sometime I want the top and bottom the same and the left and right the same. It
+Sometimes I want the top and bottom the same and the left and right the same. It
 is also a one-liner:
 
 ```css

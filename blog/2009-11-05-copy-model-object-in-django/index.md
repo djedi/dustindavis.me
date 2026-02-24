@@ -15,7 +15,7 @@ tags:
 description: How to copy a database record in Django
 ---
 
-I ran into a situation where I wanted to created a new database record from an
+I ran into a situation where I wanted to create a new database record from an
 existing record (model object). I figured there should be a fairly simple
 solution. It turns out there is and I want to thank `Seveas` on IRC #django for
 pointing it out for me. This is essentially what I did:

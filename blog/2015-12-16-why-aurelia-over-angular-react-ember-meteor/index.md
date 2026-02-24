@@ -96,7 +96,7 @@ Just carry that pattern where ever you need to.
 So that led me down a path of learning more about Aurelia - and I like what I
 see.
 
-Anothor choice I briefly considered was [Ember](http://emberjs.com/). I've heard
+Another choice I briefly considered was [Ember](http://emberjs.com/). I've heard
 good things about ember.js, but I have never looked into it because I've often
 heard it compared to [Ruby on Rails](http://rubyonrails.org/). I've heard it has
 a steep learning curve and it is very opinionated. From what I've seen of
@@ -106,7 +106,7 @@ to save you time and help you manage your project, but if you need to step out
 of the framework, you can.
 
 Also, one more choice I briefly considered was
-[Meteor](https://www.meteor.com/). I suppose if I were started a new project
+[Meteor](https://www.meteor.com/). I suppose if I were starting a new project
 from scratch, I would probably go with Meteor as it gives you so much out of the
 box. But I wouldn't use Blaze. I would opt for Angular or React for templating.
 Blaze just doesn't give you much. But whereas I am starting a new project with a

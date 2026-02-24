@@ -29,7 +29,7 @@ in a PHP/Smarty project, but have yet to attempt in Django. It wasn't totally
 straight forward, so I decided to document it here.
 
 First of all, I put my login form in my base template. I just hand coded the
-form because I didn't want to message with passing a form object to every single
+form because I didn't want to mess with passing a form object to every single
 page. My login form code looked something like this:
 
 ```html

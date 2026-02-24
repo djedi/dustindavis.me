@@ -14,7 +14,7 @@ categories:
 description: How to download email attachments via PHP
 ---
 
-I found this niftly little class on
+I found this nifty little class on
 [phpclasses.org](http://www.phpclasses.org/browse/package/2964.html). Basically,
 it logs in to an email server and downloads all email attachments and saves them
 as files. That's basically it, no more, no less.

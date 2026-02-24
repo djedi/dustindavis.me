@@ -95,7 +95,7 @@ fast into Inzolo and I specify what envelope that money came out of. I can
 visually see all my envelope balances. If I go over in an envelope I can easily
 move the exact amount I need to cover the difference from another envelope.
 
-It's basically like haveing dozens of savings accounts set up in your bank and
+It's basically like having dozens of savings accounts set up in your bank and
 deciding where each transaction will come out of. I can even split transactions
 so that different portions come out of different envelopes.
 

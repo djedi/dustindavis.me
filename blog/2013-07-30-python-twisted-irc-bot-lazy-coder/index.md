@@ -11,7 +11,7 @@ bannerCredit:
   [Unsplash](https://unsplash.com)
 categories:
   - Python
-description: IRC Bot that repsonds to the word "why" with lazy coder responses
+description: IRC Bot that responds to the word "why" with lazy coder responses
 ---
 
 A friend pointed me to this

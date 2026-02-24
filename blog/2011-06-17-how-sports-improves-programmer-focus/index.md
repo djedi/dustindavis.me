@@ -23,7 +23,7 @@ cubicle walls. Personally, I preferred the old layout.
 When someone tells me they can't focus because there is a conversation going on
 in another cubicle, I want to just tell them to "clear the mechanism". Sadly, I
 don't think any of them know what I would be referring to. It seems all the
-programmers I currently work with now hate sports & and make it known.
+programmers I currently work with now hate sports & make it known.
 
 What I am referring to is the scene
 in [For Love of the Game](http://www.imdb.com/title/tt0126916/) where Billy

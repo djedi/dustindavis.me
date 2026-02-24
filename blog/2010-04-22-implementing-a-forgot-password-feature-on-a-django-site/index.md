@@ -20,10 +20,10 @@ description: Everyone forgets their password, help customers get it back.
 Here is something that seems to be quite common on any type of membership site
 -- members forget their password.
 
-This morning I was about to write this and I though surely there must be
+This morning I was about to write this and I thought surely there must be
 something build in. Surely.
 
-It's turns out it is built in quite nicely and very easy to use. Start with a
+It turns out it is built in quite nicely and very easy to use. Start with a
 simple link on your template:
 
 <a href="{% raw %}{% url django.contrib.auth.views.password_reset %}{% endraw %}"

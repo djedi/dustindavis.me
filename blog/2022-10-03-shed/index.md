@@ -63,7 +63,7 @@ and re-level everything.
 
 {% responsiveImage "./images/1-9.jpg", "", "", 720, "" %}
 
-Laying out the door and window as a little complicated. I had to call the owner
+Laying out the door and window was a little complicated. I had to call the owner
 for some tips.
 
 {% responsiveImage "./images/1-10.jpg", "", "", 720, "" %}
@@ -77,7 +77,7 @@ I was exhausted and had plans to go watch the high school football game.
 
 ## Day 3 - Saturday
 
-I got my son to help me tie on the rafters and and set the roof.
+I got my son to help me tie on the rafters and set the roof.
 
 {% responsiveImage "./images/2-1.jpg", "", "", 720, "" %}
 

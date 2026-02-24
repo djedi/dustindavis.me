@@ -41,7 +41,7 @@ to be the most targeted platform for crackers.
 I'll be honest, I'm not a fan of [React](https://reactjs.org/). For me, it is hard to read. I don't like JSX.
 
 That said, I'm very impressed with [Gatsby](https://www.gatsbyjs.com/). Honestly, the feature I like most is the
-progressive image rending. I first noticed it on [Kent C. Dodds](https://kentcdodds.com)'s website and I was jealous.
+progressive image rendering. I first noticed it on [Kent C. Dodds](https://kentcdodds.com)'s website and I was jealous.
 So, I started to learn Gatsby.
 
 It is not difficult to get up and running, but there were a few things about Kent's blog that I loved and I was
@@ -55,7 +55,7 @@ I hope you don't mind Kent!🙏 They say imitation is the highest form of flatte
 I just changed some colors and took a bunch of components out and use this as a starting point.
 
 I love writing posts in Gatsby. I can use my favorite LightPaper or [VSCode](https://code.visualstudio.com/). I have
-found a nice [Grammaryly plugin for VSCode](https://marketplace.visualstudio.com/items?itemName=znck.grammarly) as well,
+found a nice [Grammarly plugin for VSCode](https://marketplace.visualstudio.com/items?itemName=znck.grammarly) as well,
 which will really help me out!
 
 ## Migrating WordPress Posts

@@ -17,7 +17,7 @@ Commuting is a drag. There was a point in time that I had a 5 minute commute to
 work, then I decided to move and my company said I could just work from home.
 When it came time to switch jobs my walk down the stairs turned into a 45 minute
 (one-way) commute - and that was on a good day. So for the past two years I've
-found myself in the car for a minimum if an hour and a half each day. It seems
+found myself in the car for a minimum of an hour and a half each day. It seems
 insane at first thought, but I am a bit surprised how I have gotten used to it.
 
 How do I pass the time? There are two main things I do that keep me sane: 1) Eat
@@ -76,7 +76,7 @@ Here are some of my favorite sources for audio books:
    invention of iCloud. Second, they tend to be more expensive. Generally a book
    selling for $29.95 on iTunes I'll just find on Audible.com and use 1 ($14.95)
    credit.
-5. Podcasts: So I know they are not audio books per say, but if you run out of
+5. Podcasts: So I know they are not audio books per se, but if you run out of
    books you want to listen to, check out some podcasts that are in your
    interest area. The best place to find these are on iTunes, and most of them
    are free.

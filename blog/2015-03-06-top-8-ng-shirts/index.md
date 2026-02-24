@@ -5,7 +5,7 @@ date: 2015-03-06 18:36:25+00:00
 
 slug: top-8-ng-shirts
 title: Top 8 ng-shirts
-description: My favorite shirts frong ng-conf (AngularJS) ranked.
+description: My favorite shirts from ng-conf (AngularJS) ranked.
 banner: ./images/banner.jpg
 bannerCredit:
   'Photo by [Parker Burchfield](https://unsplash.com/@parkerburchfield) on
@@ -30,10 +30,10 @@ words, beard dandruff.
 
 {% responsiveImage "images/7.jpg", "7", "", 720, "" %}
 
-This is the shirt everyone got in their swag bad. It is a nice simple design. I
+This is the shirt everyone got in their swag bag. It is a nice simple design. I
 like the shirt fabric much better than last year. This year, the shirt is white
 print on a gray shirt. It's a nice minimalistic design that I like, but I feel
-like a race car driver with all the logos not the back of the shirt. But hey,
+like a race car driver with all the logos on the back of the shirt. But hey,
 thanks to the ng-conf sponsors!
 
 ## 6. Domo (T-Shirt)

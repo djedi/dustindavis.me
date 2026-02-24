@@ -21,7 +21,7 @@ tags:
   - prototype
 ---
 
-I'm enjoying the Django framework. Sometimes, what was seems rather easy
+I'm enjoying the Django framework. Sometimes, what seems rather easy
 (relatively speaking) gets sort of complicated when working within the
 boundaries of a framework. Such was the case with my latest endeavor to filter
 on drop-down based on the selection of another drop-down.

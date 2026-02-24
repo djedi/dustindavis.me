@@ -25,17 +25,17 @@ month of the year. I'm tired of the cold and the inversion that settles over
 Utah. The excitement of the Holidays has ended, and the inherent motivation that
 comes with a new year starts to wane.
 
-Last fall we had two vacations cancelled to due the "pandemic". One was to
+Last fall we had two vacations cancelled due to the "pandemic". One was to
 Disneyland, the other was our 20th anniversary to Hawaii.
 
-As I started seeming pictures of friends in Disney World, I started getting a
+As I started seeing pictures of friends in Disney World, I started getting a
 hankering to be there. My wife talked me out of the idea when I brought it up,
-so I laid it to rest. Then I reach out to my friend who owns a car dealership to
+so I laid it to rest. Then I reached out to my friend who owns a car dealership to
 ask him about a car. As we are catching up he tells me how they just got back
 from Florida.
 
-"It’s was amazing. No fast pass. 30% capacity. Only open 9 to 7 so you don’t
-have to kill yourselves... I don’t know how long it will last ?!?"
+"It was amazing. No fast pass. 30% capacity. Only open 9 to 7 so you don't
+have to kill yourselves... I don't know how long it will last ?!?"
 
 That was the trigger! I was back online pricing everything out.
 
@@ -47,7 +47,7 @@ The best flight I found was through Jet Blue. The base price was
 $1700 with no layovers. As I went to check out, the price went up to $2700. 😡
 
 I could move the date out a week or two for the same price, but that would put
-is into March with is Spring Break time frame and put our kids missing school at
+us into March which is Spring Break time frame and put our kids missing school at
 the end of the trimester or start of the new trimester.
 
 I was able to find a flight on Delta with a layover in Atlanta for around \$2k
@@ -55,16 +55,16 @@ which still kept us in budget.
 
 That basically gave us two weeks to plan and organize.
 
-Luckily we have a number of friends who have been ther recently. Our neighbors
+Luckily we have a number of friends who have been there recently. Our neighbors
 had been there in December and were going to be there again around the same time
-from as us. We also went to dinner with our friends that had just gotten back.
+from us. We also went to dinner with our friends that had just gotten back.
 They gave us all their best tips on which rides are a must, when to be at the
 parks, how to get a pass on Rise of the Resistence, etc.
 
 I also watched a number of videos on YouTube, but bar far, our friends were the
 most helpful resource.
 
-## Iternerary
+## Itinerary
 
 Based on all the information I got this is how I planned the trip. We did
 1-park-at-a-time tickets, because I've heard it can take up to 90 minutes to
@@ -92,7 +92,7 @@ hours, there is more to plan that way.
 ### Thursday Feb 25
 
 We basically wanted to spend 1 day at Universal - mainly for our daughter who
-graduates this year. It is hear dream to visit Hogwarts.
+graduates this year. It is her dream to visit Hogwarts.
 
     ✅ Universal Studios Day
 
@@ -152,12 +152,12 @@ fun start to the trip.
 ### Wednesday Feb 24 - Hollywood Studios
 
 I got a great tip from my friend on how to get on the Rise of the Resistence
-ride. These virtual borading passes are gone in 15 seconds, so if you don't do
+ride. These virtual boarding passes are gone in 15 seconds, so if you don't do
 it right, or you have any hiccups, you don't ride. My brother-in-law was there
 at the same time and he had failed to get on 3 times and he was getting pretty
 frustrated. I found a [YouTube video](https://youtu.be/yPvo-lWMQLs) with
 essentially the same steps as my friend showed me, but it walks you thought it
-carefully. It worked like a charm for mand for my brother-in-law.
+carefully. It worked like a charm for me and for my brother-in-law.
 
 Our friends told us they open the parking lots 1 hour before the posted opening
 time and that you can get right into the park once you have parked. This was
@@ -185,7 +185,7 @@ the form of pizza. It was delicious!
 We planned Universal on a weekday hoping it wouldn't be too crowded. I'm
 learning there is no such thing as not-crowded in a theme park.
 
-Unfortunately I didn't spend any researching Universal and I was pretty lost
+Unfortunately I didn't spend any time researching Universal and I was pretty lost
 when we got there. It made for a terrible experience. I followed the crowd and
 everyone was entering the Island of Adventure entrance. I saw some people
 looking confused and looking at the signs when a staff member yelled, "Everyone
@@ -219,7 +219,7 @@ that ride so we left. It was 11 AM already and we wanted to get something fun in
 before the day was over! We headed back towards Harry Potter land.
 
 Finding this land was not as easy as one would think. I remember my mom telling
-me that she went there a couple years ago and whe was at the back of the park
+me that she went there a couple years ago and she was at the back of the park
 and saw someone walk through an unmarked entrance. It opened up into the Harry
 Potter land. She was right. There is not much there pointing you where to go. I
 was staring at map on my phone and still confused as to where exactly the
@@ -279,7 +279,7 @@ price goes up the more they sell I guess.
 ### Friday Feb 26 - Magic Kingdom
 
 Friday was the last day Rachel's sister's family was there, so we agreed to meet
-up at Magic Kindom that day. Magic Kingdom is the most like Disneyland - which I
+up at Magic Kingdom that day. Magic Kingdom is the most like Disneyland - which I
 know well by now. There are some very interesting differences though.
 
 First, once you think you are close to the park entrance, you are not. You have
@@ -306,7 +306,7 @@ old rides go or get changed.
 
 ### Saturday Feb 27 - Epcot
 
-Epcot is probably the most iconic park in Disneyworld so we had to go, but I
+Epcot is probably the most iconic park in Disney World so we had to go, but I
 planned it on a Saturday, thinking Saturdays would be the busiest day for any
 park. There are not as many good rides here and one absolutely terrible ride (if
 you want to even call it a ride). Our first stop was Soarin' - which is pretty
@@ -322,9 +322,9 @@ had one of the best rides in the park - Frozen. And they had the best rest
 area - a restaurant that was just used as a sitting area where you could take
 off your masks and sit and enjoy your food.
 
-In second place, I would put France. They had some good crapes there and a
+In second place, I would put France. They had some good crepes there and a
 delicious ice cream store where you could get a giant ice cream sandwich made
-with macaroons. Once they complete and open the Ratatouille ride, I think it
+with macarons. Once they complete and open the Ratatouille ride, I think it
 will compete with Norway as the best "country" in Epcot.
 
 It looks like they were also adding two more attraction besides Ratatouille, so
@@ -371,7 +371,7 @@ never have in the past. Younger me would have gone on it 5 times because there
 was practically no line!
 
 The Dinosaur ride was pretty much all the mechanics of the Indiana Jones ride in
-Disneyland, but with with a really lame story line. It is not engaging at all
+Disneyland, but with a really lame storyline. It is not engaging at all
 and just makes for an uncomfortably bumpy ride.
 
 We were pretty much done with everyone in Animal Kingdom, so we left around 3
@@ -384,7 +384,7 @@ We held a vote as to which park to visit again for our last day. I voted for
 Hollywood Studios, but the majority of the family picked Magic Kingdom. I was ok
 with that though because I really wanted another kakamora float! That was the
 best treat of the trip! It was sold at the Dole whip booth. It had coconut soft
-serve ice cream with pinapple juice and a cake pop.
+serve ice cream with pineapple juice and a cake pop.
 
 We went on our favorite rides there again and left around 3 pm to catch our
 flight home.

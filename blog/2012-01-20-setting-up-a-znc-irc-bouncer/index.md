@@ -30,7 +30,7 @@ using [tmux](http://tmux.sourceforge.net/) and [irssi](http://irssi.org/)
 running on my work computer. If I ever needed to log in from home, I would just
 ssh into my work computer and connect to tmux.
 
-Since switching jobs, I got a laptop. Obviously it is not connect 24/7. So I
+Since switching jobs, I got a laptop. Obviously it is not connected 24/7. So I
 switched to using my home computer. In this process of changing, I decided to
 try out ZNC. The main benefit to ZNC over irssi to me is that I can use other
 IRC clients that have more features. So I'm going to explain how I set up ZNC
@@ -95,12 +95,12 @@ one!)
     - Server: Name I mapped to my linode IP address in my hosts file. You could
       just enter your IP address.
     - Port: 6667
-    - Server Password: passoword I entered on my IRC makeconf script
+    - Server Password: password I entered on my IRC makeconf script
     - Nickname: irc nick
     - Login name: irc nick (remember I used the same nick & password for znc
       that I use for freenode)
     - Real Name: Dustin Davis ;)
-    - Nickserv Passoword: same as above
+    - Nickserv Password: same as above
 
 That was it! I was connected and up and running just like that. Now, I'm by far
 NOT an expert on this stuff, but if you have any questions on what I did, leave
@@ -112,7 +112,7 @@ great idea. So here are some things to consider...
 - Use your home computer. If you keep your computer on 24/7 and basically have a
   static IP this shouldn't be a problem. If you have a router, you will have to
   set up port forwarding as well.
-- If you don't want to leave your main computer or, or use you main computer in
+- If you don't want to leave your main computer or, or use your main computer in
   this manner, consider buying another computer. I have a friend that uses a
   plug computer for this purpose. This is actually very tempting for me. Paying
   for a linode for 5 months is about the same as buying a
@@ -121,7 +121,7 @@ great idea. So here are some things to consider...
   also be used for a media server by plugging in an external hard drive among
   other uses. Another options is [Tonido Plug](http://www.tonidoplug.com/), but
   these always seem to sell out so fast.
-- User your work computer. This may not be easy. At my old job I was given a
+- Use your work computer. This may not be easy. At my old job I was given a
   static IP and subdomain to connect to my computer.
 - If you are paying for hosting elsewhere, consider moving your hosting to your
   new Linode server. This would save you money from hosting elsewhere, but you
@@ -137,7 +137,7 @@ watts of power from home!
 
 ## Update 2
 
-My GuruPlug got fried in a lightening storm :( . I replaced it with a Mac Mini.
+My GuruPlug got fried in a lightning storm :( . I replaced it with a Mac Mini.
 Setting up ZNC on a mac is essentially the same except that I install ZNC with
 [Homebrew](http://mxcl.github.com/homebrew/). Just replace step 9.1 with "brew
 install znc"

@@ -23,7 +23,7 @@ I had read some good reviews on how it has changed some people lives such as
 
 {% responsiveImage "./images/essentialism.jpg", "Essentialism", "", 720, "" %}
 
-I don't know that is was as life changing for me as it was for them. Yes the
+I don't know that it was as life changing for me as it was for them. Yes the
 book resonated with me and there were some good ideas in there, but nothing
 seemed revolutionary. In fact, it almost felt like stuff I had been taught my
 whole life, but backed up and supported by research and stories and given a new
@@ -32,8 +32,8 @@ term: "essentialism".
 I guess I feel like I have a good balance in life as it is. I think I
 unconsciously made many essentialism type decisions after I was
 [diagnosed with GIST cancer](http://www.davisvillage.com/my-cancer.html). In
-fact, I made a major job change last summer in order to take leave the
-face-paced world of a startup where I was in-line to be the CTO in order to take
+fact, I made a major job change last summer in order to leave the
+fast-paced world of a startup where I was in-line to be the CTO in order to take
 on a less stressful job where I could work from home and spend less time
 commuting and more time with my family.
 

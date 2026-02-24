@@ -25,7 +25,7 @@ it on my site, my search engine rankings started to drop. I didn't think much of
 it as first, but then I noticed that even searching from my domain name didn't
 show my main page, instead, it would link to somewhere in my blog.
 
-I checked to see if I had a robots file something blocking it but now. Then I
+I checked to see if I had a robots file something blocking it but no. Then I
 finally found it - a meta tag in the header:
 
 ```html

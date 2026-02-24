@@ -25,7 +25,7 @@ See my [Uses](/uses/) page for my most up-to-date list of productivity tools.
 
 ---
 
-Last week as I was driving to a user group meeting, I listed to a
+Last week as I was driving to a user group meeting, I listened to a
 [podcast episode](http://www.smartpassiveincome.com/email-management/). The
 subject was managing email. Since then I have cleaned up my inbox and I have
 been at inbox zero or close to it all week. Between my 5 email accounts I have 1
@@ -62,7 +62,7 @@ For email I have been using a combination of [Airmail](http://airmailapp.com/),
 iPhone and I really like it. Each client has it’s pros & cons, but I think I'll
 save that topic for another day.
 
-Last night I listed to a talk from [Nathan Barry](http://nathanbarry.com/) from
+Last night I listened to a talk from [Nathan Barry](http://nathanbarry.com/) from
 [MicroConf 2014](http://www.microconf.com/). It was a good reminder of the power
 of habits and doing things on a daily basis. He actually wrote an iPhone app to
 track your habit goals and your streak. I looked at it and ultimately decided on

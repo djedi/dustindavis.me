@@ -15,9 +15,9 @@ tags:
 description: How to filter a ModelForm by foreign key in Django
 ---
 
-So something what should be so relatively easy can turn out to be quite hard
+So something that should be so relatively easy can turn out to be quite hard
 when you don't know where to go for the answer. Generally the #django channel on
-IRC is an awesome help, but this morning I felt invisible so I can too keep
+IRC is an awesome help, but this morning I felt invisible so I had to keep
 digging. Finally I found my answer in code from another project.
 
 Here's the situation. I'm creating a budget system. When you add or import
@@ -30,7 +30,7 @@ went to add a transaction, it would show me all the accounts of other users. I
 needed to somehow filter the queryset that was applied to the account foreign
 key. I couldn't find this anywhere in the docs, and like I mentioned, no one was
 even acknowledging me in IRC, which is rare. I finally found something similar I
-did for HouseSheet.com. Here was is my "fixed" form class:
+did for HouseSheet.com. Here is my "fixed" form class:
 
 ```python
 class AddTransactionForm(ModelForm):

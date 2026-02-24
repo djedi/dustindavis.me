@@ -48,12 +48,12 @@ don't want to keep taking it.
 After my week of prednisone the pain and swelling immediately came back in my
 wrists. I can't tell you how frustrating that was. On Monday when I went into
 work, I was determined to schedule an appointment with someone - anyone who
-could possibly help me. I was past traditional medicine. I was now going looking
+could possibly help me. I was past traditional medicine. I was now looking
 for alternative treatment - something I have never done before. I was looking at
-chiropractors, massage therapists, acupuncturists, etc. I spend the whole
+chiropractors, massage therapists, acupuncturists, etc. I spent the whole
 morning browsing around trying to decide which one to try first.
 
-In the progress of researching I came across this post by Aaron Iba title
+In the process of researching I came across this post by Aaron Iba title
 [How I Cured my RSI Pain](http://aaroniba.net/articles/tmp/how-i-cured-my-rsi-pain.html).
 His whole story resonated with me. But when I got to the part where he started
 describing how he finally cured his RSI I was quite confused and a little
@@ -106,7 +106,7 @@ sure this post is confusing to someone looking for the cure. Basically it is the
 knowledge that your brain is triggering this problem and you need to convince
 your subconscious that you're not going to let this happen anymore. It is the
 knowledge that becomes the power of the cure. I know it totally sounds crazy,
-but it's crazy to me that I sweat and blush when I get nervous in front a crowd.
+but it's crazy to me that I sweat and blush when I get nervous in front of a crowd.
 Yes, my brain can control my body and I'm telling my subconscious brain to
 chillax on my wrists already.
 
@@ -144,7 +144,7 @@ desperate for some pain relief.
 I thought I'd share a few more updates. This update mainly addresses back pain.
 I haven't had any RSI pain in the past year. I mentioned earlier that my back
 healed and I was playing softball and basketball. I happened to re-herniate my
-disk on a "pioneer trek" where I helped you push heavy handcarts up steep hills,
+disc on a "pioneer trek" where I helped push heavy handcarts up steep hills,
 hiking 8 hours a day for 3 days and sleeping on a sagebrush. By the third day I
 woke up and couldn't move my back. I continued to walk all that day and by the
 end of that day I was in excruciating pain and I was losing feeling in my left
@@ -168,12 +168,12 @@ So I know I have real physical damage in my back. But that doesn't mean I have
 to live with constant pain.
 
 One other resource I found was a
-[book by Scott Brady title "Pain Free For Life"](http://www.amazon.com/gp/product/B001JK9BF0/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B001JK9BF0&linkCode=as2&tag=nerdydork-20).
+[book by Scott Brady titled "Pain Free For Life"](http://www.amazon.com/gp/product/B001JK9BF0/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B001JK9BF0&linkCode=as2&tag=nerdydork-20).
 Dr. Brady found pain relief through Dr. Sarno's methods and then developed
 techniques to help his patients recover from chronic pain. I wish there were an
 audiobook for this one.
 
-One last thing... I noticed an interesting side effect from on this mind-body
+One last thing... I noticed an interesting side effect from this mind-body
 magic. I was not sick one day in all of 2013. My wife and four kids got sick a
 number of times but I never caught it. I'm used to getting sick at least once or
 twice a year. But while I was focusing on these mind-body techniques I

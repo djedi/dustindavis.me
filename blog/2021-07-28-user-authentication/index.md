@@ -71,8 +71,8 @@ having to do much to get KeyCloak up and running.
 
 # Learning KeyCloak
 
-Fortunately, there are a lot of resources to learn KeyClock. Just do a search
-for "keycloack tutorial" and you will see this.
+Fortunately, there are a lot of resources to learn KeyCloak. Just do a search
+for "keycloak tutorial" and you will see this.
 
 Fortunately for me, I found this excellent
 [project on github](https://github.com/janhapke/hasura-keycloak) that has all

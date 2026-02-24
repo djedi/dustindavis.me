@@ -19,7 +19,7 @@ tags:
 description: Ruby on Rails creator, DHH gives a little praise to PHP
 ---
 
-I would consider myself above average, maybe even an expert when in comes to
+I would consider myself above average, maybe even an expert when it comes to
 developing in PHP. I can pretty much accomplish whatever my heart imagines as
 far as web applications with it. The problem comes when I have to maintain these
 applications. Therefore I have looked into frameworks such as Ruby on Rails and

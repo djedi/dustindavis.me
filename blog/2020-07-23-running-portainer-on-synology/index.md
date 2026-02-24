@@ -31,6 +31,6 @@ Then run the following docker command:
 docker run -d -p 8000:8000 -p 9000:9000 --name=portainer --restart=always -v /var/run/docker.sock:/var/run/docker.sock -v /volume1/docker/portainer:/data portainer/portainer:latest
 ```
 
-Updating the image also a problem. If you use the UI it will have the same issue
+Updating the image is also a problem. If you use the UI it will have the same issue
 of not connecting to the endpoint. So it is better to just delete the container
 and run through the steps above again if you want to update.

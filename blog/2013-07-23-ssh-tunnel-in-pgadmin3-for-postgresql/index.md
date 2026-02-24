@@ -6,7 +6,7 @@ date: 2013-07-23 20:08:59+00:00
 slug: ssh-tunnel-in-pgadmin3-for-postgresql
 title: SSH Tunnel in pgAdmin3 for PostgreSQL
 description:
-  How to create an SSH tunnel to pgAdmain for PostreSQL for a graphical
+  How to create an SSH tunnel to pgAdmin for PostgreSQL for a graphical
   experience on a remote server
 banner: ./images/banner.jpg
 bannerCredit:

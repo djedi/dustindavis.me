@@ -41,7 +41,7 @@ remember it:
 > Let him go. I'm singing  
 > Eenie meenie and a... Minie mo!
 >
-> I wend downstairs for breakfast  
+> I went downstairs for breakfast  
 > They served me bacon and eggs  
 > I ate up all the bacon  
 > The eggs ran down my legs!

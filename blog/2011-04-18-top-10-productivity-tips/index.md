@@ -11,7 +11,7 @@ bannerCredit:
   [Unsplash](https://unsplash.com)
 categories:
   - humor
-description: Everyone has their productivity hacks. Let me share mind with you.
+description: Everyone has their productivity hacks. Let me share mine with you.
 ---
 
 Need to stop procrastinating and get something done? Follow these steps to help
@@ -29,9 +29,9 @@ you get your task complete ASAP!
 4. Check your RSS aggregator. I recommend Google Reader. There may be a really
    good article you need to read that will help you be more productive today.
 5. Check any statistics that might be relevant or interesting. These could
-   include: websiteÂ analytics, affiliate commission reports, bank account
+   include: website analytics, affiliate commission reports, bank account
    balances,
-   <shameless_plug>[Inzolo envelope balances](http://inzolo.com)</shamelss_plug>,
+   <shameless_plug>[Inzolo envelope balances](http://inzolo.com)</shameless_plug>,
    sports team stats & highlights, etc.
 6. Check the most recent news. You can do this by looking at news.google.com, or
    through your favorite local television, radio, or newspaper site. There might
@@ -50,7 +50,7 @@ you get your task complete ASAP!
    first and your stuff will take care of itself. You can do this by answering
    stack overflow questions, hanging out on relevant IRC channels, and
    responding to questions on Google Groups & other forums. Remember, you're not
-   only helping others, your gaining karma and in some cases POINTS so take the
+   only helping others, you're gaining karma and in some cases POINTS so take the
    time to get give well researched answers. Oh, and be sure to stay logged in
    to all instant messaging protocols (Google Talk, YIM, AIM, MSN IM, Jabber,
    Facebook Chat, etc). You want to make sure that you are there for questions

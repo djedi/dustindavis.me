@@ -98,7 +98,7 @@ about if I had stuck with Hasura. On top of all that, I hadn't used Django in 7
 years, so while I felt like an expert 7 years ago, I felt like a complete newb
 starting over. One thing I still don't know about is whether Django
 authentication has all the bells and whistles that users have become accustomed
-to today such as two-factor auto, social login, etc.
+to today such as two-factor auth, social login, etc.
 
 There are pros and cons to any framework or language you choose, but ultimately,
 I decided to go back to Hasura.
@@ -128,7 +128,7 @@ years ago is user authentication and authorization. This is so much more complex
 now. The first go-around with Hasura, we got things working with Auth0. While
 the service is nice, I’m hesitant to be tied to an external service for
 authentication. I wonder how much we will end up paying if our service gets big.
-This is one reason we switch to Django. We wanted to use built-in
+This is one reason we switched to Django. We wanted to use built-in
 authentication.
 
 Now that we are back to Hasura, the issue has come up again. I’ve been looking

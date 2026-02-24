@@ -76,7 +76,7 @@ that pain, but I would say that if I were to create any type of form with more
 than 3 or 4 fields, or if I had an app with multiple forms, I would most likely
 use Formly.
 
-Firmly basically lets you code out your forms in JavaScript. I limits the amount
+Formly basically lets you code out your forms in JavaScript. It limits the amount
 of coding you have to do and gives you consistent looking forms with many great
 features to do everything you need to get done.
 

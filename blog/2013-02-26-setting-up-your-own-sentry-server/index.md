@@ -30,7 +30,7 @@ I decided to put [EnvelopeBudget.com](https://envelopebudget.com) on
 impressed with
 [Digital Ocean](https://www.digitalocean.com/?refcode=f1688368903d) so I kept my
 virtual server. Why not? It's only `$5` per month for full root access! Because
-all their servers have SSD's I'ver never seen a virtual server boot so fast.
+all their servers have SSD's I've never seen a virtual server boot so fast.
 Soon will be the day when you will hear someone say, "remember when computers
 had moving parts?" I kept it because I figured I'd find a use for it eventually.
 Well, I found a use for it.
@@ -212,7 +212,7 @@ sudo service nginx restart
 
 I set up supervisor as recommend in the comments and
 [the docs](http://sentry.readthedocs.org/en/latest/quickstart/index.html#running-sentry-as-a-service)
-to keep sentry runny (though it has never crashed, it does make restarting
+to keep sentry running (though it has never crashed, it does make restarting
 easier)
 
 ```bash
@@ -231,7 +231,7 @@ autorestart=true
 redirect_stderr=true
 ```
 
-Restart supervidord
+Restart supervisord
 
 ```bash
 sudo killall supervisord

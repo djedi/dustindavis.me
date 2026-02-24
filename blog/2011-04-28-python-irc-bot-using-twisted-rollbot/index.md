@@ -31,7 +31,7 @@ bunch of programmers?
 
 Recently I've been taking delight in [Rebecca Rolling](/blog/rebecca-rolled)
 (worse than being [Rick Roll'd](http://www.youtube.com/watch?v=oHg5SJYRHA0))
-every each Friday. Someone made a comment that it would be nice to have a bot to
+each Friday. Someone made a comment that it would be nice to have a bot to
 detect such things. I had been looking for an excuse to try and write an IRC
 bot, so I took the challenge.
 

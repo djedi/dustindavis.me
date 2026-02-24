@@ -15,7 +15,7 @@ bannerCredit:
 
 The greatest accomplishment I felt at the end of the year was completing my goal
 of reading and listening to an average of 1 book per week, or 52 books in 52
-weeks. I got the idea from a friend to accomplished this task in 2020.
+weeks. I got the idea from a friend who accomplished this task in 2020.
 Generally, I have set goals to read 1 book per month and I often don't hit that
 goal. So this was a big, hairy, audacious goal for me! But, I really wanted to
 do it.
@@ -24,7 +24,7 @@ do it.
 
 After setting this goal, I created a spreadsheet on Google Sheets. I listed a
 number of books that I wanted to read throughout the year. The great thing about
-having this goals was that I didn't feel like I had to be picky. Instead it was
+having this goal was that I didn't feel like I had to be picky. Instead it was
 more of a matter of trying to find books to add! All those audiobooks that I
 have purchased with credits on Audible and haven't taken the time to listen to,
 I could now add to my list.
@@ -46,7 +46,7 @@ Some of the fields I added so I could export this list and
 
 This also helped me keep a stats tab to show how I was progressing on my goal. I
 had an over/under number how many books I was ahead or behind my goal based on
-the current week. The was calculated based on the date read column.
+the current week. This was calculated based on the date read column.
 
 ## Audiobooks
 
@@ -66,7 +66,7 @@ an audiobook. Here is a
 
 I should mention that I updated the script to use Amazon Polly or Google
 Text-to-speech API to get better text-to-speech output than the Mac `say`
-command provides. You can use these API to convert up to 10K words per month for
+command provides. You can use these APIs to convert up to 10K words per month for
 free I believe.
 
 Search my blog for [Audiobooks](https://dustindavis.me/blog/?q=audiobooks) to
@@ -77,8 +77,8 @@ A few people have asked how I find the time to read so many books. Again, the
 answer would have to be Audiobooks. I am busy and I don't think I would make the
 time to read this much. The beauty of audiobooks is that I can often multi-task.
 There are certain activities that don't require a lot of thinking that allow me
-to listen to books and stay focused while also doing that task at hand. The most
-common activies where I find I listen to audiobooks are:
+to listen to books and stay focused while also doing the task at hand. The most
+common activities where I find I listen to audiobooks are:
 
 - Driving
 - Cleaning the house
@@ -87,7 +87,7 @@ common activies where I find I listen to audiobooks are:
 
 ## Staying focused
 
-The spreadsheet was really the best tool I had in staying focuses and motivated.
+The spreadsheet was really the best tool I had in staying focused and motivated.
 I used the
 [Tab Snooze extension](https://chrome.google.com/webstore/detail/tab-snooze/pdiebiamhaleloakpcgmpnenggpjbcbm)
 to open this spreadsheet on weekly basis to make sure I didn't forget to keep it
@@ -156,15 +156,15 @@ spreadsheet to see my goal progress.
 
 ## Stats
 
-In 2021 I listed to 357 hours and 28 minutes worth of audiobooks! Granted, I
+In 2021 I listened to 357 hours and 28 minutes worth of audiobooks! Granted, I
 often listen around 1.5 speed so it probably took more like 238 hours. But
-still, 238 hours! If you listed 8 hours per day to audiobooks, that would take
+still, 238 hours! If you listened 8 hours per day to audiobooks, that would take
 30 days.
 
 I read three books with a total of 777 pages. (Jackpot).
 
 This is not 100% accurate because there were a few of books that sometimes I
-read and sometimes I listed, or, I started reading then converted the book to an
+read and sometimes I listened, or, I started reading then converted the book to an
 audiobook and finished by listening.
 
 ## Highlights
@@ -176,7 +176,7 @@ people look at the list as overwhelming and wanted to find a good read or two to
 add to their list.
 
 Because I have pretty diverse list of books, I found the question kind of hard
-to answer. So here is my long winded answer...
+to answer. So here is my long-winded answer...
 
 ### Favorite Book
 
@@ -204,7 +204,7 @@ time of year for me.
 ### Most Surprising
 
 The book that I was surprised that I liked so much was Tiny Habits by BJ Fogg. I
-have read a few books about Habits such as Atomic Habits (which was I read a
+have read a few books about Habits such as Atomic Habits (which I read a
 second time in 2021), Habit Factor, Mini Habits. etc. I have heard the other
 books quote BJ Fogg. I just didn't think there would be much new information in
 this book. While reading the book, I wrote down a quote on a sticky note and it
@@ -236,7 +236,7 @@ books. Sadly, I think many in this country today would not have any interest and
 not even agree with them. But I found a lot of truth and light in these books.
 
 Also, I later learned on [Relative Finder](https://www.relativefinder.org/) that
-I am a direct descendent of some famous pilgrims.
+I am a direct descendant of some famous pilgrims.
 [William and Mary Brewster](<https://en.wikipedia.org/wiki/William_Brewster_(Mayflower_passenger)>)
 are my 12th great grandparents.
 [William Bradford](<https://en.wikipedia.org/wiki/William_Bradford_(governor)>)

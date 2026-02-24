@@ -78,7 +78,7 @@ Here are the items I like to see for each customer when they contact me:
 
 ## You can get more information about your customers
 
-Reparative can give you more details about your customer. I often find myself
+Rapportive can give you more details about your customer. I often find myself
 relating better to customers when I know more about them. For example, if I see
 a link to their twitter or LinkedIn profile and see they are also a programmer,
 I can be more technical and use a bit more brevity in technical responses.
@@ -118,8 +118,8 @@ I often use the [Mailbox app](http://www.mailboxapp.com/) on my Mac or iPhone,
 or [Boomerang](http://www.boomeranggmail.com/) in Gmail to archive message and
 have them return to my inbox and a certain time.
 
-Sometimes when a but report comes in I tell a person I will get back to them
-when it is fixed. I can then boomerang it for when I think it should be fix.
+Sometimes when a bug report comes in I tell a person I will get back to them
+when it is fixed. I can then boomerang it for when I think it should be fixed.
 When it shows up in the inbox again I can reply and let them know it is fixed,
 or remember to hurry and fix the bug so I can reply!
 

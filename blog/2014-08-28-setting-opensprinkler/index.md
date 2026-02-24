@@ -40,7 +40,7 @@ this was. I did a little research and ended up buying
 [this one](http://www.amazon.com/gp/product/B000DCN8LS/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B000DCN8LS&linkCode=as2&tag=randomlinks-20&linkId=DLVRB6K3JAIY4YS7)
 on Amazon for `$14.96`. It has a plug for Rain Bird devices at the end of it. I
 just cut it off and trimmed the wires to attach to my power terminal block on
-the OpenSprinkler. I learned that each of this blocks pull out with makes it
+the OpenSprinkler. I learned that each of these blocks pulls out which makes it
 easy to attach wires.
 
 In hindsight, I didn't really need to purchase this. When I took down my cheap
@@ -58,9 +58,9 @@ on Amazon which I purchased for `$25.99`.
 It was a pretty simple setup to get it configured:
 
 1. Plug in it.
-2. Connect to it as if it were your wireless rounder.
+2. Connect to it as if it were your wireless router.
 3. Go to http://192.168.10.253 in your browser to access to admin config.
-4. Put it in repeater mode, connecting to you main wireless router.
+4. Put it in repeater mode, connecting to your main wireless router.
 
 That's basically it. Then I just ran a Cat5 cable (which came included in the
 package) to the OpenSprinkler.
@@ -69,7 +69,7 @@ package) to the OpenSprinkler.
 
 Once it connects to your home network, if you push the top button on the right
 side of the device it will display it's IP address. In my case it was 10.0.1.30.
-I then went to this IP in my browser (http://10.0.1.30) and was propted to log
+I then went to this IP in my browser (http://10.0.1.30) and was prompted to log
 in. The default password is printed on the OpenSprinkler instructions. From here
 you can change settings, set up stations and watering times etc.
 
@@ -79,7 +79,7 @@ old system to the new OpenSprinkler. There wasn't much to it.
 I downloaded the
 [Sprinklers App](https://itunes.apple.com/us/app/sprinklers/id830988967?mt=8) on
 my iPhone. Because my iPhone was connected to my home network as well it was
-able to easily detect my OpenSpinkler automatically.
+able to easily detect my OpenSprinkler automatically.
 
 I installed the app on my wife's phone so now she doesn't have to ask me to turn
 on sprinklers on random occasions.

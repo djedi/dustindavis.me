@@ -18,12 +18,12 @@ bannerCredit:
   [Unsplash](https://unsplash.com)
 ---
 
-I recently starting playing with a new project where I have decided to use
+I recently started playing with a new project where I have decided to use
 [Aurelia](http://aurelia.io/) as a single page application and power the backend
 with [Django](https://www.djangoproject.com/).
 
 In order to start things up, I generally will have two terminal windows - one
-for running the backend (Django) and on for running the front-end (Aurelia).
+for running the backend (Django) and one for running the front-end (Aurelia).
 
 As I was pondering ideas on how to be more efficient when starting up my dev
 environment, my first thought was to use [docker](https://www.docker.com/). I've

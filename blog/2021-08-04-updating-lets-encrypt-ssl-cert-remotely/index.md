@@ -17,7 +17,7 @@ bannerCredit:
 ---
 
 I have a certain website application that I have not properly maintained. It is
-running Django 1.something on Python 2.7. It also using WordPress on PHP5. I'm
+running Django 1.something on Python 2.7. It is also using WordPress on PHP5. I'm
 sure the Postgres and MySQL DBs are out of date as well.
 
 Frankly, it should be updated or taken down, but I keep it up for nostalgia

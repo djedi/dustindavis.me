@@ -147,7 +147,7 @@ to keep the cert renewed:
 **NOTE:** When I add a new reverse proxy, I need to copy the wildcard cert to
 the new reverse proxy directory. Because I don't know what the directory name is
 exactly, I just put the snippet above (added again below) in a script named
-`update-reverse-proxies.sh` and it will copy the wild copy the cert to all the
+`update-reverse-proxies.sh` and it will copy the cert to all the
 reverse proxies again.
 
 ```bash

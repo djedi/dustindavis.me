@@ -18,7 +18,7 @@ bannerCredit:
 
 Building upon
 [my last proof-of-concept](authenticate-with-key-cloak-and-get-jwt), I now
-wanted to use my JWT from KeyCload to authenticate with Hasura.
+wanted to use my JWT from KeyCloak to authenticate with Hasura.
 
 Thankfully, this went pretty smoothly. I already had a user table configured in
 Hasura that I migrated from my last project. It is set up to allow a user to

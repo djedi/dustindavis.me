@@ -19,7 +19,7 @@ and apple pie ala mode. We then left Gehrig home and took the other boys to meet
 the week with them. We then went to the airport and got there 2 hours early.
 
 Rachel was having a bad day. She got flagged for a pat-down and felt pretty violated by TSA. Our flight was delayed by
-over an hour. It was pretty stormy wether. It provided for some cool lightning shows in the sky. We landed in St. Louis
+over an hour. It was pretty stormy weather. It provided for some cool lightning shows in the sky. We landed in St. Louis
 around 2 AM. It was raining cats and dogs. We got a lyft ride to our hotel and checked in around 2:30 AM. I had trouble
 sleeping, but I got enough sleep to function I guess.
 
@@ -27,7 +27,7 @@ sleeping, but I got enough sleep to function I guess.
 
 I woke up around 9 AM and finally decided to get up and get ready so I could go pick up the rental car. I walked the
 rental car place. It took about 20 minutes. It was a nice stroll, but in hindsight, I would have picked a closer hotel,
-or a closer car rental. I picked the two that were the farthest apart! We rended a Jeep Compass. It is a small SUV -
+or a closer car rental. I picked the two that were the farthest apart! We rented a Jeep Compass. It is a small SUV -
 sufficient for our trip I believe.
 
 We drove towards the St. Louis zoo and decided to try to find a place to eat around there. We find a nice little pancake
@@ -45,7 +45,7 @@ overcast all day.
 
 We left the Zoo around 3:30 or so and hit the road for Independence, MO. I love road trips. It was a nice 3 1/2 hour
 drive. It was different than the road trips I am used to. First of all, there are no mountains in sight the whole way. I
-did't think much of it because there are rolling hills the whole way and everything is covered in green vegetation and
+didn't think much of it because there are rolling hills the whole way and everything is covered in green vegetation and
 trees. I love green and the scenery was beautiful the whole way.
 
 By the time we arrived in Independence area, there was not a cloud in the sky. I think it will be much warmer tomorrow
@@ -79,7 +79,7 @@ was really cool since Rachel had never seen them before.
 
 ## Day 3 - Tuesday
 
-### Independence Visitor' Center
+### Independence Visitors' Center
 
 We woke up pretty late and just had enough time to get some breakfast at the hotel. There were not a lot of options. We
 basically had the options of scrambled eggs and sausage - which was fine and great for my keto diet.
@@ -97,16 +97,16 @@ and do there so after a short walk around the block we left and headed toward Li
 
 ### Liberty Jail
 
-{% responsiveImage "./images/liberty-jail-outside.jpg", "Liberty Jail Outside", "", 720, "Libery Jail - Outside" %}
+{% responsiveImage "./images/liberty-jail-outside.jpg", "Liberty Jail Outside", "", 720, "Liberty Jail - Outside" %}
 
-{% responsiveImage "./images/liberty-jail-inside.jpg", "Liberty Jail Inside", "", 720, "Libery Jail - Inside" %}
+{% responsiveImage "./images/liberty-jail-inside.jpg", "Liberty Jail Inside", "", 720, "Liberty Jail - Inside" %}
 
-{% responsiveImage "./images/liberty-jail.jpg", "Liberty Jail", "", 720, "Libery Jail" %}
+{% responsiveImage "./images/liberty-jail.jpg", "Liberty Jail", "", 720, "Liberty Jail" %}
 
 When we stopped at Liberty Jail, I realized that it was about this time 25 years ago - when I was 18 and just graduated,
 that I had been to this visitors center. I had a computer-aided manufacturing competition in Kansas City. During some of
 our down time, our instructor took us to this visitor's center. I don't remember the drive or being outside of it, but I
-definitely rememeber the jail.
+definitely remember the jail.
 
 I really like this visitors center how they have rebuilt the jail so that it is a replica of what it once was, but built
 in a way that you can see into it and how it was built to be inescapable.
@@ -115,12 +115,12 @@ Some of my favorite references of scripture in the Doctrine & Covenants came in 
 
 ### Far West Temple Site
 
-{% responsiveImage "./images/far-west.jpg", "Far West Temmple Site", "", 720, "Far West Temple Site" %}
+{% responsiveImage "./images/far-west.jpg", "Far West Temple Site", "", 720, "Far West Temple Site" %}
 
 After Liberty Jail, we stopped at Chik-fil-A for lunch, then headed out to what seemed like the middle of nowhere for
-the next three stops. Our first stop was the tmeple site in Far West. Here, 4 cornerstones of the temple have been laid
+the next three stops. Our first stop was the temple site in Far West. Here, 4 cornerstones of the temple have been laid
 and are still there. I have seen pictures of these before but for some reason, I assumed those were in Independence and
-for the temple in Zion, the new Jarusalem. But these were laid out in the middle farmland with no houses in sight!
+for the temple in Zion, the new Jerusalem. But these were laid out in the middle farmland with no houses in sight!
 
 It was a very peaceful place though. Birds were singing and children were playing quietly in the area. It was a nice
 stop.
@@ -148,9 +148,9 @@ after us and said he wondered if he was going the right way!
 
 There was not much to see here. There was just a big open grass field. This place is significant to us though because
 Rachel's 4th great grandfather, Isaac Laney, was shot 17 times I believe in this location and lived. Unfortunately,
-there were many saints that were killed in the incident now known as the Haun's Mill Masacre.
+there were many saints that were killed in the incident now known as the Haun's Mill Massacre.
 
-We were lucky that the landscape crew was there mowing the large field when we arrived. The landscrape crew are
+We were lucky that the landscape crew was there mowing the large field when we arrived. The landscape crew are
 basically full-time missionaries. One of them stopped to talk to us and she told us from very interesting details.
 
 The property used to be own by the reorganized LDS church, but they never did anything with it. They put it up for
@@ -159,7 +159,7 @@ had a very tangible evil feeling about the place. The church ended up purchasing
 making it what it is today.
 
 The person over the maintenance there never liked working out there. He always felt uneasy and couldn't wait to leave.
-One day he went out there to work and didn't fell any of that uneasiness but didn't think much of it. Someone asked him
+One day he went out there to work and didn't feel any of that uneasiness but didn't think much of it. Someone asked him
 later that day, "How was Haun's Mill today?" He said, "It was fine today actually." They then told him that a couple
 members of the quorum of the twelve had been out there that morning and blessed the land. Since that time it has been
 much better. The sister missionary said she did have an uneasy feeling last October while she was there and realized
@@ -187,20 +187,20 @@ is completely flooded an there is no way to access it.
 {% responsiveImage "./images/spring-hill.jpg", "Spring Hill", "", 720, "Spring Hill" %}
 
 This place was probably the most interesting to me. It really was a huge area. We started by driving to Spring Hill,
-then on to Tower Hill. This was my favorit place. There was something really unique and special about this area. It was
-like being in the temple. I didn't want to leave. I just kept thinking aboutt the history there, that Adam had been
+then on to Tower Hill. This was my favorite place. There was something really unique and special about this area. It was
+like being in the temple. I didn't want to leave. I just kept thinking about the history there, that Adam had been
 there, and this is where he built his alter where he offered sacrifice. I thought about the future there and if I would
 be there for the great event where those who help priesthood keys give an accounting to Adam and he returns those keys
 to the Savior. It really was a special place!
 
 {% responsiveImage "./images/adam-ondi-ahman.jpg", "Adam-ondi-Ahman", "", 720, "Adam-ondi-Ahman" %}
 
-We left there around 5:30. We were going to stop in Jamesport to eat. It is a little Amish community. Unfortunatly, I
+We left there around 5:30. We were going to stop in Jamesport to eat. It is a little Amish community. Unfortunately, I
 had my map set to Trenton and drove right past it. So we ended up eating in Trenton. There were not a lot of options
 here. We found a Mexican restaurant that turned out to be pretty good.
 
 Rachel was nervous about what hotel we would find here. Our hotel in Independence was not so great. It smelled bad too.
-She was pleasantly surprised with the hotel I round here. It looks pretty new and has all the amenities you would expect
+She was pleasantly surprised with the hotel I found here. It looks pretty new and has all the amenities you would expect
 in a city hotel. So we are fortunate to have found this place. It is the nicest hotel room so far.
 
 It has been interesting visiting all these small towns. There are so many churches everywhere - except for our churches.
@@ -214,7 +214,7 @@ in the future. My guess is not many - hardly any outside of the membership of th
 
 We woke up around 5:40 and left our hotel about an hour later. It was a beautiful 3-hour drive to Carthage/Nauvoo. It
 was fun to see Amish horse and buggies all over the highway. I guess I don't understand why they can't drive cars. One
-thing that confused us was seeing a young Amish guy sitting in a buggy staring at his smart phone. I guess some
+thing that confused us was seeing a young Amish guy sitting in a buggy staring at his smartphone. I guess some
 technologies are OK? I'm not judging, just curious.
 
 ### Carthage Jail
@@ -260,14 +260,14 @@ have horns or else the yoke will just slide off their heads, so that is importan
 
 {% responsiveImage "./images/horses.jpg", "Horses", "", 720, "" %}
 
-After our short ride on the oxen cart, we took a horse drawn carriage ride around Old Nauvoo to learn about differnt
+After our short ride on the oxen cart, we took a horse drawn carriage ride around Old Nauvoo to learn about different
 buildings in the area. That was a great place to start to get an overview of everything.
 
-We had a bit of time so we went to our airbnb and took our luggage in. We are sting in a home that has a shared room. So
+We had a bit of time so we went to our airbnb and took our luggage in. We are staying in a home that has a shared room. So
 we have a private room and bathroom, but we share the kitchen and hallway with others. It is and older building that has
-been updated a bit, but it does hae dirty carpets and a funky smell. The people staying in the other room brough a bid
-dog with them so I can how it may have the dirty carpets and smells. The locaton is great though as it is close to
-everything. There is not a whole lot of options in Nauvoo. I'm surprise at how small this town is. If I were to campare
+been updated a bit, but it does have dirty carpets and a funky smell. The people staying in the other room brought a big
+dog with them so I can see how it may have the dirty carpets and smells. The location is great though as it is close to
+everything. There is not a whole lot of options in Nauvoo. I'm surprised at how small this town is. If I were to compare
 it to to what I know, it feels smaller than Duchesne and Midway. Maybe like an Altamont or Neola but a bit bigger. But I
 haven't been to those areas in 25 years, so I don't know how they compare now. In any case, for how big this area was
 when the saints lived here, it is sure small now. I think the Saints that come to visit here provide much of the money
@@ -276,7 +276,7 @@ private donor paid for the expenses to build it. Otherwise, it would not have ha
 
 We had an appointment after that to do a walking tour of "Temple City". Unfortunately, we had no idea where to go. The
 website and my reservation email didn't really say. It did say to check in at the place that was closed. We ended up
-going to the visitors center to figure things out and learned we check in there but go to a differnt place to start the
+going to the visitors center to figure things out and learned we check in there but go to a different place to start the
 tour. It is pretty confusing still and I wish the website and email notification had more info because even after they
 explained things they gave me some wrong information and we nearly missed our next tour of the prophets' homes.
 
@@ -287,9 +287,9 @@ took a lot of photos that may not be interesting to many people, but will help m
 memories at lest.
 
 The last event of the night that we went to was a play put on by youth performers called Sunset at the Mississippi. It
-is also funny to me that it never occurred to me that Nauvoo bordered the Mississippi River! It was a fun a event.
+is also funny to me that it never occurred to me that Nauvoo bordered the Mississippi River! It was a fun event.
 
-Some of the performers we we met this morning at Carthage. I learned another new thing. They have 3 month performance
+Some of the performers we met this morning at Carthage. I learned another new thing. They have 3 month performance
 missions where youth ages 18-25 can audition and serve these 3-month missions here where they spend the summer doing
 these performances. It doesn't replace a full-time mission, but I thought it was a neat and interesting opportunity for
 those youth who are interested in that sort of thing.
@@ -312,7 +312,7 @@ need them for our tours.
 
 We took them to our first tour, which was the Pioneer trail. There we learned about Brigham Young's home, the
 blacksmith, and the Seventies Hall. It was a lot more interesting than I anticipated. The Blacksmith was great and very
-entertaining. He gave us all miniature horeshoes that he made there.
+entertaining. He gave us all miniature horseshoes that he made there.
 
 While walking down the street there was an ox in the middle of the road. I had read in Brigham Young's home that oxen
 should be 4-10 years old to make the trek. I was told by one of the missionaries the the ox on the road was only two
@@ -321,7 +321,7 @@ that the reason they wanted them at least 4 years old was because by then they a
 was still feeding that one a lot of grain. After 4 they don't require grain anymore and just eat grass. I thought that
 was interesting information.
 
-After our first tour we went into town to find some breakfast - or Brunch. It seemed everythong on the main road was
+After our first tour we went into town to find some breakfast - or Brunch. It seemed everything on the main road was
 closed. I don't know where people eat around here! We ate at The Red Front again. We also stopped at the fudge store for
 some treats.
 
@@ -344,17 +344,17 @@ missionaries. I got really tired and nearly fell asleep a few times. I was touch
 the events. I later asked Gracie what her favorite part of the day was and she said it was this performance.
 
 After the performance, we took another tour, This time we visited the Riser shoe shop and the printing press. Again, it
-was more intersting that I would have imagined.
+was more interesting than I would have imagined.
 
 It is hard to remember the order of everything we did because it was go, go, go all day long.
 
 Following that tour we did one called Temple City, where to toured the home of an architect and a few other prominent
 members. These homes where recreated rather than restored. They were much nicer. In fact everything on this tour seemed
-brand new. From what I understand, it baically is new and Elder Cook recently dedicated these buildings.
+brand new. From what I understand, it basically is new and Elder Cook recently dedicated these buildings.
 
 This was our final tour and we pretty much hit them all from what I understand. We had some "free" time after this so we
-went up to the temple and took some photoes and walked around the temple grounds. We then went to a few souvinirs on
-main street. Gracie had been wanting to do this the whole time so luckly they were still open.
+went up to the temple and took some photos and walked around the temple grounds. We then went to a few souvenir shops on
+main street. Gracie had been wanting to do this the whole time so luckily they were still open.
 
 {% responsiveImage "./images/temple.jpg", "Nauvoo Temple", "", 720, "" %}
 
@@ -364,7 +364,7 @@ everyone goes to eat if not at The Red Front! They don't have a very big menu so
 After dinner we drove to Casey Hall's home. He gave me some drawings from his kids to take to his parents in Brigham
 City. That will be fun to deliver those to them.
 
-Our final event of the eventing was at 8:30 called the Trail of Hope. This was supposed to be performed on Parley's
+Our final event of the evening was at 8:30 called the Trail of Hope. This was supposed to be performed on Parley's
 Street, but it was raining a bit, so they moved it into the Visitor's Center auditorium. It was good, but I wish it
 would have been on Parley's street for the full experience.
 
@@ -378,9 +378,9 @@ We got up early and left Nauvoo around 6:30 AM. Our goal was to be in St. Louis 
 flying home. It was pretty rainy drive the whole way until we actually got to St. Louis. We made it just before the
 museum opened.
 
-Like the zoo, it was also free. There was a lot to look at. Honestly, it was poor way to end the trip. Compared to
-everthing I saw and felt in Nauvoo, the art museum was a completely different feel. It felt dark. There were a handful
-of paintings I enjoyed, such as some Monet's and Gogh, but overall, I was just ready to leave and get out of there.
+Like the zoo, it was also free. There was a lot to look at. Honestly, it was a poor way to end the trip. Compared to
+everything I saw and felt in Nauvoo, the art museum was a completely different feel. It felt dark. There were a handful
+of paintings I enjoyed, such as some Monets and Van Goghs, but overall, I was just ready to leave and get out of there.
 
 We drove back to Alamo to return the car and took a shuttle to the airport where we ate lunch and waiting for our
 flight.
@@ -393,11 +393,11 @@ It has been a few days since being home and I thought I would just add a few mor
 
 To be honest, I thought it would be "neat" to see some church history sites. It was far beyond "neat". I can't even
 think of an appropriate word to describe it. It affected me far more than I thought it would. I left my heart in Nauvoo.
-I want to go back. Perhaps it was because we have excellent weather there and I never experieced the heat that people
+I want to go back. Perhaps it was because we have excellent weather there and I never experienced the heat that people
 complain about, or the cold winters I have heard about. But I also can't stop thinking about the history there and
 feeling like I was somehow a part of it - even though I don't think I have any direct ancestors that lived there.
 
-Sunday was the anniversary of Joseph and Hyrum's marterdom. 177 years ago they were killed. My thoughts turned to them.
+Sunday was the anniversary of Joseph and Hyrum's martyrdom. 177 years ago they were killed. My thoughts turned to them.
 
 {% responsiveImage "./images/joseph-brigham.jpg", "Joseph & Brigham Young", "", 720, "" %}
 

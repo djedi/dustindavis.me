@@ -17,7 +17,7 @@ tags:
 ---
 
 I find that a lot of people don't know where to go to start their own website.
-It is difficult to know because their are so many options. So here is my
+It is difficult to know because there are so many options. So here is my
 **personal opinion** on how to get up and running with your own blog and/or
 small business website.
 

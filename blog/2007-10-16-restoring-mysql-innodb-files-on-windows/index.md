@@ -17,7 +17,7 @@ categories:
 Our server died at work last week. We're a small shop without a real IT pro,
 just a bunch of hackers. Therefore, we had no back-up or recovery plan. I was
 tasked with restoring the MySQL database files. These where critical databases
-we use on a daily basis, as well as our customers because it contain all their
+we use on a daily basis, as well as our customers because it contained all their
 license information. We were able to get all the files off the computer in the
 MySQL data folder (in C:\Program Files\MySQL\MySQL Server 4.1 & C:\Program
 Files\MySQL\MySQL Server 5.0). I found that all the MyISAM type tables restored

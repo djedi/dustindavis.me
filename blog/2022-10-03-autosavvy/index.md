@@ -5,7 +5,7 @@ date: 2022-10-03
 author: Dustin Davis
 description:
   I've purchased 3 cars from AutoSource / AutoSavvy and it has been the most
-  frustrating and most expensive car buying experience every. Save yourself!
+  frustrating and most expensive car buying experience ever. Save yourself!
 categories:
   - Rants
 banner: ./images/banner.jpg
@@ -23,7 +23,7 @@ The following is a review I posted two months ago on Google:
 > the Draper location.
 >
 > Because the 2019 model doesn't have Apple CarPlay support, I had an
-> after-market system installed that worked with the existing system. I spend
+> after-market system installed that worked with the existing system. I spent
 > over $2,000 to get that installed. Everything was great for a couple of months
 > but then we started having engine problems. It was making loud noises and
 > having trouble accelerating. We could barely make it up the hill to our home.
@@ -89,7 +89,7 @@ The following is a review I posted two months ago on Google:
 > - $400 Tim Dahle service
 > - $1,300 Car payments for no car
 > - $550 Ford service
-> - $7,752 price different of vehicles
+> - $7,752 price difference of vehicles
 > - $3,925 fees and warrantees on another vehicle
 >
 > I 100% regret buying from AutoSavvy last November.
@@ -112,13 +112,13 @@ The vehicle only came with one key. Our salesman said that if we wait 3 months,
 then call on our warranty, we could get a key replacement. So I did that. After
 calling, all seemed to go okay, then the warranty rep called me back and said
 that she made a mistake. I didn't actually have key replacement coverage. I sent
-a copy of of our contract showing it marked and she said I would have to talk to
+a copy of our contract showing it marked and she said I would have to talk to
 the dealership.
 
 {% responsiveImage "./images/warranty.png", "AutoSavvy Warranty", "", 720, "" %}
 
 I called AutoSavvy and left a message. Of course, they didn't return my call.
-They never do. So I called again this morning and go someone on the line. I was
+They never do. So I called again this morning and got someone on the line. I was
 simply told "Warranties don't cover key replacements".
 
 I said, "But my salesman said that it would, and my contract says it does."
@@ -129,7 +129,7 @@ So asked to speak with someone higher up and she transferred me to a sale
 manager. I was just sent to voicemail though with no name of whom I was leaving
 a message for. I don't expect to hear back based on all my past experiences.
 
-No we have a few issues with our car. My wife has an appointment for this week.
+Now we have a few issues with our car. My wife has an appointment for this week.
 I'm guessing that none of it will actually be covered under warranty. I've left
 a message with AutoSavvy's service department to ask if it will be or if I need
 to take it to them to have it covered. I haven't heard back there either. I left
@@ -217,7 +217,7 @@ This car has been good, but I will tell you that I was going to live with the
 bumper damage, but I didn't get to live too long with it.
 
 My wife was pulling out of a drive way and the front bumper scraped the cement a
-bit. A huge chunk of Bondo fell off and make it look horrible. Is it customary
+bit. A huge chunk of Bondo fell off and made it look horrible. Is it customary
 to repair a bumper with Bondo?
 
 We took it in and had it repaired and as I suspected, it was more that $600. It
@@ -248,6 +248,6 @@ Let me pay this stupid tax so that you don't have to! Buying from AutoSavvy is
 just not worth the risk.
 
 If AutoSavvy wants to try to make any of this right (particularly the
-highlighted 🔴 items that I was told I would be reimbursed for), I'm happy pull
-down this post and my change my Google reviews, but I'm not holding my breath
+highlighted 🔴 items that I was told I would be reimbursed for), I'm happy to pull
+down this post and change my Google reviews, but I'm not holding my breath
 and I'm ready to move on.

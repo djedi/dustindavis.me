@@ -18,10 +18,10 @@ money, but probably more of the opposite. 😬
 
 The term
 "[debt snowball](https://www.daveramsey.com/blog/how-the-debt-snowball-method-works)"
-was probably most popularized by Dave Ramsey. Put simply, it is a method paying
+was probably most popularized by Dave Ramsey. Put simply, it is a method of paying
 down your debts from the lowest balance to the highest balance. Once one debt is
 paid, you put the payments you were making on that debt towards the next debt,
-thus excellerating the paydown of each debt.
+thus accelerating the paydown of each debt.
 
 I've written my own budgeting software and added debt snowball type tools to
 them. I've tried other debt snowball tools as well. Many out there will show you
@@ -41,7 +41,7 @@ of comments thanking me. As of this writing I have nearly 16K views - which has
 to be the most views I have on a video (though I don't produce a lot of YouTube
 content).
 
-If you are interested in created a living debt snowball to track you debt
+If you are interested in creating a living debt snowball to track your debt
 paydown, check out my video tutorial:
 
 <iframe

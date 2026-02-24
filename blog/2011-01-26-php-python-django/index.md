@@ -23,7 +23,7 @@ say the least.
 
 I was laughing at Rails vs PHP Rails Envy videos when I saw this
 [Ruby on Rails vs Django](https://www.youtube.com/watch?v=Zb1YVZWt0OE) video.
-Honestly I thought many Rails guys where pretty smug & self-righteous. When they
+Honestly I thought many Rails guys were pretty smug & self-righteous. When they
 had nothing bad to say about Django (other than they were saying Django badly) I
 decided to check out that framework also.
 

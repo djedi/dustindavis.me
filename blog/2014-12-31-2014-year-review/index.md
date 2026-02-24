@@ -118,7 +118,7 @@ Now my friend is re-designing it from the ground up. Once the designs are
 complete I will work on re-coding it according to the new designs - mostly
 utilizing AngularJS and an Django REST Framework.
 
-# What Did No Go Well
+# What Did Not Go Well
 
 ## Missed MicroConf
 
@@ -180,7 +180,7 @@ truck. It won't make my goal list for 2015, but some day...
 
 Due to the loss of so much income and my own neglect of EnvelopeBudget - not
 marketing it properly, I didn't have the income to continue paying my full-time
-programmer and had to let her go. It was very hard becuase she was good and so
+programmer and had to let her go. It was very hard because she was good and so
 loyal. I did use my network to find her another job and she is actually getting
 paid more now, so I can feel good about that. And speaking of loyal I have found
 that she continues to answer support questions and fix issues on the site out of
@@ -221,11 +221,11 @@ normal. I think I would just chalk it up to a virus or stress.
 
 # Books I Read
 
-1. [**Jouney to the Veil**](http://amzn.to/1A93SA5) - A collection of blog posts
+1. [**Journey to the Veil**](http://amzn.to/1A93SA5) - A collection of blog posts
    from LDS author, John Pontius, up until his death.
 2. [**Triumph of Zion** by John Pontius](http://amzn.to/1A9402s)
-3. [**Visons of Glory** by John Pontius](http://amzn.to/1wzaKC6) - This book was
-   fascinating. We listed to it on our trip to Boise & back.
+3. [**Visions of Glory** by John Pontius](http://amzn.to/1wzaKC6) - This book was
+   fascinating. We listened to it on our trip to Boise & back.
 4. **Book of Mormon** - We read this as a family. Our stake president challenged
    us to read it in 6 months. We accepted and accomplished the challenge.
 5. [**Coaching Youth Baseball the Ripken Way** by Cal Ripken Jr.](http://amzn.to/1xwoph2) -
@@ -243,7 +243,7 @@ normal. I think I would just chalk it up to a virus or stress.
 
 # Places I Visited
 
-We didn't travel much in 2015. This was mainly due to finances and having a
+We didn't travel much in 2014. This was mainly due to finances and having a
 baby. We did take a couple of road trips though.
 
 1. **Boise, ID** - I had a niece born a month before our baby. We make the trip

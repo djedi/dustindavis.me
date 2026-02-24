@@ -34,7 +34,7 @@ because 1) they didn't pay very much and 2) I was too busy to even take on more
 tasks.
 
 I have often heard that you shouldn't trade time for money - which essentially
-is what I was doing, at is what everyone with a hourly or salary job does. It
+is what I was doing, as is what everyone with an hourly or salary job does. It
 sounds nice and many people manage to create income where they are no longer
 trading time for money. But, I have always felt there is absolutely no shame in
 working for money, and for me it can be and often is very enjoyable.
@@ -60,7 +60,7 @@ So what is wrong with me? Why can't I follow in the footsteps of my friends and
 build businesses that allow me to work 4 hours per week?
 
 As many times as I asked myself this, I knew the answer. I wasn't willing to do
-the things my friends where doing. I have put in lots of extra hours, but I
+the things my friends were doing. I have put in lots of extra hours, but I
 don't do the uncomfortable things, like creating video tutorials, doing
 webinars, creating newsletters and autoresponders. I still don't. I'm leaving
 money on the table and I'm completely aware of it.
@@ -72,7 +72,7 @@ stuff, but I always fall back to the introverted exercise of programming.
 
 Another thing my successful friends do is outsource. I've tried this a few
 times. I've hired freelancers and employees to help me with projects. Sometimes
-it is successfully, other times I lose my butt!
+it is successful, other times I lose my butt!
 
 A few months ago I decided to try the outsourcing thing again. As I'm getting
 older and as my family is getting older I'm finding its harder to get up at 4
@@ -82,12 +82,12 @@ doesn't help that my Dad's side of the family all suffer from arthritis and my
 mom's side from trigger finger.
 
 What I need to do is replace myself. Often I have hired people to fill gaps. I
-tried to find people do to article marketing, support, iPhone development,
+tried to find people to do article marketing, support, iPhone development,
 graphic design, etc. Why would I hire a programmer when that is what I enjoy the
 most and that is what I do the best?
 
 Well, after listening to all of
-[John Jonas' replace myself weminars](http://store.replacemyself.com/?aid=12769)
+[John Jonas' replace myself webinars](http://store.replacemyself.com/?aid=12769)
 over again I realized that is what I had to do. That is where I needed to start.
 I signed up for ReplaceMyself.com to get all the training to do it right this
 time and to get a free membership to OnlineJobs.ph.
@@ -104,7 +104,7 @@ weeks before she sent a resignation letter. I decided to hire another
 programmer. I asked Jaymar if he knew anyone looking for a job and he recommend
 a Catherine - a girl he went to college with. Catherine was very good with PHP
 but had no experience with Python & Django. Catherine started by helping me with
-PHP, but has quickly learned python and Django and does an excellent job. She
+PHP, but has quickly learned python and Django and does an excellent job. She was
 even able to quickly migrate from Windows to Linux to make life easier
 programming in python. It has been helpful having both programmers live in the
 same city as they often get together to collaborate on projects.

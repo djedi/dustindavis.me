@@ -65,7 +65,7 @@ I was impressed after doing the
 on Heroku. What kind of magic is this? So I attempted to get my EnvelopeBudget
 stack up and running next. I modified my
 [django project structure](http://www.deploydjango.com/django_project_structure/index.html)
-to be more Heroku friendly. I probably spend a good 8 hours leaning how Heroku
+to be more Heroku friendly. I probably spent a good 8 hours learning how Heroku
 makes deployment so simple though it never really seemed simple. I got it up and
 running but in the end I decided it wasn't for me (at least for this project)
 mainly due to the price. Minimally it would cost me
@@ -86,7 +86,7 @@ train home from work and reading through my twitter feed I come across a link to
 a
 [Complete Single Server Django Stack Tutorial](http://www.stumbleupon.com/su/2E3lEq/www.apreche.net/complete-single-server-django-stack-tutorial/).
 I read through it and it suddenly didn't seem so scary setting my up own server.
-I've don't pretty much all of this before on my own development environment. So,
+I've done pretty much all of this before on my own development environment. So,
 I go to the best place I know to spin up a new server fast -
 [Linode](http://www.linode.com/?r=0e672eb6d53973f0ac51b6d8e95a067f55a676bb). It
 probably took me about 2 hours to get everything up and running. I took copious
@@ -119,7 +119,7 @@ I finally decided to go with Webfaction's 1 GB plan which is
 $40 per month (or $30 per month if paid yearly). I like the idea of having a
 managed plan. The biggest downside for me is that I don't have root or `sudo`
 access. They don't use `virtualenv` for their application setup and setting up
-projects is a bit kludgy felling because of it. Also, setting up Celery &
+projects is a bit kludgy feeling because of it. Also, setting up Celery &
 RabbitMQ doesn't feel as painless, but I managed it thanks to
 [Mark Liu's tutorial](http://www.markliu.me/2011/sep/29/django-celery-on-webfaction-using-rabbitmq/).
 I know there is a way to use `virtualenv` and `gunicorn` on Webfaction, but I
@@ -133,7 +133,7 @@ Linode. The site is up now and hosting performance is great, but I will likely
 move back to Webfaction because I soon started to realize there is always
 something else to set up. I have a git repo, a [Trac](http://trac.edgewall.org/)
 system, email, & FTP already set up on Webfaction. I would likely want to put
-aWordPresss blog at /blog. All of this is so easy with Webfaction and its more I
+a WordPress blog at /blog. All of this is so easy with Webfaction and its more I
 have to research to do all of this on Linode.
 
 ## TL;DR
@@ -158,7 +158,7 @@ and needed to get online fast.
 
 [Linode](http://www.linode.com/?r=0e672eb6d53973f0ac51b6d8e95a067f55a676bb):
 This seems to be the standard for spinning up your own dedicated server with
-root access. If I root access, performance and a history of good support, I'll
+root access. If I need root access, performance and a history of good support, I'll
 go here.
 
 [Webfaction](http://www.webfaction.com/?affiliate=redseam): I've been around the
@@ -185,7 +185,7 @@ to complete your SSL setup.
 ### Reasons for leaving Webfaction:
 
 - Total control of SSL setup
-- Performance - I wanted SD drives
+- Performance - I wanted SSD drives
 - Price - more computing power for the price
 - Virtualenv - Upgrading is a lot easier when using virtualenv
 

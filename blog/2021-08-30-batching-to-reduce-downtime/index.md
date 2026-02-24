@@ -16,7 +16,7 @@ Sometimes a good process can be improved by breaking it down into smaller
 processes. Let me give you an example.
 
 I have a process that has worked well for me for a long time. That is how I
-manage mail and bills. May years ago I purchased an expensive scanner. I don't
+manage mail and bills. Many years ago I purchased an expensive scanner. I don't
 regret it. I have the Fujitsu ScanSnap iX500. I think I paid about \$500 for it
 when I got it about 10 years ago.
 

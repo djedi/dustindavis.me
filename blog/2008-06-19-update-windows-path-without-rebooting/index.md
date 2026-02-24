@@ -8,7 +8,7 @@ title: Update Windows Path Without Rebooting
 description: Updating the PATH environment variable without rebooting in Windows
 banner: images/banner.jpg
 bannerCredit:
-  'Photo by  on [Joshua Hoehne](https://unsplash.com/@mrthetrain)
+  'Photo by [Joshua Hoehne](https://unsplash.com/@mrthetrain) on
   [Unsplash](https://unsplash.com)'
 categories:
   - Windows
@@ -29,16 +29,16 @@ leave it here assuming and hopeful it is helpful.
 I find it quite annoying that whenever I read instructions that include adding
 an environment path variable you are asked to reboot your machine for changes to
 take effect. I know there has GOT to be a way to do it. Well, I know a way, but
-it's someway kludgy.
+it's somewhat kludgy.
 
 Here is how I do it (I'm really hoping someone will comment and tell me a better
 way)
 
 1. Open your system properties window. Screenshots below are for Vista:
    {% responsiveImage "images/computer-properties2.png", "computer properties", "", 720, "" %}
-2. Open you Environment Variables Window.
+2. Open your Environment Variables Window.
    {% responsiveImage "images/system-properties.png", "system properties", "", 720, "" %}
-3. Double Click on you Path (if you want to just change you path for your login,
+3. Double Click on your Path (if you want to just change your path for your login,
    use the top one, if you want to change it for all logins, use the bottom one)
    {% responsiveImage "images/path-variables.png", "path variables", "", 720, "" %}
 4. Append the path you would like to add, separated with a semi-colon. Below, I
@@ -53,7 +53,7 @@ work in all cases, which is why I don't like it, so please, if you know of a
 batch script or something I can run that will apply the changes made to the
 environment variables without rebooting, please post a comment.)
 
-Open a comment window and type `SET PATH=%PATH%;C:\CmdShortcuts`
+Open a command window and type `SET PATH=%PATH%;C:\CmdShortcuts`
 
 You can type PATH again to see your path variables. Your new path should be
 added. The problem with this is that this new path variable is only good inside

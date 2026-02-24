@@ -100,11 +100,11 @@ You will be prompted for the title and author.
 Here is a basic rundown of what the script is doing:
 
 For each text file in the folder, it will run the say command to convert the
-text file to an audio file. If you want to try this will a simple text file,
+text file to an audio file. If you want to try this with a simple text file,
 run:
 
 ```bash
-say -f filenmame.txt -o output.aiff
+say -f filename.txt -o output.aiff
 ```
 
 If you want to change the voice, pass in the `-v` option. If you want to see the
@@ -117,7 +117,7 @@ say -v ?
 This is probably the longest process of the script.
 
 Next, the script will run through all of the `.aiff` files and compress and
-convert them to `.m4a` files using FFmpeg. This is essentiall what is being for
+convert them to `.m4a` files using FFmpeg. This is essentially what is being run for
 each file:
 
 ```bash

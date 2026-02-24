@@ -32,7 +32,7 @@ Here are the applications and tools I use:
   in this application. For a long time I wasn't a fan of IDE's, but this one
   does so much for me and makes me a better programmer. I can't imagine working
   without it now.
-- [Chrome](https://www.google.com/intl/en/chrome/browser/): My browser of tools.
+- [Chrome](https://www.google.com/intl/en/chrome/browser/): My browser of choice.
   I guess really this is the most used app on my computer. I love the developer
   tools as well. It took me a while to give up Firebug, but once I did, there
   has been no reason to open other browsers.

@@ -22,7 +22,7 @@ the whole nine yards.
 Plus, the last two times we went were during the holiday season. The first time
 was between Christmas & New Year's. The second time was about a week & a half
 before Christmas. Both times the place was completely packed. There were signs
-up saying Disneyland/Calfornia Adventure were sold out! I'm going to go out on a
+up saying Disneyland/California Adventure were sold out! I'm going to go out on a
 limb and guess that Disneyland is much more fun when it is not so packed.
 
 I'm getting to the point where I want to go back. We had a baby last September
@@ -46,7 +46,7 @@ driving include:
 - Less stress. It can be stressful going through all the airport security and
   make sure you get everything you need in place & on time.
 - Road trips can be fun & memorable.
-- Our luggage doesn't leave our site & our control.
+- Our luggage doesn't leave our sight & our control.
 - We are not limited as much to the amount or weight of luggage.
 - More freedom to travel. We don't have to worry about catching a shuttle or
   taxi if we need to leave the Disneyland area.
@@ -97,7 +97,7 @@ yet) on Friday night.
 ## Budgeting For the Trip
 
 Now, the really important stuff - how much is this going to cost? I recommend
-getting out a spreadsheet and planning all our you expenses before any vacation,
+getting out a spreadsheet and planning all your expenses before any vacation,
 then saving up and paying with cash!
 
 Let's start with travel. Using a tool I wrote a few years ago. I can estimate
@@ -121,9 +121,9 @@ close to Disneyland. Unfortunately, we hated it. Our room was dirty, hot, muggy,
 tub was clogged so we took a shower standing in dirty water. We asked for a
 rollaway bed and they never brought it. It was just an all-around bad
 experience. But, my parents & younger sister stay there every time they go and
-they like it, so your mileage may very. It was so bad for us that I canceled our
+they like it, so your mileage may vary. It was so bad for us that I canceled our
 remaining nights and walked down the street to find something better. We ended
-up re-packing and waking our luggage down the street to the
+up re-packing and walking our luggage down the street to the
 [Best Western Park Place Inn](https://parkplaceinnandminisuites.com/). It was so
 much nicer. It was cleaner. It was updated. It was closer to the main gate -
 just right across the street. We got a room with two queen beds and a hide-away

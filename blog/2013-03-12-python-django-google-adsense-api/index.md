@@ -65,7 +65,7 @@ This API only support OAuth so you have to do the authentication flow in the
 browser at least once in order to get your credentials, then you can save these
 credentials so you have access going forward. To be honest, while I've heard
 about OAuth many times, I have never actually had a need to use it until now. So
-I'm learning as I go and feel free to leave a comment and point any
+I'm learning as I go and feel free to leave a comment and point out any
 misunderstandings I might have.
 
 As I understand it, Google has one large API for their various products. Before

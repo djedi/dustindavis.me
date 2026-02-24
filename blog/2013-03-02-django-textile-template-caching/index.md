@@ -119,5 +119,5 @@ To this:
 {% raw %}{{ feature.overview_html|safe }}{% endraw %}
 ```
 
-This has dropped my homepage rending time to about 750ms. This is without any
+This has dropped my homepage rendering time to about 750ms. This is without any
 caching of queries. Huge win!

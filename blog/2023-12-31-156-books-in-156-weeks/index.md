@@ -25,7 +25,7 @@ So here are some highlights from my reading in 2023.
 But first, here is a list of all the books I completed:
 
 1. How to Write a Book For Beginners by Ryan Stephens
-1. The Secrets of Happy Families by Bruce Feller
+1. The Secrets of Happy Families by Bruce Feiler
 1. Ski in Control by Bob Trueman
 1. The Ant and the Elephant by Vince Poscente
 1. The War of Art by Steven Pressfield
@@ -36,9 +36,9 @@ But first, here is a list of all the books I completed:
 1. Hidden Within Us by Samuel Mann
 1. You Patriarchal Blessing by Ed. J Pinegar
 1. The YouTube Formula by Derral Eves
-1. Secrets of the Millionaire Mind by T Harv Ecker
+1. Secrets of the Millionaire Mind by T. Harv Eker
 1. 7: An Experiment in Mutiny Against Excess by Jen Hatmaker
-1. The Miracle Morning by Hal Eldrod
+1. The Miracle Morning by Hal Elrod
 1. Called to Create by Jordan Raynor
 1. Zig Ziglar's Leadership & Success Series by Zig Ziglar
 1. Financial Fitness by Chris Brady, Orrin Woodward
@@ -61,8 +61,8 @@ But first, here is a list of all the books I completed:
 1. Lectures on Faith by Sidney Rigdon, Joseph Smith Jr.
 1. The Holy Covenants by Anthony Sweat
 1. The Alchemist by Paulo Coelho
-1. Eat That Frog! by Brian Tracey
-1. Leadershift by Orin Woodward, Oliver DeMille
+1. Eat That Frog! by Brian Tracy
+1. Leadershift by Orrin Woodward, Oliver DeMille
 1. Make Your Bed by William H. McRaven
 1. Ten Years and Ten Lessons by Jim Cockrum
 1. Exposing the Spiritual Roots of High Blood Pressure by Dr. Henry W. Wright

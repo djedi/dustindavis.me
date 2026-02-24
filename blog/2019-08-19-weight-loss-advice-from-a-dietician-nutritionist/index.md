@@ -121,7 +121,7 @@ polypeptides and leptin, etc. But basically, when we start eating, it takes
 about 20 minutes for our stomach to signal to our brain that we are full. This
 is the reason for #4.
 
-I can always go back and have seconds if I'm still full, but I need to start
+I can always go back and have seconds if I'm still hungry, but I need to start
 with less than I think I need.
 
 In the past, I would rarely drink fluids when I eat - especially at restaurants.
@@ -136,7 +136,7 @@ At some point during all this training, I realized I was wearing a Dr. Pepper
 t-shirt. I was kind of embarrassed when I thought about it. Here I was visiting
 a nutritionist with a soda t-shirt on.
 
-I know soda is bad for you. My of my life I didn't drink soda. In the past
+I know soda is bad for you. Most of my life I didn't drink soda. In the past
 couple of years, I've started drinking Dr. Pepper. I don't drink a lot. Even at
 my most gluttonous periods, it was generally not more than 1 can per day.
 

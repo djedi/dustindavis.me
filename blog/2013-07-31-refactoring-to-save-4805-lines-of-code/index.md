@@ -30,7 +30,7 @@ indicator (KPI) stats for [Neutron](http://www.neutroninteractive.com). There
 are currently 46 different stats that I need to calculate for 5 different time
 periods.
 
-For each state I need:
+For each stat I need:
 
 - Stats for start of current day to current time with a comparison to yesterday
   start of day to the current time.
