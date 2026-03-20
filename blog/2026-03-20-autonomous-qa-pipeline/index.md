@@ -32,15 +32,16 @@ Here's how it works.
 ## The Agents
 
 I run OpenClaw on a Mac Mini at home. I have several agents, each with their own
-role:
+role. But I'm going to focus on 3:
 
 - **Clive** — my main assistant
 - **Penny** — QA
 - **Eddie** — Engineering
-- **Xavier** — X/Twitter growth
 
 The star of this post is Penny. She's the one who changed how I think about
 testing.
+
+![Penny](./penny.jpg)
 
 ## What Penny Does
 
@@ -72,8 +73,8 @@ ratings — go into a SQLite database.
 
 ## The Dashboard
 
-I built an HTMX dashboard at `ebqa.davis.im` to review everything Penny finds.
-It's simple but effective:
+I built an HTMX dashboard to review everything Penny finds. It's simple but
+effective:
 
 - Findings sorted by severity (critical, high, medium, low)
 - Sortable columns and filters
@@ -91,8 +92,8 @@ note like "this is intentional behavior" or "only test this after the migration
 runs." These notes become training data — Penny reads them before her next run
 so she doesn't keep reporting the same things.
 
-Findings I don't care about get archived. Everything has a full action history
-with persistent logs.
+Findings that have been fixed and deployed get archived. Everything has a full
+action history with persistent logs.
 
 ## The Auto-Fix Pipeline
 
@@ -102,11 +103,11 @@ Here's where it gets fun.
 2. I review the finding on the dashboard and confirm it's a real bug
 3. Every hour, a cron job picks the highest-severity confirmed finding
 4. Eddie (Claude Code + Opus) reads the finding and fixes the code
-5. Eddie commits and pushes to `main` on GitHub
+5. Eddie commits and pushes to git
 6. GitHub Actions auto-deploys to production
 7. Penny retests the exact scenario that was originally reported
-8. If passed → the finding stays fixed. If failed → it's marked
-   `retest_failed` for my review
+8. If passed → the finding stays fixed. If failed → it's marked `retest_failed`
+   for my review
 
 The entire cycle — from "Penny finds bug" to "deployed to production" — happens
 without me doing anything beyond that initial confirmation.
@@ -117,10 +118,10 @@ what changed if something breaks.
 
 ## What I've Learned
 
-**Exploratory testing finds things scripted tests miss.** Race conditions,
-weird edge cases, input combinations that no human would think to write a test
-for. Penny has caught real concurrency bugs that only showed up because she was
-hammering the API with creative scenarios.
+**Exploratory testing finds things scripted tests miss.** Race conditions, weird
+edge cases, input combinations that only the best QA engineers would think to
+write a test for. Penny has caught real concurrency bugs that only showed up
+because she was hammering the API with creative scenarios.
 
 **Match your test database to production.** I use PostgreSQL in the test
 environment because that's what runs in production. Early on I considered using
@@ -131,11 +132,6 @@ enough that real bugs would have been masked. Glad I didn't cut that corner.
 re-reporting the same known behaviors every 4 hours. The notes field turns her
 findings into a feedback loop — each run gets smarter about what's actually a
 bug vs. what's intentional.
-
-**One finding per hour is the sweet spot.** I tried letting Eddie process
-multiple findings at once but it got messy — overlapping changes, merge
-conflicts, harder to debug when something went wrong. One at a time is slower
-but much more reliable.
 
 **A Mac Mini is plenty.** This whole pipeline — Docker environments, AI agents,
 the dashboard — runs on a Mac Mini sitting on a shelf at home. No cloud server
@@ -151,11 +147,6 @@ It's not perfect — sometimes Eddie's fixes need a human touch, and Penny
 occasionally reports false positives. But the ratio of signal to noise keeps
 improving as the Penny Notes build up.
 
-The best part: I built this whole system in about a week using OpenClaw agents.
-The agents helped build their own infrastructure. Penny tested the dashboard
-that displays her own findings. There's something poetic about that.
-
----
-
-_[OpenClaw](https://github.com/openclaw/openclaw) is open source and free to
-use with your own API keys or Claude Max subscription._
+The best part: I built this whole system in just a few weeks using OpenClaw
+agents. The agents helped build their own infrastructure. Penny tested the
+dashboard that displays her own findings. There's something poetic about that.
