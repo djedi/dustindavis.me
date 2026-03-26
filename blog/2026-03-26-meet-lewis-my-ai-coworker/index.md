@@ -24,7 +24,7 @@ I keep seeing people on X saying OpenClaw is dead. That Claude does everything
 OpenClaw does. I love Claude — I use it every day — but this take misses what
 makes OpenClaw different.
 
-Claude and all its new tools are great. But they haven't made me even thing
+Claude and all its new tools are great. But they haven't made me even think
 about ditching OpenClaw yet. OpenClaw is a coworker who sits next to you all
 day, remembers what you worked on last week, and can actually do things while
 you're away from your desk.
