@@ -1,6 +1,7 @@
 {
   "name": "dustindavis.me",
   "version": "1.0.0",
+  "type": "module",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -16,27 +17,27 @@
   "license": "ISC",
   "packageManager": "pnpm@9.1.4+sha512.9df9cf27c91715646c7d675d1c9c8e41f6fce88246f1318c1aa6a1ed1aeb3c4f032fcdf4ba63cc69c4fe6d634279176b5358727d8f2cc1e65b65f43ce2f8bfb0",
   "dependencies": {
-    "@11ty/eleventy": "^2.0.1",
+    "@11ty/eleventy": "^3.1.6",
     "@11ty/eleventy-cache-assets": "^2.3.0",
-    "@11ty/eleventy-img": "^4.0.2",
-    "@11ty/eleventy-plugin-rss": "^2.0.2",
-    "@11ty/eleventy-plugin-syntaxhighlight": "^5.0.0",
-    "@xmldom/xmldom": "^0.9.3",
-    "axios": "^1.7.7",
-    "fs-extra": "^11.2.0",
-    "glob": "^11.0.0",
+    "@11ty/eleventy-img": "^7.0.0",
+    "@11ty/eleventy-plugin-rss": "^3.0.0",
+    "@11ty/eleventy-plugin-syntaxhighlight": "^5.0.2",
+    "@xmldom/xmldom": "^0.9.11",
+    "axios": "^1.19.0",
+    "fs-extra": "^11.4.0",
+    "glob": "^13.0.6",
     "gray-matter": "^4.0.3",
-    "jsdom": "^25.0.1",
-    "jsonfile": "^6.1.0",
+    "jsdom": "^30.0.1",
+    "jsonfile": "^6.2.1",
     "lazysizes": "^5.3.2",
-    "luxon": "^3.5.0",
-    "markdown-it": "^14.1.0",
+    "luxon": "^3.7.2",
+    "markdown-it": "^15.0.0",
     "potrace": "^2.1.8",
-    "prismjs": "^1.29.0",
-    "psl": "^1.9.0",
-    "sharp": "^0.33.5"
+    "prismjs": "^1.30.0",
+    "psl": "^1.15.0",
+    "sharp": "^0.35.3"
   },
   "devDependencies": {
-    "@biomejs/biome": "1.9.1"
+    "@biomejs/biome": "2.5.9"
   }
 }

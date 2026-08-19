@@ -1,18 +1,23 @@
 ---
+title: Uses — Dustin Davis
+description: The apps, browser extensions, and CLI tools Dustin Davis actually uses.
 fullWidth: true
 ---
 
-<h1>Uses</h1>
+<div class="section" style="padding-top:2.5rem;">
+  <div class="section__label"><span class="prompt">$</span> <span class="cmd">cat</span> ~/.uses</div>
+  <h1 style="margin-bottom:0.4rem;">Uses</h1>
+  <p style="color:var(--ink-soft); max-width:60ch;">The hardware-adjacent stuff — apps, extensions, and command-line tools I keep coming back to. Auto-generated from my actual machine.</p>
 
-<nav class="section-nav">
-  <ul>
-    <li><a href="#applications">Applications</a></li>
-    <li><a href="#extensions">Browser Extensions</a></li>
-    <li><a href="#cli-tools">CLI Tools</a></li>
-  </ul>
-</nav>
+  <nav class="section-nav">
+    <ul>
+      <li><a href="#applications">Applications</a></li>
+      <li><a href="#extensions">Browser Extensions</a></li>
+      <li><a href="#cli-tools">CLI Tools</a></li>
+    </ul>
+  </nav>
 
-<h2><a name="applications">Applications</a></h2>
+  <h2 id="applications"><a name="applications">Applications</a></h2>
 
 <p>
   These are the Applications I have installed as of {{ applications.lastUpdated
@@ -73,7 +78,7 @@ fullWidth: true
 </ul>
 
 
-<h2><a name="cli-tools">CLI tools</a></h2>
+<h2 id="cli-tools"><a name="cli-tools">CLI tools</a></h2>
 
 <p>
   These are the cli tools I have installed via
@@ -89,7 +94,5 @@ fullWidth: true
     </div>
   </li>
   {% endfor %}
-
-    <link rel="stylesheet" href="/static/uses.css" />
-  </li>
 </ul>
+</div>

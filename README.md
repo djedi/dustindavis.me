@@ -11,11 +11,19 @@ for you.
 
 ## Running Locally
 
-Run:
+Install dependencies and check your local tooling once:
 
 ```bash
-pnpm dev
+make setup
 ```
+
+Then start Eleventy with live reload (incremental rebuilds, and your browser opens once the server is ready):
+
+```bash
+make dev
+```
+
+Run `make help` to see build, formatting, content, and data-refresh commands.
 
 ## Uses Updates
 

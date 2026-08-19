@@ -1,291 +1,155 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
   {% set bannerPath = page.inputPath | directoryPath + '/' + banner %}
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+    <!-- No-flash theme: apply saved / preferred theme before paint -->
+    <script>
+      (function () {
+        try {
+          var t = localStorage.getItem('theme');
+          if (!t) t = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+          document.documentElement.setAttribute('data-theme', t);
+        } catch (e) {}
+      })();
+    </script>
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-YTTL61KN8J"></script>
+    <script type="text/javascript">
+      window.dataLayer = window.dataLayer || [];
+      function gtag() { dataLayer.push(arguments); }
+      gtag('js', new Date());
+      gtag('config', 'G-YTTL61KN8J');
+    </script>
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,400..700;1,14..32,400..600&family=JetBrains+Mono:ital,wght@0,400..800;1,400..600&display=swap" rel="stylesheet" />
 
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.27.0/themes/prism-twilight.min.css"
-    />
-    <link rel="stylesheet" href="/static/blog_single.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.3.2/lazysizes.min.js" async></script>
 
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.3.2/lazysizes.min.js"
-      async
-    ></script>
+    <link rel="stylesheet" href="/static/site.css" />
 
-    <script
-      async=""
-      src="https://www.googletagmanager.com/gtag/js?id=G-YTTL61KN8J"
-    ></script>
-    <script type="text/javascript">
-      window.dataLayer = window.dataLayer || []
-      function gtag() {
-        dataLayer.push(arguments)
-      }
-      gtag("js", new Date())
-      gtag("config", "G-YTTL61KN8J")
-    </script>
     <link rel="manifest" href="/manifest.webmanifest" />
-    <title>{{ title }}</title>
+    <title>{{ title }} — Dustin Davis</title>
     <meta name="keywords" content="" />
     <meta name="description" content="{{ description }}" />
 
-    <meta
-      name="image"
-      content="https://dustindavis.me{% metaImage bannerPath %}"
-    />
-    <meta property="og:url" content="https://dustindavis.me{{ page.url}}" />
+    <meta name="image" content="https://dustindavis.me{% metaImage bannerPath %}" />
+    <meta property="og:url" content="https://dustindavis.me{{ page.url }}" />
     <meta property="og:type" content="article" />
-    <meta property="og:title" content="{{ title}}" />
+    <meta property="og:title" content="{{ title }}" />
     <meta property="og:description" content="{{ description }}" />
-    <meta
-      property="og:image"
-      content="https://dustindavis.me{% metaImage bannerPath %}"
-    />
-    <meta property="fb:app_id" content="" />
+    <meta property="og:image" content="https://dustindavis.me{% metaImage bannerPath %}" />
 
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:creator" content="@DustinDavis" />
     <meta name="twitter:title" content="{{ title }}" />
-    <meta name="twitter:description" content="{{ description}}" />
-    <meta
-      name="twitter:image"
-      content="https://dustindavis.me{% metaImage bannerPath %}"
-    />
+    <meta name="twitter:description" content="{{ description }}" />
+    <meta name="twitter:image" content="https://dustindavis.me{% metaImage bannerPath %}" />
 
     <noscript>This site runs best with JavaScript enabled.</noscript>
-    <meta name="theme-color" content="#4147DC" />
-    <link
-      rel="apple-touch-icon"
-      sizes="192x192"
-      href="/favicons/android-chrome-192x192.png"
-    />
-    <link rel="apple-touch-icon" sizes="512x512"
-    href="/favicons/android-chrome-512x512.png"/ >
-    <link
-      rel="alternate"
-      type="application/rss+xml"
-      title="Dustin Davis Blog RSS Feed"
-      href="/blog/rss.xml"
-    />
+    <meta name="theme-color" content="#c2461d" />
+    <link rel="apple-touch-icon" sizes="192x192" href="/favicons/android-chrome-192x192.png" />
+    <link rel="apple-touch-icon" sizes="512x512" href="/favicons/android-chrome-512x512.png" />
+    <link rel="alternate" type="application/rss+xml" title="Dustin Davis Blog RSS Feed" href="/blog/rss.xml" />
     <link rel="sitemap" type="application/xml" href="/sitemap.xml" />
   </head>
   <body>
-    <noscript>This site runs best with JavaScript enabled.</noscript>
-    <div id="">
-      <div style="outline: none" tabindex="-1" id="focus-wrapper">
-        <div class="css-18roemd">
-          <div class="css-1c3h18e">
-            <section class="css-4hsv5r eukkugl0"></section>
+    <div class="page-shell">
+      {% include "header.njk" %}
 
-            <header class="css-q92rab">
-              <div class="css-1xn00s8">
-                <nav class="css-sgter1">
-                  <a
-                    aria-label="go to homepage"
-                    class="css-17709wp none"
-                    href="/blog"
-                    ><img src="/images/dustin-circle.avif" alt="Dustin Davis" />
-                    <span>Dustin Davis</span></a
-                  >
-
-                  <div class="css-1rqjet3">
-                    <div class="mobile-nav">
-                      <button aria-label="open menu" class="css-fiyo81">
-                        <div class="css-1251ch1"></div>
-                      </button>
-                    </div>
-
-                    <a
-                      aria-label="View blog page"
-                      class="ejdwv5k0 css-1iei4j7 active"
-                      href="/blog/"
-                      >Blog</a
-                    >
-                    <a
-                      aria-label="Tools Dustin Davis uses"
-                      class="ejdwv5k0 css-1iei4j7"
-                      href="/uses/"
-                      >Uses</a
-                    >
-                    <a
-                      aria-label="View about page"
-                      class="ejdwv5k0 css-1iei4j7"
-                      href="/about/"
-                      >About</a
-                    >
-                  </div>
-                </nav>
-              </div>
-            </header>
-
-            <article class="css-nl2wjm">
-              <div class="css-nn9o15">
-                <h1 class="blog-title">{{ title }}</h1>
-                {% responsiveImage bannerPath, title, "blog-banner-image" %} {%
-                if bannerCredit %}
-                <div style="text-align: center; margin-top: -2em">
-                  {{ bannerCredit | markdown | safe }}
-                </div>
-                {% endif %} {{ content | safe }}
-              </div>
-            </article>
-            <div class="css-1xn00s8">
-              <a
-                href="https://github.com/djedi/dustindavis.me/commits/master/{{ page.inputPath }}"
-              >
-                <div title="Last Updated Date" class="css-9obt1">
-                  {{ date | date("EEEE, LLLL dd, yyyy") }}
-                </div>
-              </a>
-            </div>
-            <div class="css-1xn00s8">
-              <script
-                defer
-                src="https://commento.davis.im/js/commento.js"
-              ></script>
-              <div id="commento"></div>
-
-              <p class="css-s2uf1z">
-                <a
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  href="https://mobile.x.com/search?q=https%3A%2F%2Fdustindavis.me{{ page.url | urlencode }}"
-                  >Discuss on 𝕏</a
-                >
-
-                <span class="css-j6808u"> • </span>
-                <a
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  href="{{ page.inputPath | githubPath }}"
-                  >Edit post on GitHub</a
-                >
-              </p>
+      <main class="page-main">
+        <article class="post wrap">
+          <header class="post__header">
+            <div class="section__label">
+              <span class="prompt">$</span> <span class="cmd">cat</span> ~/blog/{{ page.fileSlug }}.md
             </div>
 
-            <div class="css-ynubfp">
-              <div
-                style="
-                  display: flex;
-                  gap: 1rem;
-                  flex-wrap: wrap;
-                  margin-bottom: 2rem;
-                "
-              >
-                <a
-                  href="https://envelopebudget.com"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  style="
-                    background: white;
-                    color: #2c70a2;
-                    padding: 0.75rem 1.25rem;
-                    border-radius: 8px;
-                    text-decoration: none;
-                    font-weight: 600;
-                    display: inline-flex;
-                    align-items: center;
-                    gap: 0.5rem;
-                    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
-                    transition: transform 0.2s;
-                  "
-                >
-                  <img src="/images/eb.png" alt="💌" />
-                  Try EnvelopeBudget - Your grandparents' budget for the modern
-                  age
-                </a>
-                <a
-                  href="https://redseam.com"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  style="
-                    background: white;
-                    color: #bf2120;
-                    padding: 0.75rem 1.25rem;
-                    border-radius: 8px;
-                    text-decoration: none;
-                    font-weight: 600;
-                    border: 2px solid #e2e8f0;
-                    display: inline-flex;
-                    align-items: center;
-                    gap: 0.5rem;
-                    transition: all 0.2s;
-                  "
-                >
-                  <img src="/images/rs.png" alt="Red Seam" />
-                  Need a custom website, app, or automation? Let's talk
-                </a>
-              </div>
-              <div class="css-g2rqiu">
-                <div class="css-6wxcxs"></div>
-                <span>Share article</span>
-                <button
-                  aria-label="Share on X/Twitter"
-                  style="
-                    background-color: transparent;
-                    border: none;
-                    padding: 0;
-                    font: inherit;
-                    color: inherit;
-                    cursor: pointer;
-                  "
-                  onclick="window.open('https://x.com/intent/tweet?url=' + encodeURIComponent(window.location.href) + '&text=' + encodeURIComponent(document.title) + ' via @DustinDavis', '_blank')"
-                >
-                  𝕏
-                </button>
-
-                <button
-                  via="DustinDavis"
-                  aria-label="facebook"
-                  class="css-4g6ai3"
-                  style="
-                    background-color: transparent;
-                    border: none;
-                    padding: 0;
-                    font: inherit;
-                    color: inherit;
-                    cursor: pointer;
-                  "
-                  onclick="window.open('https://www.facebook.com/sharer/sharer.php?u=https://dustindavis.me{{ page.url }}', '_blank')"
-                >
-                  Facebook
-                </button>
-              </div>
-              <div style="display: flex; padding-top: 30px">
-                <div style="padding-right: 20px">
-                  <img
-                    src="/images/dustin.avif"
-                    alt="Dustin Davis"
-                    style="max-width: 80px; border-radius: 50%"
-                  />
+            <div class="post__meta">
+              {% if categories %}
+                <div class="post__tags">
+                  {% for category in categories %}
+                    <span class="blog-category tag-static">{{ category }}</span>
+                  {% endfor %}
                 </div>
-                <p>
-                  <strong>Dustin Davis</strong> is a software engineer, people
-                  manager, hacker, and entreprenuer. He loves to develop systems
-                  and automation. He lives with his wife and five kids in Utah.
-                </p>
-              </div>
+              {% endif %}
+              <time datetime="{{ date | date('yyyy-LL-dd') }}">{{ date | date("LLLL dd, yyyy") }}</time>
             </div>
+
+            <h1 class="post__title">{{ title }}</h1>
+            {% if description %}<p class="post__deck">{{ description }}</p>{% endif %}
+          </header>
+
+          <div class="post__body prose">
+            {% responsiveImage bannerPath, title, "blog-banner-image" %}
+            {% if bannerCredit %}
+              <div class="post__credit">{{ bannerCredit | markdown | safe }}</div>
+            {% endif %}
+            {{ content | safe }}
           </div>
 
-          {% include "footer.njk" %}
+          <footer class="post__footer">
+            <p class="post__updated">
+              Last updated
+              <a href="https://github.com/djedi/dustindavis.me/commits/master/{{ page.inputPath }}">
+                {{ date | date("EEEE, LLLL dd, yyyy") }}
+              </a>
+            </p>
+
+            <div class="post__ctas">
+              <a class="promo promo--eb" href="https://envelopebudget.com" target="_blank" rel="noopener noreferrer">
+                <span class="promo__head">
+                  <img src="/images/eb.png" alt="" />
+                  <span class="promo__brand">EnvelopeBudget</span>
+                </span>
+                <span class="promo__title">Simple budgeting that works</span>
+                <span class="promo__desc">Digital envelopes for the modern age. Set it aside, spend it, and stop wondering where it went.</span>
+                <span class="promo__cta">Try it free</span>
+              </a>
+              <a class="promo promo--rs" href="https://redseam.com" target="_blank" rel="noopener noreferrer">
+                <span class="promo__head">
+                  <img src="/images/rs.png" alt="" />
+                  <span class="promo__brand">Red Seam</span>
+                </span>
+                <span class="promo__title">Need a website, app, or automation?</span>
+                <span class="promo__desc">Custom software and workflows built around how you actually work.</span>
+                <span class="promo__cta">Let's talk</span>
+              </a>
+            </div>
+
+            <div class="post__share">
+              <span>Share article</span>
+              <a href="https://x.com/intent/tweet?url={{ 'https://dustindavis.me' + page.url | urlencode }}&text={{ title | urlencode }} via @DustinDavis" target="_blank" rel="noopener" aria-label="Share on X/Twitter">𝕏</a>
+              <a href="https://www.facebook.com/sharer/sharer.php?u=https://dustindavis.me{{ page.url }}" target="_blank" rel="noopener" aria-label="Share on Facebook">Facebook</a>
+            </div>
+
+            <div class="post__author">
+              <img src="/images/dustin.avif" alt="Dustin Davis" />
+              <div>
+                <strong>Dustin Davis</strong> is a software engineer who loves to build. He lives in a small rural Utah town, is taking up gardening as a hobby, and is determined to grow his own food.
+              </div>
+            </div>
+          </footer>
+        </article>
+
+        <div class="post__discuss wrap">
+          <script defer src="https://commento.davis.im/js/commento.js"></script>
+          <div id="commento"></div>
+
+          <p class="post__discuss-links">
+            <a target="_blank" rel="noopener noreferrer" href="https://mobile.x.com/search?q=https%3A%2F%2Fdustindavis.me{{ page.url | urlencode }}">Discuss on 𝕏</a>
+            <span class="post__discuss-sep">•</span>
+            <a target="_blank" rel="noopener noreferrer" href="{{ page.inputPath | githubPath }}">Edit post on GitHub</a>
+          </p>
         </div>
-      </div>
+      </main>
+
+      {% include "footer.njk" %}
     </div>
+    <script src="/static/site.js" defer></script>
   </body>
 </html>

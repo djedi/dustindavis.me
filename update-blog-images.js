@@ -19,7 +19,7 @@ function processFile(filePath) {
   // Replace markdown image syntax with the responsiveImage shortcode
   const updatedContent = content.replace(
     markdownImageRegex,
-    (match, altTextParam, imagePath, titleTextParam, _, captionParam) => {
+    (_match, altTextParam, imagePath, titleTextParam, _, captionParam) => {
       // Set defaults if altText, titleText, or caption are missing
       const altText = altTextParam || '';
       const titleText = titleTextParam || '';

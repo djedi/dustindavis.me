@@ -1,0 +1,21 @@
+<header class="site-header">
+  <div class="site-header__inner">
+    <a class="brand" aria-label="go to homepage" href="/">
+      <img src="/images/dustin-circle.avif" alt="Dustin Davis" />
+      <span class="brand__name"><span class="prompt">~/</span>dustin-davis</span>
+    </a>
+
+    <button class="nav-toggle" aria-label="open menu" aria-expanded="false" aria-controls="primary-nav">≡</button>
+
+    <div class="site-header__actions" style="display:flex; align-items:center; gap:0.5rem;">
+      <nav class="nav-links" id="primary-nav" aria-label="Primary">
+        {% for item in nav %}
+          <a aria-label="{{ item.ariaLabel }}" href="{{ item.url }}"
+             class="{% if page.url == item.url %}active{% endif %}"
+             {% if page.url == item.url %}aria-current="page"{% endif %}>{{ item.label }}</a>
+        {% endfor %}
+      </nav>
+      <button class="theme-toggle" type="button" aria-label="Toggle color theme">☾</button>
+    </div>
+  </div>
+</header>

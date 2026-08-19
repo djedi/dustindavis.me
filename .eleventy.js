@@ -1,15 +1,18 @@
-const crypto = require('node:crypto');
-const fs = require('fs-extra');
-const path = require('node:path');
-const { DateTime } = require('luxon');
-const eleventyImage = require('@11ty/eleventy-img');
-const potrace = require('potrace');
-const syntaxHighlight = require('@11ty/eleventy-plugin-syntaxhighlight');
-const markdownIt = require('markdown-it');
-const sharp = require('sharp');
+import crypto from 'node:crypto';
+import path from 'node:path';
+import Image from '@11ty/eleventy-img';
+import syntaxHighlight from '@11ty/eleventy-plugin-syntaxhighlight';
+import fs from 'fs-extra';
+import { DateTime } from 'luxon';
+import MarkdownIt from 'markdown-it';
+import potrace from 'potrace';
+import sharp from 'sharp';
 
-module.exports = eleventyConfig => {
+export default function (eleventyConfig) {
   eleventyConfig.addPlugin(syntaxHighlight);
+
+  // Design sources (e.g. meta/og-default.html) are rendered to images, not pages
+  eleventyConfig.ignores.add('meta/og-default.html');
 
   eleventyConfig.addPassthroughCopy('images');
   eleventyConfig.addPassthroughCopy('manifest.webmanifest');
@@ -17,18 +20,19 @@ module.exports = eleventyConfig => {
   eleventyConfig.addPassthroughCopy('app-icons');
   eleventyConfig.addPassthroughCopy('favicon.ico');
   eleventyConfig.addPassthroughCopy('icon-192x192.png');
-  // eleventyConfig.addPassthroughCopy('**/*.gif');
 
   eleventyConfig.addFilter('dateToRfc822', dateObj => {
     return DateTime.fromJSDate(dateObj).toRFC2822();
   });
+
+  eleventyConfig.addShortcode('year', () => `${new Date().getFullYear()}`);
 
   // Configure the Markdown-it library
   const markdownItOptions = {
     html: true,
   };
 
-  const markdownLib = markdownIt(markdownItOptions);
+  const markdownLib = MarkdownIt(markdownItOptions);
 
   eleventyConfig.addGlobalData('eleventyComputed', {
     permalink: data => {
@@ -86,10 +90,6 @@ module.exports = eleventyConfig => {
     const posts = collectionApi.getFilteredByGlob('blog/**/*.md').reverse();
     console.log('Number of blog posts:', posts.length);
     return posts;
-  });
-
-  eleventyConfig.addFilter('dateToRfc822', dateObj => {
-    return DateTime.fromJSDate(dateObj).toRFC2822();
   });
 
   eleventyConfig.addFilter('dateFilter', date => DateTime.fromJSDate(date).toFormat('dd LLLL yyyy'));
@@ -152,11 +152,11 @@ module.exports = eleventyConfig => {
 
       const outputFolder = './_site/img/';
 
-      const stats = await eleventyImage(imagePath, {
+      const stats = await Image(imagePath, {
         widths: [width],
         formats: ['webp', 'jpeg'],
         outputDir: outputFolder,
-        filenameFormat: (id, src, width, format) => {
+        filenameFormat: (_id, src, width, format) => {
           const extension = path.extname(src);
           const name = path.basename(src, extension);
           const filename = `${name}-${width}w.${format}-${srcHash}.${format}`;
@@ -200,7 +200,7 @@ module.exports = eleventyConfig => {
     const cachedSvgPath = path.join(cacheDir, `${hash}.svg`);
 
     if (fs.existsSync(cachedSvgPath)) {
-      return fs.promises.readFile(cachedSvgPath, 'utf-8').then(svg => Buffer.from(svg).toString('base64'));
+      return Buffer.from(await fs.promises.readFile(cachedSvgPath, 'utf-8')).toString('base64');
     }
 
     return new Promise((resolve, reject) => {
@@ -213,4 +213,4 @@ module.exports = eleventyConfig => {
       });
     });
   }
-};
+}

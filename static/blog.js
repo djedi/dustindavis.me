@@ -21,9 +21,13 @@ function copyUrl(url, event) {
   );
 }
 
+// Expose for the inline onclick="copyUrl(...)" handlers in blog.njk
+window.copyUrl = copyUrl;
+
 let visiblePosts = 12;
 const postsPerPage = 12;
-const totalPosts = Number.parseInt(document.getElementById('post-count').text);
+const postCountEl = document.getElementById('post-count');
+const totalPosts = Number.parseInt(postCountEl.textContent, 10);
 let searchTerm = '';
 
 window.addEventListener('scroll', () => {
@@ -53,12 +57,8 @@ function loadMorePosts() {
 
 function postMatchesSearch(post) {
   const title = post.querySelector('h2').textContent.toLowerCase();
-  const description = post.querySelector('.css-b983i2').textContent.toLowerCase();
+  const description = post.querySelector('.blog-post-box__desc').textContent.toLowerCase();
   const categories = Array.from(post.querySelectorAll('.blog-category')).map(cat => cat.textContent.toLowerCase());
-  console.log('post', post);
-  console.log('title', title);
-  console.log('description', description);
-  console.log('categories', categories);
 
   return (
     searchTerm === '' ||
@@ -72,6 +72,7 @@ const searchInput = document.getElementById('search-input');
 const blogPosts = document.querySelectorAll('.blog-post-box');
 const categoryButtons = document.querySelectorAll('.blog-category');
 const activeCategories = new Set();
+const grepTerm = document.getElementById('grep-term');
 
 function debounce(func, wait) {
   let timeout;
@@ -79,6 +80,10 @@ function debounce(func, wait) {
     clearTimeout(timeout);
     timeout = setTimeout(() => func.apply(this, args), wait);
   };
+}
+
+function updateGrepTerm() {
+  if (grepTerm) grepTerm.textContent = searchTerm === '' ? '*' : searchTerm;
 }
 
 const debouncedSearch = debounce(() => {
@@ -103,16 +108,16 @@ const debouncedSearch = debounce(() => {
     }
   }
   updatePostCount();
+  updateGrepTerm();
 }, 300);
 
 function updatePostCount() {
-  const postCount = document.getElementById('post-count');
-  // if there is an active search tearm, use the search results count
+  // if there is an active search term, use the search results count
   if (searchTerm !== '') {
-    postCount.textContent = visiblePosts;
+    postCountEl.textContent = visiblePosts;
   } else {
     // otherwise, use the total number of posts
-    postCount.textContent = document.getElementById('post-count').dataset.total;
+    postCountEl.textContent = postCountEl.dataset.total;
   }
 }
 
@@ -149,14 +154,12 @@ for (const button of categoryButtons) {
 
 function removeSearchInput(category) {
   let currentSearch = searchInput.value;
-  console.log('current search', currentSearch);
   currentSearch = currentSearch.replace(new RegExp(category, 'gi'), '').trim();
   searchInput.value = currentSearch;
 }
 
 function addSearchInput(category) {
   let currentSearch = searchInput.value;
-  console.log('current search', currentSearch);
   currentSearch = `${currentSearch} ${category}`.trim();
   searchInput.value = currentSearch;
 }
@@ -169,12 +172,10 @@ function handleSearchInput() {
 }
 
 function updateDuckDuckGoSearchUrl() {
-  console.log('updateDuckDuckGoSearchUrl');
   const ddgAnchor = document.getElementById('duckduckgo-url');
   const baseSearchTerm = 'site:dustindavis.me ';
-  const searchTerm = searchInput.value || 'automation';
-  const ddgSearchTerm = baseSearchTerm + searchTerm;
-  ddgAnchor.href = `https://duckduckgo.com/?q=${encodeURIComponent(ddgSearchTerm)}`;
+  const term = searchInput.value || 'automation';
+  ddgAnchor.href = `https://duckduckgo.com/?q=${encodeURIComponent(baseSearchTerm + term)}`;
 }
 
 function highlightCategoryButtons() {

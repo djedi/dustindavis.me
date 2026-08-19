@@ -1,74 +1,63 @@
 ---
+title: Blog — Dustin Davis
+description: Articles on automation, software engineering, Django, and building things.
 fullWidth: true
 ---
 
-<link rel="stylesheet" href="/static/blog.css" />
-
 {% set allPosts = collections.blog %}
-<div class="css-6p53e5">
-  <div>
-    <div class="blog-search-box">
-      <div class="css-79elbk">
-        <input
-          type="search"
-          id="search-input"
-          placeholder="Search Blogposts"
-          aria-label="Search Blogposts"
-          value=""
-          autofocus=""
-          class="css-jqpu2z"
-        />
-        <div
-          class="post-count"
-          id="post-count"
-          data-total="{{ allPosts | length }}"
-        >
-          {{ allPosts | length }}
-        </div>
-      </div>
-      <div>
-        {% for category in collections.categories %}
-        <button class="blog-category e1t3x3wl0">{{ category }}</button>
-        {% endfor %}
-      </div>
-      <small class="ddg-search"
-        >If you can't find what you're looking for with this, try
-        <a
-          href="https://duckduckgo.com/?q=site%3Adustindavis.me+automation"
-          id="duckduckgo-url"
-          target="_blank"
-          >using Duck Duck Go</a
-        >.</small
-      >
+
+<section class="section" style="padding-top:2.5rem;">
+  <div class="section__label">
+    <span class="prompt">$</span> <span class="cmd">grep</span> -ri "<span id="grep-term">*</span>" ~/blog
+    <span style="margin-left:auto; font-family:var(--mono); color:var(--ink-faint);">
+      <span id="post-count" data-total="{{ allPosts | length }}">{{ allPosts | length }}</span> posts
+    </span>
+  </div>
+
+  <div class="blog-search">
+    <div class="blog-search__field">
+      <span class="blog-search__prompt">/</span>
+      <input type="search" id="search-input" placeholder="search posts…" aria-label="Search blog posts" autofocus />
     </div>
 
-    <div class="css-18ruq88" id="blog-posts-container">
-      {% for post in allPosts %} {% set imagePath = post.inputPath |
-      directoryPath %}
-      <div class="blog-post-box" {% if loop.index>
-        12 %}style="display: none;"{% endif %}>
-        <a class="blog-post-url" href="{{ post.url }}">
-          <h2 class="css-8kn4zf">{{ post.data.title }}</h2>
-          <div class="copy-url-container">
-            <button
-              class="copy-url-button"
-              onclick="copyUrl('{{ site.url }}{{ post.url }}', event)"
-            >
-              Copy URL
-            </button>
-          </div>
-          {% if post.data.banner %} {% responsiveImage imagePath + '/' +
-          post.data.banner, post.data.title, "blog-image", 260 %} {% endif %}
-
-          <div class="css-b983i2">{{ post.data.description }}</div>
-          {% for category in post.data.categories %}
-          <div class="blog-category">{{ category }}</div>
-          {% endfor %}
-        </a>
-      </div>
+    <div class="blog-tags">
+      {% for category in collections.categories %}
+        <button class="blog-category" type="button">{{ category }}</button>
       {% endfor %}
     </div>
+
+    <small class="ddg-search">
+      Can't find it? Try
+      <a href="https://duckduckgo.com/?q=site%3Adustindavis.me+automation" id="duckduckgo-url" target="_blank" rel="noopener">DuckDuckGo</a>.
+    </small>
   </div>
-</div>
+
+  <div class="blog-grid" id="blog-posts-container">
+    {% for post in allPosts %}
+      {% set imagePath = post.inputPath | directoryPath %}
+      <article class="blog-post-box"{% if loop.index > 12 %} style="display: none;"{% endif %}>
+        <a class="blog-post-url" href="{{ post.url }}">
+          {% if post.data.banner %}
+            <div class="blog-post-box__media">
+              {% responsiveImage imagePath + '/' + post.data.banner, post.data.title, "blog-image", 480 %}
+            </div>
+          {% endif %}
+          <div class="blog-post-box__body">
+            <h2 class="blog-post-box__title">{{ post.data.title }}</h2>
+            <div class="css-b983i2 blog-post-box__desc">{{ post.data.description }}</div>
+            <div class="blog-post-box__tags">
+              {% for category in post.data.categories %}
+                <span class="blog-category tag-static">{{ category }}</span>
+              {% endfor %}
+            </div>
+          </div>
+        </a>
+        <div class="copy-url-container">
+          <button class="copy-url-button" type="button" onclick="copyUrl('{{ post.url }}', event)">Copy URL</button>
+        </div>
+      </article>
+    {% endfor %}
+  </div>
+</section>
 
 <script type="text/javascript" src="/static/blog.js"></script>

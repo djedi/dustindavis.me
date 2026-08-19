@@ -1,9 +1,9 @@
 #!/usr/bin/env node
 
-const fs = require('node:fs');
-const path = require('node:path');
-const axios = require('axios');
-const { JSDOM } = require('jsdom');
+import fs from 'node:fs';
+import path from 'node:path';
+import axios from 'axios';
+import { JSDOM } from 'jsdom';
 
 const IGNORE_EXTENSIONS = ['Adblock for Youtube™', 'Foxified', 'The Pirate Bay torrent Search'];
 
@@ -73,68 +73,41 @@ function mergeExtensions(existingExtensions, newExtensions) {
 
 // Main function to read, parse, merge, and write the JSON file
 async function generateExtensionsJson(filePath) {
-  const outputFilePath = path.join(__dirname, '_data', 'extensions.json');
+  const outputFilePath = path.join(import.meta.dirname, '_data', 'extensions.json');
 
   // Read the new data from the provided file
-  fs.readFile(filePath, 'utf-8', async (err, data) => {
-    if (err) {
-      console.error(`Error reading file: ${err}`);
-      return;
-    }
+  const data = await fs.promises.readFile(filePath, 'utf-8');
 
-    // Await parseExtensions to ensure all icons are fetched before continuing
-    const newExtensions = await parseExtensions(data);
+  // Await parseExtensions to ensure all icons are fetched before continuing
+  const newExtensions = await parseExtensions(data);
 
-    // Check if extensions.json already exists
-    if (fs.existsSync(outputFilePath)) {
-      fs.readFile(outputFilePath, 'utf-8', (err, existingData) => {
-        if (err) {
-          console.error(`Error reading existing JSON file: ${err}`);
-          return;
-        }
+  // Check if extensions.json already exists
+  let result;
+  if (fs.existsSync(outputFilePath)) {
+    const existingData = await fs.promises.readFile(outputFilePath, 'utf-8');
+    const existingJson = JSON.parse(existingData);
+    const existingExtensions = existingJson.extensions || [];
 
-        // Parse the existing extensions
-        const existingJson = JSON.parse(existingData);
-        const existingExtensions = existingJson.extensions || [];
+    // Merge the new extensions with the existing ones
+    const mergedExtensions = mergeExtensions(existingExtensions, newExtensions);
 
-        // Merge the new extensions with the existing ones
-        const mergedExtensions = mergeExtensions(existingExtensions, newExtensions);
+    result = {
+      lastUpdated: new Date().toISOString().split('T')[0], // Get current date
+      extensions: mergedExtensions,
+    };
+  } else {
+    // If the file doesn't exist, create it with the new extensions
+    result = {
+      lastUpdated: new Date().toISOString().split('T')[0], // Get current date
+      extensions: newExtensions,
+    };
 
-        // Update the lastUpdated field
-        const result = {
-          lastUpdated: new Date().toISOString().split('T')[0], // Get current date
-          extensions: mergedExtensions,
-        };
+    // Create the output directory if it doesn't exist
+    fs.mkdirSync(path.dirname(outputFilePath), { recursive: true });
+  }
 
-        // Write the updated data back to the file
-        fs.writeFile(outputFilePath, JSON.stringify(result, null, 2), err => {
-          if (err) {
-            console.error(`Error writing JSON file: ${err}`);
-          } else {
-            console.log(`Extensions data successfully updated at ${outputFilePath}`);
-          }
-        });
-      });
-    } else {
-      // If the file doesn't exist, create it with the new extensions
-      const result = {
-        lastUpdated: new Date().toISOString().split('T')[0], // Get current date
-        extensions: newExtensions,
-      };
-
-      // Create the output directory if it doesn't exist
-      fs.mkdirSync(path.dirname(outputFilePath), { recursive: true });
-
-      // Write the new data to the file
-      fs.writeFile(outputFilePath, JSON.stringify(result, null, 2), err => {
-        if (err) {
-          console.error(`Error writing JSON file: ${err}`);
-        } else {
-          console.log(`Extensions data successfully written to ${outputFilePath}`);
-        }
-      });
-    }
-  });
+  await fs.promises.writeFile(outputFilePath, JSON.stringify(result, null, 2));
+  console.log(`Extensions data successfully written to ${outputFilePath}`);
 }
 
 // Check if the file is provided as an argument

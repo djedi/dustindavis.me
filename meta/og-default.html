@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>OG Image — dustindavis.me</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=JetBrains+Mono:wght@400;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      html,
+      body {
+        width: 1200px;
+        height: 630px;
+      }
+      body {
+        background: #f4efe6;
+        background-image: linear-gradient(#e4dac6 1px, transparent 1px),
+          linear-gradient(90deg, #e4dac6 1px, transparent 1px);
+        background-size: 28px 28px;
+        font-family: 'Inter', system-ui, sans-serif;
+        color: #23201b;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 52px 72px 48px;
+        position: relative;
+        overflow: hidden;
+      }
+      body::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        width: 14px;
+        background: linear-gradient(180deg, #c2461d, #e2703f);
+      }
+      .top {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        font-family: 'JetBrains Mono', monospace;
+        font-size: 26px;
+        color: #55503f;
+      }
+      .brand {
+        display: flex;
+        align-items: center;
+        gap: 18px;
+      }
+      .brand img {
+        width: 58px;
+        height: 58px;
+        border-radius: 50%;
+        border: 3px solid #c9bda2;
+        object-fit: cover;
+      }
+      .brand .prompt {
+        color: #c2461d;
+      }
+      .tag {
+        font-size: 22px;
+        color: #8a8271;
+      }
+      .tag b {
+        color: #1c6b52;
+        font-weight: 600;
+      }
+      .center {
+        align-self: flex-start;
+        margin-top: -10px;
+      }
+      .name {
+        font-family: 'JetBrains Mono', monospace;
+        font-weight: 800;
+        font-size: 92px;
+        letter-spacing: -0.02em;
+        line-height: 1;
+        color: #23201b;
+      }
+      .slogan {
+        font-size: 34px;
+        font-weight: 600;
+        color: #55503f;
+        margin-top: 26px;
+        max-width: 920px;
+        line-height: 1.25;
+      }
+      .slogan em {
+        font-style: normal;
+        color: #c2461d;
+      }
+      .bottom {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        font-family: 'JetBrains Mono', monospace;
+        font-size: 26px;
+        color: #55503f;
+      }
+      .url {
+        color: #1c6b52;
+        font-weight: 700;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="top">
+      <div class="brand">
+        <img src="/images/dustin-circle.avif" alt="" />
+        <span><span class="prompt">~/</span>dustin-davis</span>
+      </div>
+      <div class="tag">$ whoami → <b>software engineer · utah</b></div>
+    </div>
+
+    <div class="center">
+      <div class="name">Dustin Davis</div>
+      <div class="slogan">I make systems do <em>the boring parts</em> for me.</div>
+    </div>
+
+    <div class="bottom">
+      <div>build · automate · repeat</div>
+      <div class="url">dustindavis.me</div>
+    </div>
+  </body>
+</html>
