@@ -14,6 +14,9 @@ export default function (eleventyConfig) {
   // Design sources (e.g. meta/og-default.html) are rendered to images, not pages
   eleventyConfig.ignores.add('meta/og-default.html');
 
+  // Standalone static HTML (e.g. the Asteroids demo) is copied verbatim, not templated
+  eleventyConfig.ignores.add('static/asteroids.html');
+
   eleventyConfig.addPassthroughCopy('images');
   eleventyConfig.addPassthroughCopy('manifest.webmanifest');
   eleventyConfig.addPassthroughCopy('static');
