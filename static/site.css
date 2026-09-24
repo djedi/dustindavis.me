@@ -611,6 +611,24 @@ blockquote {
   content: " →";
 }
 
+/* cards with a banner thumbnail */
+.post-card:has(.post-card__media) {
+  display: grid;
+  grid-template-columns: 220px 1fr;
+  gap: 1.2rem;
+  align-items: center;
+}
+.post-card__media.blog-post-box__media {
+  border: 1px solid var(--rule);
+  border-radius: calc(var(--radius) / 2);
+}
+@media (max-width: 640px) {
+  .post-card:has(.post-card__media) {
+    grid-template-columns: 1fr;
+    gap: 0.8rem;
+  }
+}
+
 /* divider between stacked cards */
 .post-list .post-card + .post-card {
   border-top: 1px dashed var(--rule);

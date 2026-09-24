@@ -67,11 +67,20 @@ fullWidth: true
       aria-label="View {{ post.data.title }}"
       href="{{ post.url }}"
     >
-      <h3 class="post-card__title">{{ post.data.title }}</h3>
-      {% if post.data.description %}
-      <p class="post-card__desc">{{ post.data.description }}</p>
+      {% if post.data.banner %} {% set imagePath = post.inputPath |
+      directoryPath %}
+      <div class="post-card__media blog-post-box__media">
+        {% responsiveImage imagePath + '/' + post.data.banner, post.data.title,
+        "blog-image", 480 %}
+      </div>
       {% endif %}
-      <span class="post-card__more">read →</span>
+      <div class="post-card__body">
+        <h3 class="post-card__title">{{ post.data.title }}</h3>
+        {% if post.data.description %}
+        <p class="post-card__desc">{{ post.data.description }}</p>
+        {% endif %}
+        <span class="post-card__more">read →</span>
+      </div>
     </a>
     {% endfor %}
   </div>
