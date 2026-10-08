@@ -10,7 +10,7 @@
       (function () {
         try {
           var t = localStorage.getItem('theme');
-          if (!t) t = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+          if (t !== 'light' && t !== 'dark') t = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
           document.documentElement.setAttribute('data-theme', t);
         } catch (e) {}
       })();
@@ -50,7 +50,7 @@
     <script type="application/ld+json">
       [{ "@context": "http://schema.org", "@type": "WebSite", "url": "https://dustindavis.me", "name": "Dustin Davis", "alternateName": "About Dustin Davis" }]
     </script>
-    <meta name="theme-color" content="#c2461d" />
+    <meta name="theme-color" content="#050806" />
     <link rel="apple-touch-icon" sizes="192x192" href="/favicons/android-chrome-192x192.png" />
     <link rel="apple-touch-icon" sizes="512x512" href="/favicons/android-chrome-512x512.png" />
     <link rel="alternate" type="application/rss+xml" title="Dustin Davis Blog RSS Feed" href="/blog/rss.xml" />
