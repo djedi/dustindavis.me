@@ -1,0 +1,107 @@
+/* ==========================================================================
+   Opening Week — layered on top of the Matrix theme (static/site.css).
+   Ballpark green + stitch red over infield chalk (light) and night-game
+   navy (dark), with baseballs for the digital rain. Loaded only when
+   data-holiday="baseball" (see _data/themes.js).
+   ========================================================================== */
+
+html[data-holiday="baseball"] {
+  --bg: #f6f7f2;
+  --bg-panel: #ffffff;
+  --bg-inset: #e9ecdf;
+  --ink: #14201a;
+  --ink-soft: #3d4a42;
+  --ink-faint: #5c6a61;
+  --rule: #dde2d3;
+  --rule-strong: #bcc6ad;
+
+  --accent: #15683a;
+  --accent-ink: #14532d;
+  --accent-2: #b91c1c;
+  --accent-wash: rgba(21, 104, 58, 0.08);
+  --on-accent: #ffffff;
+  --glow: rgba(21, 104, 58, 0.16);
+  --warm: #92400e;
+
+  --scan: rgba(20, 60, 30, 0.03);
+  --rain: #15803d;
+  --rain-fade: rgba(246, 247, 242, 0.1);
+  --rain-opacity: 0.18;
+  --rain-chars: "⚾🧢🏟🌭🥜⚾";
+  --portrait-tint: linear-gradient(180deg, rgba(21, 128, 61, 0.18), rgba(246, 247, 242, 0.3));
+  --portrait-blend: multiply;
+
+  --shadow: 0 1px 0 var(--rule-strong), 0 10px 30px -18px rgba(20, 32, 26, 0.3);
+}
+
+html[data-holiday="baseball"][data-theme="dark"] {
+  --bg: #070b16;
+  --bg-panel: #0c1220;
+  --bg-inset: #121a2c;
+  --ink: #eef2f8;
+  --ink-soft: #bec8d8;
+  --ink-faint: #8592a8;
+  --rule: #1b2540;
+  --rule-strong: #2a3a5e;
+
+  --accent: #4ade80;
+  --accent-ink: #86efac;
+  --accent-2: #f87171;
+  --accent-wash: rgba(74, 222, 128, 0.1);
+  --on-accent: #04140a;
+  --glow: rgba(74, 222, 128, 0.3);
+  --warm: #fbbf24;
+
+  --scan: rgba(0, 0, 0, 0.18);
+  --rain: #f8fafc;
+  --rain-fade: rgba(0, 0, 0, 0.08);
+  --rain-opacity: 0.22;
+  --portrait-tint: linear-gradient(180deg, rgba(74, 222, 128, 0.14), rgba(0, 0, 0, 0.5));
+  --portrait-blend: screen;
+
+  --shadow: 0 1px 0 rgba(0, 0, 0, 0.4), 0 14px 34px -20px rgba(0, 0, 0, 0.8);
+}
+
+/* ---- Decorations ---------------------------------------------------------- */
+
+html[data-holiday="baseball"] .brand__name::after {
+  content: " ⚾";
+}
+
+/* a ⚾ drifting down from the header */
+html[data-holiday="baseball"] .site-header::after {
+  content: "⚾";
+  position: absolute;
+  top: 100%;
+  right: 12%;
+  font-size: 1.1rem;
+  line-height: 1;
+  opacity: 0;
+  animation: baseball-drift 9s ease-in-out infinite;
+  pointer-events: none;
+}
+@keyframes baseball-drift {
+  0% {
+    opacity: 0;
+    transform: translate(0, -10px) rotate(0deg);
+  }
+  10% {
+    opacity: 0.9;
+  }
+  50% {
+    transform: translate(-30px, 90px) rotate(90deg);
+  }
+  90% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 0;
+    transform: translate(10px, 180px) rotate(180deg);
+  }
+}
+
+@media (max-width: 640px) {
+  html[data-holiday="baseball"] .site-header::after {
+    display: none;
+  }
+}

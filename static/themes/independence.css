@@ -1,0 +1,107 @@
+/* ==========================================================================
+   Independence Day — layered on top of the Matrix theme (static/site.css).
+   Old Glory red + navy over parchment white (light) and night sky (dark),
+   with stars and fireworks for the digital rain. Loaded only when
+   data-holiday="independence" (see _data/themes.js).
+   ========================================================================== */
+
+html[data-holiday="independence"] {
+  --bg: #f7f8fb;
+  --bg-panel: #ffffff;
+  --bg-inset: #e7ebf3;
+  --ink: #0f1a33;
+  --ink-soft: #36405a;
+  --ink-faint: #596379;
+  --rule: #d9dfeb;
+  --rule-strong: #b4bfd6;
+
+  --accent: #1d4ed8;
+  --accent-ink: #1e3a8a;
+  --accent-2: #b91c1c;
+  --accent-wash: rgba(29, 78, 216, 0.08);
+  --on-accent: #ffffff;
+  --glow: rgba(29, 78, 216, 0.16);
+  --warm: #b91c1c;
+
+  --scan: rgba(20, 30, 80, 0.03);
+  --rain: #b91c1c;
+  --rain-fade: rgba(247, 248, 251, 0.1);
+  --rain-opacity: 0.18;
+  --rain-chars: "★☆✦🎆🎇🇺🇸";
+  --portrait-tint: linear-gradient(180deg, rgba(29, 78, 216, 0.16), rgba(247, 248, 251, 0.3));
+  --portrait-blend: multiply;
+
+  --shadow: 0 1px 0 var(--rule-strong), 0 10px 30px -18px rgba(15, 26, 51, 0.3);
+}
+
+html[data-holiday="independence"][data-theme="dark"] {
+  --bg: #050915;
+  --bg-panel: #0a1022;
+  --bg-inset: #101931;
+  --ink: #f1f4fb;
+  --ink-soft: #c2cbe0;
+  --ink-faint: #8893ad;
+  --rule: #1a2542;
+  --rule-strong: #293a66;
+
+  --accent: #f87171;
+  --accent-ink: #fca5a5;
+  --accent-2: #93c5fd;
+  --accent-wash: rgba(248, 113, 113, 0.1);
+  --on-accent: #1a0505;
+  --glow: rgba(248, 113, 113, 0.3);
+  --warm: #93c5fd;
+
+  --scan: rgba(0, 0, 0, 0.18);
+  --rain: #93c5fd;
+  --rain-fade: rgba(0, 0, 0, 0.08);
+  --rain-opacity: 0.22;
+  --portrait-tint: linear-gradient(180deg, rgba(147, 197, 253, 0.16), rgba(0, 0, 0, 0.5));
+  --portrait-blend: screen;
+
+  --shadow: 0 1px 0 rgba(0, 0, 0, 0.4), 0 14px 34px -20px rgba(0, 0, 0, 0.8);
+}
+
+/* ---- Decorations ---------------------------------------------------------- */
+
+html[data-holiday="independence"] .brand__name::after {
+  content: " 🎆";
+}
+
+/* a ✨ drifting down from the header */
+html[data-holiday="independence"] .site-header::after {
+  content: "✨";
+  position: absolute;
+  top: 100%;
+  right: 12%;
+  font-size: 1.1rem;
+  line-height: 1;
+  opacity: 0;
+  animation: independence-drift 9s ease-in-out infinite;
+  pointer-events: none;
+}
+@keyframes independence-drift {
+  0% {
+    opacity: 0;
+    transform: translate(0, -10px) rotate(0deg);
+  }
+  10% {
+    opacity: 0.9;
+  }
+  50% {
+    transform: translate(-30px, 90px) rotate(90deg);
+  }
+  90% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 0;
+    transform: translate(10px, 180px) rotate(180deg);
+  }
+}
+
+@media (max-width: 640px) {
+  html[data-holiday="independence"] .site-header::after {
+    display: none;
+  }
+}

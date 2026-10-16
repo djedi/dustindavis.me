@@ -24,6 +24,9 @@ export default function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy('extension-icons');
   eleventyConfig.addPassthroughCopy('favicon.ico');
   eleventyConfig.addPassthroughCopy('icon-192x192.png');
+  eleventyConfig.addPassthroughCopy('icon-512x512.png');
+  eleventyConfig.addPassthroughCopy('apple-touch-icon.png');
+  eleventyConfig.addPassthroughCopy('favicon-32x32.png');
 
   eleventyConfig.addFilter('dateToRfc822', dateObj => {
     return DateTime.fromJSDate(dateObj).toRFC2822();

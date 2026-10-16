@@ -1,0 +1,107 @@
+/* ==========================================================================
+   Valentine's Day — layered on top of the Matrix theme (static/site.css).
+   Rose + crimson over blush (light) and deep wine (dark),
+   with hearts for the digital rain. Loaded only when
+   data-holiday="valentines" (see _data/themes.js).
+   ========================================================================== */
+
+html[data-holiday="valentines"] {
+  --bg: #fdf4f6;
+  --bg-panel: #fffafb;
+  --bg-inset: #f8e3e9;
+  --ink: #2d0f18;
+  --ink-soft: #5e2f3c;
+  --ink-faint: #7d5562;
+  --rule: #f1d5dd;
+  --rule-strong: #e3b2c0;
+
+  --accent: #be123c;
+  --accent-ink: #9f1239;
+  --accent-2: #a21caf;
+  --accent-wash: rgba(190, 18, 60, 0.08);
+  --on-accent: #ffffff;
+  --glow: rgba(190, 18, 60, 0.16);
+  --warm: #b45309;
+
+  --scan: rgba(120, 20, 50, 0.03);
+  --rain: #e11d48;
+  --rain-fade: rgba(253, 244, 246, 0.1);
+  --rain-opacity: 0.18;
+  --rain-chars: "♥❤💕💘💌🌹";
+  --portrait-tint: linear-gradient(180deg, rgba(225, 29, 72, 0.18), rgba(253, 244, 246, 0.3));
+  --portrait-blend: multiply;
+
+  --shadow: 0 1px 0 var(--rule-strong), 0 10px 30px -18px rgba(45, 15, 24, 0.3);
+}
+
+html[data-holiday="valentines"][data-theme="dark"] {
+  --bg: #14060b;
+  --bg-panel: #1c0a11;
+  --bg-inset: #270f19;
+  --ink: #fbeef2;
+  --ink-soft: #dcbcc6;
+  --ink-faint: #a5808c;
+  --rule: #3a1724;
+  --rule-strong: #572336;
+
+  --accent: #fb7185;
+  --accent-ink: #fda4af;
+  --accent-2: #e879f9;
+  --accent-wash: rgba(251, 113, 133, 0.1);
+  --on-accent: #1f0309;
+  --glow: rgba(251, 113, 133, 0.32);
+  --warm: #fbbf24;
+
+  --scan: rgba(0, 0, 0, 0.18);
+  --rain: #fb7185;
+  --rain-fade: rgba(0, 0, 0, 0.08);
+  --rain-opacity: 0.22;
+  --portrait-tint: linear-gradient(180deg, rgba(251, 113, 133, 0.18), rgba(0, 0, 0, 0.5));
+  --portrait-blend: screen;
+
+  --shadow: 0 1px 0 rgba(0, 0, 0, 0.4), 0 14px 34px -20px rgba(0, 0, 0, 0.8);
+}
+
+/* ---- Decorations ---------------------------------------------------------- */
+
+html[data-holiday="valentines"] .brand__name::after {
+  content: " 💘";
+}
+
+/* a 💕 drifting down from the header */
+html[data-holiday="valentines"] .site-header::after {
+  content: "💕";
+  position: absolute;
+  top: 100%;
+  right: 12%;
+  font-size: 1.1rem;
+  line-height: 1;
+  opacity: 0;
+  animation: valentines-drift 9s ease-in-out infinite;
+  pointer-events: none;
+}
+@keyframes valentines-drift {
+  0% {
+    opacity: 0;
+    transform: translate(0, -10px) rotate(0deg);
+  }
+  10% {
+    opacity: 0.9;
+  }
+  50% {
+    transform: translate(-30px, 90px) rotate(90deg);
+  }
+  90% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 0;
+    transform: translate(10px, 180px) rotate(180deg);
+  }
+}
+
+@media (max-width: 640px) {
+  html[data-holiday="valentines"] .site-header::after {
+    display: none;
+  }
+}

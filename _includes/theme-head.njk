@@ -15,6 +15,10 @@
         // The holiday's date in a given year, from 'MM-DD' or { month, weekday, nth }
         function holidayDate(th, y) {
           if (typeof th.date === 'string') return day(y, +th.date.slice(0, 2), +th.date.slice(3, 5));
+          if (th.date.nth < 0) {
+            var last = day(y, th.date.month + 1, 0);
+            return day(y, th.date.month, last.getDate() - ((last.getDay() - th.date.weekday + 7) % 7));
+          }
           var first = day(y, th.date.month, 1);
           return day(y, th.date.month, 1 + ((th.date.weekday - first.getDay() + 7) % 7) + (th.date.nth - 1) * 7);
         }
