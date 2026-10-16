@@ -1,10 +1,30 @@
 {
-  "lastUpdated": "2024-10-01",
+  "lastUpdated": "2026-10-15",
   "tools": [
+    {
+      "name": "age",
+      "description": "age is a simple, modern, and secure file encryption tool with small explicit keys, no config options, and UNIX-style composability.",
+      "url": "https://age-encryption.org"
+    },
+    {
+      "name": "anomalyco/tap/opencode",
+      "description": "OpenCode is an open-source AI coding agent for the terminal that lets you use various LLM providers to help write and edit code. (I couldn't run `brew info` to confirm, so this is from memory.)",
+      "url": "https://opencode.ai"
+    },
+    {
+      "name": "asdf",
+      "description": "asdf is an extensible version manager that lets you manage multiple runtime versions (Node.js, Python, Ruby, etc.) for different projects using a single CLI and plugin system.",
+      "url": "https://asdf-vm.com"
+    },
     {
       "name": "automake",
       "description": "Automake is a tool for automatically generating Makefile.in files from Makefile.am files. It is part of the GNU build system and aids in simplifying the process of building software applications.",
       "url": "https://www.gnu.org/software/automake/"
+    },
+    {
+      "name": "awscli",
+      "description": "The AWS Command Line Interface, a unified tool for managing and controlling Amazon Web Services from the terminal.",
+      "url": "https://aws.amazon.com/cli/"
     },
     {
       "name": "azure-cli",
@@ -22,9 +42,24 @@
       "url": "https://bitwarden.com/"
     },
     {
+      "name": "ccusage",
+      "description": "ccusage is a CLI tool that analyzes local Claude Code (and similar AI coding tool) usage logs to report token usage and cost by day, month, session, or billing block.",
+      "url": "https://github.com/ryoppippi/ccusage"
+    },
+    {
       "name": "certbot",
       "description": "Certbot is a free, open source software tool for automatically using Let’s Encrypt certificates on manually-administrated websites to enable HTTPS.",
       "url": "https://certbot.eff.org/"
+    },
+    {
+      "name": "cliclick",
+      "description": "cliclick is a macOS command-line tool for simulating mouse clicks, movements, drags, and keyboard input from the terminal or scripts.",
+      "url": "https://www.bluem.net/en/projects/cliclick/"
+    },
+    {
+      "name": "colima",
+      "description": "Colima is a command-line tool that runs container runtimes (Docker, containerd) and Kubernetes on macOS and Linux using minimal-setup Lima virtual machines.",
+      "url": "https://github.com/abiosoft/colima"
     },
     {
       "name": "curl",
@@ -32,14 +67,19 @@
       "url": "https://curl.se/"
     },
     {
-      "name": "derailed/k9s/k9s",
-      "description": "A CLI tool to navigate and observe Kubernetes resources in real-time",
-      "url": "https://github.com/derailed/k9s"
-    },
-    {
       "name": "direnv",
       "description": "direnv is a directory-specific environment manager for shell environments.",
       "url": "https://direnv.net/"
+    },
+    {
+      "name": "djlint",
+      "description": "djlint is a linter and formatter for HTML templates (Django, Jinja, Nunjucks, Handlebars, and others).",
+      "url": "https://djlint.com"
+    },
+    {
+      "name": "dnsmasq",
+      "description": "dnsmasq is a lightweight DNS forwarder, caching resolver, and DHCP/TFTP server for small networks.",
+      "url": "https://thekelleys.org.uk/dnsmasq/doc.html"
     },
     {
       "name": "docker",
@@ -47,14 +87,74 @@
       "url": "https://www.docker.com/"
     },
     {
+      "name": "dotnet@8",
+      "description": "dotnet@8 is Microsoft's .NET 8 SDK and runtime (LTS), a cross-platform developer platform and CLI for building, running, and publishing C#, F#, and Visual Basic applications.",
+      "url": "https://dotnet.microsoft.com/"
+    },
+    {
+      "name": "exiftool",
+      "description": "ExifTool is a platform-independent Perl library and command-line application for reading, writing, and editing metadata (EXIF, IPTC, XMP, etc.) in a wide variety of image, audio, video, and document files.",
+      "url": "https://exiftool.org/"
+    },
+    {
+      "name": "fastlane",
+      "description": "Fastlane is an open-source tool that automates building, testing, signing, and releasing iOS and Android apps.",
+      "url": "https://fastlane.tools"
+    },
+    {
+      "name": "frpc",
+      "description": "frpc is the client component of frp (Fast Reverse Proxy), which exposes local servers behind a NAT or firewall to the internet by connecting to a remote frps server.",
+      "url": "https://github.com/fatedier/frp"
+    },
+    {
+      "name": "fzf",
+      "description": "fzf is a general-purpose, interactive command-line fuzzy finder for filtering lists of files, command history, processes, and more.",
+      "url": "https://github.com/junegunn/fzf"
+    },
+    {
+      "name": "gemini-cli",
+      "description": "Gemini CLI is Google's open-source command-line AI agent that brings Gemini models into the terminal for coding, file manipulation, and task automation.",
+      "url": "https://github.com/google-gemini/gemini-cli"
+    },
+    {
+      "name": "gh",
+      "description": "GitHub CLI (gh) brings GitHub to your terminal, letting you work with pull requests, issues, releases, and more from the command line.",
+      "url": "https://cli.github.com"
+    },
+    {
       "name": "git",
       "description": "git is a free and open-source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.",
       "url": "https://git-scm.com/"
     },
     {
+      "name": "git-lfs",
+      "description": "Git LFS is a Git extension that replaces large files (audio, video, datasets, graphics) with lightweight text pointers in the repository while storing the actual file contents on a remote server.",
+      "url": "https://git-lfs.com"
+    },
+    {
+      "name": "gitlab-ci-local",
+      "description": "gitlab-ci-local runs GitLab CI/CD pipeline jobs locally on your machine (using Docker/shell executors) so you can test .gitlab-ci.yml files without committing and pushing.",
+      "url": "https://github.com/firecow/gitlab-ci-local"
+    },
+    {
+      "name": "gitlab-runner",
+      "description": "GitLab Runner is the open-source agent that runs CI/CD jobs for GitLab pipelines and reports results back to GitLab.",
+      "url": "https://docs.gitlab.com/runner/"
+    },
+    {
+      "name": "glab",
+      "description": "glab is the official GitLab CLI, which brings GitLab features like merge requests, issues, and pipelines to the command line.",
+      "url": "https://gitlab.com/gitlab-org/cli"
+    },
+    {
       "name": "gnu-sed",
       "description": "GNU sed is a stream editor for filtering and transforming text. It processes text line by line and can perform tasks such as search, find and replace, insert text, delete lines, and more.",
       "url": "https://www.gnu.org/software/sed/"
+    },
+    {
+      "name": "go",
+      "description": "Go is an open-source programming language (installed via the Homebrew \"go\" formula, with the `go` command-line toolchain) for building simple, reliable, and efficient software.",
+      "url": "https://go.dev"
     },
     {
       "name": "grep",
@@ -67,14 +167,24 @@
       "url": "https://handbrake.fr/"
     },
     {
-      "name": "hashicorp/tap/terraform",
-      "description": "Terraform is a tool for building, changing, and versioning infrastructure safely and efficiently. It allows infrastructure to be described as code, providing a high-level configuration language that can be shared, reused, and versioned.",
-      "url": "https://www.terraform.io/"
-    },
-    {
       "name": "helm",
       "description": "Helm is a package manager for Kubernetes that helps you manage Kubernetes applications without manually configuring resources like deployments, services, and ingress.",
       "url": "https://helm.sh/"
+    },
+    {
+      "name": "highlight",
+      "description": "Highlight is a command-line source code to formatted text converter that turns source code into syntax-highlighted output (HTML, LaTeX, RTF, ANSI, SVG, etc.) for many programming languages.",
+      "url": "http://www.andre-simon.de/"
+    },
+    {
+      "name": "himalaya",
+      "description": "Himalaya is a command-line email client (and Rust library) for managing emails from the terminal, supporting IMAP, Maildir, SMTP, and Sendmail backends.",
+      "url": "https://github.com/pimalaya/himalaya"
+    },
+    {
+      "name": "icu4c@77",
+      "description": "ICU (International Components for Unicode) is a library providing C/C++ Unicode and globalization support, including text collation, formatting, and locale handling (icu4c@77 is the version 77 formula).",
+      "url": "https://icu.unicode.org/"
     },
     {
       "name": "imagemagick",
@@ -87,9 +197,14 @@
       "url": "https://stedolan.github.io/jq/"
     },
     {
-      "name": "libksba",
-      "description": "libksba is a library that provides a high-level interface to the functions provided by the Key Server (KS) bundle. It is used to parse X.509 and CMS related objects. It also helps in writing high-level related applications.",
-      "url": "https://www.gnupg.org/software/libksba/index.html"
+      "name": "lcov",
+      "description": "lcov is a graphical front-end for GCC's gcov that collects, processes, and generates HTML reports of code coverage data.",
+      "url": "https://github.com/linux-test-project/lcov"
+    },
+    {
+      "name": "llvm",
+      "description": "LLVM is a collection of modular compiler and toolchain technologies (including the Clang C/C++ compiler, LLD linker, and LLDB debugger) used to build, optimize, and analyze code.",
+      "url": "https://llvm.org"
     },
     {
       "name": "mas",
@@ -97,9 +212,34 @@
       "url": "https://github.com/mas-cli/mas"
     },
     {
+      "name": "mcp-publisher",
+      "description": "mcp-publisher is the official CLI for publishing Model Context Protocol (MCP) servers to the MCP Registry.",
+      "url": "https://github.com/modelcontextprotocol/registry"
+    },
+    {
+      "name": "media-info",
+      "description": "A command-line utility from MediaArea that displays technical and tag metadata (codecs, bitrates, duration, etc.) for video and audio files.",
+      "url": "https://mediaarea.net/en/MediaInfo"
+    },
+    {
       "name": "minikube",
       "description": "Minikube is a tool that makes it easy to run Kubernetes locally. It creates a single-node Kubernetes cluster on your local machine.",
       "url": "https://minikube.sigs.k8s.io/"
+    },
+    {
+      "name": "mkcert",
+      "description": "mkcert is a simple zero-config tool for making locally-trusted development TLS certificates.",
+      "url": "https://github.com/FiloSottile/mkcert"
+    },
+    {
+      "name": "mole",
+      "description": "Mole is a command-line tool for macOS that deep-cleans and optimizes your Mac by combining app uninstalling, system cleanup, disk analysis, and live system monitoring. (I couldn't run `brew info` here, so this is from memory. It's the Homebrew \"mole\" formula by tw93, and I haven't checked it against your installed version.)",
+      "url": "https://github.com/tw93/Mole"
+    },
+    {
+      "name": "mozjpeg",
+      "description": "mozjpeg is Mozilla's improved JPEG encoder that produces smaller, web-optimized JPEG files while staying compatible with standard decoders.",
+      "url": "https://github.com/mozilla/mozjpeg"
     },
     {
       "name": "mp4v2",
@@ -117,14 +257,19 @@
       "url": "https://ocrmypdf.readthedocs.io/"
     },
     {
+      "name": "openai-whisper",
+      "description": "OpenAI's Whisper is a general-purpose speech recognition tool that transcribes and translates audio into text using a neural network model.",
+      "url": "https://github.com/openai/whisper"
+    },
+    {
       "name": "openjdk@11",
       "description": "openjdk@11 is a Command Line Interface tool for managing OpenJDK 11 installations on your system.",
       "url": "https://openjdk.java.net/"
     },
     {
-      "name": "openssl@1.1",
-      "description": "OpenSSL is a robust, commercial-grade, and full-featured toolkit for the Transport Layer Security (TLS) and Secure Sockets Layer (SSL) protocols. It is also a general-purpose cryptography library.",
-      "url": "https://www.openssl.org/docs/man1.1.1/"
+      "name": "openjdk@17",
+      "description": "OpenJDK 17 is the open-source reference implementation of the Java SE 17 Platform (JDK, compiler, and runtime), a long-term-support release.",
+      "url": "https://openjdk.org/"
     },
     {
       "name": "opentofu",
@@ -132,14 +277,19 @@
       "url": "https://github.com/openshift-cs/opentofu"
     },
     {
-      "name": "oven-sh/bun/bun",
-      "description": "CLI tool that provides a virtual shell script oven for executing shell scripts easily and efficiently.",
-      "url": "https://github.com/bun/bun"
+      "name": "p7zip",
+      "description": "p7zip is a port of the 7-Zip file archiver to Unix-like systems, providing the 7z command-line tool for compressing and extracting archives in formats such as 7z, zip, tar, gzip, and bzip2.",
+      "url": "https://github.com/p7zip-project/p7zip"
     },
     {
       "name": "pandoc",
       "description": "Pandoc is a command-line tool for converting files from one markup format to another.",
       "url": "https://pandoc.org/"
+    },
+    {
+      "name": "pipx",
+      "description": "pipx installs and runs Python command-line applications in isolated virtual environments so they don't conflict with each other or your system Python.",
+      "url": "https://pipx.pypa.io"
     },
     {
       "name": "pnpm",
@@ -152,14 +302,19 @@
       "url": "https://python-poetry.org/"
     },
     {
+      "name": "poppler",
+      "description": "Poppler is a PDF rendering library that ships command-line utilities such as pdftotext, pdftoppm, pdfimages, and pdfinfo for converting and inspecting PDF files.",
+      "url": "https://poppler.freedesktop.org/"
+    },
+    {
       "name": "pyenv-virtualenv",
       "description": "pyenv-virtualenv is a plugin for pyenv that makes it easier to manage virtual environments for Python projects.",
       "url": "https://github.com/pyenv/pyenv-virtualenv"
     },
     {
-      "name": "ripgrep",
-      "description": "ripgrep is a line-oriented search tool that recursively searches your current directory for a regex pattern while respecting your gitignore rules",
-      "url": "https://github.com/BurntSushi/ripgrep"
+      "name": "python@3.12",
+      "description": "Python 3.12 is the interpreted, high-level, general-purpose programming language (the Homebrew-packaged 3.12 release series of CPython).",
+      "url": "https://www.python.org/"
     },
     {
       "name": "rsync",
@@ -167,9 +322,9 @@
       "url": "https://rsync.samba.org/"
     },
     {
-      "name": "ruby@3.2",
-      "description": "ruby@3.2 is a command line interface tool for managing Ruby versions. It allows users to easily switch between different versions of Ruby installed on their system.",
-      "url": "https://github.com/rbenv/rbenv"
+      "name": "shellcheck",
+      "description": "ShellCheck is a static analysis tool that finds bugs, pitfalls, and stylistic issues in shell scripts.",
+      "url": "https://www.shellcheck.net"
     },
     {
       "name": "ssh-copy-id",
@@ -177,9 +332,29 @@
       "url": "https://linux.die.net/man/1/ssh-copy-id"
     },
     {
-      "name": "teamookla/speedtest/speedtest",
-      "description": "speedtest is a CLI tool developed by teamookla for testing internet speed and performance using the Speedtest.net infrastructure.",
-      "url": "https://www.speedtest.net/apps/cli"
+      "name": "stripe-cli",
+      "description": "The Stripe CLI lets you build, test, and manage your Stripe integration from the terminal, including triggering webhook events, tailing API logs, and making API requests.",
+      "url": "https://docs.stripe.com/stripe-cli"
+    },
+    {
+      "name": "summarize",
+      "description": "A command-line tool that extracts clean text from links, files, or media (such as YouTube videos and podcasts) and summarizes it using an LLM.",
+      "url": "https://github.com/steipete/summarize"
+    },
+    {
+      "name": "swaks",
+      "description": "swaks (Swiss Army Knife for SMTP) is a scriptable, transaction-oriented command-line tool for testing and debugging SMTP servers by sending test emails.",
+      "url": "https://jetmore.org/john/code/swaks/"
+    },
+    {
+      "name": "swift-format",
+      "description": "swift-format is Apple's command-line tool for formatting and linting Swift source code, built on SwiftSyntax.",
+      "url": "https://github.com/swiftlang/swift-format"
+    },
+    {
+      "name": "telnet",
+      "description": "A command-line client for the TELNET protocol, used to open interactive text sessions with remote hosts and test TCP port connections.",
+      "url": "https://opensource.apple.com/source/remote_cmds/"
     },
     {
       "name": "tilt",
@@ -192,9 +367,29 @@
       "url": "https://github.com/tmux/tmux"
     },
     {
+      "name": "tree",
+      "description": "tree is a command-line utility that recursively lists directory contents in an indented, tree-like format.",
+      "url": "https://oldmanprogrammer.net/source.php?dir=projects/tree"
+    },
+    {
+      "name": "wakeonlan",
+      "description": "A simple command-line utility that sends Wake-on-LAN \"magic packets\" to power on computers over a network by their MAC address.",
+      "url": "https://github.com/jpoliv/wakeonlan"
+    },
+    {
+      "name": "weasyprint",
+      "description": "WeasyPrint is a Python-based visual rendering engine that converts HTML and CSS documents into PDF (and PNG) files.",
+      "url": "https://weasyprint.org/"
+    },
+    {
       "name": "wget",
       "description": "GNU Wget is a free utility for non-interactive download of files from the web. It supports HTTP, HTTPS, and FTP protocols, as well as retrieval through HTTP proxies.",
       "url": "https://www.gnu.org/software/wget/"
+    },
+    {
+      "name": "xcodegen",
+      "description": "XcodeGen is a command-line tool that generates Xcode project files from a YAML or JSON project spec and your folder structure.",
+      "url": "https://github.com/yonaskolb/XcodeGen"
     },
     {
       "name": "yamlfmt",
@@ -210,11 +405,6 @@
       "name": "yq",
       "description": "yq is a lightweight and portable command-line YAML processor. It allows you to filter, query, and manipulate YAML files using a simple and expressive syntax.",
       "url": "https://mikefarah.gitbook.io/yq/"
-    },
-    {
-      "name": "yt-dlp",
-      "description": "yt-dlp is a command-line program to download videos from YouTube and other sites. It is a fork of youtube-dl with additional features and improvements.",
-      "url": "https://github.com/yt-dlp/yt-dlp"
     },
     {
       "name": "zlib",

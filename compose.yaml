@@ -1,0 +1,23 @@
+# Local development stack. Use `make up` rather than calling this directly.
+name: dustindavis-me
+
+services:
+  blog:
+    build: .
+    image: dustindavis-me-dev
+    ports:
+      - "${BLOG_PORT:-41180}:41180"
+    volumes:
+      - .:/app
+      # Keep Linux-built node_modules (sharp) separate from the macOS copy.
+      - node_modules:/app/node_modules
+    environment:
+      # File events don't always cross the Docker Desktop bind mount; poll instead.
+      CHOKIDAR_USEPOLLING: "true"
+      CHOKIDAR_INTERVAL: "300"
+    init: true
+    # Come back if Eleventy exits on a fatal error (e.g. a bad data file).
+    restart: unless-stopped
+
+volumes:
+  node_modules:

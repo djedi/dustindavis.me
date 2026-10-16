@@ -28,6 +28,7 @@ fullWidth: true
   {% for app in applications.applications %}
   <li class="app-item">
     <div class="app-icon">
+      {% if app.url %}
       <a
         href="{{ app.url }}"
         target="_blank"
@@ -36,9 +37,13 @@ fullWidth: true
       >
         <img src="{{ app.iconPath }}" alt="" width="64" height="64" />
       </a>
+      {% else %}
+      <img src="{{ app.iconPath }}" alt="" width="64" height="64" />
+      {% endif %}
     </div>
     <div class="app-details">
       <h2 class="app-name">
+        {% if app.url %}
         <a
           href="{{ app.url }}"
           class="app-link"
@@ -46,6 +51,9 @@ fullWidth: true
           rel="noopener noreferrer"
           >{{ app.appName }}</a
         >
+        {% else %}
+        {{ app.appName }}
+        {% endif %}
       </h2>
       <p class="app-description">{{ app.description }}</p>
     </div>
@@ -64,7 +72,7 @@ fullWidth: true
     <li class="extension-item">
       <div class="extension-icon">
         <a href="{{ extension.url }}" target="_blank" rel="noopener noreferrer" aria-label="Visit {{ extension.name }} extension page">
-          <img src="{{ extension.iconUrl }}" alt="" width="64" height="64">
+          <img src="{{ extension.iconPath or extension.iconUrl }}" alt="" width="64" height="64">
         </a>
       </div>
       <div class="extension-details">
@@ -89,7 +97,7 @@ fullWidth: true
   {% for tool in cli_tools.tools %}
   <li class="cli-item">
     <div class="cli-details">
-      <h2 class="cli-name"><a href="{{ tool.url }}">{{ tool.name }}</a></h2>
+      <h2 class="cli-name">{% if tool.url %}<a href="{{ tool.url }}">{{ tool.name }}</a>{% else %}{{ tool.name }}{% endif %}</h2>
       <p class="cli-description">{{ tool.description }}</p>
     </div>
   </li>

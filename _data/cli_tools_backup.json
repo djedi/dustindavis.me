@@ -1,10 +1,30 @@
 {
-  "lastUpdated": "2024-09-24",
+  "lastUpdated": "2026-10-15",
   "tools": [
+    {
+      "name": "age",
+      "description": "null",
+      "url": "null"
+    },
+    {
+      "name": "anomalyco/tap/opencode",
+      "description": "null",
+      "url": "null"
+    },
+    {
+      "name": "asdf",
+      "description": "null",
+      "url": "null"
+    },
     {
       "name": "automake",
       "description": "Automake is a tool for automatically generating Makefile.in files from Makefile.am files. It is part of the GNU build system and aids in simplifying the process of building software applications.",
       "url": "https://www.gnu.org/software/automake/"
+    },
+    {
+      "name": "awscli",
+      "description": "null",
+      "url": "null"
     },
     {
       "name": "azure-cli",
@@ -22,9 +42,24 @@
       "url": "https://bitwarden.com/"
     },
     {
+      "name": "ccusage",
+      "description": "null",
+      "url": "null"
+    },
+    {
       "name": "certbot",
       "description": "Certbot is a free, open source software tool for automatically using Let’s Encrypt certificates on manually-administrated websites to enable HTTPS.",
       "url": "https://certbot.eff.org/"
+    },
+    {
+      "name": "cliclick",
+      "description": "null",
+      "url": "null"
+    },
+    {
+      "name": "colima",
+      "description": "null",
+      "url": "null"
     },
     {
       "name": "curl",
@@ -32,14 +67,19 @@
       "url": "https://curl.se/"
     },
     {
-      "name": "derailed/k9s/k9s",
-      "description": "A CLI tool to navigate and observe Kubernetes resources in real-time",
-      "url": "https://github.com/derailed/k9s"
-    },
-    {
       "name": "direnv",
       "description": "direnv is a directory-specific environment manager for shell environments.",
       "url": "https://direnv.net/"
+    },
+    {
+      "name": "djlint",
+      "description": "null",
+      "url": "null"
+    },
+    {
+      "name": "dnsmasq",
+      "description": "null",
+      "url": "null"
     },
     {
       "name": "docker",
@@ -47,14 +87,74 @@
       "url": "https://www.docker.com/"
     },
     {
+      "name": "dotnet@8",
+      "description": "null",
+      "url": "null"
+    },
+    {
+      "name": "exiftool",
+      "description": "null",
+      "url": "null"
+    },
+    {
+      "name": "fastlane",
+      "description": "null",
+      "url": "null"
+    },
+    {
+      "name": "frpc",
+      "description": "null",
+      "url": "null"
+    },
+    {
+      "name": "fzf",
+      "description": "null",
+      "url": "null"
+    },
+    {
+      "name": "gemini-cli",
+      "description": "null",
+      "url": "null"
+    },
+    {
+      "name": "gh",
+      "description": "null",
+      "url": "null"
+    },
+    {
       "name": "git",
       "description": "git is a free and open-source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.",
       "url": "https://git-scm.com/"
     },
     {
+      "name": "git-lfs",
+      "description": "null",
+      "url": "null"
+    },
+    {
+      "name": "gitlab-ci-local",
+      "description": "null",
+      "url": "null"
+    },
+    {
+      "name": "gitlab-runner",
+      "description": "null",
+      "url": "null"
+    },
+    {
+      "name": "glab",
+      "description": "null",
+      "url": "null"
+    },
+    {
       "name": "gnu-sed",
       "description": "GNU sed is a stream editor for filtering and transforming text. It processes text line by line and can perform tasks such as search, find and replace, insert text, delete lines, and more.",
       "url": "https://www.gnu.org/software/sed/"
+    },
+    {
+      "name": "go",
+      "description": "null",
+      "url": "null"
     },
     {
       "name": "grep",
@@ -67,14 +167,24 @@
       "url": "https://handbrake.fr/"
     },
     {
-      "name": "hashicorp/tap/terraform",
-      "description": "Terraform is a tool for building, changing, and versioning infrastructure safely and efficiently. It allows infrastructure to be described as code, providing a high-level configuration language that can be shared, reused, and versioned.",
-      "url": "https://www.terraform.io/"
-    },
-    {
       "name": "helm",
       "description": "Helm is a package manager for Kubernetes that helps you manage Kubernetes applications without manually configuring resources like deployments, services, and ingress.",
       "url": "https://helm.sh/"
+    },
+    {
+      "name": "highlight",
+      "description": "null",
+      "url": "null"
+    },
+    {
+      "name": "himalaya",
+      "description": "null",
+      "url": "null"
+    },
+    {
+      "name": "icu4c@77",
+      "description": "null",
+      "url": "null"
     },
     {
       "name": "imagemagick",
@@ -87,9 +197,14 @@
       "url": "https://stedolan.github.io/jq/"
     },
     {
-      "name": "libksba",
-      "description": "libksba is a library that provides a high-level interface to the functions provided by the Key Server (KS) bundle. It is used to parse X.509 and CMS related objects. It also helps in writing high-level related applications.",
-      "url": "https://www.gnupg.org/software/libksba/index.html"
+      "name": "lcov",
+      "description": "null",
+      "url": "null"
+    },
+    {
+      "name": "llvm",
+      "description": "null",
+      "url": "null"
     },
     {
       "name": "mas",
@@ -97,9 +212,34 @@
       "url": "https://github.com/mas-cli/mas"
     },
     {
+      "name": "mcp-publisher",
+      "description": "null",
+      "url": "null"
+    },
+    {
+      "name": "media-info",
+      "description": "null",
+      "url": "null"
+    },
+    {
       "name": "minikube",
       "description": "Minikube is a tool that makes it easy to run Kubernetes locally. It creates a single-node Kubernetes cluster on your local machine.",
       "url": "https://minikube.sigs.k8s.io/"
+    },
+    {
+      "name": "mkcert",
+      "description": "null",
+      "url": "null"
+    },
+    {
+      "name": "mole",
+      "description": "null",
+      "url": "null"
+    },
+    {
+      "name": "mozjpeg",
+      "description": "null",
+      "url": "null"
     },
     {
       "name": "mp4v2",
@@ -117,14 +257,19 @@
       "url": "https://ocrmypdf.readthedocs.io/"
     },
     {
+      "name": "openai-whisper",
+      "description": "null",
+      "url": "null"
+    },
+    {
       "name": "openjdk@11",
       "description": "openjdk@11 is a Command Line Interface tool for managing OpenJDK 11 installations on your system.",
       "url": "https://openjdk.java.net/"
     },
     {
-      "name": "openssl@1.1",
-      "description": "OpenSSL is a robust, commercial-grade, and full-featured toolkit for the Transport Layer Security (TLS) and Secure Sockets Layer (SSL) protocols. It is also a general-purpose cryptography library.",
-      "url": "https://www.openssl.org/docs/man1.1.1/"
+      "name": "openjdk@17",
+      "description": "null",
+      "url": "null"
     },
     {
       "name": "opentofu",
@@ -132,9 +277,9 @@
       "url": "https://github.com/openshift-cs/opentofu"
     },
     {
-      "name": "oven-sh/bun/bun",
-      "description": "CLI tool that provides a virtual shell script oven for executing shell scripts easily and efficiently.",
-      "url": "https://github.com/bun/bun"
+      "name": "p7zip",
+      "description": "null",
+      "url": "null"
     },
     {
       "name": "pandoc",
@@ -142,9 +287,24 @@
       "url": "https://pandoc.org/"
     },
     {
+      "name": "pipx",
+      "description": "null",
+      "url": "null"
+    },
+    {
       "name": "pnpm",
       "description": "Fast, disk space efficient package manager for Node.js projects",
       "url": "https://pnpm.io/"
+    },
+    {
+      "name": "poetry",
+      "description": "Poetry is a dependency management and packaging tool for Python projects. It allows you to easily manage project dependencies, virtual environments, build processes, and other packaging details.",
+      "url": "https://python-poetry.org/"
+    },
+    {
+      "name": "poppler",
+      "description": "null",
+      "url": "null"
     },
     {
       "name": "pyenv-virtualenv",
@@ -152,9 +312,9 @@
       "url": "https://github.com/pyenv/pyenv-virtualenv"
     },
     {
-      "name": "ripgrep",
-      "description": "ripgrep is a line-oriented search tool that recursively searches your current directory for a regex pattern while respecting your gitignore rules",
-      "url": "https://github.com/BurntSushi/ripgrep"
+      "name": "python@3.12",
+      "description": "null",
+      "url": "null"
     },
     {
       "name": "rsync",
@@ -162,9 +322,9 @@
       "url": "https://rsync.samba.org/"
     },
     {
-      "name": "ruby@3.2",
-      "description": "ruby@3.2 is a command line interface tool for managing Ruby versions. It allows users to easily switch between different versions of Ruby installed on their system.",
-      "url": "https://github.com/rbenv/rbenv"
+      "name": "shellcheck",
+      "description": "null",
+      "url": "null"
     },
     {
       "name": "ssh-copy-id",
@@ -172,9 +332,29 @@
       "url": "https://linux.die.net/man/1/ssh-copy-id"
     },
     {
-      "name": "teamookla/speedtest/speedtest",
-      "description": "speedtest is a CLI tool developed by teamookla for testing internet speed and performance using the Speedtest.net infrastructure.",
-      "url": "https://www.speedtest.net/apps/cli"
+      "name": "stripe-cli",
+      "description": "null",
+      "url": "null"
+    },
+    {
+      "name": "summarize",
+      "description": "null",
+      "url": "null"
+    },
+    {
+      "name": "swaks",
+      "description": "null",
+      "url": "null"
+    },
+    {
+      "name": "swift-format",
+      "description": "null",
+      "url": "null"
+    },
+    {
+      "name": "telnet",
+      "description": "null",
+      "url": "null"
     },
     {
       "name": "tilt",
@@ -187,9 +367,29 @@
       "url": "https://github.com/tmux/tmux"
     },
     {
+      "name": "tree",
+      "description": "null",
+      "url": "null"
+    },
+    {
+      "name": "wakeonlan",
+      "description": "null",
+      "url": "null"
+    },
+    {
+      "name": "weasyprint",
+      "description": "null",
+      "url": "null"
+    },
+    {
       "name": "wget",
       "description": "GNU Wget is a free utility for non-interactive download of files from the web. It supports HTTP, HTTPS, and FTP protocols, as well as retrieval through HTTP proxies.",
       "url": "https://www.gnu.org/software/wget/"
+    },
+    {
+      "name": "xcodegen",
+      "description": "null",
+      "url": "null"
     },
     {
       "name": "yamlfmt",
@@ -205,11 +405,6 @@
       "name": "yq",
       "description": "yq is a lightweight and portable command-line YAML processor. It allows you to filter, query, and manipulate YAML files using a simple and expressive syntax.",
       "url": "https://mikefarah.gitbook.io/yq/"
-    },
-    {
-      "name": "yt-dlp",
-      "description": "yt-dlp is a command-line program to download videos from YouTube and other sites. It is a fork of youtube-dl with additional features and improvements.",
-      "url": "https://github.com/yt-dlp/yt-dlp"
     },
     {
       "name": "zlib",

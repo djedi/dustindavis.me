@@ -40,7 +40,7 @@ npx biome format --write .  # Format code according to biome.json rules
 ```bash
 ./get-applications.sh  # Updates applications list
 ./get-cli-tools.sh  # Updates CLI tools list
-./generate-extensions.js <path-to-exported-extensions.html>  # Updates browser extensions
+./generate-extensions.js [profile names...]  # Updates browser extensions from Brave profiles
 ```
 
 ## Architecture & Key Files

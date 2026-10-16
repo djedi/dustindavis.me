@@ -35,12 +35,11 @@ files in the `_data` folder that will be used to generate the uses page.
 ./get-cli-tools.sh
 ```
 
-For the browser extensions, use the
-[Extension Exporter](https://chromewebstore.google.com/detail/extension-exporter/doikmfpjbcjjimnbablebijofdbgfepb)
-extension to export your extensions. Then run:
+For the browser extensions, the script reads the enabled Web Store extensions
+from every Brave profile (or only the profiles you name). Run:
 
 ```bash
-./generate-extensions.js <path-to-exported-extensions.html>
+./generate-extensions.js [profile names...]  # reads enabled extensions from Brave profiles
 ```
 
 ## Deploy

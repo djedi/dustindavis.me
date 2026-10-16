@@ -1,0 +1,7 @@
+.git
+node_modules
+.pnpm-store
+_site
+_cache
+.env
+mockups

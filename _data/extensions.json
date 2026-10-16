@@ -1,107 +1,117 @@
 {
-  "lastUpdated": "2024-10-01",
+  "lastUpdated": "2026-10-16",
   "extensions": [
     {
       "name": "Bitwarden Password Manager",
       "description": "At home, at work, or on the go, Bitwarden easily secures all your passwords, passkeys, and sensitive information",
-      "url": "https://chrome.google.com/webstore/detail/nngceckbapebfimnlniiiahkandclblb",
-      "iconUrl": "https://lh3.googleusercontent.com/J_l8abQyJgx7POjRoDfGaFYWFnYQNpRSy4kH5IlbwSdM-l_gZf2rJlk2NLSQTY8g-U2vrclpb0EZApHyOe6sjzbKcUc=s60"
+      "url": "https://chromewebstore.google.com/detail/bitwarden-password-manage/nngceckbapebfimnlniiiahkandclblb",
+      "iconUrl": "https://lh3.googleusercontent.com/J_l8abQyJgx7POjRoDfGaFYWFnYQNpRSy4kH5IlbwSdM-l_gZf2rJlk2NLSQTY8g-U2vrclpb0EZApHyOe6sjzbKcUc=s60",
+      "iconPath": "/extension-icons/nngceckbapebfimnlniiiahkandclblb.png"
     },
     {
-      "name": "Checker Plus for Google Calendar™",
-      "description": "See your next events, get meeting notifications and snooze events without opening the Google Calendar page!",
-      "url": "https://chrome.google.com/webstore/detail/hkhggnncdpfibdhinjiegagmopldibha",
-      "iconUrl": "https://lh3.googleusercontent.com/Di24xdHZLsnypDLCfujMl90xLjoZVi9e-Y0x7NcFiOFDX0mkNqNU7GMH2Ai081dTtfr-YHUSe1zzecYJIa6Sh2EIiw=s60"
+      "name": "ChatGPT",
+      "description": "Control your browser with ChatGPT.",
+      "url": "https://chromewebstore.google.com/detail/chatgpt/hehggadaopoacecdllhhajmbjkdcmajg",
+      "iconUrl": "https://lh3.googleusercontent.com/AJfRxNTW-80oEGhXd95cSv47t4Bdi7C5aYh0Xr8nx_lYQsAdZcpNAep97_CshSWmdySKDzKIxHB6D6hKyvAwPnOa=s60",
+      "iconPath": "/extension-icons/hehggadaopoacecdllhhajmbjkdcmajg.png"
+    },
+    {
+      "name": "Claude",
+      "description": "Claude in Chrome",
+      "url": "https://chromewebstore.google.com/detail/claude/fcoeoabgfenejglbffodgkkbkcdhcgfn",
+      "iconUrl": "https://lh3.googleusercontent.com/KyZc1Z_Bv_IC8GqyN-HZc-MUtF7JJa07lrGMGdhNtvhKXsBCYgM1jBinnyg_F6bXyYfPN9klAz3Z968UKbacHfPHl44=s60",
+      "iconPath": "/extension-icons/fcoeoabgfenejglbffodgkkbkcdhcgfn.png"
     },
     {
       "name": "Color Picker - Eyedropper Tool",
-      "description": "Pick colors from web pages with Eyedropper. Color picker, gradient generator, color palette. Quickly grab HEX, RGB colors.",
-      "url": "https://chrome.google.com/webstore/detail/phillbeieoddghchonmfebjhclflpoaj",
-      "iconUrl": "https://lh3.googleusercontent.com/jHQ-jWN9HtbrzSqeX51At493W3WLdjHn0hnWl8rwgD11UNG9GdpdX_0ZmkW7loczA0ezJ60SO0Laa4LKyS3gRXNyK40=s60"
+      "description": "Pick colors from web pages with Eyedropper. Picker, gradient generator, palette. Quickly grab HEX, RGB.",
+      "url": "https://chromewebstore.google.com/detail/color-picker-eyedropper-t/phillbeieoddghchonmfebjhclflpoaj",
+      "iconUrl": "https://lh3.googleusercontent.com/AKKRS7WdyxjlBrqKL-u72sBeykThfmDO_xBdrJjXFU6vZdkwAclapyke8llhkDm4jJd06WThN0qCpMxJgoEEZr9C=s60",
+      "iconPath": "/extension-icons/phillbeieoddghchonmfebjhclflpoaj.png"
     },
     {
-      "name": "Extension Exporter",
-      "description": "Export name and URL of all installed extensions into an HTML file.",
-      "url": "https://chrome.google.com/webstore/detail/doikmfpjbcjjimnbablebijofdbgfepb",
-      "iconUrl": "https://lh3.googleusercontent.com/x7LxKClybahntIvNLpk-oNKPWOu8MwOewT7WsUWjaQk1CfwyQFMowXhYnZUIH8f1Zau9OjWhopdM0wi3mh9V3Syy2A=s60"
+      "name": "ColorZilla",
+      "description": "Advanced Eyedropper, Color Picker, Gradient Generator and other colorful goodies",
+      "url": "https://chromewebstore.google.com/detail/colorzilla/bhlhnicpbhignbdhedgjhgdocnmhomnp",
+      "iconUrl": "https://lh3.googleusercontent.com/dqKrPk33LRO7ZFvKvSJv0q-rofymwBRJDiA3fuAZEXydo_tTS-959G0ZZKjLet9xVoVEWmD0FTYTZMEFx1mzbPzuOQ=s60",
+      "iconPath": "/extension-icons/bhlhnicpbhignbdhedgjhgdocnmhomnp.png"
+    },
+    {
+      "name": "EnvelopeBudget Helper",
+      "description": "Sync Amazon order details with your EnvelopeBudget transactions, right from the app",
+      "url": "https://chromewebstore.google.com/detail/envelopebudget-helper/benmbdeeodecomfdcbjeafelhbbebejp",
+      "iconUrl": "https://lh3.googleusercontent.com/XzAHaAzh_rBhfVFAqpVVQe0WE7UuTL5d2Cb07sG4WJUSvTj5qswD19CN5MHIblfM612B2WtJNvkkA4CQ3cBfH_99mQ=s60",
+      "iconPath": "/extension-icons/benmbdeeodecomfdcbjeafelhbbebejp.png"
+    },
+    {
+      "name": "Hermes Connector — by Corsen AI",
+      "description": "Attach real Hermes sessions to chosen tabs in your signed-in Chrome profile. Local, unofficial, by Corsen AI.",
+      "url": "https://chromewebstore.google.com/detail/hermes-connector-—-by-cor/cdhaldcgafmkcnpanlmmpaebabnlledm",
+      "iconUrl": "https://lh3.googleusercontent.com/Gpuzg6b6Simys3hiuA98ADh0qh4FLLBiEBixsQohW6BBeA3uw5koeLqdnlwEmrqpKaBIk-72R4vzSzh6HuXI9KAirQ=s60",
+      "iconPath": "/extension-icons/cdhaldcgafmkcnpanlmmpaebabnlledm.png"
+    },
+    {
+      "name": "Postiz",
+      "description": "Postiz browser extension for social media scheduling",
+      "url": "https://chromewebstore.google.com/detail/postiz/cidhffagahknaeodkplfbcpfeielnkjl",
+      "iconUrl": "https://lh3.googleusercontent.com/aIoZxCz81uZDKpQ6cKBs9CY3Mbs40CrOIRqzRmBp4oFXT_Zl29dKt5Tv5ZImAx-mRD9Qnzed-xHjvItpj6QeMafV=s60",
+      "iconPath": "/extension-icons/cidhffagahknaeodkplfbcpfeielnkjl.png"
     },
     {
       "name": "Ramp for Chrome",
-      "description": "The best way to experience Ramp in your browser. Easily find your card info, submit receipt, and receive helpful tips.",
-      "url": "https://chrome.google.com/webstore/detail/idefohglmnkliiadgfofeokcpjobdeik",
-      "iconUrl": "https://lh3.googleusercontent.com/mFWUCXmLJppfxdZ1j_3qcnclTvrq8YTdjlj_8GLioDA1W8q1JjdXE6su-wqHFORPnF47_8dCRwDrukPNKsIScZuxzw=s60"
+      "description": "Shopping online? Keep your Ramp card close, right in Chrome. Autofill your card details at checkout, upload and match receipts…",
+      "url": "https://chromewebstore.google.com/detail/ramp-for-chrome/idefohglmnkliiadgfofeokcpjobdeik",
+      "iconUrl": "https://lh3.googleusercontent.com/mFWUCXmLJppfxdZ1j_3qcnclTvrq8YTdjlj_8GLioDA1W8q1JjdXE6su-wqHFORPnF47_8dCRwDrukPNKsIScZuxzw=s60",
+      "iconPath": "/extension-icons/idefohglmnkliiadgfofeokcpjobdeik.png"
     },
     {
-      "name": "Read Aloud: A Text to Speech Voice Reader",
-      "description": "Read aloud the current web-page article with one click, using text to speech (TTS). Supports 40+ languages.",
-      "url": "https://chrome.google.com/webstore/detail/hdhinadidafjejdhmfkjgnolgimiaplp",
-      "iconUrl": "https://lh3.googleusercontent.com/_l4UaD5Gwub2AwFZdomRpfMD2737y0Ow6k2sfVuWdm0fQ0iGSdEfhd9X77taeQ-0VM6Wi3HnpecLWUAI9uHq11TSktw=s60"
+      "name": "React Developer Tools",
+      "description": "Adds React debugging tools to the Chrome Developer Tools.\n\nCreated from revision 1d34f91dfd.",
+      "url": "https://chromewebstore.google.com/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi",
+      "iconUrl": "https://lh3.googleusercontent.com/TNijZW_Gp9MZ3eqXkve0YWDEiHV-a2IpSpD6IJzrV3Y76GJcLEyzX2regTLemXzBHbHVqkKuxnnWDT34Cp4sNh-Y=s60",
+      "iconPath": "/extension-icons/fmkadmapgofadopljbjfkapdkoienihi.png"
     },
     {
-      "name": "Read on reMarkable",
-      "description": "Read web articles on your reMarkable with a click.",
-      "url": "https://chrome.google.com/webstore/detail/bfhkfdnddlhfippjbflipboognpdpoeh",
-      "iconUrl": "https://lh3.googleusercontent.com/oMxKy5ZevaIzxAp3vh82bGpIu_g1fr7IxfeHg-I_pGu3qxQLBD2WJNI5MGqsLe3qPLiontRedZosm2mDRiuaj186YvM=s60"
+      "name": "Reddit Enhancement Suite",
+      "description": "A suite of modules that enhance your Reddit browsing experience",
+      "url": "https://chromewebstore.google.com/detail/reddit-enhancement-suite/kbmfpngjjgdllneeigpgjifpgocmfgmb",
+      "iconUrl": "https://lh3.googleusercontent.com/0SvxWpFT-d9CLNWqKIjV7_2jOtnBpU8tXCPPqWTr_MvlaFkKlAm5CDpo1uDX1SXWVnrrninjuGsjhF02MDVHWXb3=s60",
+      "iconPath": "/extension-icons/kbmfpngjjgdllneeigpgjifpgocmfgmb.png"
     },
     {
-      "name": "Tab auto reloader",
-      "description": "This extension reloads the current tab at a chosen interval.",
-      "url": "https://chrome.google.com/webstore/detail/knnahnemielbnanghaphjgheamgcjjcb",
-      "iconUrl": "https://lh3.googleusercontent.com/DNntdNMH_7k3MluRLHR7WYlcVS1JO7fs3yTF0fDpBYL64bTqZeO2S69zBX1cM4Zsq6eZXknF7Q2HvoPMWPCGhrtLSdY=s60"
+      "name": "Screenshot Tool - Screen Capture & Editor",
+      "description": "Innovative screenshot tool lets users screen capture and edit screenshot. Full page screen capture.",
+      "url": "https://chromewebstore.google.com/detail/screenshot-tool-screen-ca/edlifbnjlicfpckhgjhflgkeeibhhcii",
+      "iconUrl": "https://lh3.googleusercontent.com/3k58goRZeXVZeboVHW9PF_cTtKzsGmnEn44SrVUdijcJTmOVuSHTdeUyVKZxME4g1UpAm2vqQ4wYzc0V7flWeKMCsRk=s60",
+      "iconPath": "/extension-icons/edlifbnjlicfpckhgjhflgkeeibhhcii.png"
     },
     {
-      "name": "Tab Snooze - Works as of Nov",
-      "description": "Save articles, videos and todos for later. They'll magically reopen when you need them.",
-      "url": "https://chrome.google.com/webstore/detail/kgnigbfnfjgpfaiaafcbgdkpalapiinb",
-      "iconUrl": "https://lh3.googleusercontent.com/rwr4w4xFcQ1iKJntRi2sHkZqKr2ORf1OXIIohDT6Vep-fMtZp8Z6EdojWEXQacmVAAzCQARJctSn9zcvMfpnfuH_=s60"
+      "name": "SponsorBlock for YouTube - Skip Sponsorships",
+      "description": "Skip sponsorships, subscription begging and more on YouTube videos. Report sponsors on videos you watch to save others' time.",
+      "url": "https://chromewebstore.google.com/detail/sponsorblock-for-youtube/mnjggcdmjocbbbhaepdhchncahnbgone",
+      "iconUrl": "https://lh3.googleusercontent.com/oSoXDpjLX_iytl11_ROa1thmFI0xPk9pL8ttEtnFkBI8Cie0Ge8KxVFaokgBRscvUR1cXH4bVeG_C_Fl6kBw3A3_=s60",
+      "iconPath": "/extension-icons/mnjggcdmjocbbbhaepdhchncahnbgone.png"
     },
     {
-      "name": "uBlock Origin",
-      "description": "Finally, an efficient blocker. Easy on CPU and memory.",
-      "url": "https://chrome.google.com/webstore/detail/cjpalhdlnbpafiamejdnhcphjbkeiagm",
-      "iconUrl": "https://lh3.googleusercontent.com/rrgyVBVte7CfjjeTU-rCHDKba7vtq-yn3o8-10p5b6QOj_2VCDAO3VdggV5fUnugbG2eDGPPjoJ9rsiU_tUZBExgLGc=s60"
+      "name": "Take Webpage Screenshots Entirely - FireShot",
+      "description": "Take FULL webpage screenshots. Capture, edit and save them to PDF/JPEG/GIF/PNG, upload, print, send to OneNote, clipboard or email.",
+      "url": "https://chromewebstore.google.com/detail/take-webpage-screenshots/mcbpblocgmgfnpjjppndjkmgjaogfceg",
+      "iconUrl": "https://lh3.googleusercontent.com/H6VcwetaNraR4b3yrUvu_601L0otxCtlLpR0woT3815_6z-QsxGJVbBY9TWiadOYdeY3BOAYH-r22flXK3wZln-CCA=s60",
+      "iconPath": "/extension-icons/mcbpblocgmgfnpjjppndjkmgjaogfceg.png"
     },
     {
-      "name": "FullDownload",
-      "description": "Full download JS/CSS/HTML",
-      "url": "https://chrome.google.com/webstore/detail/jlgfpehamfinbdbdofmhakpcgjilbkol",
-      "iconUrl": "https://lh3.googleusercontent.com/hvqbQDOBZAAsYbiwREE7BbwtLugwy5xvLEDCTXJxLuRmP94Ghg3ZW2EcOoJSxPXfIv4EsTIXJWNGRoNiVjgOTJI7AA=s60"
+      "name": "The Camelizer",
+      "description": "Easily view historical pricing data from camelcamelcamel.com.",
+      "url": "https://chromewebstore.google.com/detail/the-camelizer/ghnomdcacenbmilgjigehppbamfndblo",
+      "iconUrl": "https://lh3.googleusercontent.com/ZtnaXRZ6SVX16JMNd5kFuot1OOAj7Cll9XYB0OSDXuJST_uDPMiOgV9lA0ORUTxoIUy9hBgEvOlES9VxcPS5tPwjWg0=s60",
+      "iconPath": "/extension-icons/ghnomdcacenbmilgjigehppbamfndblo.png"
     },
     {
-      "name": "Raindrop.io",
-      "description": "All-in-one bookmark manager",
-      "url": "https://chrome.google.com/webstore/detail/ldgfbffkinooeloadekpmfoklnobpien",
-      "iconUrl": "https://lh3.googleusercontent.com/GsyRyzu8R26g2Caw3_AEcZD7opQ2CADN9wOdPdq8-Rr-zBvLgC_BOCQrYUwECEQ-4iub4XOQw36QMyWhyBhMF6Vf=s60"
-    },
-    {
-      "name": "Social Media Death Clock",
-      "description": "Remind yourself of your mortality while you waste away on social media",
-      "url": "https://chrome.google.com/webstore/detail/jjmjickedeooblgpimknfghpfffncfhb",
-      "iconUrl": "https://lh3.googleusercontent.com/8auCDF0qYM3wwM5pWb9A5G98bYbdE8ZxpLiZWaVjXq5_4a7rlSityLvvYwrBmcjynCdB5rT-kxbsx9D4_34bYUpNdQ=s60"
-    },
-    {
-      "name": "Video Speed Controller",
-      "description": "Speed up, slow down, advance and rewind HTML5 audio/video with shortcuts",
-      "url": "https://chrome.google.com/webstore/detail/nffaoalbilbmmfgbnbgppjihopabppdk",
-      "iconUrl": "https://lh3.googleusercontent.com/5yY1QQ__b0c2ZLmmi6mcdjX-9V3LAgXhgUaZtsICFTjeQV0S6xkVncmV99oEtU-H8WN8dZpWh_cycXSXoyffADsoYg=s60"
-    },
-    {
-      "name": "Foxified",
-      "description": "Emulate firefox extensions in Chrome, Opera and other Chromium based browsers",
-      "url": "https://chrome.google.com/webstore/detail/cldmemdnllncchfahbcnjijheaolemfk",
-      "iconUrl": "https://lh3.googleusercontent.com/t7uttg7F_o86RiEW2QaRg5eBBmMnpDEIhH0wdgjbeLJdXVCjugdqOaxw4BLLxR5c9vcHUTy-aNAZJctblAotV1sb=s60"
-    },
-    {
-      "name": "Grammarly: AI Writing and Grammar Checker App",
-      "description": "Improve your writing with all-in-one assistance—including generative AI, grammar check, and more.",
-      "url": "https://chrome.google.com/webstore/detail/kbfnbcaeplbcioakkpcpgfkobkghlhen",
-      "iconUrl": "https://lh3.googleusercontent.com/Ywdz5mn9q2Mx76DU45LSH-Pv5OGpqk8QAOY3lT1AWScMTZYQtAhqhVjtY5I2JZK530QIycLZooe2a0k3quGqYUaZ=s60"
-    },
-    {
-      "name": "HLS Downloader",
-      "description": "HTTP Live Streams sniffer and downloader.",
-      "url": "https://chrome.google.com/webstore/detail/akchjcffcpnpjjjmdhmplbbiaaafdplm",
-      "iconUrl": "https://lh3.googleusercontent.com/J1B8LKAVEyatYbWw6dybRhxwZCgqn0NPzR5OueUmpgoomUCAf_w2ilj8PopI_PybWFYNOgqjdUwEoydHd1336BGBtJE=s60"
+      "name": "Window Resizer",
+      "description": "Resize the browser window to emulate various screen resolutions.",
+      "url": "https://chromewebstore.google.com/detail/window-resizer/kkelicaakdanhinjdeammmilcgefonfh",
+      "iconUrl": "https://lh3.googleusercontent.com/IVHTJU2a1JphDt6dqhpDPVcZG0SCpYAK1lS9QIIXwXIk__e5GdF0xcULafHMmH54-RCembM6OTrIB_BmZ-9b-zln=s60",
+      "iconPath": "/extension-icons/kkelicaakdanhinjdeammmilcgefonfh.png"
     }
   ]
 }

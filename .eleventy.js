@@ -21,6 +21,7 @@ export default function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy('manifest.webmanifest');
   eleventyConfig.addPassthroughCopy('static');
   eleventyConfig.addPassthroughCopy('app-icons');
+  eleventyConfig.addPassthroughCopy('extension-icons');
   eleventyConfig.addPassthroughCopy('favicon.ico');
   eleventyConfig.addPassthroughCopy('icon-192x192.png');
 
