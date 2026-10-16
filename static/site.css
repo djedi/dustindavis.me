@@ -750,11 +750,29 @@ blockquote {
 }
 
 /* ---- Footer --------------------------------------------------------------- */
+/* Silhouette landscape the footer grows out of. It's a mask, so every theme
+   paints it with its own colors via --footer-land. */
+:root {
+  --footer-land: color-mix(in srgb, var(--accent) 26%, var(--bg-panel));
+}
+.footer-scene {
+  flex-shrink: 0;
+  height: clamp(90px, 26vw, 280px);
+  margin-top: 3rem;
+  margin-bottom: -1px;
+  background: var(--footer-land);
+  /* whole scene centered; a plain strip carries the ground out to both edges */
+  -webkit-mask:
+    url("/images/footer-scene.webp") center bottom / contain no-repeat,
+    linear-gradient(#000, #000) center bottom / 100% 16% no-repeat;
+  mask:
+    url("/images/footer-scene.webp") center bottom / contain no-repeat,
+    linear-gradient(#000, #000) center bottom / 100% 16% no-repeat;
+  pointer-events: none;
+}
 .site-footer {
   flex-shrink: 0;
-  border-top: 1px solid var(--rule);
-  background: var(--bg-panel);
-  margin-top: 3rem;
+  background: var(--footer-land);
 }
 .site-footer__inner {
   max-width: var(--maxw-wide);
@@ -763,53 +781,13 @@ blockquote {
   display: flex;
   flex-wrap: wrap;
   gap: 2rem;
-  justify-content: space-between;
+  justify-content: center;
   align-items: flex-start;
 }
-.newsletter {
-  max-width: 380px;
-}
-.newsletter h3 {
-  font-size: 1rem;
-  margin-bottom: 0.8rem;
-}
-.newsletter h3 .prompt {
-  color: var(--accent);
-}
-.newsletter form {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.5rem;
-}
-.newsletter input {
-  flex: 1 1 140px;
-  min-width: 0;
-  background: var(--bg);
-  border: 1px solid var(--rule-strong);
-  color: var(--ink);
-  border-radius: var(--radius);
-  padding: 0.55rem 0.7rem;
-  font-family: var(--mono);
-  font-size: 0.85rem;
-}
-.newsletter input:focus {
-  outline: none;
-  border-color: var(--accent);
-}
-.newsletter .btn {
-  flex: 0 0 auto;
-}
-.newsletter small {
-  display: block;
-  margin-top: 0.7rem;
-  color: var(--ink-faint);
-  font-size: 0.8rem;
-}
-
 .footer-social {
   display: flex;
   flex-direction: column;
-  align-items: flex-end;
+  align-items: center;
   gap: 1rem;
 }
 .social-row {
@@ -856,7 +834,7 @@ html[data-theme="dark"] .brand img {
   padding: 0 1.5rem 2rem;
   font-family: var(--mono);
   font-size: 0.78rem;
-  color: var(--ink-faint);
+  color: var(--ink-soft);
 }
 
 /* ---- Responsive ----------------------------------------------------------- */
@@ -876,11 +854,9 @@ html[data-theme="dark"] .brand img {
   html {
     font-size: 100%;
   }
-  .footer-social {
-    align-items: flex-start;
-  }
   .site-footer__inner {
     flex-direction: column;
+    align-items: center;
   }
 }
 
