@@ -5,6 +5,11 @@ export default [
     ariaLabel: 'View blog page',
   },
   {
+    label: 'Portfolio',
+    url: '/portfolio/',
+    ariaLabel: 'View portfolio page',
+  },
+  {
     label: 'Uses',
     url: '/uses/',
     ariaLabel: 'Tools Dustin Davis uses',

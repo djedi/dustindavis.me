@@ -1,0 +1,59 @@
+---
+pagination:
+  data: portfolio
+  size: 1
+  alias: project
+permalink: /portfolio/{{ project.slug }}/
+fullWidth: true
+eleventyComputed:
+  title: '{{ project.name }} — Portfolio — Dustin Davis'
+  description: '{{ project.summary }}'
+---
+
+<article class="section portfolio-detail" style="padding-top:2.5rem;">
+  <div class="section__label"><span class="prompt">$</span> <span class="cmd">cat</span> ~/projects/{{ project.slug }}/README</div>
+  <p><a href="/portfolio/">← All projects</a></p>
+
+  <header class="portfolio-detail__head">
+    <img src="{{ project.icon }}" alt="" width="56" height="56" />
+    <div>
+      <h1>{{ project.name }}</h1>
+      <p class="portfolio-detail__tagline">{{ project.tagline }}</p>
+    </div>
+  </header>
+
+  <img class="portfolio-detail__cover" src="{{ project.cover }}" alt="{{ project.coverAlt }}" width="1600" height="900" />
+
+  <dl class="portfolio-facts">
+    <div><dt>Role</dt><dd>{{ project.role }}</dd></div>
+    <div><dt>Years</dt><dd>{{ project.years }}</dd></div>
+    <div><dt>Status</dt><dd>{{ project.status }}</dd></div>
+    <div class="portfolio-facts__links"><dt>Links</dt><dd>{% for link in project.links %}<a href="{{ link.url }}" target="_blank" rel="noopener noreferrer">{{ link.label }}</a>{% if not loop.last %} · {% endif %}{% endfor %}</dd></div>
+  </dl>
+
+  <div class="prose">
+    <h2>The story</h2>
+    {% for p in project.story %}<p>{{ p }}</p>{% endfor %}
+  </div>
+
+  <h2>Highlights</h2>
+  <ul class="portfolio-highlights">
+    {% for h in project.highlights %}
+    <li><h3>{{ h.title }}</h3><p>{{ h.body }}</p></li>
+    {% endfor %}
+  </ul>
+
+  <h2>Built with</h2>
+  <ul class="portfolio-stack">
+    {% for tech in project.stack %}<li>{{ tech }}</li>{% endfor %}
+  </ul>
+
+  {% if project.related %}
+  <h2>Related posts</h2>
+  <ul>
+    {% for r in project.related %}<li><a href="{{ r.url }}">{{ r.label }}</a></li>{% endfor %}
+  </ul>
+  {% endif %}
+
+  <p class="cta-row"><a class="btn btn--primary" href="{{ project.url }}" target="_blank" rel="noopener noreferrer">Visit {{ project.name }}</a></p>
+</article>

@@ -1,0 +1,35 @@
+---
+title: Portfolio — Dustin Davis
+description: Products and projects built by Dustin Davis.
+permalink: /portfolio/
+fullWidth: true
+---
+
+<div class="section" style="padding-top:2.5rem;">
+  <div class="section__label"><span class="prompt">$</span> <span class="cmd">ls</span> ~/projects</div>
+  <h1 style="margin-bottom:0.4rem;">Portfolio</h1>
+  <p style="color:var(--ink-soft); max-width:60ch;">Things I've built and still run. Some are businesses, some are weekend experiments that got out of hand.</p>
+
+  <ul class="portfolio-grid">
+    {% for project in portfolio %}
+    <li class="portfolio-card">
+      <a href="/portfolio/{{ project.slug }}/" class="portfolio-card__cover">
+        <img src="{{ project.cover }}" alt="{{ project.coverAlt }}" width="1600" height="900" loading="lazy" />
+      </a>
+      <div class="portfolio-card__body">
+        <div class="portfolio-card__head">
+          <img src="{{ project.icon }}" alt="" width="32" height="32" />
+          <h2><a href="/portfolio/{{ project.slug }}/">{{ project.name }}</a></h2>
+          <span class="portfolio-status">{{ project.status }}</span>
+        </div>
+        <p class="portfolio-card__meta">{{ project.role }} · {{ project.years }}</p>
+        <p>{{ project.summary }}</p>
+        <ul class="portfolio-stack">
+          {% for tech in project.stack %}<li>{{ tech }}</li>{% endfor %}
+        </ul>
+        <a class="link-arrow" href="/portfolio/{{ project.slug }}/">Read the case study</a>
+      </div>
+    </li>
+    {% endfor %}
+  </ul>
+</div>

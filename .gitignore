@@ -4,3 +4,6 @@
 /.env
 node_modules
 /.pnpm-store
+
+# Local Netlify folder
+.netlify
