@@ -21,37 +21,38 @@ fullWidth: true
       <span class="prompt" style="color: var(--accent-2)">$</span>
       <span id="typed"></span><span class="cursor">_</span>
     </p>
-    <div class="cta-row" style="margin-top: 1.6rem">
-      <a
-        class="hero-cta hero-cta--eb"
-        href="https://envelopebudget.com"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <span class="hero-cta__icon"><img src="/images/eb.png" alt="" /></span>
-        <span class="hero-cta__body">
-          <span class="hero-cta__brand">EnvelopeBudget</span>
-          <span class="hero-cta__label">Simple budgeting that works</span>
-        </span>
-      </a>
-      <a
-        class="hero-cta hero-cta--rs"
-        href="https://redseam.com"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <span class="hero-cta__icon"><img src="/images/rs.png" alt="" /></span>
-        <span class="hero-cta__body">
-          <span class="hero-cta__brand">Red Seam</span>
-          <span class="hero-cta__label">Need a site or app?</span>
-        </span>
-      </a>
-    </div>
   </div>
 
   <div class="hero__portrait">
-    <img src="/images/dustin-avatar.png" alt="Dustin Davis" />
+    <img src="/images/dustin-avatar-600.webp" srcset="/images/dustin-avatar-300.webp 300w, /images/dustin-avatar-600.webp 600w" sizes="(max-width: 640px) 190px, 300px" alt="Dustin Davis" width="600" height="600" />
     <span class="hero__portrait-tag" aria-hidden="true">// identity.verified</span>
+  </div>
+</section>
+
+<section class="section">
+  <div class="section__label">
+    <span class="prompt">$</span> <span class="cmd">ls</span> ~/projects --featured
+  </div>
+
+  <ul class="portfolio-grid portfolio-grid--featured">
+    {% for project in portfolio | selectattr("featured") | sort(false, false, "featured") %}
+    <li class="portfolio-card">
+      <a href="/portfolio/{{ project.slug }}/" class="portfolio-card__cover">
+        <img src="{{ project.cover | replace('-cover.webp', '-cover-600.webp') }}" srcset="{{ project.cover | replace('-cover.webp', '-cover-400.webp') }} 400w, {{ project.cover | replace('-cover.webp', '-cover-600.webp') }} 600w, {{ project.cover | replace('-cover.webp', '-cover-800.webp') }} 800w, {{ project.cover }} 1200w" sizes="(max-width: 560px) 100vw, (max-width: 960px) 45vw, 240px" alt="{{ project.coverAlt }}" width="1200" height="630" loading="lazy" />
+      </a>
+      <div class="portfolio-card__body">
+        <div class="portfolio-card__head">
+          <img src="{{ project.icon }}" alt="" width="28" height="28" />
+          <h2><a href="/portfolio/{{ project.slug }}/">{{ project.name }}</a></h2>
+        </div>
+        <p class="portfolio-card__meta">{{ project.tagline }}</p>
+      </div>
+    </li>
+    {% endfor %}
+  </ul>
+
+  <div class="post-list__foot">
+    <a class="link-arrow" href="/portfolio/">View all projects</a>
   </div>
 </section>
 
@@ -65,14 +66,12 @@ fullWidth: true
     recentPosts %}
     <a
       class="post-card"
-      aria-label="View {{ post.data.title }}"
       href="{{ post.url }}"
     >
       {% if post.data.banner %} {% set imagePath = post.inputPath |
       directoryPath %}
       <div class="post-card__media blog-post-box__media">
-        {% responsiveImage imagePath + '/' + post.data.banner, post.data.title,
-        "blog-image", 480 %}
+        {% responsiveImage imagePath + '/' + post.data.banner, post.data.title, "blog-image", 480, "", "(max-width: 640px) 100vw, 220px", "lazy" %}
       </div>
       {% endif %}
       <div class="post-card__body">
@@ -87,21 +86,21 @@ fullWidth: true
   </div>
 
   <div class="post-list__foot">
-    <a class="link-arrow" aria-label="Visit blog page" href="/blog"
+    <a class="link-arrow" href="/blog"
       >View all articles</a
     >
   </div>
 </section>
 
 <!-- Clicky -->
-<script async data-id="101491563" src="//static.getclicky.com/js"></script>
+<script async data-id="101491563" src="https://static.getclicky.com/js"></script>
 <noscript
   ><p>
     <img
       alt="Clicky"
       width="1"
       height="1"
-      src="//in.getclicky.com/101491563ns.gif"
+      src="https://in.getclicky.com/101491563ns.gif"
     /></p
 ></noscript>
 

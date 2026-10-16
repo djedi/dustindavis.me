@@ -1,0 +1,70 @@
+    <!-- No-flash theme: apply saved / preferred light-dark + seasonal theme before paint -->
+    <script>
+      (function () {
+        var root = document.documentElement;
+        try {
+          var t = localStorage.getItem('theme');
+          if (t !== 'light' && t !== 'dark') t = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+          root.setAttribute('data-theme', t);
+          if (localStorage.getItem('effects') === 'off') root.setAttribute('data-effects', 'off');
+        } catch (e) {}
+
+        var themes = {{ themes | dump | safe }};
+        function cssHref(name) { return '/static/themes/' + name + '.css?v={{ '/static/themes' | assetVersion }}'; }
+        function day(y, m, d) { return new Date(y, m - 1, d); }
+        // The holiday's date in a given year, from 'MM-DD' or { month, weekday, nth }
+        function holidayDate(th, y) {
+          if (typeof th.date === 'string') return day(y, +th.date.slice(0, 2), +th.date.slice(3, 5));
+          var first = day(y, th.date.month, 1);
+          return day(y, th.date.month, 1 + ((th.date.weekday - first.getDay() + 7) % 7) + (th.date.nth - 1) * 7);
+        }
+        function inWindow(th, d) {
+          if (!th.date) return false;
+          var today = day(d.getFullYear(), d.getMonth() + 1, d.getDate());
+          // check this year's and next year's holiday so windows can span New Year
+          for (var y = d.getFullYear(); y <= d.getFullYear() + 1; y++) {
+            var h = holidayDate(th, y);
+            var start = day(y, h.getMonth() + 1, h.getDate() - (th.before || 0));
+            var end = day(y, h.getMonth() + 1, h.getDate() + (th.after || 0));
+            if (today >= start && today <= end) return true;
+          }
+          return false;
+        }
+        // Theme the calendar picks for a date (Matrix when no holiday is active)
+        function auto(d) {
+          d = d || new Date();
+          for (var i = 0; i < themes.length; i++) if (inWindow(themes[i], d)) return themes[i].name;
+          return 'matrix';
+        }
+        // Midnight starting the next day whose auto theme differs from today's
+        function nextBoundary() {
+          var d = new Date();
+          var current = auto(d);
+          for (var i = 1; i <= 366; i++) {
+            var next = new Date(d.getFullYear(), d.getMonth(), d.getDate() + i);
+            if (auto(next) !== current) return next.getTime();
+          }
+          return d.getTime() + 366 * 864e5;
+        }
+        // Visitor's pick, or null once it has expired
+        function saved() {
+          try {
+            var s = JSON.parse(localStorage.getItem('holiday') || 'null');
+            if (s && s.until > Date.now()) return s.name;
+            localStorage.removeItem('holiday');
+          } catch (e) {}
+          return null;
+        }
+        function current() {
+          var name = saved() || auto();
+          for (var i = 0; i < themes.length; i++) if (themes[i].name === name) return name;
+          return 'matrix';
+        }
+
+        window.siteThemes = { list: themes, auto: auto, saved: saved, current: current, nextBoundary: nextBoundary, cssHref: cssHref };
+
+        var name = current();
+        root.setAttribute('data-holiday', name);
+        if (name !== 'matrix') document.write('<link rel="stylesheet" id="holiday-css" href="' + cssHref(name) + '" />');
+      })();
+    </script>

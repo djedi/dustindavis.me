@@ -1,0 +1,108 @@
+/* ==========================================================================
+   Thanksgiving — layered on top of the Matrix theme (static/site.css).
+   Harvest amber + cranberry over warm wheat (light) and roasted walnut (dark),
+   with falling leaves for the digital rain. Loaded only when
+   data-holiday="thanksgiving" (see _data/themes.js).
+   ========================================================================== */
+
+html[data-holiday="thanksgiving"] {
+  --bg: #f8f1e4;
+  --bg-panel: #fffaf0;
+  --bg-inset: #efe2c9;
+  --ink: #2b1a0e;
+  --ink-soft: #5b412c;
+  --ink-faint: #785f4a;
+  --rule: #e6d5b8;
+  --rule-strong: #d3b88e;
+
+  --accent: #a04b09; /* harvest amber */
+  --accent-ink: #92400e;
+  --accent-2: #9f1239; /* cranberry */
+  --accent-wash: rgba(180, 83, 9, 0.1);
+  --on-accent: #ffffff;
+  --glow: rgba(180, 83, 9, 0.18);
+  --warm: #4d7c0f;
+
+  --scan: rgba(120, 72, 20, 0.03);
+  --rain: #b45309;
+  --rain-fade: rgba(248, 241, 228, 0.1);
+  --rain-opacity: 0.18;
+  --rain-chars: "🍂🍁🌾🌽🥧🍎";
+  --portrait-tint: linear-gradient(180deg, rgba(180, 83, 9, 0.22), rgba(248, 241, 228, 0.3));
+  --portrait-blend: multiply;
+
+  --shadow: 0 1px 0 var(--rule-strong), 0 10px 30px -18px rgba(43, 26, 14, 0.35);
+}
+
+html[data-holiday="thanksgiving"][data-theme="dark"] {
+  --bg: #120c07;
+  --bg-panel: #1a120b;
+  --bg-inset: #231810;
+  --ink: #f5ebdc;
+  --ink-soft: #cfbda5;
+  --ink-faint: #95836d;
+  --rule: #33241a;
+  --rule-strong: #4d3524;
+
+  --accent: #f59e0b;
+  --accent-ink: #fbbf24;
+  --accent-2: #f0577a;
+  --accent-wash: rgba(245, 158, 11, 0.1);
+  --on-accent: #1a0e00;
+  --glow: rgba(245, 158, 11, 0.32);
+  --warm: #a3c94a;
+
+  --scan: rgba(0, 0, 0, 0.18);
+  --rain: #f59e0b;
+  --rain-fade: rgba(18, 12, 7, 0.08);
+  --rain-opacity: 0.22;
+  --portrait-tint: linear-gradient(180deg, rgba(245, 158, 11, 0.18), rgba(18, 12, 7, 0.55));
+  --portrait-blend: screen;
+
+  --shadow: 0 1px 0 rgba(0, 0, 0, 0.4), 0 14px 34px -20px rgba(0, 0, 0, 0.8);
+}
+
+/* ---- Decorations ---------------------------------------------------------- */
+
+/* the prompt gets a turkey */
+html[data-holiday="thanksgiving"] .brand__name::after {
+  content: " 🦃";
+}
+
+/* a leaf drifting down from the header */
+html[data-holiday="thanksgiving"] .site-header::after {
+  content: "🍁";
+  position: absolute;
+  top: 100%;
+  right: 12%;
+  font-size: 1.1rem;
+  line-height: 1;
+  opacity: 0;
+  animation: thanksgiving-leaf 9s ease-in-out infinite;
+  pointer-events: none;
+}
+@keyframes thanksgiving-leaf {
+  0% {
+    opacity: 0;
+    transform: translate(0, -10px) rotate(0deg);
+  }
+  10% {
+    opacity: 0.9;
+  }
+  50% {
+    transform: translate(-40px, 90px) rotate(160deg);
+  }
+  90% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 0;
+    transform: translate(10px, 180px) rotate(320deg);
+  }
+}
+
+@media (max-width: 640px) {
+  html[data-holiday="thanksgiving"] .site-header::after {
+    display: none;
+  }
+}

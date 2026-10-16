@@ -22,7 +22,7 @@ eleventyComputed:
     </div>
   </header>
 
-  <img class="portfolio-detail__cover" src="{{ project.cover }}" alt="{{ project.coverAlt }}" width="1600" height="900" />
+  <img class="portfolio-detail__cover" src="{{ project.cover }}" srcset="{{ project.cover | replace('-cover.webp', '-cover-400.webp') }} 400w, {{ project.cover | replace('-cover.webp', '-cover-600.webp') }} 600w, {{ project.cover | replace('-cover.webp', '-cover-800.webp') }} 800w, {{ project.cover }} 1200w" sizes="(max-width: 1160px) 100vw, 1120px" alt="{{ project.coverAlt }}" width="1200" height="630" />
 
   <dl class="portfolio-facts">
     <div><dt>Role</dt><dd>{{ project.role }}</dd></div>

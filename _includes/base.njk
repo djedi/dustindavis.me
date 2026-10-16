@@ -5,16 +5,6 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 
-    <!-- No-flash theme: apply saved / preferred theme before paint -->
-    <script>
-      (function () {
-        try {
-          var t = localStorage.getItem('theme');
-          if (t !== 'light' && t !== 'dark') t = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
-          document.documentElement.setAttribute('data-theme', t);
-        } catch (e) {}
-      })();
-    </script>
 
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-YTTL61KN8J"></script>
     <script type="text/javascript">
@@ -24,26 +14,25 @@
       gtag('config', 'G-YTTL61KN8J');
     </script>
 
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,400..700;1,14..32,400..600&family=JetBrains+Mono:ital,wght@0,400..800;1,400..600&display=swap" rel="stylesheet" />
+    <link rel="preload" href="/static/fonts/jetbrains-mono-700.woff2" as="font" type="font/woff2" crossorigin />
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.3.2/lazysizes.min.js" async></script>
 
-    <link rel="stylesheet" href="/static/site.css" />
+    <style>{{ '/static/fonts/fonts.css' | inlineCss | safe }}{{ '/static/site.css' | inlineCss | safe }}</style>
+    {% include "theme-head.njk" %}
 
     <link rel="manifest" href="/manifest.webmanifest" />
     <title>{% if title %}{{ title }}{% else %}Dustin Davis{% endif %}</title>
-    <meta name="image" content="https://dustindavis.me/images/og-default.png" />
+    <meta name="image" content="https://dustindavis.me/images/og-default.jpg" />
     <meta property="og:url" content="https://dustindavis.me{{ page.url }}" />
     <meta property="og:title" content="{% if title %}{{ title }}{% else %}Dustin Davis{% endif %}" />
     <meta property="og:description" content="{% if description %}{{ description }}{% else %}Software engineer who improves systems through automation.{% endif %}" />
-    <meta property="og:image" content="https://dustindavis.me/images/og-default.png" />
+    <meta property="og:image" content="https://dustindavis.me/images/og-default.jpg" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:creator" content="@DustinDavis" />
     <meta name="twitter:title" content="{% if title %}{{ title }}{% else %}Dustin Davis{% endif %}" />
     <meta name="twitter:description" content="{% if description %}{{ description }}{% else %}Software engineer who improves systems through automation.{% endif %}" />
-    <meta name="twitter:image" content="https://dustindavis.me/images/og-default.png" />
+    <meta name="twitter:image" content="https://dustindavis.me/images/og-default.jpg" />
     <meta name="description" content="{% if description %}{{ description }}{% else %}Software engineer who improves systems through automation.{% endif %}" />
     <meta name="keywords" content="Software Engineer, Automation" />
     <noscript>This site runs best with JavaScript enabled.</noscript>
@@ -72,7 +61,7 @@
       </main>
       {% include "footer.njk" %}
     </div>
-    <script src="/static/site.js" defer></script>
+    <script src="/static/site.js?v={{ '/static/site.js' | assetVersion }}" defer></script>
     <script async src="/2874fffa84c5.js"></script>
   </body>
 </html>

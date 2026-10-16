@@ -14,7 +14,7 @@ fullWidth: true
     {% for project in portfolio %}
     <li class="portfolio-card">
       <a href="/portfolio/{{ project.slug }}/" class="portfolio-card__cover">
-        <img src="{{ project.cover }}" alt="{{ project.coverAlt }}" width="1600" height="900" loading="lazy" />
+        <img src="{{ project.cover | replace('-cover.webp', '-cover-600.webp') }}" srcset="{{ project.cover | replace('-cover.webp', '-cover-400.webp') }} 400w, {{ project.cover | replace('-cover.webp', '-cover-600.webp') }} 600w, {{ project.cover | replace('-cover.webp', '-cover-800.webp') }} 800w, {{ project.cover }} 1200w" sizes="(max-width: 780px) 100vw, 480px" alt="{{ project.coverAlt }}" width="1200" height="630" {% if loop.first %}fetchpriority="high"{% else %}loading="lazy"{% endif %} />
       </a>
       <div class="portfolio-card__body">
         <div class="portfolio-card__head">

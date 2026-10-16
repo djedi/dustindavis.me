@@ -1,7 +1,7 @@
 <header class="site-header">
   <div class="site-header__inner">
-    <a class="brand" aria-label="go to homepage" href="/">
-      <img src="/images/dustin-avatar.png" alt="Dustin Davis" />
+    <a class="brand" href="/">
+      <img src="/images/dustin-avatar-68.webp" alt="" width="34" height="34" />
       <span class="brand__name"><span class="prompt">~/</span>dustin-davis</span>
     </a>
 
@@ -15,6 +15,14 @@
              {% if page.url == item.url %}aria-current="page"{% endif %}>{{ item.label }}</a>
         {% endfor %}
       </nav>
+      <label class="holiday-switch" title="Site theme">
+        <span class="sr-only">Site theme</span>
+        <select id="holiday-select" aria-label="Site theme">
+          <option value="auto">Auto (seasonal)</option>
+          {% for t in themes %}<option value="{{ t.name }}">{{ t.icon }} {{ t.label }}</option>{% endfor %}
+        </select>
+      </label>
+      <button type="button" class="fx-toggle" id="fx-toggle" aria-pressed="true" title="Background effects">fx</button>
       <fieldset class="theme-switch" role="radiogroup" aria-label="Color theme">
         <input type="radio" name="theme" id="theme-light" value="light" />
         <label for="theme-light" title="Light"><span aria-hidden="true">☀</span><span class="sr-only">Light</span></label>

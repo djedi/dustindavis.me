@@ -1,0 +1,126 @@
+/* ==========================================================================
+   Halloween — layered on top of the Matrix theme (static/site.css).
+   Jack-o'-lantern orange + witchy purple; candlelit parchment (light) and
+   midnight plum (dark). Loaded only when data-holiday="halloween" (see _data/themes.js).
+   ========================================================================== */
+
+html[data-holiday="halloween"] {
+  --bg: #fbf3ea;
+  --bg-panel: #fffaf4;
+  --bg-inset: #f3e3d2;
+  --ink: #261207;
+  --ink-soft: #563526;
+  --ink-faint: #7c5f54;
+  --rule: #ecd6c1;
+  --rule-strong: #dbb999;
+
+  --accent: #b33b0c; /* pumpkin */
+  --accent-ink: #9a3412;
+  --accent-2: #7e22ce; /* witch purple */
+  --accent-wash: rgba(194, 65, 12, 0.1);
+  --on-accent: #ffffff;
+  --glow: rgba(194, 65, 12, 0.18);
+  --warm: #7e22ce;
+
+  --scan: rgba(126, 34, 206, 0.03);
+  --rain: #c2410c;
+  --rain-fade: rgba(251, 243, 234, 0.1);
+  --rain-opacity: 0.16;
+  --rain-chars: "ᚠᚢᚦᚨᚱᚲᚷᚹᚺᚾᛁᛃ☾✝†⚰🦇🎃";
+  --portrait-tint: linear-gradient(180deg, rgba(194, 65, 12, 0.22), rgba(126, 34, 206, 0.18));
+  --portrait-blend: multiply;
+
+  --shadow: 0 1px 0 var(--rule-strong), 0 10px 30px -18px rgba(38, 18, 7, 0.35);
+}
+
+html[data-holiday="halloween"][data-theme="dark"] {
+  --bg: #0b0610;
+  --bg-panel: #130b19;
+  --bg-inset: #1b1022;
+  --ink: #f6ece3;
+  --ink-soft: #cdbcb2;
+  --ink-faint: #8e7b87;
+  --rule: #2a1830;
+  --rule-strong: #462746;
+
+  --accent: #ff8a1f;
+  --accent-ink: #ffa755;
+  --accent-2: #b57bff;
+  --accent-wash: rgba(255, 138, 31, 0.1);
+  --on-accent: #1a0a00;
+  --glow: rgba(255, 138, 31, 0.35);
+  --warm: #b57bff;
+
+  --scan: rgba(0, 0, 0, 0.18);
+  --rain: #ff8a1f;
+  --rain-fade: rgba(11, 6, 16, 0.08);
+  --rain-opacity: 0.2;
+  --portrait-tint: linear-gradient(180deg, rgba(255, 138, 31, 0.2), rgba(11, 6, 16, 0.55));
+  --portrait-blend: screen;
+
+  --shadow: 0 1px 0 rgba(0, 0, 0, 0.4), 0 14px 34px -20px rgba(0, 0, 0, 0.8);
+}
+
+/* ---- Decorations ---------------------------------------------------------- */
+
+/* the prompt gets a pumpkin */
+html[data-holiday="halloween"] .brand__name::after {
+  content: " 🎃";
+}
+
+/* a spider dangling from the header on its thread */
+html[data-holiday="halloween"] .site-header::after {
+  content: "🕷";
+  position: absolute;
+  top: 100%;
+  right: 12%;
+  padding-top: 46px;
+  font-size: 1.1rem;
+  line-height: 1;
+  background: linear-gradient(var(--ink-faint), var(--ink-faint)) top center / 1px 48px no-repeat;
+  transform-origin: top center;
+  animation: halloween-dangle 4s ease-in-out infinite alternate;
+  pointer-events: none;
+}
+@keyframes halloween-dangle {
+  from {
+    transform: rotate(-4deg) translateY(-6px);
+  }
+  to {
+    transform: rotate(4deg) translateY(4px);
+  }
+}
+
+/* cobweb in the top-left corner of the page */
+html[data-holiday="halloween"] body::after {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 140px;
+  height: 140px;
+  opacity: 0.25;
+  pointer-events: none;
+  z-index: 0;
+  background:
+    repeating-radial-gradient(circle at 0 0, transparent 0 22px, var(--ink-faint) 22px 23px),
+    conic-gradient(
+      from 90deg at 0 0,
+      var(--ink-faint) 0 0.4deg,
+      transparent 0.4deg 22.5deg,
+      var(--ink-faint) 22.5deg 22.9deg,
+      transparent 22.9deg 45deg,
+      var(--ink-faint) 45deg 45.4deg,
+      transparent 45.4deg 67.5deg,
+      var(--ink-faint) 67.5deg 67.9deg,
+      transparent 67.9deg
+    );
+  mask-image: radial-gradient(circle at 0 0, #000 60%, transparent 72%);
+}
+
+@media (max-width: 640px) {
+  html[data-holiday="halloween"] .site-header::after,
+  html[data-holiday="halloween"] body::after {
+    display: none;
+  }
+}

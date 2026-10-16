@@ -29,6 +29,16 @@ export default function (eleventyConfig) {
     return DateTime.fromJSDate(dateObj).toRFC2822();
   });
 
+  // Markdown images in post bodies are below the banner, so load them lazily
+  eleventyConfig.amendLibrary('md', md => {
+    const defaultImage = md.renderer.rules.image;
+    md.renderer.rules.image = (tokens, idx, options, env, self) => {
+      tokens[idx].attrSet('loading', 'lazy');
+      tokens[idx].attrSet('decoding', 'async');
+      return defaultImage(tokens, idx, options, env, self);
+    };
+  });
+
   eleventyConfig.addShortcode('year', () => `${new Date().getFullYear()}`);
 
   // Configure the Markdown-it library
@@ -106,6 +116,32 @@ export default function (eleventyConfig) {
     return array.slice(0, limit);
   });
 
+  // Content hash for cache busting: '/static/site.css' | assetVersion -> 'a1b2c3d4'.
+  // A directory hashes all of its files, so one version covers e.g. static/themes/.
+  eleventyConfig.addFilter('assetVersion', urlPath => {
+    const target = path.join('.', urlPath);
+    const files = fs.statSync(target).isDirectory()
+      ? fs
+          .readdirSync(target)
+          .sort()
+          .map(f => path.join(target, f))
+      : [target];
+    const hash = crypto.createHash('md5');
+    for (const f of files) hash.update(fs.readFileSync(f));
+    return hash.digest('hex').slice(0, 8);
+  });
+
+  // Inline a CSS file into the page (no render-blocking request). Comments and
+  // extra whitespace are stripped; nothing else is rewritten.
+  eleventyConfig.addFilter('inlineCss', urlPath =>
+    fs
+      .readFileSync(path.join('.', urlPath), 'utf8')
+      .replace(/\/\*[\s\S]*?\*\//g, '')
+      .replace(/\s+/g, ' ')
+      .replace(/\s*([{};,])\s*/g, '$1')
+      .trim()
+  );
+
   eleventyConfig.addFilter('githubPath', filePath => {
     return `https://github.com/djedi/dustindavis.me/edit/master/${filePath.substring(1)}`;
   });
@@ -143,7 +179,12 @@ export default function (eleventyConfig) {
 
   eleventyConfig.addShortcode(
     'responsiveImage',
-    async function (src, alt, className, width = 720, imageDescription = '') {
+    // `sizes` is optional; when given, a half-width variant is generated too so
+    // browsers can pick the smaller file for small slots.
+    // `loading`: '' (default) = traced SVG placeholder + lazysizes; 'lazy' = native
+    // lazy loading, no placeholder; 'eager' = high-priority load for above-the-fold
+    // images. The traced placeholders are large, so skip them where they don't help.
+    async function (src, alt, className, width = 720, imageDescription = '', sizes = '', loading = '') {
       const imageSrc = path.normalize(src);
       const srcHash = crypto.createHash('sha256').update(imageSrc).digest('hex').substring(0, 8);
       const inputDir = this.page?.inputPath.split('/').slice(0, -1).join('/');
@@ -157,7 +198,7 @@ export default function (eleventyConfig) {
       const outputFolder = './_site/img/';
 
       const stats = await Image(imagePath, {
-        widths: [width],
+        widths: sizes ? [Math.round(width / 2), width] : [width],
         formats: ['webp', 'jpeg'],
         outputDir: outputFolder,
         filenameFormat: (_id, src, width, format) => {
@@ -169,18 +210,30 @@ export default function (eleventyConfig) {
         },
       });
 
-      const smallestImage = stats.webp[0];
+      const largestImage = stats.webp[stats.webp.length - 1];
       const srcSet = stats.webp.map(image => `${image.url} ${image.width}w`).join(', ');
+
+      const sizesAttr = sizes || '(max-width: 600px) 100vw, 600px';
+      if (loading) {
+        const priority = loading === 'eager' ? 'fetchpriority="high"' : 'loading="lazy" decoding="async"';
+        return `
+        <figure class="${className}">
+          <img src="${largestImage.url}" alt="${alt}" width="${largestImage.width}" height="${largestImage.height}"
+            srcset="${srcSet}" sizes="${sizesAttr}" ${priority} style="width:100%;height:auto;" />
+        </figure>
+        <div class="caption" style="width:${largestImage.width}px">${imageDescription}</div>
+      `;
+      }
 
       const placeholderSVG = await generateSvgTrace(stats.jpeg[0].outputPath);
 
       return `
         <figure class="${className}">
-          <img src="data:image/svg+xml;base64,${placeholderSVG}" alt="${alt}" style="width:${smallestImage.width}px;height:auto;position:absolute;" />
-          <img data-src="${smallestImage.url}" alt="${alt}" width="${smallestImage.width}" height="${smallestImage.height}"
-            srcset="${srcSet}" sizes="(max-width: 600px) 100vw, 600px" class="lazyload" style="width:100%;height:auto;" />
+          <img src="data:image/svg+xml;base64,${placeholderSVG}" alt="${alt}" style="width:${largestImage.width}px;height:auto;position:absolute;" />
+          <img data-src="${largestImage.url}" alt="${alt}" width="${largestImage.width}" height="${largestImage.height}"
+            srcset="${srcSet}" sizes="${sizesAttr}" class="lazyload" style="width:100%;height:auto;" />
         </figure>
-        <div class="caption" style="width:${smallestImage.width}px">${imageDescription}</div>
+        <div class="caption" style="width:${largestImage.width}px">${imageDescription}</div>
       `;
     }
   );
