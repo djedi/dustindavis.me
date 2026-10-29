@@ -419,14 +419,14 @@ export default [
     icon: '/images/missioncallguess.webp',
     cover: '/images/portfolio/missioncallguess-cover.webp',
     coverAlt:
-      'MissionCallGuess social card: Where Will They Serve? with family guesses pinned on a world map and a mission call envelope',
+      'MissionCallGuess social card: Where will they serve? with two excited young missionaries checking their phones in front of a pinned globe',
     tagline: 'Where will they serve?',
     summary:
       'A guessing game for LDS mission calls. Create a page for your future missionary, share it, and see who guesses closest when the call is opened.',
     role: 'Creator · Developer',
     years: '2026 – present',
     status: 'Live',
-    stack: ['Bun', 'Elysia', 'TypeScript', 'SvelteKit', 'PostgreSQL', 'Leaflet', 'Docker Compose'],
+    stack: ['Bun', 'Elysia', 'TypeScript', 'SvelteKit', 'PostgreSQL', 'MapLibre GL JS', 'Docker Compose'],
     links: [{ label: 'missioncallguess.com', url: 'https://missioncallguess.com' }],
     story: [
       'Opening a mission call is a big moment for Latter-day Saint families, and guessing where the missionary will go is half the fun. MissionCallGuess turns that into a shareable game.',
@@ -435,7 +435,7 @@ export default [
     highlights: [
       {
         title: 'Interactive mission map',
-        body: 'Click mission boundaries on a Leaflet map built from GeoJSON mission data.',
+        body: 'Click mission boundaries on a MapLibre GL JS map built from GeoJSON mission data.',
       },
       { title: 'Personal game pages', body: 'Every missionary gets a friendly URL to share, like /g/elder-smith.' },
       { title: 'Flexible guessing', body: 'Separate US and foreign guesses, or a set number of guesses of any kind.' },
