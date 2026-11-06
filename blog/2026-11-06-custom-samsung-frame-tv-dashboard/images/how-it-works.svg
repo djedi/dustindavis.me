@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="760" viewBox="0 0 1000 760" role="img" aria-labelledby="title desc">
+<title id="title">How the custom Frame dashboard works</title>
+<desc id="desc">A computer builds and signs a web app and installs it over the home network. On the TV, the dashboard opens HDMI, Plex, or YouTube. A model-specific Home routing rule and registered native helper launch the dashboard.</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#647b69"/></marker></defs>
+<rect width="1000" height="760" rx="24" fill="#f4f1e8"/>
+<g font-family="system-ui,sans-serif" fill="#253d31" text-anchor="middle">
+<text x="500" y="55" font-size="30" font-weight="700">A small app, running on the TV</text>
+<rect x="75" y="95" width="850" height="100" rx="16" fill="#e1e7dc"/>
+<text x="500" y="135" font-size="25" font-weight="600">Your computer + coding agent</text>
+<text x="500" y="168" font-size="21">HTML / CSS / JS → build → sign a .wgt package</text>
+<path d="M500 195V262" stroke="#647b69" stroke-width="3" marker-end="url(#arrow)"/>
+<text x="690" y="235" font-size="19">Install over your home network</text>
+<rect x="75" y="275" width="850" height="190" rx="16" fill="#253d31"/>
+<text x="500" y="320" fill="#fff5dd" font-size="26" font-weight="600">Samsung Frame · Tizen dashboard</text>
+<text x="500" y="355" fill="#fff5dd" font-size="20">Local artwork + clock + remote navigation</text>
+<g fill="#f4f1e8"><rect x="115" y="385" width="240" height="50" rx="10"/><rect x="380" y="385" width="240" height="50" rx="10"/><rect x="645" y="385" width="240" height="50" rx="10"/></g>
+<g font-size="21"><text x="235" y="417">Apple TV · HDMI 1</text><text x="500" y="417">Plex app</text><text x="765" y="417">YouTube app</text></g>
+<text x="500" y="518" font-size="23" font-weight="700">Separate, model-specific Home-button route</text>
+<g fill="#e1e7dc"><rect x="45" y="550" width="240" height="100" rx="14"/><rect x="365" y="550" width="270" height="100" rx="14"/><rect x="715" y="550" width="240" height="100" rx="14"/></g>
+<g font-size="22"><text x="165" y="591">Remote Home</text><text x="165" y="622">routing rule</text><text x="500" y="591">Registered native</text><text x="500" y="622">launch helper</text><text x="835" y="591">Open the</text><text x="835" y="622">dashboard</text></g>
+<g stroke="#647b69" stroke-width="3" marker-end="url(#arrow)"><path d="M285 600H353"/><path d="M635 600H703"/></g>
+<text x="500" y="705" font-size="19">Computer needed for development · no always-on server needed</text>
+</g></svg>
