@@ -443,6 +443,54 @@ export default [
     ],
   },
   {
+    slug: 'dinkaround',
+    name: 'DinkAround',
+    url: 'https://dinkaround.net',
+    icon: '/images/dinkaround.webp',
+    cover: '/images/portfolio/dinkaround-cover.webp',
+    coverAlt:
+      'DinkAround social card: Find pickleball courts anywhere, over players at a lighted outdoor court at sunset',
+    tagline: 'Find pickleball courts anywhere',
+    summary:
+      'An open, community-built directory of pickleball courts worldwide, on an interactive globe. Anyone can add a court or fix a listing, wiki-style.',
+    role: 'Creator · Developer',
+    years: '2026 – present',
+    status: 'Live',
+    stack: ['Rust', 'axum', 'SvelteKit', 'PostgreSQL', 'MapLibre GL JS', 'OpenStreetMap', 'Docker Compose', 'Caddy'],
+    links: [{ label: 'dinkaround.net', url: 'https://dinkaround.net' }],
+    story: [
+      'Finding a place to play pickleball away from home usually means digging through stale lists and half-finished map pins. DinkAround is an open directory of courts anywhere in the world, built and kept current by the people who play on them.',
+      'It is seeded from OpenStreetMap, then works like a wiki: anyone can add a court, correct the details, upload photos, or confirm a listing is still accurate. Every edit is kept in a revision history, and optimistic locking keeps concurrent edits from clobbering each other.',
+      'Under the hood it is a small Rust API on PostgreSQL, using earthdistance and trigram indexes for "courts near me" and fuzzy search, with a SvelteKit front end that renders a MapLibre GL JS globe on OpenFreeMap tiles.',
+    ],
+    highlights: [
+      {
+        title: 'Interactive globe',
+        body: 'Spin a MapLibre GL JS globe and zoom from continents down to individual courts.',
+      },
+      {
+        title: 'Open and editable',
+        body: 'Add courts, fix details, and add photos, with a full revision history behind every listing.',
+      },
+      {
+        title: '"Still accurate?"',
+        body: 'Players confirm listings are current, so stale courts are easy to spot.',
+      },
+      {
+        title: 'Browse by place',
+        body: 'Clean country, region, and city pages, with lighted, indoor, free, and public filters.',
+      },
+      {
+        title: 'Seeded from OpenStreetMap',
+        body: 'Courts are imported by region from OpenStreetMap, so the map is useful from day one.',
+      },
+      {
+        title: 'Open API',
+        body: 'A documented REST API with an OpenAPI spec for anyone who wants to build on the data.',
+      },
+    ],
+  },
+  {
     slug: 'webhookspy',
     name: 'WebhookSpy',
     url: 'https://webhookspy.com',

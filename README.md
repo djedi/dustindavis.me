@@ -44,5 +44,5 @@ from every Brave profile (or only the profiles you name). Run:
 
 ## Deploy
 
-This site is configured to deploy to Netlify. Simply push your changes to master
+This site is configured to deploy to Netlify. Simply push your changes to main
 and it will trigger a new build and deploy.
