@@ -443,6 +443,57 @@ export default [
     ],
   },
   {
+    slug: 'capturedesktop',
+    name: 'CaptureDesktop',
+    url: 'https://capturedesk.top',
+    icon: '/images/capturedesktop.webp',
+    cover: '/images/portfolio/capturedesktop-cover.webp',
+    coverAlt:
+      'CaptureDesktop social card: Record beautifully. Keep every track. beside a glowing recorder window with video and audio layers',
+    tagline: 'Record beautifully. Keep every track.',
+    summary:
+      'A free, open-source macOS screen recorder that keeps screen, camera, mic, and system audio as separate synced files, then builds a ready-to-edit DaVinci Resolve project.',
+    role: 'Creator · Developer',
+    years: '2026 – present',
+    status: 'Live',
+    stack: ['Swift', 'SwiftUI', 'ScreenCaptureKit', 'AVFoundation', 'Python', 'DaVinci Resolve API', 'Astro'],
+    links: [
+      { label: 'capturedesk.top', url: 'https://capturedesk.top' },
+      { label: 'GitHub', url: 'https://github.com/djedi/CaptureDesktop' },
+    ],
+    story: [
+      'Most screen recorders flatten everything into one video, which is the opposite of what you want when you plan to edit. CaptureDesktop records the screen, camera, microphone, and system audio as separate files that all start at the same instant, so every layer lines up on a timeline.',
+      'It is a recorder with a small review step, not a video editor. After recording you tune the cursor effects and camera layout, then one button hands everything to DaVinci Resolve as a project with each source on its own track.',
+      'It is a native Swift app for macOS 15 and later, signed and notarized, GPL-licensed, and installable with Homebrew.',
+    ],
+    highlights: [
+      {
+        title: 'Every track separate',
+        body: 'Screen, camera, mic, and system audio are recorded as their own synced files.',
+      },
+      {
+        title: 'Editing-friendly files',
+        body: 'Constant frame rate HEVC video and 24-bit 48 kHz audio that editors handle cleanly.',
+      },
+      {
+        title: 'DaVinci Resolve handoff',
+        body: 'One button builds a Resolve project with screen, cursor effects, and camera picture-in-picture on separate tracks.',
+      },
+      {
+        title: 'Cursor effects',
+        body: 'Pointer movements and clicks are logged, then rendered as a transparent highlight layer.',
+      },
+      {
+        title: 'Camera cutout',
+        body: 'Remove the camera background and frame yourself as a rectangle or a circle.',
+      },
+      {
+        title: 'Always in reach',
+        body: 'Start and stop from the menu bar, a floating Stop button, the Dock, or ⌥⇧⌘R from any app.',
+      },
+    ],
+  },
+  {
     slug: 'dinkaround',
     name: 'DinkAround',
     url: 'https://dinkaround.net',
