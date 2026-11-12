@@ -47,3 +47,6 @@
   for = "/images/*"
   [headers.values]
     Cache-Control = "public, max-age=2592000"
+
+[[plugins]]
+  package = "./netlify/plugins/indexnow"

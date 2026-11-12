@@ -17,6 +17,13 @@ export default function (eleventyConfig) {
   // Standalone static HTML (e.g. the Asteroids demo) is copied verbatim, not templated
   eleventyConfig.ignores.add('static/asteroids.html');
 
+  // Repo docs and local design mockups are not site pages
+  eleventyConfig.ignores.add('CLAUDE.md');
+  eleventyConfig.ignores.add('README.md');
+  eleventyConfig.ignores.add('mockups/**');
+
+  eleventyConfig.addPassthroughCopy('robots.txt');
+  eleventyConfig.addPassthroughCopy('fd957a71c47df840c6c0b97973ab870d.txt');
   eleventyConfig.addPassthroughCopy('images');
   eleventyConfig.addPassthroughCopy('manifest.webmanifest');
   eleventyConfig.addPassthroughCopy('static');
