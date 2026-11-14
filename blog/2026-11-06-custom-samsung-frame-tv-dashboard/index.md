@@ -12,6 +12,8 @@ banner: ./images/banner.jpg
 bannerCredit: ''
 ---
 
+**Update, November 13, 2026:** I built a second version for my father-in-law’s 2022 Frame, with artwork that changes at sunset. On that TV, we also found a native Home assignment that avoids the extra launcher step—without root. [Jump to the update](#a-second-frame-and-a-better-home-button-route).
+
 I posted a short video of my Samsung Frame TV on X, and people started asking how I did it. Here’s the walkthrough, including the part that took the most experimentation: making the remote’s Home button open my own screen.
 
 The screen itself is simple. A painting fills the display. The time and date sit at the top. Three small icons open my Apple TV’s HDMI input, Plex, and YouTube. A warm glow shows which icon is selected.
@@ -34,7 +36,7 @@ The computer connects to the TV over the home network to install and debug it. I
 
 This is separate from Samsung’s native Art Mode. It’s a foreground app that happens to look like a painting with a few controls. I previously wrote about [preparing artwork for the Frame’s Art Mode](/blog/samsung-frame-tv-image-script/); this project adds a launcher interface.
 
-![Diagram showing an agent on a computer packaging a signed app, installing it over the home network, and the TV dashboard opening HDMI, Plex, or YouTube. A separate Home-button route uses a registered native helper.](./images/how-it-works.svg)
+![Diagram showing an agent on a computer packaging a signed app, installing it over the home network, and the TV dashboard opening HDMI, Plex, or YouTube. The original TV’s Home-button route uses a registered native helper.](./images/how-it-works.svg)
 
 Here’s the setup we actually got working:
 
@@ -224,6 +226,82 @@ Record what actually works and what remains unverified.
 ```
 
 Our recovery procedure restores the original routing through a signed restore package **before** removing the helper registration. Simply uninstalling the active routing package can remove rules it now owns. Have your agent prepare recovery for the exact method it chooses, not a generic “uninstall everything” instruction.
+
+<h2 id="a-second-frame-and-a-better-home-button-route">A second Frame, and a better Home-button route</h2>
+
+On November 13, I built a version for my father-in-law’s TV. It has four shortcuts: YouTube, Plex, Prime Video, and a physical Roku on HDMI 1.
+
+| Component | Second setup |
+| --- | --- |
+| TV | 55-inch Samsung Frame, 2022 |
+| Model | QN55LS03BAFXZA |
+| Firmware | T-PTMAKUC-1720.7 |
+| TV platform | Tizen 6.5, ARMv7 |
+| Home routing | Native main-operation assignment; no extra launch helper |
+
+### Monet by day, Van Gogh by night
+
+This version shows Monet’s *Water Lily Pond* during the day and Van Gogh’s *The Starry Night* after sunset. We generated a separate set of painted icons for each background, so the shortcuts change palette along with the painting.
+
+![Daytime dashboard preview with Monet’s water lilies and painted YouTube, Plex, Prime Video, and Roku shortcuts.](./images/family-frame-day.webp)
+
+![Nighttime dashboard preview with Van Gogh’s The Starry Night and matching blue-and-gold shortcut icons.](./images/family-frame-night.webp)
+
+These are 1920×1080 desktop previews of the TV layout. The background keeps its proportions and crops to fill the landscape screen; the individual icon assets can be square without making the dashboard square.
+
+The app calculates sunrise and sunset locally with [SunCalc](https://github.com/mourner/suncalc/tree/v1.9.0), using Moroni, Utah, and the `America/Denver` time zone. The artwork, icons, and calculation code are bundled with the app. There’s no weather service or computer that needs to stay running. It does need the TV’s clock to be correct.
+
+To preview both themes without waiting for sunset, Play/Pause cycles through day, night, and automatic mode. In a desktop browser, P does the same thing. Returning from another app restores automatic mode.
+
+### A Roku detail worth checking
+
+On this TV, selecting HDMI and hiding the dashboard returned us to Samsung’s Apps view. The working sequence was to select HDMI 1 with `tizen.tvwindow.setSource()`, then launch `org.tizen.tv-viewer` to bring the input forward. The Roku box also needed to be powered on. “Check device power” wasn’t evidence that we had picked the wrong HDMI port.
+
+### Why the first Home fix flashed Samsung’s screen
+
+The two-package helper approach opened the dashboard, but Samsung Home appeared first. Removing the helper and pointing the Home rule directly at the web app made things worse: the dashboard appeared briefly, Samsung Home took over, and a second press finally brought the dashboard back.
+
+The visibility and focus logs showed the race. Samsung’s Home action was still happening alongside our extra launch. Making the extra launch faster wasn’t enough.
+
+We also tried changing `db/appfw/home_appid`. The setting accepted the dashboard’s ID and read back correctly, but the physical Home button still opened Samsung Home. **That preference and the native Home operation are different settings.**
+
+### The native assignment that worked
+
+The working route changed the default app for:
+
+```text
+http://tizen.org/appcontrol/operation/main
+```
+
+A small native helper called `app_operation_set_current_app()` from `libcapi-appfw-app-operation-tv.so.0`. The same call returned permission denied inside our installed app, running as user 5001, but succeeded from the developer shell as the SDK user, 901.
+
+Getting reliable output from that shell mattered. Earlier attempts to retrieve diagnostic files had made it look unavailable. We used the SDK transport and callback capture from [samsung-tv-root](https://github.com/chris-ritsen/samsung-tv-root/tree/3b97edf3762db7670585d73e29623dc56195bf98) to verify execution. Despite that project’s name, **we did not use its root implementation or obtain root access**.
+
+Before leaving the change in place, we:
+
+1. Read the original native Home assignment, `com.samsung.tv.csfs`.
+2. Tested setting the original value, then assigned the dashboard and verified it.
+3. Restored Samsung Home and verified the restore.
+4. Applied the dashboard assignment and removed our extra Home-routing packages.
+5. Checked that the original key, managed-app, and task-routing tables were restored, then tested the physical remote from Roku.
+
+That final button test worked: Home opened the dashboard directly. The configuration helper exits and its staged files are removed; the Mac isn’t involved when someone presses Home.
+
+Recovery for this method uses the same native setter to restore the saved original assignment. We didn’t rewrite the database directly, change startup settings, or disable Samsung packages. This remains an unsupported, firmware-specific method—not a universal replacement for the helper approach on my original TV. Cold boot, Art Mode/wake behavior, and future firmware updates still need separate testing.
+
+If you’re asking an agent to reproduce it, add this to the Home-button prompt:
+
+```text
+Distinguish the native main-operation assignment from home_appid
+and from an additional Home-key launch rule. Record the execution
+user for each permission test; an installed app and the SDK shell
+may have different access.
+
+Verify a change-and-restore round trip before retaining an assignment.
+Remove competing experimental routes, preserving the original rules.
+Then have me test the physical Home button from HDMI and other apps.
+Do not infer that root is required from one permission-denied result.
+```
 
 ## Debug what the TV is doing, not what the agent expects
 
